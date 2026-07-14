@@ -10,6 +10,8 @@ release/
 out/
 bin/
 obj/
+target/
+.next/
 *.exe
 *.asar
 *.zip
