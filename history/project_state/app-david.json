@@ -1,0 +1,110 @@
+{
+  "project_id": "app-david",
+  "project": "App David",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\02_App IOS y android\\03_App_david",
+  "captured_at": "2026-07-14T07:10:36-06:00",
+  "last_change": "2026-03-27T22:51:58-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 13,
+    "code_count": 0,
+    "doc_count": 13,
+    "asset_count": 0,
+    "test_count": 2,
+    "manifest_count": 0,
+    "latest_mtime": "2026-03-27T22:51:58-06:00",
+    "latest_file": "Documentacion para la IA/CHANGELOG.md",
+    "extensions": {
+      ".md": 12,
+      ".txt": 1
+    }
+  },
+  "progress": {
+    "project_id": "app-david",
+    "project": "App David",
+    "mvp": 14,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "despegar.txt": [
+      147227,
+      1753301848000000000
+    ],
+    "Documentacion para la IA/PROTOCOL.md": [
+      941,
+      1774658098871000000
+    ],
+    "Documentacion para la IA/CHANGELOG.md": [
+      255,
+      1774673518917000000
+    ],
+    "Documentacion para la IA/CLAUDE.md": [
+      303,
+      1774673518916000000
+    ],
+    "Documentacion para la IA/docs/GLOSSARY.md": [
+      242,
+      1774658098892000000
+    ],
+    "Documentacion para la IA/docs/PRD.md": [
+      764,
+      1774673518910000000
+    ],
+    "Documentacion para la IA/docs/USER_DOCS.md": [
+      183,
+      1774658098897000000
+    ],
+    "Documentacion para la IA/docs/DESIGN_SPEC.md": [
+      413,
+      1774673518912000000
+    ],
+    "Documentacion para la IA/docs/TEST_PLAN.md": [
+      232,
+      1774658098894000000
+    ],
+    "Documentacion para la IA/docs/TDD.md": [
+      230,
+      1774658098887000000
+    ],
+    "Documentacion para la IA/docs/ROADMAP.md": [
+      477,
+      1774673518913000000
+    ],
+    "Documentacion para la IA/_meta/questions-log.md": [
+      1562,
+      1774673518909000000
+    ],
+    "Documentacion para la IA/_meta/owner.md": [
+      286,
+      1774658098875000000
+    ]
+  }
+}

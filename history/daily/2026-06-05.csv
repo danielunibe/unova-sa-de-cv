@@ -1,0 +1,4 @@
+﻿timestamp,project_id,project,event_type,reason,precision,added,modified,deleted,sample_files
+2026-06-05T23:01:28-06:00,vivo-promotor,Vivo Promotor,historical_activity,initial_backfill,estimated,0,70,0,".eslintrc.cjs; AGENTS.md; ChatGPT Image 5 jun 2026, 09_35_58 p.m..png; ChatGPT_Image_5_jun_2026,_202606052215.jpeg"
+2026-06-05T23:57:39-06:00,asteria,Asteria,historical_activity,initial_backfill,estimated,0,144,0,asteria/.env.example; asteria/.eslintrc.json; asteria/.gitignore; asteria/README.md
+2026-06-05T16:31:16-06:00,julia,JULIA (Solar System Memory),historical_activity,initial_backfill,estimated,0,25,0,1JuliaDEV/DECISIONS.md; 1JuliaDEV/src/JuliaPanels/LibraryPanel/Glossary/GlossaryView.tsx; 1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/JupiterSatelliteActions.tsx; 1JuliaDEV/src/JuliaPanels/SatellitesPanel/jupiter/astronomy.ephemeris.ts

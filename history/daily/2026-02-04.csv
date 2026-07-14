@@ -1,0 +1,2 @@
+﻿timestamp,project_id,project,event_type,reason,precision,added,modified,deleted,sample_files
+2026-02-04T02:07:22-06:00,retriver,Retriver,historical_activity,initial_backfill,estimated,0,8,0,Retriever/Database/Daniel/CV/datos nuevos openai/clean_user_data.py; Retriever/Database/Daniel/CV/datos nuevos openai/extract_conversations.py; Retriever/Database/Daniel/CV/datos nuevos openai/group_chats.json; Retriever/Database/Daniel/CV/datos nuevos openai/message_feedback.json

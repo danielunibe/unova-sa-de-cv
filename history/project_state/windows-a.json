@@ -1,0 +1,93 @@
+{
+  "project_id": "windows-a",
+  "project": "Windows A 💻",
+  "root": "C:\\Desarrollos DEV daniel\\nueva propuesta windows 12",
+  "captured_at": "2026-07-14T07:11:19-06:00",
+  "last_change": "2026-06-03T22:16:06-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 9,
+    "code_count": 1,
+    "doc_count": 8,
+    "asset_count": 0,
+    "test_count": 1,
+    "manifest_count": 0,
+    "latest_mtime": "2026-06-03T22:16:06-06:00",
+    "latest_file": "especificacion_nano_mode_api.md",
+    "extensions": {
+      ".md": 8,
+      ".html": 1
+    }
+  },
+  "progress": {
+    "project_id": "windows-a",
+    "project": "Windows A 💻",
+    "mvp": 22,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 8,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "analisis_relacion_y_modos_no_cotidianos.md": [
+      4059,
+      1780546538082384100
+    ],
+    "botones.html": [
+      25208,
+      1780546516695982200
+    ],
+    "especificacion_nano_mode_api.md": [
+      6661,
+      1780546566681133300
+    ],
+    "explicacion_detalle_modo_nano.md": [
+      4101,
+      1780546545261306700
+    ],
+    "guia_programacion_focus_nano.md": [
+      8274,
+      1780546555246138000
+    ],
+    "historia_botones_control.md": [
+      6220,
+      1780521056091605400
+    ],
+    "informe_iconos.md": [
+      8793,
+      1780546531164696600
+    ],
+    "investigacion analisis.md": [
+      12964,
+      1780546478805094000
+    ],
+    "investigacion_motivos_focus_nano.md": [
+      4685,
+      1780524555574280000
+    ]
+  }
+}

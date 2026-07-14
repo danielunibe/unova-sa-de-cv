@@ -1,0 +1,3 @@
+﻿timestamp,project_id,project,event_type,reason,precision,added,modified,deleted,sample_files
+2026-05-04T23:55:12-06:00,nodia,Nodia,historical_activity,initial_backfill,estimated,0,3,0,_archives/⚙️ PRD Motor Nodia.md; _archives/⭐ Planificador.md; da872809-c6db-4582-93e3-f26193cce5e5.png
+2026-05-04T23:04:38-06:00,proyectia,PROYECTIA (Command Center),historical_activity,initial_backfill,estimated,0,9,0,Proyec[tdh]ia-tsk DEV/components/organisms/EthyriaAgent/components/ChatPromptBox.tsx; Proyec[tdh]ia-tsk DEV/src-tauri/capabilities/default.json; Proyec[tdh]ia-tsk DEV/src-tauri/check_output.txt; Proyec[tdh]ia-tsk DEV/src-tauri/gen/schemas/capabilities.json

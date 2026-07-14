@@ -1,0 +1,444 @@
+{
+  "project_id": "dragon-alebrije",
+  "project": "DRAGÓN ALEBRIJE",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\06_Juegos de mesa\\01_Dragon_alebrije",
+  "captured_at": "2026-07-14T07:10:39-06:00",
+  "last_change": "2026-04-11T12:55:42-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 94,
+    "code_count": 19,
+    "doc_count": 25,
+    "asset_count": 43,
+    "test_count": 2,
+    "manifest_count": 2,
+    "latest_mtime": "2026-04-11T12:55:42-06:00",
+    "latest_file": "Dragon alebrije digital/contexto_completo_dragon_alebrije.md",
+    "extensions": {
+      ".webp": 25,
+      ".md": 21,
+      ".png": 15,
+      ".jsx": 10,
+      ".js": 6,
+      ".pdf": 4,
+      ".ttf": 2,
+      ".json": 2,
+      ".jpg": 2,
+      ".zip": 1,
+      ".ico": 1,
+      ".one": 1,
+      ".html": 1,
+      ".py": 1,
+      ".css": 1,
+      ".ai": 1
+    }
+  },
+  "progress": {
+    "project_id": "dragon-alebrije",
+    "project": "DRAGÓN ALEBRIJE",
+    "mvp": 51,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 15,
+      "diseno": 4,
+      "arquitectura": 5,
+      "implementacion": 15,
+      "pruebas": 6,
+      "empaquetado": 3,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "próximo paso documentado"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "2023-03-02_121210_webp.webp": [
+      8558,
+      1753299498000000000
+    ],
+    "2024-06-21_115609_webp.webp": [
+      109068,
+      1753299504000000000
+    ],
+    "2024-08-31_233526_webp_8.webp": [
+      373776,
+      1753299501000000000
+    ],
+    "DAYPBL__.TTF": [
+      33548,
+      1011546240000000000
+    ],
+    "2024-06-21_115202_webp.webp": [
+      85768,
+      1753299494000000000
+    ],
+    "2024-08-31_233526_webp_10.webp": [
+      216604,
+      1753299493000000000
+    ],
+    "2024-08-31_233526_webp_5.webp": [
+      229322,
+      1753299487000000000
+    ],
+    "2024-08-31_233526_webp_2.webp": [
+      126822,
+      1753299506000000000
+    ],
+    "2024-06-21_114504_webp.webp": [
+      156396,
+      1753299492000000000
+    ],
+    "2022-11-09_183638_webp.webp": [
+      31746,
+      1753299503000000000
+    ],
+    "Dragón alebrije para ChatGPT.pdf": [
+      357951,
+      1735357918000000000
+    ],
+    "2024-08-31_233526_webp_6.webp": [
+      234614,
+      1753299495000000000
+    ],
+    "2024-05-28_115851_webp.webp": [
+      247910,
+      1753299490000000000
+    ],
+    "Gemini_Generated_Image_us5zrmus5zrmus5z.png": [
+      6181306,
+      1767007244018000000
+    ],
+    "day_poster_black (1).zip": [
+      15095,
+      1760287445822000000
+    ],
+    "2024-08-31_233526_webp_7.webp": [
+      223568,
+      1753299509000000000
+    ],
+    "2023-10-26_160154_webp.webp": [
+      69092,
+      1753299492000000000
+    ],
+    "2024-08-31_233526_webp_4.webp": [
+      187174,
+      1753299497000000000
+    ],
+    "2024-08-31_233526_webp_1.webp": [
+      154114,
+      1753299492000000000
+    ],
+    "2023-10-26_160210_webp.webp": [
+      232606,
+      1753299502000000000
+    ],
+    "2024-08-31_233526_webp_11.webp": [
+      119528,
+      1753299495000000000
+    ],
+    "pitaya_icon.ico": [
+      86971,
+      1755511048912000000
+    ],
+    "2022-11-09_183616_webp.webp": [
+      700794,
+      1753299488000000000
+    ],
+    "2023-10-26_160350_webp.webp": [
+      94236,
+      1753299502000000000
+    ],
+    "2022-11-09_183648_webp.webp": [
+      401220,
+      1753299498000000000
+    ],
+    "2024-08-31_233526_webp_3.webp": [
+      131536,
+      1753299490000000000
+    ],
+    "2024-08-31_233526_webp.webp": [
+      311050,
+      1753299487000000000
+    ],
+    "2024-06-21_115425_webp.webp": [
+      71536,
+      1753299497000000000
+    ],
+    "2024-08-31_233526_webp_9.webp": [
+      201068,
+      1753299508000000000
+    ],
+    "2024-06-21_120944_webp.webp": [
+      86652,
+      1753299503000000000
+    ],
+    "Doc_Maestro_Dragon_Alebrije.md": [
+      8035,
+      1775815302061000000
+    ],
+    "PRD_Nivel_2_Dragon_Alebrije.md": [
+      5364,
+      1775815937213000000
+    ],
+    "Dragón Alebrije/Dragón alebrije para ChatGPT.pdf": [
+      357951,
+      1735357918000000000
+    ],
+    "Dragón Alebrije/Dragón alebrije para ChatGPT (1).pdf": [
+      357951,
+      1735357918000000000
+    ],
+    "Dragón Alebrije/Dragon Alebrije.one": [
+      13067740,
+      1755673906000000000
+    ],
+    "Dragón Alebrije/19-48-19-An_lisis_juego_Drag_n_Alebrije.md": [
+      23235,
+      1775883525240000000
+    ],
+    "Documentacion para la IA/01_dragon_alebrije.md": [
+      959,
+      1774166930047000000
+    ],
+    "Documentacion para la IA/CHANGELOG.md": [
+      142,
+      1774658182698000000
+    ],
+    "Documentacion para la IA/CLAUDE.md": [
+      148,
+      1774658182696000000
+    ],
+    "Documentacion para la IA/PROTOCOL.md": [
+      377,
+      1774658182656000000
+    ],
+    "Documentacion para la IA/docs/GLOSSARY.md": [
+      180,
+      1774658182689000000
+    ],
+    "Documentacion para la IA/docs/DESIGN_SPEC.md": [
+      142,
+      1774658182681000000
+    ],
+    "Documentacion para la IA/docs/PRD.md": [
+      201,
+      1774658182680000000
+    ],
+    "Documentacion para la IA/docs/TDD.md": [
+      151,
+      1774658182685000000
+    ],
+    "Documentacion para la IA/docs/USER_DOCS.md": [
+      158,
+      1774658182694000000
+    ],
+    "Documentacion para la IA/docs/TEST_PLAN.md": [
+      167,
+      1774658182692000000
+    ],
+    "Documentacion para la IA/docs/ROADMAP.md": [
+      185,
+      1774658182688000000
+    ],
+    "Documentacion para la IA/_meta/questions-log.md": [
+      702,
+      1774658182662000000
+    ],
+    "Documentacion para la IA/_meta/owner.md": [
+      215,
+      1774658182660000000
+    ],
+    "game-app/index.html": [
+      699,
+      1775632280138000000
+    ],
+    "game-app/vite.config.js": [
+      163,
+      1775632260230000000
+    ],
+    "game-app/package.json": [
+      426,
+      1775632244135000000
+    ],
+    "game-app/package-lock.json": [
+      60187,
+      1775632364425000000
+    ],
+    "game-app/remove_bg.py": [
+      997,
+      1775815902606000000
+    ],
+    "game-app/src/index.css": [
+      16630,
+      1775816817224000000
+    ],
+    "game-app/src/main.jsx": [
+      231,
+      1775632294406000000
+    ],
+    "game-app/src/App.jsx": [
+      831,
+      1775635168622000000
+    ],
+    "game-app/src/data/cards.js": [
+      11356,
+      1775636789507000000
+    ],
+    "game-app/src/components/Card.jsx": [
+      3028,
+      1775816514252000000
+    ],
+    "game-app/src/components/GameBoard.jsx": [
+      1911,
+      1775635880516000000
+    ],
+    "game-app/src/components/EventModal.jsx": [
+      1375,
+      1775635856784000000
+    ],
+    "game-app/src/components/VictoryScreen.jsx": [
+      1361,
+      1775635867643000000
+    ],
+    "game-app/src/components/OpponentArea.jsx": [
+      1077,
+      1775635836786000000
+    ],
+    "game-app/src/components/TitleScreen.jsx": [
+      1602,
+      1775635818465000000
+    ],
+    "game-app/src/components/GameLog.jsx": [
+      1166,
+      1775635845686000000
+    ],
+    "game-app/src/components/CharacterSvg.jsx": [
+      4869,
+      1775816431289000000
+    ],
+    "game-app/src/engine/gameState.js": [
+      5815,
+      1775635913301000000
+    ],
+    "game-app/src/engine/cardEffects.js": [
+      2118,
+      1775634149754000000
+    ],
+    "game-app/src/engine/botAI.js": [
+      2894,
+      1775634866203000000
+    ],
+    "game-app/src/engine/soundEngine.js": [
+      2660,
+      1775635459866000000
+    ],
+    "game-app/public/assets/cards/nahual_ocelote.png": [
+      1066368,
+      1775632861699000000
+    ],
+    "game-app/public/assets/cards/nahual_coyote.png": [
+      1249480,
+      1775632874498000000
+    ],
+    "game-app/public/assets/cards/nahual_aguila.png": [
+      1178908,
+      1775632848763000000
+    ],
+    "game-app/public/assets/cards/card_back.png": [
+      1045543,
+      1775632820460000000
+    ],
+    "game-app/public/assets/cards/jaguar.png": [
+      1141835,
+      1775632791282000000
+    ],
+    "game-app/public/assets/cards/nahual_venado.png": [
+      1220871,
+      1775632908673000000
+    ],
+    "game-app/public/assets/cards/colibri.png": [
+      1028011,
+      1775632773744000000
+    ],
+    "game-app/public/assets/cards/activador_jaguar.png": [
+      1131910,
+      1775632935306000000
+    ],
+    "game-app/public/assets/cards/nahual_serpiente.png": [
+      1101491,
+      1775632894998000000
+    ],
+    "game-app/public/assets/cards/chupacabras.png": [
+      929278,
+      1775632805123000000
+    ],
+    "game-app/public/assets/cards/dragon.png": [
+      980390,
+      1775632757574000000
+    ],
+    "game-app/public/assets/fonts/DAYPBL.ttf": [
+      33548,
+      1011546240000000000
+    ],
+    "game-app/public/assets/characters/dragon_transparent.png": [
+      623345,
+      1775816036131000000
+    ],
+    "game-app/public/assets/characters/jaguar_transparent.png": [
+      588859,
+      1775816037964000000
+    ],
+    "game-app/public/assets/characters/chupacabras_transparent.png": [
+      422444,
+      1775816039829000000
+    ],
+    ".agent/skills/AAA_Mesa_Digital_Skill.md": [
+      2480,
+      1775816769237000000
+    ],
+    "Dragon alebrije digital/f2966983dfc51e1dd0f005fc24ec981d.jpg": [
+      136809,
+      1775806798749000000
+    ],
+    "Dragon alebrije digital/617d42b71d83f0aacc5ae0ff3dd7a24e.jpg": [
+      144630,
+      1775806817791000000
+    ],
+    "Dragon alebrije digital/Dragon alebrije 2024 septiembre.ai": [
+      56844791,
+      1775814817883000000
+    ],
+    "Dragon alebrije digital/Dragón alebrije para ChatGPT.pdf": [
+      357951,
+      1735357918000000000
+    ],
+    "Dragon alebrije digital/analisis_detallado_dragon_alebrije.md": [
+      5782,
+      1775883762726000000
+    ],
+    "Dragon alebrije digital/dudas_y_preguntas_sin_resolver.md": [
+      2943,
+      1775889274609000000
+    ],
+    "Dragon alebrije digital/instructivo_maestro_dragon_alebrije.md": [
+      6422,
+      1775887714345000000
+    ],
+    "Dragon alebrije digital/contexto_completo_dragon_alebrije.md": [
+      8387,
+      1775933742136000000
+    ]
+  }
+}

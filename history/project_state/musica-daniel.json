@@ -1,0 +1,755 @@
+{
+  "project_id": "musica-daniel",
+  "project": "Música Daniel",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\04_Musica composicion\\01_musica_daniel",
+  "captured_at": "2026-07-14T07:10:40-06:00",
+  "last_change": "2026-03-27T18:36:20-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 173,
+    "code_count": 0,
+    "doc_count": 16,
+    "asset_count": 155,
+    "test_count": 2,
+    "manifest_count": 0,
+    "latest_mtime": "2026-03-27T18:36:20-06:00",
+    "latest_file": "Documentacion para la IA/CHANGELOG.md",
+    "extensions": {
+      ".mp3": 124,
+      ".mp4": 28,
+      ".md": 12,
+      ".txt": 4,
+      ".m4a": 2,
+      ".jpg": 1,
+      ".png": 1,
+      ".wav": 1
+    }
+  },
+  "progress": {
+    "project_id": "musica-daniel",
+    "project": "Música Daniel",
+    "mvp": 18,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "Audios de Voz OP/00001559-AUDIO-2025-04-10-19-19-13.mp3": [
+      308013,
+      1753695147000000000
+    ],
+    "Audios de Voz OP/00001515-AUDIO-2025-04-02-21-19-03.mp3": [
+      83565,
+      1753695142000000000
+    ],
+    "Audios de Voz OP/00000986-AUDIO-2024-10-17-19-51-48.mp3": [
+      25965,
+      1753695176000000000
+    ],
+    "Audios de Voz OP/00000836-AUDIO-2024-10-12-14-20-33.mp3": [
+      649389,
+      1753695176000000000
+    ],
+    "Audios de Voz OP/00001486-AUDIO-2025-03-29-17-07-20.mp3": [
+      55149,
+      1753695141000000000
+    ],
+    "Audios de Voz OP/00001540-AUDIO-2025-04-10-17-07-03.mp3": [
+      170733,
+      1753695143000000000
+    ],
+    "Audios de Voz OP/00001555-AUDIO-2025-04-10-19-04-31.mp3": [
+      85101,
+      1753695143000000000
+    ],
+    "Audios de Voz OP/00000274-AUDIO-2024-08-27-14-07-12.mp3": [
+      165357,
+      1753695172000000000
+    ],
+    "Audios de Voz OP/00000457-AUDIO-2024-09-05-10-21-42.mp3": [
+      50157,
+      1753695172000000000
+    ],
+    "Audios de Voz OP/00001561-AUDIO-2025-04-10-19-20-01.mp3": [
+      272109,
+      1753695150000000000
+    ],
+    "Audios de Voz OP/00001846-AUDIO-2025-06-16-23-17-32.mp3": [
+      130413,
+      1753695167000000000
+    ],
+    "Audios de Voz OP/00001601-AUDIO-2025-04-14-13-03-30.mp3": [
+      80493,
+      1753695150000000000
+    ],
+    "Audios de Voz OP/00001562-AUDIO-2025-04-10-19-20-05.mp3": [
+      42285,
+      1753695150000000000
+    ],
+    "Audios de Voz OP/00002015-AUDIO-2025-07-03-11-57-25.mp3": [
+      151149,
+      1753695165000000000
+    ],
+    "Audios de Voz OP/00031201-AUDIO-2024-11-26-12-26-52.m4a": [
+      28626804,
+      1753695145000000000
+    ],
+    "Audios de Voz OP/00001841-AUDIO-2025-06-16-21-25-23.mp3": [
+      113709,
+      1753695165000000000
+    ],
+    "Audios de Voz OP/00000805-AUDIO-2024-10-12-14-15-37.mp3": [
+      353517,
+      1753695174000000000
+    ],
+    "Audios de Voz OP/00000340-AUDIO-2024-08-30-21-17-00.mp3": [
+      60717,
+      1753695172000000000
+    ],
+    "Audios de Voz OP/00001565-AUDIO-2025-04-10-19-22-21.mp3": [
+      276717,
+      1753695150000000000
+    ],
+    "Audios de Voz OP/00001714-AUDIO-2025-04-26-14-07-15.mp3": [
+      62637,
+      1753695153000000000
+    ],
+    "Audios de Voz OP/00000374-AUDIO-2024-08-31-16-37-20.mp3": [
+      21741,
+      1753695172000000000
+    ],
+    "Audios de Voz OP/00000588-AUDIO-2024-09-14-22-41-43.mp3": [
+      17133,
+      1753695172000000000
+    ],
+    "Audios de Voz OP/00001541-AUDIO-2025-04-10-17-09-52.mp3": [
+      268077,
+      1753695143000000000
+    ],
+    "Audios de Voz OP/00001937-AUDIO-2025-06-25-16-15-39.mp3": [
+      92589,
+      1753695165000000000
+    ],
+    "Audios de Voz OP/00001933-AUDIO-2025-06-25-16-02-37.mp3": [
+      78189,
+      1753695167000000000
+    ],
+    "Audios de Voz OP/00058015-AUDIO-2025-05-15-21-34-43.m4a": [
+      6659966,
+      1753695188000000000
+    ],
+    "Audios de Voz OP/00001527-AUDIO-2025-04-08-08-03-04.mp3": [
+      141165,
+      1753695143000000000
+    ],
+    "Audios de Voz OP/00001934-AUDIO-2025-06-25-16-02-55.mp3": [
+      103725,
+      1753695165000000000
+    ],
+    "Audios de Voz OP/00000585-AUDIO-2024-09-14-22-32-59.mp3": [
+      169197,
+      1753695171000000000
+    ],
+    "Audios de Voz OP/00001539-AUDIO-2025-04-10-17-06-17.mp3": [
+      100077,
+      1753695143000000000
+    ],
+    "Audios de Voz OP/00001554-AUDIO-2025-04-10-19-04-10.mp3": [
+      304173,
+      1753695143000000000
+    ],
+    "Audios de Voz OP/00001564-AUDIO-2025-04-10-19-21-39.mp3": [
+      221421,
+      1753695150000000000
+    ],
+    "Audios de Voz OP/00001047-AUDIO-2024-11-30-04-31-27.mp3": [
+      34413,
+      1753695142000000000
+    ],
+    "Audios de Voz OP/00001845-AUDIO-2025-06-16-23-17-11.mp3": [
+      421869,
+      1753695167000000000
+    ],
+    "Audios de Voz OP/00001563-AUDIO-2025-04-10-19-20-56.mp3": [
+      427629,
+      1753695150000000000
+    ],
+    "Audios de Voz OP/00000990-AUDIO-2024-10-17-19-53-08.mp3": [
+      19629,
+      1753695176000000000
+    ],
+    "Audios de Voz OP/00000584-AUDIO-2024-09-14-22-32-37.mp3": [
+      59757,
+      1753695172000000000
+    ],
+    "Audios de Voz OP/00001595-AUDIO-2025-04-14-13-02-57.mp3": [
+      67437,
+      1753695150000000000
+    ],
+    "Audios de Voz OP/00001558-AUDIO-2025-04-10-19-05-12.mp3": [
+      48621,
+      1753695145000000000
+    ],
+    "Audios de Voz OP/00001757-AUDIO-2025-05-14-12-40-27.mp3": [
+      289389,
+      1753695154000000000
+    ],
+    "Audios de Voz OP/00001801-AUDIO-2025-05-24-06-13-28.mp3": [
+      59181,
+      1753695165000000000
+    ],
+    "Audios de Voz OP/00000274-AUDIO-2024-08-27-14-07-12.txt": [
+      0,
+      1753695172000000000
+    ],
+    "musica daniel/Rise and glow (5).mp3": [
+      4153581,
+      1741227915000000000
+    ],
+    "musica daniel/Angel.mp3": [
+      4604589,
+      1739688709000000000
+    ],
+    "musica daniel/Cada Sentimiento (5).mp4": [
+      5689760,
+      1741673503000000000
+    ],
+    "musica daniel/Rise and glow (3).mp3": [
+      4846509,
+      1739688663000000000
+    ],
+    "musica daniel/Cada Sentimiento (5).mp3": [
+      4942701,
+      1741673498000000000
+    ],
+    "musica daniel/Cada Sentimiento (8).mp4": [
+      5488136,
+      1741673529000000000
+    ],
+    "musica daniel/Cada Sentimiento (9).mp3": [
+      5040621,
+      1741673533000000000
+    ],
+    "musica daniel/Rise and glow (1).mp3": [
+      5461101,
+      1739688647000000000
+    ],
+    "musica daniel/Ángel .mp3": [
+      5761197,
+      1739688695000000000
+    ],
+    "musica daniel/Cada Sentimiento (4).mp3": [
+      5114349,
+      1741673489000000000
+    ],
+    "musica daniel/Cada Sentimiento (1).mp3": [
+      5761197,
+      1741673470000000000
+    ],
+    "musica daniel/Cada Sentimiento (8).mp3": [
+      4816557,
+      1741673525000000000
+    ],
+    "musica daniel/Cada Sentimiento.mp4": [
+      4960695,
+      1741673464000000000
+    ],
+    "musica daniel/Ángel  (1).mp3": [
+      5613741,
+      1739688678000000000
+    ],
+    "musica daniel/Cada Sentimiento (2).mp3": [
+      4775661,
+      1741673474000000000
+    ],
+    "musica daniel/Cada Sentimiento (3).mp3": [
+      4799277,
+      1741673486000000000
+    ],
+    "musica daniel/Cada Sentimiento (4).mp4": [
+      5952276,
+      1741673494000000000
+    ],
+    "musica daniel/Rise and glow (2).mp4": [
+      4752660,
+      1741663950000000000
+    ],
+    "musica daniel/Rise and glow (1).mp4": [
+      6368838,
+      1741663933000000000
+    ],
+    "musica daniel/Cada Sentimiento.mp3": [
+      4270509,
+      1741673457000000000
+    ],
+    "musica daniel/Cada Sentimiento (7).mp4": [
+      5163497,
+      1741673517000000000
+    ],
+    "musica daniel/Cada Sentimiento (7).mp3": [
+      4499757,
+      1741673519000000000
+    ],
+    "musica daniel/Cada Sentimiento (6).mp3": [
+      4249197,
+      1741673513000000000
+    ],
+    "musica daniel/Rise and glow (6).mp3": [
+      5017581,
+      1741227933000000000
+    ],
+    "musica daniel/Cada Sentimiento (6).mp4": [
+      4850112,
+      1741673508000000000
+    ],
+    "musica daniel/Rise and glow.mp3": [
+      4362669,
+      1739688632000000000
+    ],
+    "musica daniel/Rise and glow (3).mp4": [
+      5665363,
+      1741663992000000000
+    ],
+    "musica daniel/Cada Sentimiento (3).mp4": [
+      5369860,
+      1741673484000000000
+    ],
+    "musica daniel/Rise and glow (4).mp3": [
+      5017581,
+      1739688640000000000
+    ],
+    "musica daniel/Angel el mejor.mp3": [
+      4728429,
+      1739688716000000000
+    ],
+    "musica daniel/Cada Sentimiento (2).mp4": [
+      5439872,
+      1741673480000000000
+    ],
+    "musica daniel/Soy Débil .mp3": [
+      5761197,
+      1741238368000000000
+    ],
+    "musica daniel/Cada Sentimiento (9).mp4": [
+      5763614,
+      1741673560000000000
+    ],
+    "musica daniel/Cada Sentimiento (1).mp4": [
+      6253239,
+      1741673467000000000
+    ],
+    "musica daniel/Rise and glow.mp4": [
+      5053387,
+      1741663923000000000
+    ],
+    "musica daniel/Rise and glow (2).mp3": [
+      4153581,
+      1739688654000000000
+    ],
+    "Cada Sentimiento/Cada Sentimiento (7).mp4": [
+      5163497,
+      1755673906000000000
+    ],
+    "Cada Sentimiento/Cada Sentimiento (3).mp4": [
+      5369860,
+      1755673906000000000
+    ],
+    "Cada Sentimiento/00050958-Cada Sentimiento (1).mp3": [
+      5761197,
+      1753695162000000000
+    ],
+    "Cada Sentimiento/Cada Sentimiento (8).mp4": [
+      5488136,
+      1755673906000000000
+    ],
+    "Cada Sentimiento/00050963-Cada Sentimiento (2).mp3": [
+      4775661,
+      1753695172000000000
+    ],
+    "Cada Sentimiento/Cada Sentimiento (6).mp4": [
+      4850112,
+      1755673906000000000
+    ],
+    "Cada Sentimiento/Cada Sentimiento (2).mp4": [
+      5439872,
+      1755673906000000000
+    ],
+    "Cada Sentimiento/Cada Sentimiento (1).mp3": [
+      5761197,
+      1755673928000000000
+    ],
+    "Cada Sentimiento/Cada Sentimiento (1).mp4": [
+      6253239,
+      1755673906000000000
+    ],
+    "Cada Sentimiento/00050960-Cada Sentimiento (8).mp3": [
+      4816557,
+      1753695165000000000
+    ],
+    "Cada Sentimiento/00050961-Cada Sentimiento (3).mp3": [
+      4799277,
+      1753695168000000000
+    ],
+    "Cada Sentimiento/Cada Sentimiento (2).mp3": [
+      4775661,
+      1755673922000000000
+    ],
+    "Cada Sentimiento/00050965-Cada Sentimiento.mp3": [
+      4270509,
+      1753695176000000000
+    ],
+    "Cada Sentimiento/Cada Sentimiento (8).mp3": [
+      4816557,
+      1755673906000000000
+    ],
+    "Cada Sentimiento/Cada Sentimiento (4).mp4": [
+      5952276,
+      1755673906000000000
+    ],
+    "Cada Sentimiento/Cada Sentimiento (5).mp3": [
+      4942701,
+      1755673906000000000
+    ],
+    "Cada Sentimiento/Cada Sentimiento (4).mp3": [
+      5114349,
+      1755673906000000000
+    ],
+    "Cada Sentimiento/Cada Sentimiento (9).mp4": [
+      5763614,
+      1755673906000000000
+    ],
+    "Cada Sentimiento/Cada Sentimiento.mp3": [
+      4270509,
+      1755673906000000000
+    ],
+    "Cada Sentimiento/Cada Sentimiento (7).mp3": [
+      4499757,
+      1755673906000000000
+    ],
+    "Cada Sentimiento/00050959-Cada Sentimiento (6).mp3": [
+      4249197,
+      1753695164000000000
+    ],
+    "Cada Sentimiento/Cada Sentimiento (9).mp3": [
+      5040621,
+      1755673906000000000
+    ],
+    "Cada Sentimiento/00050964-Cada Sentimiento (5).mp3": [
+      4942701,
+      1753695174000000000
+    ],
+    "Cada Sentimiento/Cada Sentimiento.mp4": [
+      4960695,
+      1755673906000000000
+    ],
+    "Cada Sentimiento/00050962-Cada Sentimiento (4).mp3": [
+      5114349,
+      1753695170000000000
+    ],
+    "Cada Sentimiento/Cada Sentimiento (5).mp4": [
+      5689760,
+      1755673906000000000
+    ],
+    "Cada Sentimiento/00050966-Cada Sentimiento (9).mp3": [
+      5040621,
+      1753695178000000000
+    ],
+    "Cada Sentimiento/Cada Sentimiento (6).mp3": [
+      4249197,
+      1755673906000000000
+    ],
+    "Cada Sentimiento/00050967-Cada Sentimiento (7).mp3": [
+      4499757,
+      1753695180000000000
+    ],
+    "Cada Sentimiento/Cada Sentimiento (3).mp3": [
+      4799277,
+      1755674016000000000
+    ],
+    "Ay reloj/Ay reloj (1).mp3": [
+      3519177,
+      1755673916000000000
+    ],
+    "Ay reloj/00063264-Ay reloj (1).mp3": [
+      3519177,
+      1753805267000000000
+    ],
+    "Angel/Angel el mejor.mp3": [
+      4728429,
+      1755673972000000000
+    ],
+    "Angel/00048036-Ángel  (1).mp3": [
+      5613741,
+      1753695195000000000
+    ],
+    "Angel/Angel.mp3": [
+      4604589,
+      1755673906000000000
+    ],
+    "Angel/00048035-Ángel .mp3": [
+      5761197,
+      1753695159000000000
+    ],
+    "Angel/Ángel  (1).mp3": [
+      5613741,
+      1755673906000000000
+    ],
+    "Angel/Ángel .mp3": [
+      5761197,
+      1755673906000000000
+    ],
+    "Soy Debil/Soy Débil.mp3": [
+      3393837,
+      1755673906000000000
+    ],
+    "Soy Debil/Soy Débil (1).mp3": [
+      4119597,
+      1755673906000000000
+    ],
+    "Soy Debil/Soy Débil .mp3": [
+      5761197,
+      1755673906000000000
+    ],
+    "Soy Debil/Soy Débil (3).mp3": [
+      3806829,
+      1755673906000000000
+    ],
+    "Soy Debil/Soy Débil (2).mp3": [
+      4289517,
+      1755673906000000000
+    ],
+    "colision/Colisión (2).mp3": [
+      4942224,
+      1767461574847000000
+    ],
+    "colision/Colisión.mp3": [
+      4675145,
+      1767461461132000000
+    ],
+    "colision/Colisión (3).mp3": [
+      4686339,
+      1767461589796000000
+    ],
+    "colision/9ad1852e-412a-4f05-9587-ed649e06a98b.jpg": [
+      337080,
+      1767686253276000000
+    ],
+    "colision/Colisión (1).mp3": [
+      4342061,
+      1767461490172000000
+    ],
+    "colision/colisión.txt": [
+      1250,
+      1767462313371000000
+    ],
+    "colision/9ad1852e-412a-4f05-9587-ed649e06a98b.png": [
+      2538970,
+      1767690630407000000
+    ],
+    "Documentacion para la IA/PROTOCOL.md": [
+      375,
+      1774658180111000000
+    ],
+    "Documentacion para la IA/CHANGELOG.md": [
+      140,
+      1774658180326000000
+    ],
+    "Documentacion para la IA/CLAUDE.md": [
+      143,
+      1774658180322000000
+    ],
+    "Documentacion para la IA/docs/PRD.md": [
+      200,
+      1774658180308000000
+    ],
+    "Documentacion para la IA/docs/TEST_PLAN.md": [
+      165,
+      1774658180318000000
+    ],
+    "Documentacion para la IA/docs/ROADMAP.md": [
+      183,
+      1774658180312000000
+    ],
+    "Documentacion para la IA/docs/GLOSSARY.md": [
+      180,
+      1774658180316000000
+    ],
+    "Documentacion para la IA/docs/DESIGN_SPEC.md": [
+      140,
+      1774658180309000000
+    ],
+    "Documentacion para la IA/docs/USER_DOCS.md": [
+      160,
+      1774658180321000000
+    ],
+    "Documentacion para la IA/docs/TDD.md": [
+      146,
+      1774658180311000000
+    ],
+    "Documentacion para la IA/_meta/owner.md": [
+      215,
+      1774658180298000000
+    ],
+    "Documentacion para la IA/_meta/questions-log.md": [
+      705,
+      1774658180304000000
+    ],
+    "Antivillano/Anti-Villano (1).mp3": [
+      4567527,
+      1768882090622000000
+    ],
+    "Antivillano/Anti-villano.mp3": [
+      4591631,
+      1768878563882000000
+    ],
+    "El juego cambio/El juego cambio.mp3": [
+      4578422,
+      1752940534425000000
+    ],
+    "El juego cambio/00065272-El juego cambio.mp3": [
+      4578422,
+      1753695193000000000
+    ],
+    "Speach David/00063260-speach david.mp3": [
+      389972,
+      1753695170000000000
+    ],
+    "Speach David/00063262-speach david.wav": [
+      4292652,
+      1753695189000000000
+    ],
+    "Rise and glow/Rise and glow (2).mp4": [
+      4752660,
+      1755673906000000000
+    ],
+    "Rise and glow/Rise and glow (5).mp3": [
+      4153581,
+      1755673958000000000
+    ],
+    "Rise and glow/Rise and glow (3).mp4": [
+      5665363,
+      1755673934000000000
+    ],
+    "Rise and glow/Rise and glow (1).mp3": [
+      5461101,
+      1755673906000000000
+    ],
+    "Rise and glow/00047998-Rise and glow (2).mp3": [
+      4153581,
+      1753695155000000000
+    ],
+    "Rise and glow/Rise and glow (1).mp4": [
+      6368838,
+      1755673906000000000
+    ],
+    "Rise and glow/00047996-Rise and glow (4).mp3": [
+      5017581,
+      1753695151000000000
+    ],
+    "Rise and glow/Rise and glow (6).mp3": [
+      5017581,
+      1755673906000000000
+    ],
+    "Rise and glow/Rise and glow.mp3": [
+      4362669,
+      1755673964000000000
+    ],
+    "Rise and glow/Rise and glow (2).mp3": [
+      4153581,
+      1755673906000000000
+    ],
+    "Rise and glow/00047999-Rise and glow (3).mp3": [
+      4846509,
+      1753695158000000000
+    ],
+    "Rise and glow/Rise and glow.mp4": [
+      5053387,
+      1755673906000000000
+    ],
+    "Rise and glow/00047995-Rise and glow.mp3": [
+      4362669,
+      1753695149000000000
+    ],
+    "Rise and glow/Rise and glow (4).mp3": [
+      5017581,
+      1755673906000000000
+    ],
+    "Rise and glow/Rise and glow (3).mp3": [
+      4846509,
+      1755673906000000000
+    ],
+    "Rise and glow/00047997-Rise and glow (1).mp3": [
+      5461101,
+      1753695153000000000
+    ],
+    "Audios ElevenLabs/00046040-ElevenLabs_2025-01-28T21_51_25_Fran - Fresh & Upbeat_pvc_s8_sb0.mp3": [
+      629028,
+      1753695167000000000
+    ],
+    "Audios ElevenLabs/00046087-ElevenLabs_2025-01-28T22_43_23_Fran - Fresh & Upbeat_pvc_s8_sb0.mp3": [
+      1331200,
+      1753695148000000000
+    ],
+    "Audios ElevenLabs/00046075-ElevenLabs_2025-01-28T22_37_43_Fran - Fresh & Upbeat_pvc_s8_sb0.mp3": [
+      938318,
+      1753695169000000000
+    ],
+    "Audios ElevenLabs/00046066-ElevenLabs_2025-01-28T22_32_06_Fran - Fresh & Upbeat_pvc_s8_sb0.mp3": [
+      1299435,
+      1753695146000000000
+    ],
+    "Latido por latido/latido por latido.txt": [
+      987,
+      1754605368637000000
+    ],
+    "Latido por latido/Latido por latido .mp3": [
+      4227319,
+      1755990625746000000
+    ],
+    "Latido por latido/latido.mp3": [
+      4227319,
+      1756427605575000000
+    ],
+    "Otros y Sueltos/Majora! carnaval! .mp3": [
+      3813572,
+      1756081930710000000
+    ],
+    "Otros y Sueltos/Es difícil decirte cuánto te quiero,.mp3": [
+      3250072,
+      1755673906000000000
+    ],
+    "Otros y Sueltos/00008396-mantis land y la guerra de los continentes - copia.mp3": [
+      13507390,
+      1753695142000000000
+    ],
+    "Otros y Sueltos/Anti-Villano.txt": [
+      1677,
+      1769029735547000000
+    ]
+  }
+}

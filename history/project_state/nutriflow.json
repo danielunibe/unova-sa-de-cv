@@ -1,0 +1,376 @@
+{
+  "project_id": "nutriflow",
+  "project": "NUTRIFLOW",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\02_App IOS y android\\11_Nutriflow",
+  "captured_at": "2026-07-14T07:10:37-06:00",
+  "last_change": "2026-04-26T13:16:10-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 78,
+    "code_count": 49,
+    "doc_count": 16,
+    "asset_count": 7,
+    "test_count": 2,
+    "manifest_count": 2,
+    "latest_mtime": "2026-04-26T13:16:10-06:00",
+    "latest_file": "photo-1688131177125-cf9cbe72b8d7.png",
+    "extensions": {
+      ".tsx": 32,
+      ".ts": 16,
+      ".md": 14,
+      ".jpg": 4,
+      ".json": 3,
+      ".pdf": 2,
+      ".png": 2,
+      ".webp": 1,
+      ".local": 1,
+      ".html": 1,
+      ".zip": 1,
+      "[sin extensión]": 1
+    }
+  },
+  "progress": {
+    "project_id": "nutriflow",
+    "project": "NUTRIFLOW",
+    "mvp": 58,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 15,
+      "diseno": 4,
+      "arquitectura": 5,
+      "implementacion": 22,
+      "pruebas": 6,
+      "empaquetado": 3,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "próximo paso documentado"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "f26a2301060523e8526cb353935983f3.jpg": [
+      113087,
+      1766381735324000000
+    ],
+    "Entrenamiento Isaac D. 15.03.25.pdf": [
+      462690,
+      1767665002830000000
+    ],
+    "96d7c895189336db243b201e157988ca.png": [
+      2431242,
+      1766383274335000000
+    ],
+    "f64236d0f5133777beaad73e481bd923.jpg": [
+      74181,
+      1766381165962000000
+    ],
+    "34f342ee57f630440305c89b1b548c9f.jpg": [
+      12049,
+      1765946216849000000
+    ],
+    "Recomposicion corporal Isaac Diaz 15.03.25.pdf": [
+      438220,
+      1767665019969000000
+    ],
+    "96d7c895189336db243b201e157988ca.jpg": [
+      95470,
+      1766382184744000000
+    ],
+    "e2fa4e5cf51194102bd97678c5a68af9.webp": [
+      37786,
+      1777091349830000000
+    ],
+    "photo-1688131177125-cf9cbe72b8d7.png": [
+      506590,
+      1777230970207000000
+    ],
+    "Documentacion para la IA/11_nutriflow.md": [
+      4127,
+      1774166929715000000
+    ],
+    "Documentacion para la IA/PROTOCOL.md": [
+      941,
+      1774658099189000000
+    ],
+    "Documentacion para la IA/CHANGELOG.md": [
+      205,
+      1774658099223000000
+    ],
+    "Documentacion para la IA/CLAUDE.md": [
+      254,
+      1774658099219000000
+    ],
+    "Documentacion para la IA/docs/DESIGN_SPEC.md": [
+      330,
+      1774658099203000000
+    ],
+    "Documentacion para la IA/docs/GLOSSARY.md": [
+      275,
+      1774658099211000000
+    ],
+    "Documentacion para la IA/docs/TEST_PLAN.md": [
+      232,
+      1774658099214000000
+    ],
+    "Documentacion para la IA/docs/TDD.md": [
+      250,
+      1774658099205000000
+    ],
+    "Documentacion para la IA/docs/ROADMAP.md": [
+      274,
+      1774658099208000000
+    ],
+    "Documentacion para la IA/docs/PRD.md": [
+      493,
+      1774658099201000000
+    ],
+    "Documentacion para la IA/docs/USER_DOCS.md": [
+      216,
+      1774658099217000000
+    ],
+    "Documentacion para la IA/_meta/owner.md": [
+      286,
+      1774658099194000000
+    ],
+    "Documentacion para la IA/_meta/questions-log.md": [
+      1049,
+      1774658099196000000
+    ],
+    "desarrollo/types.ts": [
+      3454,
+      1770333021003000000
+    ],
+    "desarrollo/.env.local": [
+      35,
+      1770333023108000000
+    ],
+    "desarrollo/index.html": [
+      4616,
+      1770333024119000000
+    ],
+    "desarrollo/tsconfig.json": [
+      542,
+      1770333023074000000
+    ],
+    "desarrollo/🦊-nutri-flow-os.zip": [
+      520497,
+      1770332923515000000
+    ],
+    "desarrollo/index.tsx": [
+      349,
+      1770333023162000000
+    ],
+    "desarrollo/metadata.json": [
+      194,
+      1770333021148000000
+    ],
+    "desarrollo/.gitignore": [
+      253,
+      1770333023059000000
+    ],
+    "desarrollo/package.json": [
+      518,
+      1770333023238000000
+    ],
+    "desarrollo/README.md": [
+      553,
+      1770333023145000000
+    ],
+    "desarrollo/App.tsx": [
+      6965,
+      1770333021229000000
+    ],
+    "desarrollo/vite.config.ts": [
+      580,
+      1770333023053000000
+    ],
+    "desarrollo/constants.ts": [
+      11795,
+      1770354520000000000
+    ],
+    "desarrollo/SystemPanels/SearchData/SmartSearch.tsx": [
+      7266,
+      1770354521000000000
+    ],
+    "desarrollo/SystemPanels/FoodData/equivalentsService.ts": [
+      3211,
+      1770354520000000000
+    ],
+    "desarrollo/SystemPanels/FoodData/normalizationService.ts": [
+      3537,
+      1770354520000000000
+    ],
+    "desarrollo/SystemPanels/FoodData/nutritionService.ts": [
+      729,
+      1770354520000000000
+    ],
+    "desarrollo/SystemPanels/FoodData/iconMapper.ts": [
+      2396,
+      1770354520000000000
+    ],
+    "desarrollo/SystemPanels/RegistrerUserPanel/NewPatientWizard.tsx": [
+      24312,
+      1770354520000000000
+    ],
+    "desarrollo/SystemPanels/EntryPanel/PatientManager.tsx": [
+      22380,
+      1770354520000000000
+    ],
+    "desarrollo/SystemPanels/LockPanel/LockScreen.tsx": [
+      9531,
+      1770354520000000000
+    ],
+    "desarrollo/SystemPanels/UserInterfacePanel/GroceryAggregator.tsx": [
+      5887,
+      1770354520000000000
+    ],
+    "desarrollo/SystemPanels/UserInterfacePanel/FoodCard.tsx": [
+      9331,
+      1770354520000000000
+    ],
+    "desarrollo/SystemPanels/UserInterfacePanel/PatientProfile.tsx": [
+      24454,
+      1770354520000000000
+    ],
+    "desarrollo/SystemPanels/UserInterfacePanel/StatCard.tsx": [
+      938,
+      1770354520000000000
+    ],
+    "desarrollo/SystemPanels/UserInterfacePanel/ClinicalRegistration.tsx": [
+      5709,
+      1770354520000000000
+    ],
+    "desarrollo/SystemPanels/UserInterfacePanel/Sidebar.tsx": [
+      24759,
+      1770354520000000000
+    ],
+    "desarrollo/SystemPanels/UserInterfacePanel/MealGrid.tsx": [
+      31485,
+      1770354520000000000
+    ],
+    "desarrollo/SystemPanels/UserInterfacePanel/PatientExportPreview.tsx": [
+      17211,
+      1770354520000000000
+    ],
+    "desarrollo/SystemPanels/UserInterfacePanel/Layout.tsx": [
+      7588,
+      1770354520000000000
+    ],
+    "desarrollo/SystemPanels/UserInterfacePanel/IconResolver.tsx": [
+      1485,
+      1770354520000000000
+    ],
+    "desarrollo/SystemPanels/UsersData/useNutriPlan.ts": [
+      5340,
+      1770354521000000000
+    ],
+    "desarrollo/SystemPanels/SettingsPanel/SettingsPanel.tsx": [
+      21597,
+      1770354520000000000
+    ],
+    "desarrollo/SystemPanels/AiLogicPanel/geminiService.ts": [
+      11770,
+      1770354521000000000
+    ],
+    "desarrollo/SystemPanels/AiLogicPanel/metabolicFormulas.ts": [
+      3240,
+      1770354520000000000
+    ],
+    "desarrollo/utils/metabolicFormulas.ts": [
+      3238,
+      1770354520000000000
+    ],
+    "desarrollo/utils/normalizationService.ts": [
+      3533,
+      1770354520000000000
+    ],
+    "desarrollo/utils/iconMapper.ts": [
+      2393,
+      1770354520000000000
+    ],
+    "desarrollo/services/geminiService.ts": [
+      11767,
+      1770354521000000000
+    ],
+    "desarrollo/services/nutritionService.ts": [
+      724,
+      1770354520000000000
+    ],
+    "desarrollo/components/SmartSearch.tsx": [
+      7236,
+      1770354521000000000
+    ],
+    "desarrollo/components/ClinicalRegistration.tsx": [
+      18404,
+      1770354520000000000
+    ],
+    "desarrollo/components/Layout.tsx": [
+      7673,
+      1770354520000000000
+    ],
+    "desarrollo/components/MealGrid.tsx": [
+      31474,
+      1770354520000000000
+    ],
+    "desarrollo/components/PatientExportPreview.tsx": [
+      17205,
+      1770354520000000000
+    ],
+    "desarrollo/components/PatientProfile.tsx": [
+      24446,
+      1770354520000000000
+    ],
+    "desarrollo/components/PatientManager.tsx": [
+      15122,
+      1770354520000000000
+    ],
+    "desarrollo/components/StatCard.tsx": [
+      936,
+      1770354520000000000
+    ],
+    "desarrollo/components/Sidebar.tsx": [
+      20200,
+      1770354520000000000
+    ],
+    "desarrollo/components/LockScreen.tsx": [
+      5548,
+      1770354520000000000
+    ],
+    "desarrollo/components/FoodCard.tsx": [
+      8882,
+      1770354520000000000
+    ],
+    "desarrollo/components/SettingsPanel.tsx": [
+      21585,
+      1770354520000000000
+    ],
+    "desarrollo/components/NewPatientWizard.tsx": [
+      24293,
+      1770354520000000000
+    ],
+    "desarrollo/components/GroceryAggregator.tsx": [
+      5884,
+      1770354520000000000
+    ],
+    "desarrollo/components/IconResolver.tsx": [
+      1485,
+      1770354520000000000
+    ],
+    "desarrollo/hooks/useNutriPlan.ts": [
+      5301,
+      1770354521000000000
+    ]
+  }
+}

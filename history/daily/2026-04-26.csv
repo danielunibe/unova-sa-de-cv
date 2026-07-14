@@ -1,0 +1,5 @@
+﻿timestamp,project_id,project,event_type,reason,precision,added,modified,deleted,sample_files
+2026-04-26T13:16:10-06:00,nutriflow,NUTRIFLOW,historical_activity,initial_backfill,estimated,0,1,0,photo-1688131177125-cf9cbe72b8d7.png
+2026-04-26T23:12:29-06:00,pixvoxia,PIXVOXIA (Canvas Pro),historical_activity,initial_backfill,estimated,0,2,0,Pixvoxia_Assets/Images/ios_app_interaction_infographic_1777266749396.png; Pixvoxia_Assets/Images/media__1777244857382.png
+2026-04-26T23:14:15-06:00,nodia,Nodia,historical_activity,initial_backfill,estimated,0,1,0,c1b2bbca947e5d0f9e6a62946123522e.gif
+2026-04-26T18:18:03-06:00,retriver,Retriver,historical_activity,initial_backfill,estimated,0,29,0,Retriever/Database/02_DAVID_SANCHEZ_PAREJA/DOCS/00002367-Victor Martinez.vcf; Retriever/Database/02_DAVID_SANCHEZ_PAREJA/DOCS/00003991-Kalel Uniat.vcf; Retriever/Database/02_DAVID_SANCHEZ_PAREJA/DOCS/00009861-Dalefon.vcf; Retriever/Database/02_DAVID_SANCHEZ_PAREJA/DOCS/00011151-July.vcf

@@ -1,0 +1,15 @@
+﻿timestamp,project_id,project,event_type,reason,precision,added,modified,deleted,sample_files
+2026-07-12T05:56:30-06:00,asteria,Asteria,file_change,startup_catchup,exact,2,0,0,_codex_backup_20260602-204359; _codex_backup_phase9_phase10_20260603-022816
+2026-07-12T05:57:11-06:00,proyectia,PROYECTIA (Command Center),file_change,startup_catchup,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-07-12T05:57:23-06:00,pulsar-tiktok,PULSAR TIKTOK,file_change,startup_catchup,exact,1,0,0,scripts/backup_snapshots.py
+2026-07-12T05:57:32-06:00,react-bite,REACTBITE (Micro-app Runtime),file_change,startup_catchup,exact,2,0,0,nueva implementacion/💬reactbite_18-may/release/win-unpacked/snapshot_blob.bin; reactbite-fusion/.git
+2026-07-12T05:57:40-06:00,reflectia,REFLECTIA (Luxury Simulation),file_change,startup_catchup,exact,1,0,0,ReplIA/airplay_reference/Airplay.Core2/.git
+2026-07-12T05:59:48-06:00,vivo-promotor,Vivo Promotor,file_change,manual_api,exact,0,2,0,src/components/AppShell.tsx; src/index.css
+2026-07-12T06:00:07-06:00,asteria,Asteria,file_change,manual_api,exact,2,0,0,_codex_backup_20260602-204359; _codex_backup_phase9_phase10_20260603-022816
+2026-07-12T06:00:20-06:00,proyectia,PROYECTIA (Command Center),file_change,manual_api,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-07-12T06:00:23-06:00,pulsar-tiktok,PULSAR TIKTOK,file_change,manual_api,exact,1,0,0,scripts/backup_snapshots.py
+2026-07-12T06:00:24-06:00,react-bite,REACTBITE (Micro-app Runtime),file_change,manual_api,exact,2,0,0,nueva implementacion/💬reactbite_18-may/release/win-unpacked/snapshot_blob.bin; reactbite-fusion/.git
+2026-07-12T06:00:30-06:00,reflectia,REFLECTIA (Luxury Simulation),file_change,manual_api,exact,1,0,0,ReplIA/airplay_reference/Airplay.Core2/.git
+2026-07-12T06:16:51-06:00,vivo-promotor,Vivo Promotor,file_change,localhost_active,exact,0,9,0,src/components/AppShell.tsx; src/components/ui/LiquidGlass.tsx; src/features/CatalogSection.tsx; src/features/SettingsSection.tsx
+2026-07-12T06:32:31-06:00,vivo-promotor,Vivo Promotor,file_change,localhost_active,exact,0,10,0,src/components/ui/LiquidGlass.tsx; src/features/calendar/CalendarAgendaMode.tsx; src/features/calendar/CalendarDateParts.tsx; src/features/calendar/GoalPeriodCards.tsx
+2026-07-12T06:47:47-06:00,vivo-promotor,Vivo Promotor,file_change,localhost_active,exact,0,5,0,src/components/ui/LiquidGlass.tsx; src/features/CatalogSection.tsx; src/features/SettingsSection.tsx; src/features/piggybank/PiggyBankDashboard.tsx

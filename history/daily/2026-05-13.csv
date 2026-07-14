@@ -1,0 +1,4 @@
+﻿timestamp,project_id,project,event_type,reason,precision,added,modified,deleted,sample_files
+2026-05-13T22:51:35-06:00,nodia,Nodia,historical_activity,initial_backfill,estimated,0,35,0,docs nodia/PRD_SereneSymphony.md; nodia-app/audit_code.py; nodia-app/components/TacticalBackground.tsx; nodia-app/components/TopBar/Branding.tsx
+2026-05-13T11:40:49-06:00,proyectia,PROYECTIA (Command Center),historical_activity,initial_backfill,estimated,0,5,0,Proyec[tdh]ia-tsk DEV/src-tauri/src/agent/tools.rs; Proyec[tdh]ia-tsk DEV/src-tauri/src/agent/tools_mod/filesystem.rs; Proyec[tdh]ia-tsk DEV/src-tauri/src/agent/tools_mod/mod.rs; Proyec[tdh]ia-tsk DEV/src-tauri/src/agent/tools_mod/system.rs
+2026-05-13T18:46:07-06:00,serenesymphony,SERENESYMPHONY (Visual Orchestration),historical_activity,initial_backfill,estimated,0,20,0,00_COMPRENSION_ARQUITECTONICA_VOYAGER.md; 01_PRD_MAESTRO_SERENESYMPHONY.md; 02_HISTORIAL_Y_CONTEXTO_DESARROLLO.md; 03_ESPECIFICACION_UI_GLASSMORPHISM.md

@@ -1,0 +1,126 @@
+﻿timestamp,project_id,project,event_type,reason,precision,added,modified,deleted,sample_files
+2026-06-27T00:02:06-06:00,asteria,Asteria,file_change,startup_catchup,exact,2,0,0,_codex_backup_20260602-204359; _codex_backup_phase9_phase10_20260603-022816
+2026-06-27T00:02:15-06:00,proyectia,PROYECTIA (Command Center),file_change,startup_catchup,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T00:02:33-06:00,react-bite,REACTBITE (Micro-app Runtime),file_change,startup_catchup,exact,2,0,0,nueva implementacion/💬reactbite_18-may/release/win-unpacked/snapshot_blob.bin; reactbite-fusion/.git
+2026-06-27T00:02:40-06:00,reflectia,REFLECTIA (Luxury Simulation),file_change,startup_catchup,exact,1,0,0,ReplIA/airplay_reference/Airplay.Core2/.git
+2026-06-27T00:03:55-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T00:14:22-06:00,julia,JULIA (Solar System Memory),localhost_stopped,localhost_monitor,exact,0,0,0,
+2026-06-27T00:15:25-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T00:17:31-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T00:17:31-06:00,julia,JULIA (Solar System Memory),localhost_stopped,localhost_monitor,exact,0,0,0,
+2026-06-27T00:20:38-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T00:20:38-06:00,julia,JULIA (Solar System Memory),localhost_stopped,localhost_monitor,exact,0,0,0,
+2026-06-27T00:21:41-06:00,julia,JULIA (Solar System Memory),localhost_stopped,localhost_monitor,exact,0,0,0,
+2026-06-27T00:24:49-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T00:24:49-06:00,julia,JULIA (Solar System Memory),file_change,localhost_active,exact,2,2,0,1JuliaDEV/stderr_capture.txt; 1JuliaDEV/stdout_capture.txt; 1JuliaDEV/src-tauri/src/main.rs; 1JuliaDEV/src-tauri/tauri.conf.json
+2026-06-27T00:27:56-06:00,julia,JULIA (Solar System Memory),localhost_stopped,localhost_monitor,exact,0,0,0,
+2026-06-27T00:28:59-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T00:31:04-06:00,julia,JULIA (Solar System Memory),localhost_stopped,localhost_monitor,exact,0,0,0,
+2026-06-27T00:32:08-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T00:34:14-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T00:34:14-06:00,julia,JULIA (Solar System Memory),localhost_stopped,localhost_monitor,exact,0,0,0,
+2026-06-27T00:35:16-06:00,julia,JULIA (Solar System Memory),localhost_stopped,localhost_monitor,exact,0,0,0,
+2026-06-27T00:36:18-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T00:37:20-06:00,julia,JULIA (Solar System Memory),localhost_stopped,localhost_monitor,exact,0,0,0,
+2026-06-27T00:38:23-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T00:40:27-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T00:40:27-06:00,julia,JULIA (Solar System Memory),localhost_stopped,localhost_monitor,exact,0,0,0,
+2026-06-27T00:40:28-06:00,julia,JULIA (Solar System Memory),file_change,localhost_active,exact,0,3,0,1JuliaDEV/index.html; 1JuliaDEV/src-tauri/src/lib.rs; 1JuliaDEV/src-tauri/tauri.conf.json
+2026-06-27T00:41:30-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T00:41:30-06:00,julia,JULIA (Solar System Memory),localhost_stopped,localhost_monitor,exact,0,0,0,
+2026-06-27T00:45:40-06:00,julia,JULIA (Solar System Memory),localhost_stopped,localhost_monitor,exact,0,0,0,
+2026-06-27T00:46:43-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T00:47:46-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T00:47:46-06:00,julia,JULIA (Solar System Memory),localhost_stopped,localhost_monitor,exact,0,0,0,
+2026-06-27T00:49:51-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T00:49:51-06:00,julia,JULIA (Solar System Memory),localhost_stopped,localhost_monitor,exact,0,0,0,
+2026-06-27T00:50:53-06:00,julia,JULIA (Solar System Memory),localhost_stopped,localhost_monitor,exact,0,0,0,
+2026-06-27T00:51:56-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T00:52:59-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T00:52:59-06:00,julia,JULIA (Solar System Memory),localhost_stopped,localhost_monitor,exact,0,0,0,
+2026-06-27T00:54:01-06:00,julia,JULIA (Solar System Memory),localhost_stopped,localhost_monitor,exact,0,0,0,
+2026-06-27T00:58:13-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T00:58:13-06:00,julia,JULIA (Solar System Memory),file_change,localhost_active,exact,0,3,0,1JuliaDEV/src-tauri/src/lib.rs; 1JuliaDEV/src-tauri/tauri.conf.json; 1JuliaDEV/src/index.tsx
+2026-06-27T00:59:15-06:00,julia,JULIA (Solar System Memory),localhost_stopped,localhost_monitor,exact,0,0,0,
+2026-06-27T01:00:19-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T01:01:23-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T01:01:23-06:00,julia,JULIA (Solar System Memory),localhost_stopped,localhost_monitor,exact,0,0,0,
+2026-06-27T01:02:26-06:00,julia,JULIA (Solar System Memory),localhost_stopped,localhost_monitor,exact,0,0,0,
+2026-06-27T01:04:36-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T01:05:38-06:00,julia,JULIA (Solar System Memory),localhost_stopped,localhost_monitor,exact,0,0,0,
+2026-06-27T01:08:46-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T01:09:49-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T01:09:49-06:00,julia,JULIA (Solar System Memory),localhost_stopped,localhost_monitor,exact,0,0,0,
+2026-06-27T01:13:00-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T01:13:00-06:00,julia,JULIA (Solar System Memory),localhost_stopped,localhost_monitor,exact,0,0,0,
+2026-06-27T01:14:03-06:00,julia,JULIA (Solar System Memory),file_change,localhost_active,exact,0,4,0,1JuliaDEV/src-tauri/capabilities/default.json; 1JuliaDEV/src-tauri/gen/schemas/capabilities.json; 1JuliaDEV/src-tauri/src/lib.rs; 1JuliaDEV/src-tauri/tauri.conf.json
+2026-06-27T01:15:06-06:00,julia,JULIA (Solar System Memory),localhost_stopped,localhost_monitor,exact,0,0,0,
+2026-06-27T01:16:09-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T01:29:36-06:00,julia,JULIA (Solar System Memory),file_change,localhost_active,exact,0,4,0,1JuliaDEV/src-tauri/Cargo.toml; 1JuliaDEV/src-tauri/src/lib.rs; 1JuliaDEV/src-tauri/tauri.conf.json; 1JuliaDEV/src/index.tsx
+2026-06-27T07:23:40-06:00,julia,JULIA (Solar System Memory),localhost_stopped,localhost_monitor,exact,0,0,0,
+2026-06-27T07:24:43-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T07:24:43-06:00,julia,JULIA (Solar System Memory),file_change,localhost_active,exact,5,5,0,1JuliaDEV/docs/TAURI_WINDOW_BOOT_HARDENING.md; 1JuliaDEV/scripts/check-tauri-window.ps1; 1JuliaDEV/scripts/dev-tauri-safe.ps1; 1JuliaDEV/scripts/guard-tauri-window-boot.ps1; 1JuliaDEV/EDITOR_UNIVERSAL_BLOCK_SYSTEM_PLAN.md; 1JuliaDEV/package.json; 1JuliaDEV/src-tauri/src/lib.rs; 1JuliaDEV/src/App.tsx
+2026-06-27T07:25:45-06:00,julia,JULIA (Solar System Memory),localhost_stopped,localhost_monitor,exact,0,0,0,
+2026-06-27T07:26:47-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T07:41:13-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T07:41:13-06:00,julia,JULIA (Solar System Memory),localhost_stopped,localhost_monitor,exact,0,0,0,
+2026-06-27T07:42:15-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T07:42:15-06:00,julia,JULIA (Solar System Memory),localhost_stopped,localhost_monitor,exact,0,0,0,
+2026-06-27T07:51:31-06:00,julia,JULIA (Solar System Memory),localhost_stopped,localhost_monitor,exact,0,0,0,
+2026-06-27T07:52:33-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T08:02:53-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T08:02:53-06:00,julia,JULIA (Solar System Memory),localhost_stopped,localhost_monitor,exact,0,0,0,
+2026-06-27T08:11:10-06:00,julia,JULIA (Solar System Memory),file_change,localhost_active,exact,0,2,0,1JuliaDEV/scripts/check-tauri-window.ps1; 1JuliaDEV/scripts/dev-tauri-safe.ps1
+2026-06-27T08:42:09-06:00,julia,JULIA (Solar System Memory),file_change,localhost_active,exact,0,1,0,1JuliaDEV/src/index.css
+2026-06-27T09:32:00-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T09:32:00-06:00,julia,JULIA (Solar System Memory),file_change,localhost_active,exact,0,4,0,1JuliaDEV/EDITOR_UNIVERSAL_BLOCK_SYSTEM_PLAN.md; 1JuliaDEV/src/components/editorBlocks/ai/EditorLocalAiResultPersistencePanel.tsx; 1JuliaDEV/src/components/editorBlocks/runtime/editorRuntimeReadiness.ts; 1JuliaDEV/src/components/editorBlocks/universalBlock/editorUniversalBlockPreflightGuards.ts
+2026-06-27T09:43:25-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T09:43:25-06:00,julia,JULIA (Solar System Memory),localhost_stopped,localhost_monitor,exact,0,0,0,
+2026-06-27T10:03:21-06:00,julia,JULIA (Solar System Memory),file_change,localhost_active,exact,0,2,0,1JuliaDEV/src/JuliaPanels/EditorVisualizer/ContentEditorPanel.tsx; 1JuliaDEV/src/components/knowledge/editor/KnowledgeBlockEditorMvp.tsx
+2026-06-27T10:38:51-06:00,julia,JULIA (Solar System Memory),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T10:38:51-06:00,julia,JULIA (Solar System Memory),localhost_stopped,localhost_monitor,exact,0,0,0,
+2026-06-27T14:51:51-06:00,proyectia,PROYECTIA (Command Center),localhost_started,localhost_monitor,exact,0,0,0,
+2026-06-27T14:51:51-06:00,julia,JULIA (Solar System Memory),localhost_stopped,localhost_monitor,exact,0,0,0,
+2026-06-27T14:58:52-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T15:14:01-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T15:29:16-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T15:44:25-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T15:59:36-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T16:14:48-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T16:30:02-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T16:45:13-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T17:00:29-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T17:15:37-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T17:31:35-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T17:47:27-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T18:03:18-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T18:19:10-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T18:35:01-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T18:50:52-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T19:06:43-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T19:22:34-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T19:38:24-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T19:54:15-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T20:10:06-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T20:25:56-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T20:41:46-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T20:57:36-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T21:13:26-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T21:29:16-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T21:45:05-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T22:00:54-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T22:16:44-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T22:32:33-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T22:48:23-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T23:04:12-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T23:20:02-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T23:31:29-06:00,asteria,Asteria,file_change,manual_api,exact,2,0,0,_codex_backup_20260602-204359; _codex_backup_phase9_phase10_20260603-022816
+2026-06-27T23:31:42-06:00,proyectia,PROYECTIA (Command Center),file_change,manual_api,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T23:32:02-06:00,react-bite,REACTBITE (Micro-app Runtime),file_change,manual_api,exact,2,0,0,nueva implementacion/💬reactbite_18-may/release/win-unpacked/snapshot_blob.bin; reactbite-fusion/.git
+2026-06-27T23:32:06-06:00,reflectia,REFLECTIA (Luxury Simulation),file_change,manual_api,exact,1,0,0,ReplIA/airplay_reference/Airplay.Core2/.git
+2026-06-27T23:33:51-06:00,asteria,Asteria,file_change,nightly_2330,exact,2,0,0,_codex_backup_20260602-204359; _codex_backup_phase9_phase10_20260603-022816
+2026-06-27T23:34:00-06:00,proyectia,PROYECTIA (Command Center),file_change,nightly_2330,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T23:34:19-06:00,react-bite,REACTBITE (Micro-app Runtime),file_change,nightly_2330,exact,2,0,0,nueva implementacion/💬reactbite_18-may/release/win-unpacked/snapshot_blob.bin; reactbite-fusion/.git
+2026-06-27T23:34:24-06:00,reflectia,REFLECTIA (Luxury Simulation),file_change,nightly_2330,exact,1,0,0,ReplIA/airplay_reference/Airplay.Core2/.git
+2026-06-27T23:35:36-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs
+2026-06-27T23:51:27-06:00,proyectia,PROYECTIA (Command Center),file_change,localhost_active,exact,4,0,0,Proyec[tdh]ia-tsk DEV/BACKUP_RESTORE_SYSTEM.md; Proyec[tdh]ia-tsk DEV/src-tauri/crates/proyectia_core/src/backup_engine.rs; proyectia-tsk/BACKUP_RESTORE_SYSTEM.md; proyectia-tsk/src-tauri/crates/proyectia_core/src/backup_engine.rs

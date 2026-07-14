@@ -1,0 +1,215 @@
+{
+  "project_id": "aparment",
+  "project": "APARMENT (Renta IA Hub)",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\02_App IOS y android\\01_Aparment",
+  "captured_at": "2026-07-14T07:10:36-06:00",
+  "last_change": "2026-03-27T21:46:14-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 38,
+    "code_count": 10,
+    "doc_count": 17,
+    "asset_count": 3,
+    "test_count": 2,
+    "manifest_count": 2,
+    "latest_mtime": "2026-03-27T21:46:14-06:00",
+    "latest_file": "apartment22 estructure base.md",
+    "extensions": {
+      ".md": 15,
+      ".tsx": 5,
+      ".ts": 4,
+      ".png": 3,
+      ".json": 3,
+      ".ico": 2,
+      ".txt": 2,
+      ".zip": 1,
+      ".local": 1,
+      "[sin extensión]": 1,
+      ".html": 1
+    }
+  },
+  "progress": {
+    "project_id": "aparment",
+    "project": "APARMENT (Renta IA Hub)",
+    "mvp": 51,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 15,
+      "diseno": 4,
+      "arquitectura": 5,
+      "implementacion": 15,
+      "pruebas": 6,
+      "empaquetado": 3,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "próximo paso documentado"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "numero_22_redondeado_v2.ico": [
+      93626,
+      1755715928298000000
+    ],
+    "Gemini_Generated_Image_8samg68samg68sam.png": [
+      5989589,
+      1767009377016000000
+    ],
+    "2025-08-31-conversations (2).zip": [
+      14517,
+      1756647642994000000
+    ],
+    "salida 1.txt": [
+      9959,
+      1756647263247000000
+    ],
+    "ChatGPT Image 20 ago 2025, 12_52_23 p.m..png": [
+      1760846,
+      1755715947470000000
+    ],
+    "ChatGPT Image 31 jul 2025, 02_19_56 p.m..png": [
+      2525229,
+      1753993196769000000
+    ],
+    "monitor_saturn_icon_multi.ico": [
+      57296,
+      1755716079000000000
+    ],
+    "4-41-39-Crear_IA_para_rentas.txt": [
+      36601,
+      1756669240000000000
+    ],
+    "apartment22 estructure base.md": [
+      4327,
+      1774669574927000000
+    ],
+    "Documentacion para la IA/01_aparment.md": [
+      4215,
+      1774166929823000000
+    ],
+    "Documentacion para la IA/CHANGELOG.md": [
+      219,
+      1774658098697000000
+    ],
+    "Documentacion para la IA/CLAUDE.md": [
+      272,
+      1774658098693000000
+    ],
+    "Documentacion para la IA/PROTOCOL.md": [
+      955,
+      1774658098654000000
+    ],
+    "Documentacion para la IA/_meta/owner.md": [
+      286,
+      1774658098674000000
+    ],
+    "Documentacion para la IA/_meta/questions-log.md": [
+      1067,
+      1774658098679000000
+    ],
+    "Documentacion para la IA/docs/PRD.md": [
+      517,
+      1774658098683000000
+    ],
+    "Documentacion para la IA/docs/ROADMAP.md": [
+      288,
+      1774658098687000000
+    ],
+    "Documentacion para la IA/docs/DESIGN_SPEC.md": [
+      344,
+      1774658098684000000
+    ],
+    "Documentacion para la IA/docs/TEST_PLAN.md": [
+      246,
+      1774658098690000000
+    ],
+    "Documentacion para la IA/docs/USER_DOCS.md": [
+      222,
+      1774658098691000000
+    ],
+    "Documentacion para la IA/docs/TDD.md": [
+      268,
+      1774658098685000000
+    ],
+    "Documentacion para la IA/docs/GLOSSARY.md": [
+      295,
+      1774658098689000000
+    ],
+    "apartament22 desarrollo/index.tsx": [
+      349,
+      1770278574000000000
+    ],
+    "apartament22 desarrollo/tsconfig.json": [
+      542,
+      1770278574000000000
+    ],
+    "apartament22 desarrollo/App.tsx": [
+      3890,
+      1770278575000000000
+    ],
+    "apartament22 desarrollo/.env.local": [
+      35,
+      1770278574000000000
+    ],
+    "apartament22 desarrollo/.gitignore": [
+      253,
+      1770278574000000000
+    ],
+    "apartament22 desarrollo/vite.config.ts": [
+      580,
+      1770278574000000000
+    ],
+    "apartament22 desarrollo/package.json": [
+      531,
+      1770278574000000000
+    ],
+    "apartament22 desarrollo/types.ts": [
+      446,
+      1770278574000000000
+    ],
+    "apartament22 desarrollo/index.html": [
+      1787,
+      1770278574000000000
+    ],
+    "apartament22 desarrollo/metadata.json": [
+      249,
+      1770278574000000000
+    ],
+    "apartament22 desarrollo/README.md": [
+      553,
+      1770278574000000000
+    ],
+    "apartament22 desarrollo/services/gemini.ts": [
+      5476,
+      1770278575000000000
+    ],
+    "apartament22 desarrollo/utils/audio.ts": [
+      1330,
+      1770278575000000000
+    ],
+    "apartament22 desarrollo/components/SidePanel.tsx": [
+      2145,
+      1770278574000000000
+    ],
+    "apartament22 desarrollo/components/LeafletMap.tsx": [
+      4285,
+      1770278574000000000
+    ],
+    "apartament22 desarrollo/components/ChatInterface.tsx": [
+      5944,
+      1770278574000000000
+    ]
+  }
+}

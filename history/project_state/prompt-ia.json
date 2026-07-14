@@ -1,0 +1,176 @@
+{
+  "project_id": "prompt-ia",
+  "project": "Prompt-IA ⌨️",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\02_App IOS y android\\13_Prompt-IA",
+  "captured_at": "2026-07-14T07:10:38-06:00",
+  "last_change": "2026-03-27T18:34:59-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 29,
+    "code_count": 10,
+    "doc_count": 14,
+    "asset_count": 0,
+    "test_count": 2,
+    "manifest_count": 2,
+    "latest_mtime": "2026-03-27T18:34:59-06:00",
+    "latest_file": "Documentacion para la IA/CHANGELOG.md",
+    "extensions": {
+      ".md": 14,
+      ".tsx": 5,
+      ".ts": 4,
+      ".json": 3,
+      ".html": 1,
+      "[sin extensión]": 1,
+      ".local": 1
+    }
+  },
+  "progress": {
+    "project_id": "prompt-ia",
+    "project": "Prompt-IA ⌨️",
+    "mvp": 37,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 5,
+      "implementacion": 15,
+      "pruebas": 6,
+      "empaquetado": 3,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "próximo paso documentado"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "desarrollo promptptia/index.html": [
+      12884,
+      1770277156000000000
+    ],
+    "desarrollo promptptia/tsconfig.json": [
+      542,
+      1770277156000000000
+    ],
+    "desarrollo promptptia/.gitignore": [
+      253,
+      1770277156000000000
+    ],
+    "desarrollo promptptia/.env.local": [
+      35,
+      1770277156000000000
+    ],
+    "desarrollo promptptia/index.tsx": [
+      349,
+      1770277156000000000
+    ],
+    "desarrollo promptptia/metadata.json": [
+      197,
+      1770277156000000000
+    ],
+    "desarrollo promptptia/vite.config.ts": [
+      580,
+      1770277156000000000
+    ],
+    "desarrollo promptptia/constants.ts": [
+      8159,
+      1770277156000000000
+    ],
+    "desarrollo promptptia/README.md": [
+      553,
+      1770277156000000000
+    ],
+    "desarrollo promptptia/types.ts": [
+      1102,
+      1770277156000000000
+    ],
+    "desarrollo promptptia/package.json": [
+      436,
+      1770277156000000000
+    ],
+    "desarrollo promptptia/App.tsx": [
+      37609,
+      1770277156000000000
+    ],
+    "desarrollo promptptia/services/geminiService.ts": [
+      1484,
+      1770277157000000000
+    ],
+    "desarrollo promptptia/components/RecessedSlot.tsx": [
+      3546,
+      1770277156000000000
+    ],
+    "desarrollo promptptia/components/EnergyShard.tsx": [
+      1622,
+      1770277156000000000
+    ],
+    "desarrollo promptptia/components/NavigationHub.tsx": [
+      6575,
+      1770277156000000000
+    ],
+    "Documentacion para la IA/13_Prompt-IA.md": [
+      3860,
+      1774166929754000000
+    ],
+    "Documentacion para la IA/PROTOCOL.md": [
+      941,
+      1774658099265000000
+    ],
+    "Documentacion para la IA/CLAUDE.md": [
+      233,
+      1774658099298000000
+    ],
+    "Documentacion para la IA/CHANGELOG.md": [
+      205,
+      1774658099299000000
+    ],
+    "Documentacion para la IA/docs/ROADMAP.md": [
+      274,
+      1774658099286000000
+    ],
+    "Documentacion para la IA/docs/TDD.md": [
+      229,
+      1774658099282000000
+    ],
+    "Documentacion para la IA/docs/TEST_PLAN.md": [
+      232,
+      1774658099292000000
+    ],
+    "Documentacion para la IA/docs/USER_DOCS.md": [
+      191,
+      1774658099294000000
+    ],
+    "Documentacion para la IA/docs/GLOSSARY.md": [
+      250,
+      1774658099288000000
+    ],
+    "Documentacion para la IA/docs/DESIGN_SPEC.md": [
+      330,
+      1774658099281000000
+    ],
+    "Documentacion para la IA/docs/PRD.md": [
+      414,
+      1774658099276000000
+    ],
+    "Documentacion para la IA/_meta/owner.md": [
+      286,
+      1774658099268000000
+    ],
+    "Documentacion para la IA/_meta/questions-log.md": [
+      995,
+      1774658099271000000
+    ]
+  }
+}

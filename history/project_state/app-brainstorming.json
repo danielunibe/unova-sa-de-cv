@@ -1,0 +1,137 @@
+{
+  "project_id": "app-brainstorming",
+  "project": "App Brainstorming",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\02_App IOS y android\\02_App_brainstorming",
+  "captured_at": "2026-07-14T07:10:36-06:00",
+  "last_change": "2026-03-27T22:51:59-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 20,
+    "code_count": 0,
+    "doc_count": 13,
+    "asset_count": 7,
+    "test_count": 2,
+    "manifest_count": 0,
+    "latest_mtime": "2026-03-27T22:51:59-06:00",
+    "latest_file": "Documentacion para la IA/CHANGELOG.md",
+    "extensions": {
+      ".md": 13,
+      ".jpg": 7
+    }
+  },
+  "progress": {
+    "project_id": "app-brainstorming",
+    "project": "App Brainstorming",
+    "mvp": 18,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "8f3b6100207550937167563acb9e5fbe.jpg": [
+      34055,
+      1767416780027000000
+    ],
+    "8fee595710d220a2af6c25615df0abbb.jpg": [
+      40133,
+      1767417599740000000
+    ],
+    "2370f5d43088cbfa1a33756d983403bc.jpg": [
+      37208,
+      1767417450287000000
+    ],
+    "18e8da9dd95896f36f9c93e656a3176e.jpg": [
+      109500,
+      1767417410910000000
+    ],
+    "e528df1219f80dc0cd2bf3a9090a15f3.jpg": [
+      29112,
+      1767417466317000000
+    ],
+    "53d7e6261050342a4ede8f0b96780594.jpg": [
+      17932,
+      1767416765859000000
+    ],
+    "unnamed.jpg": [
+      39493,
+      1767408916439000000
+    ],
+    "Documentacion para la IA/02_app_brainstorming.md": [
+      1019,
+      1774166930023000000
+    ],
+    "Documentacion para la IA/CLAUDE.md": [
+      287,
+      1774673519360000000
+    ],
+    "Documentacion para la IA/PROTOCOL.md": [
+      949,
+      1774658098838000000
+    ],
+    "Documentacion para la IA/CHANGELOG.md": [
+      251,
+      1774673519362000000
+    ],
+    "Documentacion para la IA/docs/PRD.md": [
+      690,
+      1774673519353000000
+    ],
+    "Documentacion para la IA/docs/ROADMAP.md": [
+      473,
+      1774673519356000000
+    ],
+    "Documentacion para la IA/docs/USER_DOCS.md": [
+      208,
+      1774658098857000000
+    ],
+    "Documentacion para la IA/docs/TEST_PLAN.md": [
+      240,
+      1774658098855000000
+    ],
+    "Documentacion para la IA/docs/TDD.md": [
+      239,
+      1774658098848000000
+    ],
+    "Documentacion para la IA/docs/GLOSSARY.md": [
+      275,
+      1774658098851000000
+    ],
+    "Documentacion para la IA/docs/DESIGN_SPEC.md": [
+      409,
+      1774673519354000000
+    ],
+    "Documentacion para la IA/_meta/questions-log.md": [
+      1441,
+      1774673519349000000
+    ],
+    "Documentacion para la IA/_meta/owner.md": [
+      286,
+      1774658098842000000
+    ]
+  }
+}

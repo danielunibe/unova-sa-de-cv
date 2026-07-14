@@ -1,0 +1,174 @@
+{
+  "project_id": "uiverse",
+  "project": "Uiverse",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\02_App IOS y android\\18_Uiverse",
+  "captured_at": "2026-07-14T07:10:38-06:00",
+  "last_change": "2026-04-20T03:16:54-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 28,
+    "code_count": 8,
+    "doc_count": 19,
+    "asset_count": 0,
+    "test_count": 2,
+    "manifest_count": 0,
+    "latest_mtime": "2026-04-20T03:16:54-06:00",
+    "latest_file": "interfaces-ui.docx",
+    "extensions": {
+      ".md": 13,
+      ".docx": 6,
+      ".html": 4,
+      ".jsx": 2,
+      ".zip": 1,
+      ".js": 1,
+      ".css": 1
+    }
+  },
+  "progress": {
+    "project_id": "uiverse",
+    "project": "Uiverse",
+    "mvp": 29,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 15,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "files (2).zip": [
+      348816,
+      1776655019270000000
+    ],
+    "interfaces-ui.docx": [
+      28034,
+      1776676614000000000
+    ],
+    "hibridos-ui.docx": [
+      31313,
+      1776676614000000000
+    ],
+    "interfaces-ui-completo.docx": [
+      68647,
+      1776676614000000000
+    ],
+    "ui-history-explorer.html": [
+      42826,
+      1776676614000000000
+    ],
+    "ui-evolution.html": [
+      49590,
+      1776676614000000000
+    ],
+    "ui-evolution-h.jsx": [
+      52920,
+      1776676614000000000
+    ],
+    "manual-implementacion-ui.docx": [
+      58658,
+      1776676614000000000
+    ],
+    "interfaces-ui-v3.docx": [
+      76013,
+      1776676614000000000
+    ],
+    "UIVerse-PRD.docx": [
+      42957,
+      1776676614000000000
+    ],
+    "ui-evolution.jsx": [
+      49674,
+      1776676614000000000
+    ],
+    "18_Ui_lab/windows_app_design_1.html": [
+      10396,
+      1753302765000000000
+    ],
+    "18_Ui_lab/Documentacion para la IA/18_ui_lab.md": [
+      1076,
+      1774166930131000000
+    ],
+    "18_Ui_lab/Documentacion para la IA/CLAUDE.md": [
+      246,
+      1774673573895000000
+    ],
+    "18_Ui_lab/Documentacion para la IA/PROTOCOL.md": [
+      938,
+      1774658099478000000
+    ],
+    "18_Ui_lab/Documentacion para la IA/CHANGELOG.md": [
+      189,
+      1774673573900000000
+    ],
+    "18_Ui_lab/Documentacion para la IA/docs/DESIGN_SPEC.md": [
+      400,
+      1774673573883000000
+    ],
+    "18_Ui_lab/Documentacion para la IA/docs/USER_DOCS.md": [
+      191,
+      1774658099509000000
+    ],
+    "18_Ui_lab/Documentacion para la IA/docs/GLOSSARY.md": [
+      247,
+      1774658099504000000
+    ],
+    "18_Ui_lab/Documentacion para la IA/docs/TDD.md": [
+      247,
+      1774658099498000000
+    ],
+    "18_Ui_lab/Documentacion para la IA/docs/PRD.md": [
+      534,
+      1774673573879000000
+    ],
+    "18_Ui_lab/Documentacion para la IA/docs/ROADMAP.md": [
+      368,
+      1774673573886000000
+    ],
+    "18_Ui_lab/Documentacion para la IA/docs/TEST_PLAN.md": [
+      229,
+      1774658099506000000
+    ],
+    "18_Ui_lab/Documentacion para la IA/_meta/questions-log.md": [
+      1305,
+      1774673573877000000
+    ],
+    "18_Ui_lab/Documentacion para la IA/_meta/owner.md": [
+      286,
+      1774658099485000000
+    ],
+    "personaje cursor/index.html": [
+      5330,
+      1776651032266000000
+    ],
+    "personaje cursor/script.js": [
+      10912,
+      1776651059147000000
+    ],
+    "personaje cursor/style.css": [
+      7358,
+      1776651020462000000
+    ]
+  }
+}

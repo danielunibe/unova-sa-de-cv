@@ -1,0 +1,12 @@
+node_modules/
+venv/
+.venv/
+.env
+.vs/
+.idea/
+dist/
+build/
+*.log
+bin/
+obj/
+*.user

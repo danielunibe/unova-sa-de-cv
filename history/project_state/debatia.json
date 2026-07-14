@@ -1,0 +1,109 @@
+{
+  "project_id": "debatia",
+  "project": "DEBATIA (Multi-IA Deliberation)",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\01_software\\03_Debatia",
+  "captured_at": "2026-07-14T07:10:51-06:00",
+  "last_change": "2026-03-27T16:01:33-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 13,
+    "code_count": 0,
+    "doc_count": 13,
+    "asset_count": 0,
+    "test_count": 2,
+    "manifest_count": 0,
+    "latest_mtime": "2026-03-27T16:01:33-06:00",
+    "latest_file": "Documentacion para la IA/docs/USER_DOCS.md",
+    "extensions": {
+      ".md": 13
+    }
+  },
+  "progress": {
+    "project_id": "debatia",
+    "project": "DEBATIA (Multi-IA Deliberation)",
+    "mvp": 14,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "Documentacion para la IA/03_Debatia.md": [
+      1971,
+      1774166930012000000
+    ],
+    "Documentacion para la IA/CHANGELOG.md": [
+      216,
+      1774648821754000000
+    ],
+    "Documentacion para la IA/CLAUDE.md": [
+      612,
+      1774648841169000000
+    ],
+    "Documentacion para la IA/PROTOCOL.md": [
+      1544,
+      1774648816305000000
+    ],
+    "Documentacion para la IA/docs/USER_DOCS.md": [
+      566,
+      1774648893418000000
+    ],
+    "Documentacion para la IA/docs/TEST_PLAN.md": [
+      524,
+      1774648886570000000
+    ],
+    "Documentacion para la IA/docs/DESIGN_SPEC.md": [
+      797,
+      1774648863563000000
+    ],
+    "Documentacion para la IA/docs/PRD.md": [
+      1319,
+      1774648849174000000
+    ],
+    "Documentacion para la IA/docs/ROADMAP.md": [
+      941,
+      1774648879613000000
+    ],
+    "Documentacion para la IA/docs/GLOSSARY.md": [
+      927,
+      1774648856237000000
+    ],
+    "Documentacion para la IA/docs/TDD.md": [
+      740,
+      1774648871007000000
+    ],
+    "Documentacion para la IA/_meta/owner.md": [
+      300,
+      1774648827926000000
+    ],
+    "Documentacion para la IA/_meta/questions-log.md": [
+      526,
+      1774648834750000000
+    ]
+  }
+}

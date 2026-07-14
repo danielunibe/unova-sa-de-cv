@@ -1,0 +1,2 @@
+﻿timestamp,project_id,project,event_type,reason,precision,added,modified,deleted,sample_files
+2026-06-17T03:19:29-06:00,react-bite,REACTBITE (Micro-app Runtime),historical_activity,initial_backfill,estimated,0,8,0,reactbite-fusion/BUILD_ISOLATION_CHAIN_PLAN_2026-06-16.md; reactbite-fusion/DECISIONS.md; reactbite-fusion/IMPLEMENTATION_STATUS.md; reactbite-fusion/NATIVE_QA.md

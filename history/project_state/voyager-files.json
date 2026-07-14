@@ -1,0 +1,476 @@
+{
+  "project_id": "voyager-files",
+  "project": "Voyager Files",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\01_software\\25_voyager_files",
+  "captured_at": "2026-07-14T07:11:19-06:00",
+  "last_change": "2026-03-27T18:33:11-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 102,
+    "code_count": 16,
+    "doc_count": 40,
+    "asset_count": 31,
+    "test_count": 3,
+    "manifest_count": 4,
+    "latest_mtime": "2026-03-27T18:33:11-06:00",
+    "latest_file": "Documentacion para la IA/CHANGELOG.md",
+    "extensions": {
+      ".md": 32,
+      ".png": 21,
+      ".tsx": 10,
+      ".webp": 6,
+      ".json": 6,
+      ".txt": 5,
+      ".jpg": 4,
+      ".zip": 4,
+      ".pdf": 2,
+      ".local": 2,
+      ".ts": 2,
+      ".html": 2,
+      "[sin extensión]": 2,
+      ".py": 2,
+      ".docx": 1,
+      ".sql": 1
+    }
+  },
+  "progress": {
+    "project_id": "voyager-files",
+    "project": "Voyager Files",
+    "mvp": 41,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 5,
+      "implementacion": 15,
+      "pruebas": 6,
+      "empaquetado": 3,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "próximo paso documentado"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "ChatGPT Image 31 ago 2025, 06_48_54 a.m..png": [
+      1695925,
+      1756644534303000000
+    ],
+    "Captura de pantalla 2025-07-27 191802.png": [
+      504352,
+      1755673918000000000
+    ],
+    "ChatGPT Image 31 ago 2025, 06_49_24 a.m..png": [
+      2130597,
+      1756644564310000000
+    ],
+    "ChatGPT Image 31 ago 2025, 06_49_32 a.m..png": [
+      1924143,
+      1756644572509000000
+    ],
+    "Captura de pantalla 2025-07-26 045710.png": [
+      732646,
+      1755673918000000000
+    ],
+    "reporte_final_explorador_archivos_ia.pdf": [
+      382009,
+      1753883810000000000
+    ],
+    "reporte_final_explorador_archivos_ia.docx": [
+      20364,
+      1753883809000000000
+    ],
+    "original-cb71ac916c5acdfcd296ac26c244d95b.webp": [
+      53150,
+      1753883810000000000
+    ],
+    "def1ac27702d06f9965195f6b266a45c.jpg": [
+      106663,
+      1756646607746000000
+    ],
+    "ChatGPT Image 31 ago 2025, 06_49_48 a.m..png": [
+      2036501,
+      1756644588690000000
+    ],
+    "Documentación Detallada de Ventanas - Voyager Files.md": [
+      88170,
+      1756722700000000000
+    ],
+    "voyagerchatgpt.txt": [
+      43364,
+      1756646681830000000
+    ],
+    "original-2505203e2c55233fbaedb7839c1b133f.webp": [
+      11392,
+      1753883809000000000
+    ],
+    "Documentación General del Proyecto Voyager Files y Ethyria.md": [
+      10324,
+      1756722700000000000
+    ],
+    "original-f504064cead809a4e4953ac3a86eac1d.webp": [
+      87154,
+      1753883810000000000
+    ],
+    "ChatGPT Image 31 ago 2025, 06_49_26 a.m..png": [
+      1795862,
+      1756644566871000000
+    ],
+    "informe_ejecutivo_voyager_files.md": [
+      11407,
+      1756722700000000000
+    ],
+    "ethyria_manual_completo_desarrollo.md": [
+      146172,
+      1753883809000000000
+    ],
+    "original-4773fcac7b5e802a31a3528a3e8ac3ac.webp": [
+      85674,
+      1753883809000000000
+    ],
+    "original-bcc59c1c78abb344956faafe15c2963c.webp": [
+      172196,
+      1753883809000000000
+    ],
+    "Captura de pantalla 2025-07-26 050853.png": [
+      3011056,
+      1755673918000000000
+    ],
+    "ChatGPT Image 31 ago 2025, 06_48_56 a.m..png": [
+      1720291,
+      1756644536770000000
+    ],
+    "ChatGPT Image 31 ago 2025, 06_48_59 a.m..png": [
+      1203826,
+      1756644539493000000
+    ],
+    "Voyager_Files_Documentacion_Resumen.txt": [
+      3159,
+      1756722700000000000
+    ],
+    "Captura de pantalla 2025-07-16 042958.png": [
+      460799,
+      1752661798000000000
+    ],
+    "Prompt definitivo final.pdf": [
+      133732,
+      1756647565774000000
+    ],
+    "Captura de pantalla 2025-07-27 200520.png": [
+      542904,
+      1755673918000000000
+    ],
+    "Captura de pantalla 2025-07-27 195450.png": [
+      2780358,
+      1755673918000000000
+    ],
+    "Análisis Detallado de Sistemas Operativos para VoyagerOS.txt": [
+      23665,
+      1756644400169000000
+    ],
+    "todo.md": [
+      1419,
+      1753883810000000000
+    ],
+    "ChatGPT Image 31 ago 2025, 06_49_52 a.m..png": [
+      2051505,
+      1756644592562000000
+    ],
+    "Captura de pantalla 2025-07-27 195437.png": [
+      2945459,
+      1755673918000000000
+    ],
+    "💻 Voyager Files.zip": [
+      1002906,
+      1756701103815000000
+    ],
+    "Captura de pantalla 2025-07-19 103551.png": [
+      817781,
+      1755673918000000000
+    ],
+    "334614c6c3ba051d37a5f753368cd964.jpg": [
+      127050,
+      1756646597644000000
+    ],
+    "Captura de pantalla 2025-07-27 190835.png": [
+      518240,
+      1755673918000000000
+    ],
+    "reporte_final_explorador_archivos_ia.md": [
+      24647,
+      1753883809000000000
+    ],
+    "ChatGPT Image 31 ago 2025, 06_49_21 a.m..png": [
+      1963371,
+      1756644561722000000
+    ],
+    "Captura de pantalla 2025-07-27 191139.png": [
+      275509,
+      1755673918000000000
+    ],
+    "292484417646676-all-task-files.zip": [
+      740895,
+      1753077586769000000
+    ],
+    "fd05f6cb4df5b8395eb4345c966275d5.jpg": [
+      87686,
+      1756646625939000000
+    ],
+    "original-a15a1267fd8d6dabcbda5060335dab14.webp": [
+      136152,
+      1753883810000000000
+    ],
+    "d72f4e501f543c1b4b5666aeec981940.jpg": [
+      119849,
+      1755673922000000000
+    ],
+    "ChatGPT Image 31 ago 2025, 06_48_51 a.m..png": [
+      1160810,
+      1756644531242000000
+    ],
+    "Captura de pantalla 2025-07-27 190410.png": [
+      493808,
+      1755673918000000000
+    ],
+    "Documentacion para la IA/25_voyager_files.md": [
+      3991,
+      1774166929806000000
+    ],
+    "Documentacion para la IA/CHANGELOG.md": [
+      308,
+      1774657991688000000
+    ],
+    "Documentacion para la IA/PROTOCOL.md": [
+      945,
+      1774657991656000000
+    ],
+    "Documentacion para la IA/CLAUDE.md": [
+      510,
+      1774657991686000000
+    ],
+    "Documentacion para la IA/docs/USER_DOCS.md": [
+      384,
+      1774657991683000000
+    ],
+    "Documentacion para la IA/docs/ROADMAP.md": [
+      731,
+      1774657991676000000
+    ],
+    "Documentacion para la IA/docs/TEST_PLAN.md": [
+      423,
+      1774657991681000000
+    ],
+    "Documentacion para la IA/docs/DESIGN_SPEC.md": [
+      474,
+      1774657991672000000
+    ],
+    "Documentacion para la IA/docs/TDD.md": [
+      458,
+      1774657991675000000
+    ],
+    "Documentacion para la IA/docs/GLOSSARY.md": [
+      429,
+      1774657991679000000
+    ],
+    "Documentacion para la IA/docs/PRD.md": [
+      695,
+      1774657991669000000
+    ],
+    "Documentacion para la IA/_meta/owner.md": [
+      286,
+      1774657991660000000
+    ],
+    "Documentacion para la IA/_meta/questions-log.md": [
+      1649,
+      1774657991662000000
+    ],
+    "🦊-widget/.env.local": [
+      35,
+      1771286752000000000
+    ],
+    "🦊-widget/tsconfig.json": [
+      542,
+      1771286752000000000
+    ],
+    "🦊-widget/README.md": [
+      553,
+      1771286752000000000
+    ],
+    "🦊-widget/metadata.json": [
+      263,
+      1771286752000000000
+    ],
+    "🦊-widget/vite.config.ts": [
+      580,
+      1771286752000000000
+    ],
+    "🦊-widget/index.tsx": [
+      349,
+      1771286752000000000
+    ],
+    "🦊-widget/App.tsx": [
+      20223,
+      1771286752000000000
+    ],
+    "🦊-widget/index.html": [
+      1664,
+      1771286752000000000
+    ],
+    "🦊-widget/.gitignore": [
+      253,
+      1771286752000000000
+    ],
+    "🦊-widget/package.json": [
+      407,
+      1771286752000000000
+    ],
+    "🦊-widget/components/NeonButton.tsx": [
+      1429,
+      1771286752000000000
+    ],
+    "🦊-widget/components/ParallaxCard.tsx": [
+      13190,
+      1771286753000000000
+    ],
+    "🦊-widget/components/icons/LocationIcon.tsx": [
+      639,
+      1771286752000000000
+    ],
+    "docs/explorador_modular_completo.md": [
+      12534,
+      1753883811000000000
+    ],
+    "docs/explorador_archivos_prompt_nerd_lat.md": [
+      13014,
+      1753883811000000000
+    ],
+    "requirements/ethyria_requirements.txt": [
+      3123,
+      1753883810000000000
+    ],
+    "widgets para filels explorere/package.json": [
+      407,
+      1770358166000000000
+    ],
+    "widgets para filels explorere/metadata.json": [
+      263,
+      1770358166000000000
+    ],
+    "widgets para filels explorere/.gitignore": [
+      253,
+      1770358166000000000
+    ],
+    "widgets para filels explorere/index.html": [
+      1664,
+      1770358166000000000
+    ],
+    "widgets para filels explorere/vite.config.ts": [
+      580,
+      1770358166000000000
+    ],
+    "widgets para filels explorere/App.tsx": [
+      20223,
+      1770358166000000000
+    ],
+    "widgets para filels explorere/index.tsx": [
+      349,
+      1770358166000000000
+    ],
+    "widgets para filels explorere/README.md": [
+      553,
+      1770358166000000000
+    ],
+    "widgets para filels explorere/.env.local": [
+      35,
+      1770358166000000000
+    ],
+    "widgets para filels explorere/tsconfig.json": [
+      542,
+      1770358166000000000
+    ],
+    "widgets para filels explorere/components/NeonButton.tsx": [
+      1429,
+      1770358166000000000
+    ],
+    "widgets para filels explorere/components/ParallaxCard.tsx": [
+      13190,
+      1770358167000000000
+    ],
+    "widgets para filels explorere/components/icons/LocationIcon.tsx": [
+      639,
+      1770358166000000000
+    ],
+    "💻 Voyager Files/Documentación Detallada de Ventanas - Voyager Files.md": [
+      88170,
+      1756722700000000000
+    ],
+    "💻 Voyager Files/informe_ejecutivo_voyager_files.md": [
+      11407,
+      1756722700000000000
+    ],
+    "💻 Voyager Files/Voyager_Files_Documentacion_Resumen.txt": [
+      3159,
+      1756722700000000000
+    ],
+    "💻 Voyager Files/ethyria_manual_completo_desarrollo.md": [
+      146172,
+      1756722700000000000
+    ],
+    "💻 Voyager Files/292484417646676-all-task-files.zip": [
+      740895,
+      1756722700000000000
+    ],
+    "💻 Voyager Files/Documentación General del Proyecto Voyager Files y Ethyria.md": [
+      10324,
+      1756722700000000000
+    ],
+    "💻 Voyager Files/todo.md": [
+      1419,
+      1756722700000000000
+    ],
+    "architecture/modulos_tecnicos.md": [
+      6563,
+      1753883810000000000
+    ],
+    "architecture/estructura_proyecto.md": [
+      10525,
+      1753883810000000000
+    ],
+    "itagme/demo_visual.py": [
+      19053,
+      1753883811000000000
+    ],
+    "itagme/base_datos_itagme.sql": [
+      15271,
+      1753883811000000000
+    ],
+    "itagme/README_itagme.md": [
+      4756,
+      1753883810000000000
+    ],
+    "itagme/especificacion_tecnica_itagme.md": [
+      23755,
+      1753883811000000000
+    ],
+    "itagme/implementacion_python.py": [
+      43621,
+      1753883811000000000
+    ],
+    "desarrollo/🦊-voyager-file-explorer.zip": [
+      147942,
+      1770331715852000000
+    ]
+  }
+}

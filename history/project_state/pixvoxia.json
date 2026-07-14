@@ -1,0 +1,211 @@
+{
+  "project_id": "pixvoxia",
+  "project": "PIXVOXIA (Canvas Pro)",
+  "root": "C:\\Desarrollos DEV daniel\\21_Pixvoxia",
+  "captured_at": "2026-07-14T07:10:37-06:00",
+  "last_change": "2026-04-30T00:41:35-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 37,
+    "code_count": 13,
+    "doc_count": 17,
+    "asset_count": 4,
+    "test_count": 0,
+    "manifest_count": 2,
+    "latest_mtime": "2026-04-30T00:41:35-06:00",
+    "latest_file": "Pixvoxia_Canvas_Pro/src/App.jsx",
+    "extensions": {
+      ".md": 16,
+      ".html": 5,
+      ".js": 5,
+      ".png": 4,
+      ".json": 2,
+      ".jsx": 2,
+      ".txt": 1,
+      ".zip": 1,
+      ".css": 1
+    }
+  },
+  "progress": {
+    "project_id": "pixvoxia",
+    "project": "PIXVOXIA (Canvas Pro)",
+    "mvp": 42,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 15,
+      "diseno": 4,
+      "arquitectura": 5,
+      "implementacion": 15,
+      "pruebas": 0,
+      "empaquetado": 3,
+      "continuidad": 0,
+      "validacion": 0
+    },
+    "missing": [
+      "pruebas",
+      "próximo paso documentado",
+      "validación"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    ".agents/STACK_BEST_PRACTICES.md": [
+      2315,
+      1777480178946000000
+    ],
+    ".agents/rules/relesworspace.md": [
+      47,
+      1777480066289000000
+    ],
+    ".agents/workflows/rulesagente.md": [
+      22,
+      1777480053413000000
+    ],
+    "codigos base no tocar/codigo categoria.html": [
+      6007,
+      1777302108741000000
+    ],
+    "codigos base no tocar/conversacion con gemini.txt": [
+      21423,
+      1777290758576000000
+    ],
+    "codigos base no tocar/estructura base.html": [
+      38085,
+      1777477978225000000
+    ],
+    "iOS_App_Blueprint/analisis_maquetado_pivoxia.md": [
+      2682,
+      1777296938655000000
+    ],
+    "iOS_App_Blueprint/diccionario_funciones_pivoxia.md": [
+      2227,
+      1777296938660000000
+    ],
+    "iOS_App_Blueprint/ios_creative_engine_prd.md": [
+      3643,
+      1777296938669000000
+    ],
+    "iOS_App_Blueprint/ios_studio_data_foundation.md": [
+      2268,
+      1777296938674000000
+    ],
+    "iOS_App_Blueprint/optimizacion_flujos_pivoxia.md": [
+      3110,
+      1777296938679000000
+    ],
+    "iOS_App_Blueprint/pixel_voxel_manifesto.md": [
+      1582,
+      1777297063621000000
+    ],
+    "Pixvoxia documentacion/analisis_maquetado_pivoxia.md": [
+      2683,
+      1777297392606000000
+    ],
+    "Pixvoxia documentacion/Comparativa de Aplicaciones de Pixel Art y Voxel Art.zip": [
+      485971,
+      1777290638598000000
+    ],
+    "Pixvoxia documentacion/diccionario_funciones_pivoxia.md": [
+      2228,
+      1777297392606000000
+    ],
+    "Pixvoxia documentacion/ios_creative_engine_prd.md": [
+      3645,
+      1777297392610000000
+    ],
+    "Pixvoxia documentacion/ios_studio_data_foundation.md": [
+      2268,
+      1777297392611000000
+    ],
+    "Pixvoxia documentacion/optimizacion_flujos_pivoxia.md": [
+      3111,
+      1777297392612000000
+    ],
+    "Pixvoxia documentacion/pixel_voxel_manifesto.md": [
+      1604,
+      1777297392614000000
+    ],
+    "Pixvoxia documentacion/Table 1.html": [
+      24874,
+      1777296938594000000
+    ],
+    "Pixvoxia_Assets/Images/G-WTSVqacAAIpMZ.png": [
+      872319,
+      1777287334937000000
+    ],
+    "Pixvoxia_Assets/Images/ios_app_interaction_infographic_1777266749396.png": [
+      621093,
+      1777266749400000000
+    ],
+    "Pixvoxia_Assets/Images/media__1777244857382.png": [
+      194274,
+      1777244864575000000
+    ],
+    "Pixvoxia_Assets/Images/proyectia_master_infographic_1777272657049.png": [
+      625837,
+      1777272657056000000
+    ],
+    "Pixvoxia_Canvas_Pro/DESIGN.md": [
+      1923,
+      1777478729339000000
+    ],
+    "Pixvoxia_Canvas_Pro/index.html": [
+      373,
+      1777299175260000000
+    ],
+    "Pixvoxia_Canvas_Pro/maquetado base.html": [
+      29662,
+      1777297917812000000
+    ],
+    "Pixvoxia_Canvas_Pro/package-lock.json": [
+      124462,
+      1777512142830000000
+    ],
+    "Pixvoxia_Canvas_Pro/package.json": [
+      785,
+      1777512142728000000
+    ],
+    "Pixvoxia_Canvas_Pro/postcss.config.js": [
+      80,
+      1777299175275000000
+    ],
+    "Pixvoxia_Canvas_Pro/tailwind.config.js": [
+      384,
+      1777299175291000000
+    ],
+    "Pixvoxia_Canvas_Pro/vite.config.js": [
+      133,
+      1777299175244000000
+    ],
+    "Pixvoxia_Canvas_Pro/src/App.jsx": [
+      77220,
+      1777531295184000000
+    ],
+    "Pixvoxia_Canvas_Pro/src/index.css": [
+      662,
+      1777453573319000000
+    ],
+    "Pixvoxia_Canvas_Pro/src/main.jsx": [
+      235,
+      1777298494522000000
+    ],
+    "Pixvoxia_Canvas_Pro/src/store.js": [
+      559,
+      1777530089475000000
+    ],
+    "Pixvoxia_Canvas_Pro/src/store/usePixvoxiaStore.js": [
+      365,
+      1777298505666000000
+    ]
+  }
+}

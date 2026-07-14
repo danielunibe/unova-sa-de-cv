@@ -1,0 +1,1489 @@
+{
+  "aparment": {
+    "project_id": "aparment",
+    "project": "APARMENT (Renta IA Hub)",
+    "mvp": 51,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 15,
+      "diseno": 4,
+      "arquitectura": 5,
+      "implementacion": 15,
+      "pruebas": 6,
+      "empaquetado": 3,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "próximo paso documentado"
+    ]
+  },
+  "app-brainstorming": {
+    "project_id": "app-brainstorming",
+    "project": "App Brainstorming",
+    "mvp": 18,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "app-david": {
+    "project_id": "app-david",
+    "project": "App David",
+    "mvp": 14,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "app-juego-ingles-con-ia": {
+    "project_id": "app-juego-ingles-con-ia",
+    "project": "App Juego Inglés IA",
+    "mvp": 14,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "calculadora-inteligente": {
+    "project_id": "calculadora-inteligente",
+    "project": "Calculadora Inteligente",
+    "mvp": 14,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "couplepay": {
+    "project_id": "couplepay",
+    "project": "Couplepay 💳",
+    "mvp": 48,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 5,
+      "implementacion": 22,
+      "pruebas": 6,
+      "empaquetado": 3,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "próximo paso documentado"
+    ]
+  },
+  "diaria": {
+    "project_id": "diaria",
+    "project": "Diaria",
+    "mvp": 0,
+    "vision": "N/D",
+    "confidence": "Baja",
+    "breakdown": {
+      "definicion": 0,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 0,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 0
+    },
+    "missing": [
+      "definición completa",
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "pruebas",
+      "empaquetado/distribución",
+      "próximo paso documentado",
+      "validación"
+    ]
+  },
+  "hilaria": {
+    "project_id": "hilaria",
+    "project": "HILARIA",
+    "mvp": 14,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "ipad-magic-pro": {
+    "project_id": "ipad-magic-pro",
+    "project": "iPad Magic Pro",
+    "mvp": 14,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "medicia": {
+    "project_id": "medicia",
+    "project": "MedicIA 🏥",
+    "mvp": 47,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 5,
+      "implementacion": 22,
+      "pruebas": 6,
+      "empaquetado": 3,
+      "continuidad": 3,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado"
+    ]
+  },
+  "nekiva": {
+    "project_id": "nekiva",
+    "project": "Nekiva",
+    "mvp": 33,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 0,
+      "implementacion": 15,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "arquitectura verificable",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "nutriflow": {
+    "project_id": "nutriflow",
+    "project": "NUTRIFLOW",
+    "mvp": 58,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 15,
+      "diseno": 4,
+      "arquitectura": 5,
+      "implementacion": 22,
+      "pruebas": 6,
+      "empaquetado": 3,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "próximo paso documentado"
+    ]
+  },
+  "pixvoxia": {
+    "project_id": "pixvoxia",
+    "project": "PIXVOXIA (Canvas Pro)",
+    "mvp": 42,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 15,
+      "diseno": 4,
+      "arquitectura": 5,
+      "implementacion": 15,
+      "pruebas": 0,
+      "empaquetado": 3,
+      "continuidad": 0,
+      "validacion": 0
+    },
+    "missing": [
+      "pruebas",
+      "próximo paso documentado",
+      "validación"
+    ]
+  },
+  "prismacraft": {
+    "project_id": "prismacraft",
+    "project": "PrismaCraft 🎨",
+    "mvp": 48,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 5,
+      "implementacion": 22,
+      "pruebas": 6,
+      "empaquetado": 3,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "próximo paso documentado"
+    ]
+  },
+  "prompt-ia": {
+    "project_id": "prompt-ia",
+    "project": "Prompt-IA ⌨️",
+    "mvp": 37,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 5,
+      "implementacion": 15,
+      "pruebas": 6,
+      "empaquetado": 3,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "próximo paso documentado"
+    ]
+  },
+  "punkped-ia": {
+    "project_id": "punkped-ia",
+    "project": "Punkped-IA",
+    "mvp": 40,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 5,
+      "implementacion": 15,
+      "pruebas": 6,
+      "empaquetado": 3,
+      "continuidad": 3,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado"
+    ]
+  },
+  "punkpedia": {
+    "project_id": "punkpedia",
+    "project": "Punkpedia",
+    "mvp": 14,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "robtinator": {
+    "project_id": "robtinator",
+    "project": "Robtinator",
+    "mvp": 14,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "speeddocumentai": {
+    "project_id": "speeddocumentai",
+    "project": "SpeedDocumentAI 📄",
+    "mvp": 47,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 5,
+      "implementacion": 22,
+      "pruebas": 6,
+      "empaquetado": 3,
+      "continuidad": 3,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado"
+    ]
+  },
+  "uiverse": {
+    "project_id": "uiverse",
+    "project": "Uiverse",
+    "mvp": 29,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 15,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "vitalia": {
+    "project_id": "vitalia",
+    "project": "VitalIA",
+    "mvp": 14,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "vivo-promotor": {
+    "project_id": "vivo-promotor",
+    "project": "Vivo Promotor",
+    "mvp": 76,
+    "vision": "0",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 10,
+      "arquitectura": 10,
+      "implementacion": 30,
+      "pruebas": 10,
+      "empaquetado": 3,
+      "continuidad": 5,
+      "validacion": 3
+    },
+    "missing": []
+  },
+  "volt-ia": {
+    "project_id": "volt-ia",
+    "project": "VOLT-IA",
+    "mvp": 57,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 15,
+      "diseno": 0,
+      "arquitectura": 5,
+      "implementacion": 22,
+      "pruebas": 6,
+      "empaquetado": 3,
+      "continuidad": 3,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado"
+    ]
+  },
+  "closet-a-la-pantalla": {
+    "project_id": "closet-a-la-pantalla",
+    "project": "Closet a la Pantalla",
+    "mvp": 14,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "proyectia-tabs": {
+    "project_id": "proyectia-tabs",
+    "project": "PROYECTIA TABS",
+    "mvp": 24,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 15,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "lotto-di-pasta": {
+    "project_id": "lotto-di-pasta",
+    "project": "Lotto di Pasta",
+    "mvp": 18,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "dragon-alebrije": {
+    "project_id": "dragon-alebrije",
+    "project": "DRAGÓN ALEBRIJE",
+    "mvp": 51,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 15,
+      "diseno": 4,
+      "arquitectura": 5,
+      "implementacion": 15,
+      "pruebas": 6,
+      "empaquetado": 3,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "próximo paso documentado"
+    ]
+  },
+  "the-good-liar": {
+    "project_id": "the-good-liar",
+    "project": "The Good Liar",
+    "mvp": 14,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "titanes": {
+    "project_id": "titanes",
+    "project": "Titanes",
+    "mvp": 22,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 8,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "musica-daniel": {
+    "project_id": "musica-daniel",
+    "project": "Música Daniel",
+    "mvp": 18,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "asteria": {
+    "project_id": "asteria",
+    "project": "Asteria",
+    "mvp": 68,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 5,
+      "implementacion": 30,
+      "pruebas": 15,
+      "empaquetado": 3,
+      "continuidad": 3,
+      "validacion": 3
+    },
+    "missing": []
+  },
+  "debatia": {
+    "project_id": "debatia",
+    "project": "DEBATIA (Multi-IA Deliberation)",
+    "mvp": 14,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "ethyria": {
+    "project_id": "ethyria",
+    "project": "ETHYRIA (IA Evolutiva)",
+    "mvp": 68,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 10,
+      "implementacion": 30,
+      "pruebas": 10,
+      "empaquetado": 3,
+      "continuidad": 3,
+      "validacion": 3
+    },
+    "missing": []
+  },
+  "faast": {
+    "project_id": "faast",
+    "project": "FAAST / SLAP!FAAST",
+    "mvp": 70,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 10,
+      "diseno": 4,
+      "arquitectura": 5,
+      "implementacion": 30,
+      "pruebas": 15,
+      "empaquetado": 3,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "próximo paso documentado"
+    ]
+  },
+  "hyperpane": {
+    "project_id": "hyperpane",
+    "project": "Hyperpane 🪟",
+    "mvp": 60,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 5,
+      "implementacion": 30,
+      "pruebas": 10,
+      "empaquetado": 3,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "próximo paso documentado"
+    ]
+  },
+  "interface-new-prop-cerrar": {
+    "project_id": "interface-new-prop-cerrar",
+    "project": "Interface New Prop Cerrar",
+    "mvp": 18,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "julia": {
+    "project_id": "julia",
+    "project": "JULIA (Solar System Memory)",
+    "mvp": 70,
+    "vision": "0",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 5,
+      "implementacion": 30,
+      "pruebas": 15,
+      "empaquetado": 3,
+      "continuidad": 5,
+      "validacion": 3
+    },
+    "missing": []
+  },
+  "materialcode": {
+    "project_id": "materialcode",
+    "project": "MaterialCode 🧊",
+    "mvp": 17,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 3,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución"
+    ]
+  },
+  "mentor-ia": {
+    "project_id": "mentor-ia",
+    "project": "Mentor-IA 🎓",
+    "mvp": 17,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 3,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución"
+    ]
+  },
+  "my-soul": {
+    "project_id": "my-soul",
+    "project": "MY SOUL (Digital Identity)",
+    "mvp": 52,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 5,
+      "implementacion": 22,
+      "pruebas": 10,
+      "empaquetado": 3,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "próximo paso documentado"
+    ]
+  },
+  "nodia": {
+    "project_id": "nodia",
+    "project": "Nodia",
+    "mvp": 76,
+    "vision": "14",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 10,
+      "arquitectura": 10,
+      "implementacion": 30,
+      "pruebas": 10,
+      "empaquetado": 3,
+      "continuidad": 5,
+      "validacion": 3
+    },
+    "missing": []
+  },
+  "orbia": {
+    "project_id": "orbia",
+    "project": "Orbia",
+    "mvp": 14,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "panel-ia": {
+    "project_id": "panel-ia",
+    "project": "Panel-IA 🎛️",
+    "mvp": 14,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "predictia": {
+    "project_id": "predictia",
+    "project": "PredictIA ✍️",
+    "mvp": 14,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "proyectia": {
+    "project_id": "proyectia",
+    "project": "PROYECTIA (Command Center)",
+    "mvp": 68,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 5,
+      "implementacion": 30,
+      "pruebas": 15,
+      "empaquetado": 3,
+      "continuidad": 3,
+      "validacion": 3
+    },
+    "missing": []
+  },
+  "pulsar-tiktok": {
+    "project_id": "pulsar-tiktok",
+    "project": "PULSAR TIKTOK",
+    "mvp": 64,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 10,
+      "diseno": 0,
+      "arquitectura": 5,
+      "implementacion": 30,
+      "pruebas": 10,
+      "empaquetado": 3,
+      "continuidad": 3,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado"
+    ]
+  },
+  "quick-look-app": {
+    "project_id": "quick-look-app",
+    "project": "Quick Look App ⚡",
+    "mvp": 14,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "react-bite": {
+    "project_id": "react-bite",
+    "project": "REACTBITE (Micro-app Runtime)",
+    "mvp": 63,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 5,
+      "implementacion": 30,
+      "pruebas": 10,
+      "empaquetado": 3,
+      "continuidad": 3,
+      "validacion": 3
+    },
+    "missing": []
+  },
+  "reflectia": {
+    "project_id": "reflectia",
+    "project": "REFLECTIA (Luxury Simulation)",
+    "mvp": 65,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 5,
+      "implementacion": 30,
+      "pruebas": 15,
+      "empaquetado": 3,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "próximo paso documentado"
+    ]
+  },
+  "retriver": {
+    "project_id": "retriver",
+    "project": "Retriver",
+    "mvp": 63,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 5,
+      "implementacion": 30,
+      "pruebas": 10,
+      "empaquetado": 3,
+      "continuidad": 3,
+      "validacion": 3
+    },
+    "missing": []
+  },
+  "serenesymphony": {
+    "project_id": "serenesymphony",
+    "project": "SERENESYMPHONY (Visual Orchestration)",
+    "mvp": 76,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 10,
+      "arquitectura": 10,
+      "implementacion": 30,
+      "pruebas": 15,
+      "empaquetado": 3,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "próximo paso documentado"
+    ]
+  },
+  "switch-click-swiss": {
+    "project_id": "switch-click-swiss",
+    "project": "SWITCH CLICK SWISS (Natural Interaction)",
+    "mvp": 55,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 5,
+      "implementacion": 22,
+      "pruebas": 10,
+      "empaquetado": 3,
+      "continuidad": 3,
+      "validacion": 3
+    },
+    "missing": []
+  },
+  "traductor-en-tiempo-real": {
+    "project_id": "traductor-en-tiempo-real",
+    "project": "Traductor en Tiempo Real",
+    "mvp": 14,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "transfiria": {
+    "project_id": "transfiria",
+    "project": "TransfirIA 🔊",
+    "mvp": 22,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 8,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "visual-ia-suite": {
+    "project_id": "visual-ia-suite",
+    "project": "Visual Ia Suite",
+    "mvp": 44,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 5,
+      "implementacion": 15,
+      "pruebas": 6,
+      "empaquetado": 3,
+      "continuidad": 3,
+      "validacion": 3
+    },
+    "missing": []
+  },
+  "voyager-files": {
+    "project_id": "voyager-files",
+    "project": "Voyager Files",
+    "mvp": 41,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 5,
+      "implementacion": 15,
+      "pruebas": 6,
+      "empaquetado": 3,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "próximo paso documentado"
+    ]
+  },
+  "windows-a": {
+    "project_id": "windows-a",
+    "project": "Windows A 💻",
+    "mvp": 22,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 8,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "witchtricia": {
+    "project_id": "witchtricia",
+    "project": "WITCHTRICIA",
+    "mvp": 19,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 10,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "casino": {
+    "project_id": "casino",
+    "project": "Casino",
+    "mvp": 19,
+    "vision": "0",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 5,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución"
+    ]
+  },
+  "coraline": {
+    "project_id": "coraline",
+    "project": "CORALINE (Pink Palace)",
+    "mvp": 39,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 15,
+      "diseno": 4,
+      "arquitectura": 0,
+      "implementacion": 8,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 3,
+      "validacion": 3
+    },
+    "missing": [
+      "arquitectura verificable",
+      "empaquetado/distribución"
+    ]
+  },
+  "die-rabbits-die": {
+    "project_id": "die-rabbits-die",
+    "project": "Die Rabbits Die",
+    "mvp": 18,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "hot-dog-hero": {
+    "project_id": "hot-dog-hero",
+    "project": "Hot Dog Hero!",
+    "mvp": 14,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "kaetso": {
+    "project_id": "kaetso",
+    "project": "Kaetso ⚔️",
+    "mvp": 33,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 0,
+      "implementacion": 15,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "arquitectura verificable",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "la-chica-y-el-zorro": {
+    "project_id": "la-chica-y-el-zorro",
+    "project": "La Chica y el Zorro",
+    "mvp": 18,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "nanny-ninja": {
+    "project_id": "nanny-ninja",
+    "project": "Nanny Ninja",
+    "mvp": 14,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "neko-nesushi": {
+    "project_id": "neko-nesushi",
+    "project": "Neko Nesushi 🐈‍⬛",
+    "mvp": 14,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "unova-games-studio": {
+    "project_id": "unova-games-studio",
+    "project": "Unova Games Studio",
+    "mvp": 25,
+    "vision": "N/D",
+    "confidence": "Baja",
+    "breakdown": {
+      "definicion": 10,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 15,
+      "pruebas": 0,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 0
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "pruebas",
+      "empaquetado/distribución",
+      "próximo paso documentado",
+      "validación"
+    ]
+  },
+  "viajeros": {
+    "project_id": "viajeros",
+    "project": "Viajeros",
+    "mvp": 14,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  }
+}

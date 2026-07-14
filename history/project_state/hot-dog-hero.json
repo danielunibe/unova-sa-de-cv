@@ -1,0 +1,118 @@
+{
+  "project_id": "hot-dog-hero",
+  "project": "Hot Dog Hero!",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\05_videojuegos\\03_Hot_dog_hero!",
+  "captured_at": "2026-07-14T07:11:19-06:00",
+  "last_change": "2026-03-27T18:36:20-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 15,
+    "code_count": 0,
+    "doc_count": 14,
+    "asset_count": 1,
+    "test_count": 2,
+    "manifest_count": 0,
+    "latest_mtime": "2026-03-27T18:36:20-06:00",
+    "latest_file": "Documentacion para la IA/CHANGELOG.md",
+    "extensions": {
+      ".md": 14,
+      ".png": 1
+    }
+  },
+  "progress": {
+    "project_id": "hot-dog-hero",
+    "project": "Hot Dog Hero!",
+    "mvp": 14,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "47_Hot Dog Hero!.md": [
+      1943,
+      1774166930140000000
+    ],
+    "Gemini_Generated_Image_cvz57gcvz57gcvz5.png": [
+      6656406,
+      1764915052928000000
+    ],
+    "Documentacion para la IA/03_hot_dog_hero!.md": [
+      95020,
+      1757147786000000000
+    ],
+    "Documentacion para la IA/CHANGELOG.md": [
+      140,
+      1774658180613000000
+    ],
+    "Documentacion para la IA/CLAUDE.md": [
+      140,
+      1774658180611000000
+    ],
+    "Documentacion para la IA/PROTOCOL.md": [
+      375,
+      1774658180582000000
+    ],
+    "Documentacion para la IA/docs/ROADMAP.md": [
+      183,
+      1774658180600000000
+    ],
+    "Documentacion para la IA/docs/USER_DOCS.md": [
+      147,
+      1774658180609000000
+    ],
+    "Documentacion para la IA/docs/DESIGN_SPEC.md": [
+      140,
+      1774658180597000000
+    ],
+    "Documentacion para la IA/docs/GLOSSARY.md": [
+      167,
+      1774658180603000000
+    ],
+    "Documentacion para la IA/docs/TDD.md": [
+      143,
+      1774658180599000000
+    ],
+    "Documentacion para la IA/docs/TEST_PLAN.md": [
+      165,
+      1774658180606000000
+    ],
+    "Documentacion para la IA/docs/PRD.md": [
+      184,
+      1774658180594000000
+    ],
+    "Documentacion para la IA/_meta/owner.md": [
+      215,
+      1774658180585000000
+    ],
+    "Documentacion para la IA/_meta/questions-log.md": [
+      676,
+      1774658180590000000
+    ]
+  }
+}

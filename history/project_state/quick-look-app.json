@@ -1,0 +1,109 @@
+{
+  "project_id": "quick-look-app",
+  "project": "Quick Look App ⚡",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\01_software\\01_Quick_Look_App",
+  "captured_at": "2026-07-14T07:11:01-06:00",
+  "last_change": "2026-03-27T18:33:09-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 13,
+    "code_count": 0,
+    "doc_count": 13,
+    "asset_count": 0,
+    "test_count": 2,
+    "manifest_count": 0,
+    "latest_mtime": "2026-03-27T18:33:09-06:00",
+    "latest_file": "Documentacion para la IA/CHANGELOG.md",
+    "extensions": {
+      ".md": 13
+    }
+  },
+  "progress": {
+    "project_id": "quick-look-app",
+    "project": "Quick Look App ⚡",
+    "mvp": 14,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "Documentacion para la IA/01_Quick_Look_App.md": [
+      1001,
+      1774166930034000000
+    ],
+    "Documentacion para la IA/CLAUDE.md": [
+      506,
+      1774657989168000000
+    ],
+    "Documentacion para la IA/CHANGELOG.md": [
+      309,
+      1774657989169000000
+    ],
+    "Documentacion para la IA/PROTOCOL.md": [
+      946,
+      1774657988450000000
+    ],
+    "Documentacion para la IA/_meta/owner.md": [
+      286,
+      1774657988500000000
+    ],
+    "Documentacion para la IA/_meta/questions-log.md": [
+      1682,
+      1774657988508000000
+    ],
+    "Documentacion para la IA/docs/DESIGN_SPEC.md": [
+      475,
+      1774657988887000000
+    ],
+    "Documentacion para la IA/docs/TDD.md": [
+      454,
+      1774657988888000000
+    ],
+    "Documentacion para la IA/docs/USER_DOCS.md": [
+      402,
+      1774657989167000000
+    ],
+    "Documentacion para la IA/docs/GLOSSARY.md": [
+      447,
+      1774657988891000000
+    ],
+    "Documentacion para la IA/docs/TEST_PLAN.md": [
+      424,
+      1774657988893000000
+    ],
+    "Documentacion para la IA/docs/PRD.md": [
+      743,
+      1774657988885000000
+    ],
+    "Documentacion para la IA/docs/ROADMAP.md": [
+      743,
+      1774657988889000000
+    ]
+  }
+}

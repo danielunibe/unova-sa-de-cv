@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProyectDHIA Interface</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --bg-color: #1E1E1E;
+        --border-color: #222222;
+        --background-squares-color: #2D2D2D;
+        --header-elements-color: #222222;
+        --pill-bg-color: #FBBF24;
+        --text-primary: #F3F4F6;
+        --text-secondary: #9CA3AF;
+        --accent-color: #FBBF24; 
+        --danger-color: #EF4444;
+      }
+      * { box-sizing: border-box; cursor: none !important; }
+
+      body {
+        background-image: url('https://images.unsplash.com/photo-1479030160180-b1860951d696');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        padding: 1rem;
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+        overflow: hidden;
+        cursor: none;
+      }
+      
+      body *:hover {
+        cursor: none !important;
+      }
+
+      @keyframes fadeIn { to { opacity: 1; transform: scale(1); } }
+      @keyframes cursor-jump-animation {
+        0%, 100% {
+          transform: translate(-8px, -8px) scale(1);
+        }
+        50% {
+          transform: translate(-8px, -8px) scale(0.9);
+        }
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

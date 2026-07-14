@@ -1,0 +1,2 @@
+﻿timestamp,project_id,project,event_type,reason,precision,added,modified,deleted,sample_files
+2026-05-27T08:20:38-06:00,ethyria,ETHYRIA (IA Evolutiva),historical_activity,initial_backfill,estimated,0,2,0,src/app/SamanthaShell.tsx; src/styles/globals.css

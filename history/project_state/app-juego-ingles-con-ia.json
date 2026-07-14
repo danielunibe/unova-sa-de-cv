@@ -1,0 +1,105 @@
+{
+  "project_id": "app-juego-ingles-con-ia",
+  "project": "App Juego Inglés IA",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\02_App IOS y android\\04_App_juego_inglÃ©s_con_ia",
+  "captured_at": "2026-07-14T07:10:36-06:00",
+  "last_change": "2026-03-27T22:52:53-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 12,
+    "code_count": 0,
+    "doc_count": 12,
+    "asset_count": 0,
+    "test_count": 2,
+    "manifest_count": 0,
+    "latest_mtime": "2026-03-27T22:52:53-06:00",
+    "latest_file": "Documentacion para la IA/CHANGELOG.md",
+    "extensions": {
+      ".md": 12
+    }
+  },
+  "progress": {
+    "project_id": "app-juego-ingles-con-ia",
+    "project": "App Juego Inglés IA",
+    "mvp": 14,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "Documentacion para la IA/CHANGELOG.md": [
+      216,
+      1774673573715000000
+    ],
+    "Documentacion para la IA/CLAUDE.md": [
+      295,
+      1774673573712000000
+    ],
+    "Documentacion para la IA/PROTOCOL.md": [
+      955,
+      1774658098912000000
+    ],
+    "Documentacion para la IA/docs/PRD.md": [
+      608,
+      1774673573707000000
+    ],
+    "Documentacion para la IA/docs/USER_DOCS.md": [
+      219,
+      1774658098940000000
+    ],
+    "Documentacion para la IA/docs/TEST_PLAN.md": [
+      246,
+      1774658098939000000
+    ],
+    "Documentacion para la IA/docs/GLOSSARY.md": [
+      292,
+      1774658098937000000
+    ],
+    "Documentacion para la IA/docs/DESIGN_SPEC.md": [
+      427,
+      1774673573709000000
+    ],
+    "Documentacion para la IA/docs/ROADMAP.md": [
+      395,
+      1774673573711000000
+    ],
+    "Documentacion para la IA/docs/TDD.md": [
+      265,
+      1774658098930000000
+    ],
+    "Documentacion para la IA/_meta/owner.md": [
+      286,
+      1774658098919000000
+    ],
+    "Documentacion para la IA/_meta/questions-log.md": [
+      1404,
+      1774673573706000000
+    ]
+  }
+}

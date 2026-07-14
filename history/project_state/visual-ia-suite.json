@@ -1,0 +1,378 @@
+{
+  "project_id": "visual-ia-suite",
+  "project": "Visual Ia Suite",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\01_software\\24_Visual_Ia_Suite",
+  "captured_at": "2026-07-14T07:11:18-06:00",
+  "last_change": "2026-03-27T18:33:11-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 78,
+    "code_count": 16,
+    "doc_count": 37,
+    "asset_count": 9,
+    "test_count": 2,
+    "manifest_count": 4,
+    "latest_mtime": "2026-03-27T18:33:11-06:00",
+    "latest_file": "Documentacion para la IA/CHANGELOG.md",
+    "extensions": {
+      ".md": 27,
+      ".png": 9,
+      ".txt": 7,
+      ".json": 7,
+      ".tsx": 6,
+      ".ts": 5,
+      ".zip": 4,
+      ".ps1": 2,
+      ".html": 2,
+      "[sin extensión]": 2,
+      ".docx": 2,
+      ".local": 1,
+      ".js": 1,
+      ".yaml": 1,
+      ".bat": 1,
+      ".pdf": 1
+    }
+  },
+  "progress": {
+    "project_id": "visual-ia-suite",
+    "project": "Visual Ia Suite",
+    "mvp": 44,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 5,
+      "implementacion": 15,
+      "pruebas": 6,
+      "empaquetado": 3,
+      "continuidad": 3,
+      "validacion": 3
+    },
+    "missing": []
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "Web 1920 – 5.png": [
+      826801,
+      1754060303018000000
+    ],
+    "reporte_estructura_VisualAI.txt": [
+      181,
+      1754060302625000000
+    ],
+    "23_VisualIA.md": [
+      2704,
+      1774313975230000000
+    ],
+    "Captura de pantalla 2025-07-14 212958.png": [
+      1092020,
+      1755673918000000000
+    ],
+    "Captura de pantalla 2025-07-14 213538.png": [
+      1738379,
+      1755673918000000000
+    ],
+    "constants.ts": [
+      24261,
+      1770347494000000000
+    ],
+    "pipeline_visualai.txt": [
+      4478,
+      1754060302030000000
+    ],
+    "import face_recognition.txt": [
+      1785,
+      1754060301460000000
+    ],
+    "Iniciar_VisualAI.ps1": [
+      731,
+      1754060301528000000
+    ],
+    "pantalla de bienvenida .png": [
+      2069149,
+      1754060302349000000
+    ],
+    ".env.local": [
+      35,
+      1770347494000000000
+    ],
+    "25_VisualIA.md": [
+      5194,
+      1756791286000000000
+    ],
+    "24_visualia.md": [
+      55246,
+      1757148970000000000
+    ],
+    "index.html": [
+      2000,
+      1770347494000000000
+    ],
+    "vite.config.ts": [
+      580,
+      1770347494000000000
+    ],
+    "metadata.json": [
+      212,
+      1770347494000000000
+    ],
+    "Captura de pantalla 2025-07-25 152614.png": [
+      1948767,
+      1755673918000000000
+    ],
+    "Captura de pantalla 2025-07-14 213638.png": [
+      5258562,
+      1755673918000000000
+    ],
+    "package.json": [
+      440,
+      1770347494000000000
+    ],
+    "ProyectoEstructura.txt": [
+      238175,
+      1754060302323000000
+    ],
+    "visualaigemini.txt": [
+      117606,
+      1756646769491000000
+    ],
+    "Web 1920 – 7.png": [
+      1601078,
+      1754060303360000000
+    ],
+    "script avance.txt": [
+      985,
+      1754060302651000000
+    ],
+    "visual ai.zip": [
+      552175,
+      1753883831000000000
+    ],
+    "App.tsx": [
+      3942,
+      1770347494000000000
+    ],
+    "Captura de pantalla 2025-07-15 013529.png": [
+      2612997,
+      1755673918000000000
+    ],
+    "index.tsx": [
+      288,
+      1770347494000000000
+    ],
+    "22-20-32-Retrato_digital_ultra_realista.md": [
+      15075,
+      1757331118000000000
+    ],
+    "pantalla 1.png": [
+      1125358,
+      1754060301801000000
+    ],
+    ".gitignore": [
+      253,
+      1770347494000000000
+    ],
+    "types.ts": [
+      1171,
+      1770347494000000000
+    ],
+    "6-40-52-IAs_de_Lupa.md": [
+      11994,
+      1757151208000000000
+    ],
+    "292590539485418-all-task-files.zip": [
+      552175,
+      1753321064000000000
+    ],
+    "tsconfig.json": [
+      542,
+      1770347494000000000
+    ],
+    "2025-08-31-conversations.zip": [
+      110708,
+      1756646885507000000
+    ],
+    "README.md": [
+      553,
+      1770347494000000000
+    ],
+    "everythingui.zip": [
+      67453,
+      1770325898406000000
+    ],
+    "Documento_Maestro_Gestion_Visual_IA_Danu.docx": [
+      37975,
+      1748595182000000000
+    ],
+    "Documentacion para la IA/24_Visual_Ia_Suite.md": [
+      1904,
+      1774515131959000000
+    ],
+    "Documentacion para la IA/CLAUDE.md": [
+      512,
+      1774657991639000000
+    ],
+    "Documentacion para la IA/CHANGELOG.md": [
+      309,
+      1774657991646000000
+    ],
+    "Documentacion para la IA/PROTOCOL.md": [
+      946,
+      1774657991582000000
+    ],
+    "Documentacion para la IA/_meta/owner.md": [
+      286,
+      1774657991587000000
+    ],
+    "Documentacion para la IA/_meta/questions-log.md": [
+      1655,
+      1774657991618000000
+    ],
+    "Documentacion para la IA/docs/ROADMAP.md": [
+      727,
+      1774657991629000000
+    ],
+    "Documentacion para la IA/docs/USER_DOCS.md": [
+      380,
+      1774657991638000000
+    ],
+    "Documentacion para la IA/docs/GLOSSARY.md": [
+      425,
+      1774657991631000000
+    ],
+    "Documentacion para la IA/docs/TEST_PLAN.md": [
+      424,
+      1774657991632000000
+    ],
+    "Documentacion para la IA/docs/TDD.md": [
+      460,
+      1774657991627000000
+    ],
+    "Documentacion para la IA/docs/DESIGN_SPEC.md": [
+      475,
+      1774657991626000000
+    ],
+    "Documentacion para la IA/docs/PRD.md": [
+      694,
+      1774657991624000000
+    ],
+    "lupa-ui-clone/package.json": [
+      864,
+      1754631184516000000
+    ],
+    "lupa-ui-clone/tsconfig.json": [
+      119,
+      1754631177310000000
+    ],
+    "lupa-ui-clone/vite.config.ts": [
+      161,
+      1754631177274000000
+    ],
+    "lupa-ui-clone/README.md": [
+      2269,
+      1754631177327000000
+    ],
+    "lupa-ui-clone/tsconfig.app.json": [
+      702,
+      1754631177304000000
+    ],
+    "lupa-ui-clone/eslint.config.js": [
+      610,
+      1754631177260000000
+    ],
+    "lupa-ui-clone/pnpm-lock.yaml": [
+      79425,
+      1754631184503000000
+    ],
+    "lupa-ui-clone/tsconfig.node.json": [
+      630,
+      1754631177312000000
+    ],
+    "lupa-ui-clone/index.html": [
+      366,
+      1754631177246000000
+    ],
+    "lupa-ui-clone/.gitignore": [
+      253,
+      1754631177219000000
+    ],
+    "Iniciar_VisualAI_Lanzador/Iniciar_VisualAI.ps1": [
+      182,
+      1754060305378000000
+    ],
+    "Iniciar_VisualAI_Lanzador/Iniciar_VisualAI.bat": [
+      79,
+      1754060305307000000
+    ],
+    "BASE DE DATOS/Manual_Usuario_Final_VisualAI_ModelSuite.md": [
+      14894,
+      1754060305328000000
+    ],
+    "BASE DE DATOS/Templates_Interfaz_Visual_VisualAI_ModelSuite.md": [
+      19313,
+      1754060305342000000
+    ],
+    "BASE DE DATOS/Documento_Tecnico_VisualAI_ModelSuite.pdf": [
+      340893,
+      1754060304065000000
+    ],
+    "BASE DE DATOS/Guia_Practica_Implementacion_VisualAI_ModelSuite.md": [
+      21570,
+      1754060304607000000
+    ],
+    "BASE DE DATOS/Paquete_Codigo_Base_VisualAI_ModelSuite.md": [
+      39099,
+      1754060305139000000
+    ],
+    "BASE DE DATOS/Informe_Ejecutivo_VisualAI_ModelSuite.md": [
+      13337,
+      1754060304871000000
+    ],
+    "BASE DE DATOS/Documento_Tecnico_VisualAI_ModelSuite.md": [
+      17571,
+      1754060304194000000
+    ],
+    "BASE DE DATOS/Documento_Tecnico_VisualAI_ModelSuite.docx": [
+      19001,
+      1754060303716000000
+    ],
+    "BASE DE DATOS/Guia_Master_VisualAI_Ejecutable.md": [
+      26584,
+      1754060304178000000
+    ],
+    "BASE DE DATOS/Resumen_VisualAI_ModelSuite.txt": [
+      2135,
+      1754060305318000000
+    ],
+    "services/geminiService.ts": [
+      4590,
+      1770347495000000000
+    ],
+    "components/StyleCard.tsx": [
+      4617,
+      1770347494000000000
+    ],
+    "components/InfoPanel.tsx": [
+      4594,
+      1770347494000000000
+    ],
+    "components/Timeline.tsx": [
+      13965,
+      1770347494000000000
+    ],
+    "components/ChatWidget.tsx": [
+      3408,
+      1770347494000000000
+    ]
+  }
+}

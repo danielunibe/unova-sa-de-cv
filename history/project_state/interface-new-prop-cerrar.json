@@ -1,0 +1,122 @@
+{
+  "project_id": "interface-new-prop-cerrar",
+  "project": "Interface New Prop Cerrar",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\01_software\\11_Interface_New_Prop_Cerrar",
+  "captured_at": "2026-07-14T07:10:55-06:00",
+  "last_change": "2026-03-27T18:33:11-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 16,
+    "code_count": 0,
+    "doc_count": 13,
+    "asset_count": 3,
+    "test_count": 2,
+    "manifest_count": 0,
+    "latest_mtime": "2026-03-27T18:33:11-06:00",
+    "latest_file": "Documentacion para la IA/CHANGELOG.md",
+    "extensions": {
+      ".md": 13,
+      ".jpg": 2,
+      ".png": 1
+    }
+  },
+  "progress": {
+    "project_id": "interface-new-prop-cerrar",
+    "project": "Interface New Prop Cerrar",
+    "mvp": 18,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "22719aba3cf10c650768e381f41ebab8.jpg": [
+      14096,
+      1766492357359000000
+    ],
+    "311da5d665fe7a2cb553e0c9c298294d.jpg": [
+      27620,
+      1766492366611000000
+    ],
+    "11_nueva_propuesta_de_interface_cerrar.md": [
+      1003,
+      1774166930121000000
+    ],
+    "83a2ed92fc01e3b8818a48f15ab33429_h3FXl084L4.png": [
+      3770,
+      1765473886935000000
+    ],
+    "Documentacion para la IA/CLAUDE.md": [
+      530,
+      1774657991092000000
+    ],
+    "Documentacion para la IA/CHANGELOG.md": [
+      320,
+      1774657991094000000
+    ],
+    "Documentacion para la IA/PROTOCOL.md": [
+      957,
+      1774657991052000000
+    ],
+    "Documentacion para la IA/docs/TDD.md": [
+      478,
+      1774657991080000000
+    ],
+    "Documentacion para la IA/docs/DESIGN_SPEC.md": [
+      486,
+      1774657991077000000
+    ],
+    "Documentacion para la IA/docs/TEST_PLAN.md": [
+      435,
+      1774657991085000000
+    ],
+    "Documentacion para la IA/docs/USER_DOCS.md": [
+      426,
+      1774657991088000000
+    ],
+    "Documentacion para la IA/docs/ROADMAP.md": [
+      769,
+      1774657991082000000
+    ],
+    "Documentacion para la IA/docs/PRD.md": [
+      779,
+      1774657991075000000
+    ],
+    "Documentacion para la IA/docs/GLOSSARY.md": [
+      471,
+      1774657991084000000
+    ],
+    "Documentacion para la IA/_meta/questions-log.md": [
+      1727,
+      1774657991071000000
+    ],
+    "Documentacion para la IA/_meta/owner.md": [
+      286,
+      1774657991070000000
+    ]
+  }
+}

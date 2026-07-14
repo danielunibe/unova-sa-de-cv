@@ -1,0 +1,2 @@
+﻿timestamp,project_id,project,event_type,reason,precision,added,modified,deleted,sample_files
+2026-05-12T08:37:16-06:00,proyectia,PROYECTIA (Command Center),historical_activity,initial_backfill,estimated,0,1,0,Proyec[tdh]ia-tsk DEV/components/icons/LowPolyNavigationIcons.tsx

@@ -1,0 +1,105 @@
+{
+  "project_id": "neko-nesushi",
+  "project": "Neko Nesushi 🐈‍⬛",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\05_videojuegos\\07_Neko_nesushi_",
+  "captured_at": "2026-07-14T07:11:20-06:00",
+  "last_change": "2026-03-27T18:36:22-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 12,
+    "code_count": 0,
+    "doc_count": 12,
+    "asset_count": 0,
+    "test_count": 2,
+    "manifest_count": 0,
+    "latest_mtime": "2026-03-27T18:36:22-06:00",
+    "latest_file": "xf0/x9f/x90/x88/xe2/x80/x8d/xe2/xac/x9b/Documentacion para la IA/CHANGELOG.md",
+    "extensions": {
+      ".md": 12
+    }
+  },
+  "progress": {
+    "project_id": "neko-nesushi",
+    "project": "Neko Nesushi 🐈‍⬛",
+    "mvp": 14,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "xf0/x9f/x90/x88/xe2/x80/x8d/xe2/xac/x9b/Documentacion para la IA/CLAUDE.md": [
+      139,
+      1774658182614000000
+    ],
+    "xf0/x9f/x90/x88/xe2/x80/x8d/xe2/xac/x9b/Documentacion para la IA/CHANGELOG.md": [
+      139,
+      1774658182617000000
+    ],
+    "xf0/x9f/x90/x88/xe2/x80/x8d/xe2/xac/x9b/Documentacion para la IA/PROTOCOL.md": [
+      374,
+      1774658182569000000
+    ],
+    "xf0/x9f/x90/x88/xe2/x80/x8d/xe2/xac/x9b/Documentacion para la IA/_meta/questions-log.md": [
+      663,
+      1774658182575000000
+    ],
+    "xf0/x9f/x90/x88/xe2/x80/x8d/xe2/xac/x9b/Documentacion para la IA/_meta/owner.md": [
+      215,
+      1774658182572000000
+    ],
+    "xf0/x9f/x90/x88/xe2/x80/x8d/xe2/xac/x9b/Documentacion para la IA/docs/TEST_PLAN.md": [
+      164,
+      1774658182593000000
+    ],
+    "xf0/x9f/x90/x88/xe2/x80/x8d/xe2/xac/x9b/Documentacion para la IA/docs/ROADMAP.md": [
+      182,
+      1774658182588000000
+    ],
+    "xf0/x9f/x90/x88/xe2/x80/x8d/xe2/xac/x9b/Documentacion para la IA/docs/PRD.md": [
+      177,
+      1774658182579000000
+    ],
+    "xf0/x9f/x90/x88/xe2/x80/x8d/xe2/xac/x9b/Documentacion para la IA/docs/TDD.md": [
+      142,
+      1774658182585000000
+    ],
+    "xf0/x9f/x90/x88/xe2/x80/x8d/xe2/xac/x9b/Documentacion para la IA/docs/GLOSSARY.md": [
+      159,
+      1774658182591000000
+    ],
+    "xf0/x9f/x90/x88/xe2/x80/x8d/xe2/xac/x9b/Documentacion para la IA/docs/DESIGN_SPEC.md": [
+      139,
+      1774658182581000000
+    ],
+    "xf0/x9f/x90/x88/xe2/x80/x8d/xe2/xac/x9b/Documentacion para la IA/docs/USER_DOCS.md": [
+      140,
+      1774658182594000000
+    ]
+  }
+}

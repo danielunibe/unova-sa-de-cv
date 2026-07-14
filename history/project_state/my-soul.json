@@ -1,0 +1,738 @@
+{
+  "project_id": "my-soul",
+  "project": "MY SOUL (Digital Identity)",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\01_software\\10_My_Soul",
+  "captured_at": "2026-07-14T07:10:57-06:00",
+  "last_change": "2026-03-27T18:33:11-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 167,
+    "code_count": 67,
+    "doc_count": 39,
+    "asset_count": 22,
+    "test_count": 13,
+    "manifest_count": 2,
+    "latest_mtime": "2026-03-27T18:33:11-06:00",
+    "latest_file": "Documentacion para la IA/CHANGELOG.md",
+    "extensions": {
+      ".py": 52,
+      ".md": 35,
+      ".ajson": 15,
+      ".json": 14,
+      ".jpg": 12,
+      ".js": 8,
+      ".png": 7,
+      "[sin extensión]": 5,
+      ".txt": 4,
+      ".css": 4,
+      ".mp4": 2,
+      ".ps1": 2,
+      ".task": 2,
+      ".gif": 1,
+      ".sh": 1,
+      ".yaml": 1,
+      ".html": 1,
+      ".tag": 1
+    }
+  },
+  "progress": {
+    "project_id": "my-soul",
+    "project": "MY SOUL (Digital Identity)",
+    "mvp": 52,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 5,
+      "implementacion": 22,
+      "pruebas": 10,
+      "empaquetado": 3,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "próximo paso documentado"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "522e030b71a05e164cc24a6b3240e293.gif": [
+      7872367,
+      1767069069124000000
+    ],
+    "unnamed (2).png": [
+      5740644,
+      1766787441267000000
+    ],
+    "f66ec75e8c873296e479c2667bcea4d2.jpg": [
+      34162,
+      1767064894391000000
+    ],
+    "12_MySoul.md": [
+      44543,
+      1757401092000000000
+    ],
+    "63fc15830d17991fc0e8e7b5a53507e2.jpg": [
+      69416,
+      1767010388137000000
+    ],
+    "ff29fb82e64ef13b925a51470863da6f.jpg": [
+      146139,
+      1767010838382000000
+    ],
+    "grok-video-f2501fc3-5d2c-4962-a95b-fcce4138ca29 (1).mp4": [
+      1115154,
+      1767069604944000000
+    ],
+    "b24e447a20303f8a9c1e2b8f0daaf4f7.jpg": [
+      72469,
+      1767010585792000000
+    ],
+    "3f1745a1af644eba3fd3d36be2c44697 1.png": [
+      1884548,
+      1766809585947000000
+    ],
+    "grok-video-f2501fc3-5d2c-4962-a95b-fcce4138ca29.mp4": [
+      621573,
+      1767011787880000000
+    ],
+    "5f3aadd9d8ca883eb1ff86fe43298111.jpg": [
+      78398,
+      1767010380125000000
+    ],
+    "Gemini_Generated_Image_g7bghfg7bghfg7bg (1).png": [
+      4497770,
+      1767388952262000000
+    ],
+    "507fc348a36fc4190c0f787d35fba123.jpg": [
+      62839,
+      1766801040802000000
+    ],
+    "Gemini_Generated_Image_g7bghfg7bghfg7bg.png": [
+      4497770,
+      1766832869923000000
+    ],
+    "96b51c171a44e9e2e6de63d2046dae15.jpg": [
+      25105,
+      1767010435604000000
+    ],
+    "423f8b360fded587f73035ab623bcac6.jpg": [
+      47103,
+      1767010440857000000
+    ],
+    "4010947ccfa5baa06a5733e88285bad2.jpg": [
+      71149,
+      1767010603795000000
+    ],
+    "c6b6c728a961e60b161ff1e5becf3299.jpg": [
+      115535,
+      1767010753222000000
+    ],
+    "cf879a4e0cf6f26b3a6f7901314412a3.jpg": [
+      94194,
+      1767010798209000000
+    ],
+    "Gemini_Generated_Image_vb5xqovb5xqovb5x.png": [
+      5287136,
+      1767010906278000000
+    ],
+    "939d1a2796cb75bc5e14119d907bd855.jpg": [
+      96782,
+      1767065344581000000
+    ],
+    "Gemini_Generated_Image_c9gzgwc9gzgwc9gz.png": [
+      6016971,
+      1767069613704000000
+    ],
+    "nota estilo.txt": [
+      3061,
+      1767069684169000000
+    ],
+    "10_mysoul.md": [
+      1402,
+      1774166930112000000
+    ],
+    "mysoul/Misoul documentacion.md": [
+      118928,
+      1766845082914000000
+    ],
+    "mysoul/run_oracle_local.sh": [
+      1167,
+      1766846799330000000
+    ],
+    "mysoul/.md": [
+      121367,
+      1766841619412000000
+    ],
+    "mysoul/README.md": [
+      1197,
+      1766460954044000000
+    ],
+    "mysoul/requirements.txt": [
+      835,
+      1766846898929000000
+    ],
+    "mysoul/config.yaml": [
+      1202,
+      1766821590014000000
+    ],
+    "mysoul/mysoul_system.py": [
+      13411,
+      1766823871968000000
+    ],
+    "mysoul/referenciavisualui.png": [
+      1884548,
+      1766809585947000000
+    ],
+    "mysoul/ejemplos.py": [
+      8123,
+      1766820457104000000
+    ],
+    "mysoul/conversacion con chatgpt para hacer este programa.md": [
+      44543,
+      1757401092000000000
+    ],
+    "mysoul/gesture_demo.py": [
+      10020,
+      1766524673573000000
+    ],
+    "mysoul/.gitignore": [
+      401,
+      1766849482650000000
+    ],
+    "mysoul/main.py": [
+      13048,
+      1766471005443000000
+    ],
+    "mysoul/run_oracle_local.ps1": [
+      1525,
+      1766846782659000000
+    ],
+    "mysoul/__init__.py": [
+      149,
+      1766459267673000000
+    ],
+    "mysoul/03_snapshot_workspace.ps1": [
+      3122,
+      1766846487376000000
+    ],
+    "mysoul/ui/index.html": [
+      7983,
+      1766819209081000000
+    ],
+    "mysoul/ui/app.py": [
+      4516,
+      1766819344820000000
+    ],
+    "mysoul/ui/__init__.py": [
+      24,
+      1766459868260000000
+    ],
+    "mysoul/ui/requirements.txt": [
+      33,
+      1766819363287000000
+    ],
+    "mysoul/ui/web/__init__.py": [
+      85,
+      1766459874054000000
+    ],
+    "mysoul/ui/web/app.py": [
+      26245,
+      1766459872062000000
+    ],
+    "mysoul/ui/static/js/particles.js": [
+      3778,
+      1766819266825000000
+    ],
+    "mysoul/ui/static/js/spheres.js": [
+      8957,
+      1766819287082000000
+    ],
+    "mysoul/ui/static/js/avatar.js": [
+      4930,
+      1766819287811000000
+    ],
+    "mysoul/ui/static/js/main.js": [
+      7502,
+      1766819323586000000
+    ],
+    "mysoul/ui/static/js/chat.js": [
+      99,
+      1766819344103000000
+    ],
+    "mysoul/ui/static/css/dream.css": [
+      9978,
+      1766819210818000000
+    ],
+    "mysoul/core/prompt_refiner.py": [
+      13530,
+      1766823730723000000
+    ],
+    "mysoul/core/learning_chat.py": [
+      16367,
+      1766815570755000000
+    ],
+    "mysoul/core/__init__.py": [
+      3720,
+      1766845492001000000
+    ],
+    "mysoul/core/memory.py": [
+      9681,
+      1766459400358000000
+    ],
+    "mysoul/core/user_feedback.py": [
+      16339,
+      1766818849700000000
+    ],
+    "mysoul/core/prediction_engine.py": [
+      18822,
+      1766810098885000000
+    ],
+    "mysoul/core/memory_consolidator.py": [
+      9478,
+      1766823728895000000
+    ],
+    "mysoul/core/structural_memories.py": [
+      16520,
+      1766815423022000000
+    ],
+    "mysoul/core/digital_clone.py": [
+      12225,
+      1766818954662000000
+    ],
+    "mysoul/core/personality_evolution.py": [
+      21960,
+      1766818775187000000
+    ],
+    "mysoul/core/avatar_generator.py": [
+      12818,
+      1766843765319000000
+    ],
+    "mysoul/core/oracle_system.py": [
+      32120,
+      1766846863692000000
+    ],
+    "mysoul/core/emotional_analyzer.py": [
+      22680,
+      1766846883327000000
+    ],
+    "mysoul/core/higher_self.py": [
+      17493,
+      1766810289390000000
+    ],
+    "mysoul/core/voice_cloner.py": [
+      14219,
+      1766843704321000000
+    ],
+    "mysoul/core/self_improvement.py": [
+      21272,
+      1766823627550000000
+    ],
+    "mysoul/core/dynamic_profile.py": [
+      21446,
+      1766810186937000000
+    ],
+    "mysoul/core/achievements_system.py": [
+      28632,
+      1766843628322000000
+    ],
+    "mysoul/core/llm_interface.py": [
+      8709,
+      1766821621747000000
+    ],
+    "mysoul/core/biometric_sync.py": [
+      24212,
+      1766845465198000000
+    ],
+    "mysoul/core/persona.py": [
+      8059,
+      1766459372717000000
+    ],
+    "mysoul/core/README.md": [
+      2745,
+      1766846800679000000
+    ],
+    "mysoul/core/agents/emotional_agent.py": [
+      7558,
+      1766846572411000000
+    ],
+    "mysoul/core/agents/sincerity_agent.py": [
+      4502,
+      1766846685695000000
+    ],
+    "mysoul/core/agents/mimic_agent.py": [
+      3959,
+      1766846686817000000
+    ],
+    "mysoul/core/agents/memory_agent.py": [
+      3197,
+      1766846666350000000
+    ],
+    "mysoul/core/agents/shadow_agent.py": [
+      5889,
+      1766846646514000000
+    ],
+    "mysoul/core/agents/agent_base.py": [
+      3906,
+      1766846505619000000
+    ],
+    "mysoul/core/agents/__init__.py": [
+      1147,
+      1766846503835000000
+    ],
+    "mysoul/core/agents/personality_agent.py": [
+      3918,
+      1766846597380000000
+    ],
+    "mysoul/core/agents/prediction_agent.py": [
+      5035,
+      1766846598426000000
+    ],
+    "mysoul/.pytest_cache/CACHEDIR.TAG": [
+      191,
+      1766849811965000000
+    ],
+    "mysoul/.pytest_cache/README.md": [
+      310,
+      1766849811964000000
+    ],
+    "mysoul/.pytest_cache/.gitignore": [
+      39,
+      1766849811965000000
+    ],
+    "mysoul/.pytest_cache/v/cache/nodeids": [
+      2,
+      1766849814014000000
+    ],
+    "mysoul/.pytest_cache/v/cache/lastfailed": [
+      132,
+      1766849811970000000
+    ],
+    "mysoul/tests/test_emotional_analyzer.py": [
+      4048,
+      1766846755644000000
+    ],
+    "mysoul/tests/test_oracle_flow.py": [
+      4158,
+      1766846734414000000
+    ],
+    "mysoul/tests/test_memory_consolidator.py": [
+      4882,
+      1766846757262000000
+    ],
+    "mysoul/tests/__init__.py": [
+      100,
+      1766846717486000000
+    ],
+    "mysoul/ingesters/chatgpt_ingester.py": [
+      17464,
+      1766470954660000000
+    ],
+    "mysoul/ingesters/text_ingester.py": [
+      15310,
+      1766459525147000000
+    ],
+    "mysoul/ingesters/video_ingester.py": [
+      14150,
+      1766459583078000000
+    ],
+    "mysoul/ingesters/__init__.py": [
+      555,
+      1766815605674000000
+    ],
+    "mysoul/ingesters/multi_format_ingester.py": [
+      16027,
+      1766815489996000000
+    ],
+    "mysoul/ingesters/voice_ingester.py": [
+      11202,
+      1766459581060000000
+    ],
+    "mysoul/models/pose_landmarker_lite.task": [
+      5777746,
+      1766524683600000000
+    ],
+    "mysoul/models/hand_landmarker.task": [
+      7819105,
+      1766524682728000000
+    ],
+    "mysoul/output/voice_synth.py": [
+      8583,
+      1766459673010000000
+    ],
+    "mysoul/output/chat.py": [
+      8497,
+      1766459671009000000
+    ],
+    "mysoul/output/__init__.py": [
+      177,
+      1766459286990000000
+    ],
+    "MySoult/Manual Completo de Registro y Análisis.md": [
+      20252,
+      1765488635885000000
+    ],
+    "MySoult/MySoutl.txt": [
+      0,
+      1765477930533000000
+    ],
+    "MySoult/conversacion con chatgpt para hacer este programa.md": [
+      44543,
+      1757401092000000000
+    ],
+    "MySoult/MySoult/sppd para publicar en el nintendo.md": [
+      99,
+      1765531482431000000
+    ],
+    "MySoult/MySoult/programas que usan inteligencia artificial.md": [
+      2846,
+      1765610071548000000
+    ],
+    "MySoult/MySoult/Programas que uso.md": [
+      938,
+      1765614835895000000
+    ],
+    "MySoult/MySoult/Prompts especializados/Prompt para ilustracion.md": [
+      1110,
+      1765630366752000000
+    ],
+    "MySoult/MySoult/Prompts especializados/Prompts para imagen.md": [
+      2032,
+      1765667281678000000
+    ],
+    "MySoult/MySoult/cosmic vector/guion tecnico.md": [
+      3556,
+      1765497199224000000
+    ],
+    "MySoult/MySoult/cosmic vector/colores e interface.md": [
+      3555,
+      1765497155853000000
+    ],
+    "MySoult/MySoult/cosmic vector/codigo.md": [
+      33106,
+      1765497083795000000
+    ],
+    "MySoult/MySoult/.obsidian/graph.json": [
+      493,
+      1765597631948000000
+    ],
+    "MySoult/MySoult/.obsidian/community-plugins.json": [
+      79,
+      1765618768193000000
+    ],
+    "MySoult/MySoult/.obsidian/text-generator.json": [
+      5045,
+      1765620019647000000
+    ],
+    "MySoult/MySoult/.obsidian/bookmarks.json": [
+      139,
+      1765488539404000000
+    ],
+    "MySoult/MySoult/.obsidian/core-plugins.json": [
+      697,
+      1765521468333000000
+    ],
+    "MySoult/MySoult/.obsidian/workspace.json": [
+      8172,
+      1765667270016000000
+    ],
+    "MySoult/MySoult/.obsidian/app.json": [
+      2,
+      1765521468731000000
+    ],
+    "MySoult/MySoult/.obsidian/appearance.json": [
+      2,
+      1765521468736000000
+    ],
+    "MySoult/MySoult/.obsidian/plugins/obsidian-textgenerator-plugin/main.js": [
+      15697011,
+      1765617355189000000
+    ],
+    "MySoult/MySoult/.obsidian/plugins/obsidian-textgenerator-plugin/styles.css": [
+      73955,
+      1765617355436000000
+    ],
+    "MySoult/MySoult/.obsidian/plugins/obsidian-textgenerator-plugin/data.json": [
+      11678,
+      1765617687416000000
+    ],
+    "MySoult/MySoult/.obsidian/plugins/obsidian-textgenerator-plugin/manifest.json": [
+      315,
+      1765617353951000000
+    ],
+    "MySoult/MySoult/.obsidian/plugins/smart-connections/data.json": [
+      62,
+      1765617418883000000
+    ],
+    "MySoult/MySoult/.obsidian/plugins/smart-connections/main.js": [
+      887025,
+      1765617391213000000
+    ],
+    "MySoult/MySoult/.obsidian/plugins/smart-connections/manifest.json": [
+      313,
+      1765617389932000000
+    ],
+    "MySoult/MySoult/.obsidian/plugins/smart-connections/styles.css": [
+      17974,
+      1765617390465000000
+    ],
+    "MySoult/MySoult/.obsidian/plugins/smart-chatgpt/main.js": [
+      114613,
+      1765618740266000000
+    ],
+    "MySoult/MySoult/.obsidian/plugins/smart-chatgpt/manifest.json": [
+      359,
+      1765618739016000000
+    ],
+    "MySoult/MySoult/.obsidian/plugins/smart-chatgpt/styles.css": [
+      917,
+      1765618739621000000
+    ],
+    "MySoult/MySoult/.smart-env/smart_env.json": [
+      1777,
+      1765617429309000000
+    ],
+    "MySoult/MySoult/.smart-env/multi/cosmic_vector_colores_e_interface_md.ajson": [
+      58754,
+      1765617418659000000
+    ],
+    "MySoult/MySoult/.smart-env/multi/Misoutl_Registro_para__MiSoults_para_whatsapp_md.ajson": [
+      288588,
+      1765617418707000000
+    ],
+    "MySoult/MySoult/.smart-env/multi/Misoutl_MySoult_md.ajson": [
+      91270,
+      1765617418696000000
+    ],
+    "MySoult/MySoult/.smart-env/multi/Julia_tecnollogias_de_notebook_lm_para_julia_md.ajson": [
+      119678,
+      1765617418689000000
+    ],
+    "MySoult/MySoult/.smart-env/multi/Misoutl_Sin_título_md.ajson": [
+      65383,
+      1765617418715000000
+    ],
+    "MySoult/MySoult/.smart-env/multi/Prompts_especializados_Prompts_para_imagen_md.ajson": [
+      33870,
+      1765667284499000000
+    ],
+    "MySoult/MySoult/.smart-env/multi/cosmic_vector_guion_tecnico_md.ajson": [
+      58613,
+      1765617418681000000
+    ],
+    "MySoult/MySoult/.smart-env/multi/cosmic_vector_codigo_md.ajson": [
+      62560,
+      1765617418654000000
+    ],
+    "MySoult/MySoult/.smart-env/multi/Programas_que_uso_md.ajson": [
+      9547,
+      1765617418673000000
+    ],
+    "MySoult/MySoult/.smart-env/multi/Prompts_especializados_Prompt_para_ilustracion_md.ajson": [
+      9659,
+      1765630370570000000
+    ],
+    "MySoult/MySoult/.smart-env/multi/programas_que_usan_inteligencia_artificial_md.ajson": [
+      31302,
+      1765617418676000000
+    ],
+    "MySoult/MySoult/.smart-env/multi/Julia_fuentes_de_integracion_julia_md.ajson": [
+      33693,
+      1765617418663000000
+    ],
+    "MySoult/MySoult/.smart-env/multi/sppd_para_publicar_en_el_nintendo_md.ajson": [
+      4870,
+      1765617418613000000
+    ],
+    "MySoult/MySoult/.smart-env/embedding_models/embedding_models.ajson": [
+      249,
+      1765617400542000000
+    ],
+    "MySoult/MySoult/.smart-env/event_logs/event_logs.ajson": [
+      8901,
+      1765779433807000000
+    ],
+    "MySoult/MySoult/Misoutl/Registro para  MiSoults para whatsapp.md": [
+      21123,
+      1765496211787000000
+    ],
+    "MySoult/MySoult/Misoutl/MySoult.md": [
+      6916,
+      1765488858998000000
+    ],
+    "MySoult/MySoult/Misoutl/Sin título.md": [
+      3625,
+      1765495354465000000
+    ],
+    "MySoult/MySoult/Julia/fuentes de integracion julia.md": [
+      7174,
+      1765530572212000000
+    ],
+    "MySoult/MySoult/Julia/tecnollogias de notebook lm para julia.md": [
+      7567,
+      1765496968094000000
+    ],
+    "Documentacion para la IA/PROTOCOL.md": [
+      947,
+      1774657991016000000
+    ],
+    "Documentacion para la IA/CLAUDE.md": [
+      523,
+      1774657991041000000
+    ],
+    "Documentacion para la IA/10_My_Soul.md": [
+      2092,
+      1774518470920000000
+    ],
+    "Documentacion para la IA/CHANGELOG.md": [
+      310,
+      1774657991044000000
+    ],
+    "Documentacion para la IA/docs/TEST_PLAN.md": [
+      425,
+      1774657991038000000
+    ],
+    "Documentacion para la IA/docs/TDD.md": [
+      471,
+      1774657991027000000
+    ],
+    "Documentacion para la IA/docs/GLOSSARY.md": [
+      465,
+      1774657991033000000
+    ],
+    "Documentacion para la IA/docs/USER_DOCS.md": [
+      420,
+      1774657991040000000
+    ],
+    "Documentacion para la IA/docs/DESIGN_SPEC.md": [
+      476,
+      1774657991025000000
+    ],
+    "Documentacion para la IA/docs/PRD.md": [
+      785,
+      1774657991024000000
+    ],
+    "Documentacion para la IA/docs/ROADMAP.md": [
+      776,
+      1774657991031000000
+    ],
+    "Documentacion para la IA/_meta/questions-log.md": [
+      1709,
+      1774657991020000000
+    ],
+    "Documentacion para la IA/_meta/owner.md": [
+      286,
+      1774657991019000000
+    ]
+  }
+}

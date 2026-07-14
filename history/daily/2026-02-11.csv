@@ -1,0 +1,3 @@
+﻿timestamp,project_id,project,event_type,reason,precision,added,modified,deleted,sample_files
+2026-02-11T21:04:12-06:00,hyperpane,Hyperpane 🪟,historical_activity,initial_backfill,estimated,0,42,0,Hyperpane/Hyperpane.Core/Abstractions/Interfaces.cs; Hyperpane/Hyperpane.Core/Diagnostics/CrashLogger.cs; Hyperpane/Hyperpane.Core/Domain/Entities/UserProfile.cs; Hyperpane/Hyperpane.Core/Hyperpane.runtimeconfig.template.json
+2026-02-11T21:10:29-06:00,retriver,Retriver,historical_activity,initial_backfill,estimated,0,2,0,Retriever/Database/Daniel/IMG/6867cc24282993225e03406138c12fd8.jpg; Retriever/Database/Daniel/IMG/referencia-sin-correcciones-de-ia.png

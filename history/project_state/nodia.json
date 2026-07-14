@@ -1,0 +1,4542 @@
+{
+  "project_id": "nodia",
+  "project": "Nodia",
+  "root": "C:\\Desarrollos DEV daniel\\nodia",
+  "captured_at": "2026-07-14T07:10:57-06:00",
+  "last_change": "2026-06-26T23:31:18-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 1118,
+    "code_count": 275,
+    "doc_count": 343,
+    "asset_count": 409,
+    "test_count": 9,
+    "manifest_count": 4,
+    "latest_mtime": "2026-05-30T15:54:33-06:00",
+    "latest_file": "nodia investigaciones/policiaco.md",
+    "extensions": {
+      ".mp4": 336,
+      ".txt": 272,
+      ".tsx": 112,
+      ".md": 70,
+      ".png": 64,
+      ".css": 58,
+      ".js": 44,
+      ".ts": 36,
+      ".jsfrag": 32,
+      ".part": 15,
+      ".vtt": 14,
+      ".json": 13,
+      ".html": 10,
+      ".rs": 10,
+      ".svg": 6,
+      ".bak": 5,
+      ".py": 3,
+      "[sin extensión]": 2,
+      ".mjs": 2,
+      ".yaml": 2
+    }
+  },
+  "progress": {
+    "project_id": "nodia",
+    "project": "Nodia",
+    "mvp": 76,
+    "vision": "14",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 10,
+      "arquitectura": 10,
+      "implementacion": 30,
+      "pruebas": 10,
+      "empaquetado": 3,
+      "continuidad": 5,
+      "validacion": 3
+    },
+    "missing": []
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "Separar prioridades en Core, Polish y Future.",
+    "pendientes_documentados": "Verificar estructura real de carpetas en nodia-app.; Layout de 3 columnas: Chat IA, Hoja Poe, Poe Radar.; Implementar usePoeStore para separar la lógica de texto de useNodiaStore.; Editor estable con auto-guardado atómico comprobado.; Chat IA conectado (sin que modifique el texto directamente).; Detección básica de personajes en el texto activo (Fichas Bento).; Crear services/actionSchemaService.ts.; Crear stores/useActionPatchStore.ts.; Desarrollar PatchPreviewModal.tsx con flujos de Preview, Apply y Undo.; Conectar el historial de acciones y validación de impacto.",
+    "proximo_paso": "Verificar estructura real de carpetas en nodia-app.",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "14",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "3",
+    "pending_count": "18"
+  },
+  "files": {
+    "c1b2bbca947e5d0f9e6a62946123522e.gif": [
+      562605,
+      1777266855543000000
+    ],
+    "cfed1363d48c4fb5fb55d743852f915e.jpg": [
+      192171,
+      1778029566234000000
+    ],
+    "CHANGELOG_PROTOCOL_v1_to_v2.md": [
+      1902,
+      1778799516971000000
+    ],
+    "Claude-Visualizar datos narrativos de personajes.md": [
+      85402,
+      1778027937929000000
+    ],
+    "CODEX_PROMPT_SHORTCUTS.md": [
+      2069,
+      1778799531980000000
+    ],
+    "codigo_nodia_home.txt": [
+      32100,
+      1779841616779000000
+    ],
+    "da872809-c6db-4582-93e3-f26193cce5e5.png": [
+      15695,
+      1777945375679000000
+    ],
+    "DESIGN.md": [
+      3093,
+      1778230104558000000
+    ],
+    "DESIGN_ICONS.md": [
+      3221,
+      1778386236462000000
+    ],
+    "Grabación 2026-05-26 171937.mp4": [
+      4454670,
+      1779837564966000000
+    ],
+    "hexagon-character-chart.html": [
+      35774,
+      1778124028645000000
+    ],
+    "HexNarrative-Spec.docx": [
+      17912,
+      1778123933039000000
+    ],
+    "ICON_INVENTORY.md": [
+      3619,
+      1778233832234000000
+    ],
+    "NODIA_AGENT_SYSTEM.md": [
+      3018,
+      1778840914184000000
+    ],
+    "NODIA_CORE_ROADMAP.md": [
+      2199,
+      1778743192924000000
+    ],
+    "NODIA_DEPLOYMENT_TRACKER.md": [
+      21016,
+      1778831372908000000
+    ],
+    "NODIA_LONG_EXECUTION_PLAN_v1.md": [
+      8323,
+      1778820058992000000
+    ],
+    "NODIA_MASTER_DEV_PROTOCOL_v2.md": [
+      13270,
+      1778819085182000000
+    ],
+    "NODIA_REALITY_AUDIT.md": [
+      2897,
+      1778743181339000000
+    ],
+    "NODIA_SYSTEM_PIPELINE.md": [
+      14057,
+      1778743155321000000
+    ],
+    "pantalla de inicio.txt": [
+      2444015,
+      1778865602741000000
+    ],
+    "pantalla de inicio_limpio.html": [
+      32367,
+      1778864703957000000
+    ],
+    "PROPOSALS_ICONS.html": [
+      5151,
+      1778387533345000000
+    ],
+    "SHOWCASE_ICONS.html": [
+      10083,
+      1778387354823000000
+    ],
+    "unnamed (1).png": [
+      5029140,
+      1778729507660000000
+    ],
+    "chat bot nodia/ad3c0432b47828c87d8ed92c4965cb8d.webp": [
+      70452,
+      1778026595697000000
+    ],
+    "chat bot nodia/app.js": [
+      8853,
+      1778202926354000000
+    ],
+    "chat bot nodia/index.css": [
+      9159,
+      1778202618941000000
+    ],
+    "chat bot nodia/index.html": [
+      6563,
+      1778202909354000000
+    ],
+    "chat bot nodia/narrative.json": [
+      2534,
+      1777998836664000000
+    ],
+    "chat bot nodia/.vscode/settings.json": [
+      42,
+      1777994162628000000
+    ],
+    "docs nodia/2026-5-2 23-23-4-________Nodia.txt": [
+      696484,
+      1778848058000000000
+    ],
+    "docs nodia/DOCUMENTACION_IMPLEMENTACION_PANTALLA_INICIO_NODIA_2026-05-14.md": [
+      4421,
+      1778822709996000000
+    ],
+    "docs nodia/DOCUMENTACION_NODIA_MODO_ARCO_2026-05-14.md": [
+      6677,
+      1778822696112000000
+    ],
+    "docs nodia/DOCUMENTACION_NODIA_MODO_ARCO_2026-05-15.md": [
+      5096,
+      1778829680186000000
+    ],
+    "docs nodia/DOCUMENTACION_SECCION_NODOS_NODIA_2026-05-15.md": [
+      5424,
+      1778822692469000000
+    ],
+    "docs nodia/NODIA_DOCUMENTACION_EJECUCION_Y_ESTADO_2026-05-14.md": [
+      7388,
+      1778822709918000000
+    ],
+    "docs nodia/NODIA_PRD_AAA_2026-05-15.md": [
+      62718,
+      1778829921064000000
+    ],
+    "docs nodia/PRD_SereneSymphony.md": [
+      6050,
+      1778719583535000000
+    ],
+    "nodia investigaciones/accion.md": [
+      5315,
+      1780177882112000000
+    ],
+    "nodia investigaciones/aventura.md": [
+      5246,
+      1780177946881000000
+    ],
+    "nodia investigaciones/belico.md": [
+      5222,
+      1780178015240000000
+    ],
+    "nodia investigaciones/ciencia_ficcion.md": [
+      5257,
+      1780177884264000000
+    ],
+    "nodia investigaciones/comedia.md": [
+      5481,
+      1780177949241000000
+    ],
+    "nodia investigaciones/copia data nodia.md": [
+      149159,
+      1780087007143000000
+    ],
+    "nodia investigaciones/decisiones finales nodia.md": [
+      16129,
+      1780093085874000000
+    ],
+    "nodia investigaciones/deportivo.md": [
+      5126,
+      1780177998605000000
+    ],
+    "nodia investigaciones/drama.md": [
+      5087,
+      1780177867166000000
+    ],
+    "nodia investigaciones/epico.md": [
+      4982,
+      1780177929973000000
+    ],
+    "nodia investigaciones/fantasia.md": [
+      5077,
+      1780177879977000000
+    ],
+    "nodia investigaciones/historico_western.md": [
+      5280,
+      1780178013088000000
+    ],
+    "nodia investigaciones/misterio.md": [
+      5066,
+      1780177943594000000
+    ],
+    "nodia investigaciones/musical.md": [
+      5180,
+      1780178066521000000
+    ],
+    "nodia investigaciones/noir_crimen.md": [
+      5023,
+      1780177820748000000
+    ],
+    "nodia investigaciones/policiaco.md": [
+      5746,
+      1780178073532000000
+    ],
+    "nodia investigaciones/postapocalitico.md": [
+      5658,
+      1780178017425000000
+    ],
+    "nodia investigaciones/romance.md": [
+      4738,
+      1780177815686000000
+    ],
+    "nodia investigaciones/roster_definitivo_nodia.md": [
+      8433,
+      1780177741392000000
+    ],
+    "nodia investigaciones/superheroes.md": [
+      5677,
+      1780178069020000000
+    ],
+    "nodia investigaciones/terror.md": [
+      4564,
+      1780177762108000000
+    ],
+    "nodia investigaciones/thriller.md": [
+      4966,
+      1780177818633000000
+    ],
+    "nodia investigaciones/gelis lara/classification_mapping.json": [
+      42359,
+      1780092724807000000
+    ],
+    "nodia investigaciones/gelis lara/Considera esto antes de imprimir tu libro por Amazon 📚📕💖 #portadasdel... [7202767757052497158].eng-US.vtt": [
+      1236,
+      1780092332598000000
+    ],
+    "nodia investigaciones/gelis lara/Continuando con la saga de La escuela del bien y del mal de Soman Cha... [7364844374091369729].eng-US.vtt": [
+      4667,
+      1780090937323000000
+    ],
+    "nodia investigaciones/gelis lara/Dividí el video en dos partes porque compré muchos libros 📚📚📚. #compr... [7293263037488729350].eng-US.vtt": [
+      5464,
+      1780091508580000000
+    ],
+    "nodia investigaciones/gelis lara/download_and_clean_subs.py": [
+      7217,
+      1780090109463000000
+    ],
+    "nodia investigaciones/gelis lara/El libro de Virginia Woolf que se llama Una habitación propia es un e... [7328482213538843910].eng-US.vtt": [
+      1392,
+      1780091226719000000
+    ],
+    "nodia investigaciones/gelis lara/Esta saga de terror juvenil está compuesta por dos libros, Anna vesti... [7356320237265980678].eng-US.vtt": [
+      2141,
+      1780091022992000000
+    ],
+    "nodia investigaciones/gelis lara/La casa de los espíritus es una novela de realismo mágico ambientada ... [7379355174885723398].eng-US.vtt": [
+      2087,
+      1780090870153000000
+    ],
+    "nodia investigaciones/gelis lara/La semana estuve enfocada totalmente en terminar el libro de fantasma... [7368613174255373573].eng-US.vtt": [
+      2287,
+      1780090928868000000
+    ],
+    "nodia investigaciones/gelis lara/La técnica del cuentacuentos o storytelling puedes aplicarla a tu vid... [7621710936855858439].eng-US.vtt": [
+      2905,
+      1780089866502000000
+    ],
+    "nodia investigaciones/gelis lara/Les platico un poco sobre el cuarto libro de la saga de La escuela de... [7364130846573415681].eng-US.vtt": [
+      6248,
+      1780090946914000000
+    ],
+    "nodia investigaciones/gelis lara/Lo que más me ha ayudado a quitar el bloqueo del escritor y seguir es... [7359647608857529606].spa-ES.vtt": [
+      2157,
+      1780090995910000000
+    ],
+    "nodia investigaciones/gelis lara/Respuesta a @Angel Rodríguez Estos son los 10 patrones más comunes qu....mp4": [
+      14133215,
+      1780087783993000000
+    ],
+    "nodia investigaciones/gelis lara/subtitle_status.json": [
+      14117,
+      1780092694406000000
+    ],
+    "nodia investigaciones/gelis lara/test_sub_download_file.eng-US.vtt": [
+      4257,
+      1780089779604000000
+    ],
+    "nodia investigaciones/gelis lara/test_sub_download_file.spa-ES.vtt": [
+      3954,
+      1780089778913000000
+    ],
+    "nodia investigaciones/gelis lara/¿Cómo diseñar la portada de tu libro para atraer a tu lector meta？ 📕💖... [7201994202387975430].eng-US.vtt": [
+      1261,
+      1780092348890000000
+    ],
+    "nodia investigaciones/gelis lara/¿Sabes cuál es la mejor tipografía para tu libro？ 📝 Aquí te doy unos ... [7255759992396057862].eng-US.vtt": [
+      2384,
+      1780091849636000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/#autopublicacion#librosamazon#publicaenamazon#amazonkdptips#publicatu... [7188954564534603014].mp4": [
+      8365571,
+      1780088983175000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/#autopublicacion#librosamazon#publicaenamazon#amazonkdptips#publicatu... [7188954564534603014].txt": [
+      950,
+      1780092464304000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/Ahora puedes obtener más ganancias por cada libro físico vendido en A... [7199370186544188677].mp4": [
+      10849915,
+      1780088940745000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/Ahora puedes obtener más ganancias por cada libro físico vendido en A... [7199370186544188677].txt": [
+      952,
+      1780092370171000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/Chismecito sobre por qué decidí autopublicar mis libros 📕 #autopublic... [7184595795356798214].mp4": [
+      11237913,
+      1780089000510000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/Chismecito sobre por qué decidí autopublicar mis libros 📕 #autopublic... [7184595795356798214].txt": [
+      1115,
+      1780092504621000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/Conoce el programa de Amazon que se llama Kindle Create, el cual es p... [7260254172073790726].mp4": [
+      2025564,
+      1780088681313000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/Conoce el programa de Amazon que se llama Kindle Create, el cual es p... [7260254172073790726].txt": [
+      818,
+      1780091800588000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/Considera esto antes de imprimir tu libro por Amazon 📚📕💖 #portadasdel... [7202767757052497158].mp4": [
+      4026210,
+      1780088924927000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/Considera esto antes de imprimir tu libro por Amazon 📚📕💖 #portadasdel... [7202767757052497158].txt": [
+      713,
+      1780092333381000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/Cuando era pequeña, visitaba mucho el rancho de manzanos que fue de m... [7559018568361331976].mp4": [
+      5224237,
+      1780087954346000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/Cuando era pequeña, visitaba mucho el rancho de manzanos que fue de m... [7559018568361331976].txt": [
+      1196,
+      1780090196945000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/Editorial o autopublicación, ¿cuál es la mejor opción？ #autopublicaci... [7185334490900892933].mp4": [
+      18204338,
+      1780088997134000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/Editorial o autopublicación, ¿cuál es la mejor opción？ #autopublicaci... [7185334490900892933].txt": [
+      1894,
+      1780092496288000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/El chismecito de Apple Books 📱 #applebooks #ibooks #itunesconnect #pu... [7192412369161637125].mp4": [
+      10112155,
+      1780088971899000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/El chismecito de Apple Books 📱 #applebooks #ibooks #itunesconnect #pu... [7192412369161637125].txt": [
+      2340,
+      1780092431682000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/En la charla que di en la Feria Internacional del Libro Monterrey rev... [7427216893485911302].mp4": [
+      2385190,
+      1780088237362000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/En la charla que di en la Feria Internacional del Libro Monterrey rev... [7427216893485911302].txt": [
+      1136,
+      1780090664394000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/Les comparto un pedacito de la plática que di sobre autopublicación e... [7226865073053043973].mp4": [
+      10047603,
+      1780088827338000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/Les comparto un pedacito de la plática que di sobre autopublicación e... [7226865073053043973].txt": [
+      3085,
+      1780092096237000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/Les quiero mostrar el libro de @🌸 que se llama “Aunque somos muchos, ... [7567182332117929223].mp4": [
+      8020745,
+      1780087947030000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/Les quiero mostrar el libro de @🌸 que se llama “Aunque somos muchos, ... [7567182332117929223].txt": [
+      1795,
+      1780090166398000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/Libros digitales gratis que puedes leer donde quieras. He visto vario... [7400892442314083590].mp4": [
+      4133228,
+      1780088300995000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/Libros digitales gratis que puedes leer donde quieras. He visto vario... [7400892442314083590].txt": [
+      1158,
+      1780090808438000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/Me encanta publicar libros en Amazon, pero desearía que alguien me hu... [7468028934014143750].mp4": [
+      15531483,
+      1780088141152000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/Me encanta publicar libros en Amazon, pero desearía que alguien me hu... [7468028934014143750].txt": [
+      3058,
+      1780090523616000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/Mi peor experiencia con Kindle Direct Publishing al publicar mis libr... [7301079902407675142].mp4": [
+      6275827,
+      1780088551517000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/Mi peor experiencia con Kindle Direct Publishing al publicar mis libr... [7301079902407675142].txt": [
+      1934,
+      1780091446756000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/Plataformas gratuitas de autopublicación de libros 📖🖌️ #autopublicaci... [7187211251532057862].mp4": [
+      2011871,
+      1780088988862000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/Plataformas gratuitas de autopublicación de libros 📖🖌️ #autopublicaci... [7187211251532057862].txt": [
+      859,
+      1780092479660000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/Publica tu libro en Amazon con KDP 📖 #amazonkdp #amazonkdptips #amazo... [7187986824931839238].mp4": [
+      7208363,
+      1780088986668000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/Publica tu libro en Amazon con KDP 📖 #amazonkdp #amazonkdptips #amazo... [7187986824931839238].txt": [
+      827,
+      1780092471913000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/Publica tu libro en Google Play 📱 #googlebooks #googleplaybooks #publ... [7189833746139417862].mp4": [
+      1902972,
+      1780088980392000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/Publica tu libro en Google Play 📱 #googlebooks #googleplaybooks #publ... [7189833746139417862].txt": [
+      762,
+      1780092457457000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/Publica tu libro en Kobo #autopublicaciondelibros #comopublicarunlibr... [7191628804970810629].mp4": [
+      4145219,
+      1780088974637000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/Publica tu libro en Kobo #autopublicaciondelibros #comopublicarunlibr... [7191628804970810629].txt": [
+      1071,
+      1780092441366000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/Respuesta a @Iris Rodríguez7938 Estas son 4 formas para subir tus doc... [7569059689162427655].mp4": [
+      10772473,
+      1780087944949000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/Respuesta a @Iris Rodríguez7938 Estas son 4 formas para subir tus doc... [7569059689162427655].txt": [
+      2444,
+      1780090158327000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/¡Feliz Navidad! Les tengo un regalo sorpresa a quienes quieran public... [7180879716306423045].mp4": [
+      3236414,
+      1780089007458000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/¡Feliz Navidad! Les tengo un regalo sorpresa a quienes quieran public... [7180879716306423045].txt": [
+      340,
+      1780092534258000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/¿Quieres imprimir tu libro en Amazon？ Conoce algunos costos de impres... [7203518726967151877].mp4": [
+      3912399,
+      1780088922067000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/¿Quieres imprimir tu libro en Amazon？ Conoce algunos costos de impres... [7203518726967151877].txt": [
+      700,
+      1780092325306000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/¿Quieres publicar un libro en Amazon, pero las opciones que has encon... [7426540701665578246].mp4": [
+      10548556,
+      1780088240968000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/¿Quieres publicar un libro en Amazon, pero las opciones que has encon... [7426540701665578246].txt": [
+      2463,
+      1780090674531000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/¿Quieres publicar un libro en Amazon？ En mi curso “Publica tu libro c... [7493258546847534341].mp4": [
+      9724574,
+      1780088052011000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/¿Quieres publicar un libro en Amazon？ En mi curso “Publica tu libro c... [7493258546847534341].txt": [
+      2774,
+      1780090389941000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/¿Qué categorías elegir para tu libro？ 📚 #librosficción #escritores #e... [7198324788236946694].mp4": [
+      14729624,
+      1780088946146000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/¿Qué categorías elegir para tu libro？ 📚 #librosficción #escritores #e... [7198324788236946694].txt": [
+      1029,
+      1780092388638000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/¿Sabes cómo proteger tu libro digital para que no lo copien？ Entonces... [7501481887219649800].mp4": [
+      6051881,
+      1780088016815000000
+    ],
+    "nodia investigaciones/gelis lara/Autopublicación/¿Sabes cómo proteger tu libro digital para que no lo copien？ Entonces... [7501481887219649800].txt": [
+      1293,
+      1780090368769000000
+    ],
+    "nodia investigaciones/gelis lara/Derechos/Cómo registrar los derechos de autor con seudónimo en México 📝.    #d... [7219069906690542854].mp4.part": [
+      4076205,
+      1780088864606000000
+    ],
+    "nodia investigaciones/gelis lara/Derechos/Cómo registrar los derechos de autor con seudónimo en México 📝.    #d... [7219069906690542854].txt": [
+      932,
+      1780092189692000000
+    ],
+    "nodia investigaciones/gelis lara/Derechos/El registro lingüístico es adaptar el lenguaje según la situación, la... [7593461848934976776].mp4.part": [
+      6389204,
+      1780087903901000000
+    ],
+    "nodia investigaciones/gelis lara/Derechos/El registro lingüístico es adaptar el lenguaje según la situación, la... [7593461848934976776].txt": [
+      1885,
+      1780089988451000000
+    ],
+    "nodia investigaciones/gelis lara/Derechos/Estas son algunas recomendaciones para conseguir libros físicos en bu... [7336277744583576837].mp4": [
+      5196091,
+      1780088436237000000
+    ],
+    "nodia investigaciones/gelis lara/Derechos/Estas son algunas recomendaciones para conseguir libros físicos en bu... [7336277744583576837].txt": [
+      991,
+      1780091147739000000
+    ],
+    "nodia investigaciones/gelis lara/Derechos/Esto que aprendí sobre derechos de autor me dio un gran alivio, porqu... [7325577767095897349].mp4": [
+      4381878,
+      1780088469052000000
+    ],
+    "nodia investigaciones/gelis lara/Derechos/Esto que aprendí sobre derechos de autor me dio un gran alivio, porqu... [7325577767095897349].txt": [
+      1352,
+      1780091246235000000
+    ],
+    "nodia investigaciones/gelis lara/Derechos/Fuimos al Laberinto de Tim Burton y me sorprendió que era mejor de lo... [7551900597000097031].mp4": [
+      4792497,
+      1780087959659000000
+    ],
+    "nodia investigaciones/gelis lara/Derechos/Fuimos al Laberinto de Tim Burton y me sorprendió que era mejor de lo... [7551900597000097031].txt": [
+      1150,
+      1780090239744000000
+    ],
+    "nodia investigaciones/gelis lara/Derechos/Respuesta a @Yenny G  Contacté a la editorial y me cambiaron el libro... [7358182010071895302].mp4": [
+      7366635,
+      1780088374407000000
+    ],
+    "nodia investigaciones/gelis lara/Derechos/Respuesta a @Yenny G  Contacté a la editorial y me cambiaron el libro... [7358182010071895302].txt": [
+      1226,
+      1780091005614000000
+    ],
+    "nodia investigaciones/gelis lara/Derechos/Sabías que los libros de dominio público los puedes obtener gratis de... [7400110346205187334].mp4": [
+      5392300,
+      1780088303466000000
+    ],
+    "nodia investigaciones/gelis lara/Derechos/Sabías que los libros de dominio público los puedes obtener gratis de... [7400110346205187334].txt": [
+      1527,
+      1780090813385000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/6 recomendaciones para autopublicar tu libro 📚 #publicarmilibro #auto... [7186491015853853958].mp4": [
+      20100799,
+      1780088992731000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/6 recomendaciones para autopublicar tu libro 📚 #publicarmilibro #auto... [7186491015853853958].txt": [
+      2032,
+      1780092487751000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Al crear la portada de un libro, presto atención a estas leyes de la ... [7340399575313911046].mp4.part": [
+      5718049,
+      1780088428293000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Al crear la portada de un libro, presto atención a estas leyes de la ... [7340399575313911046].txt": [
+      1272,
+      1780091128313000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Al editar un libro considera que hay partes que son indispensables, c... [7389715689239514373].mp4": [
+      7508085,
+      1780088314753000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Al editar un libro considera que hay partes que son indispensables, c... [7389715689239514373].txt": [
+      1483,
+      1780090823200000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Al editar un libro se crea la maqueta, que es cuando se le da el form... [7387888064422579461].mp4": [
+      5107919,
+      1780088318271000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Al editar un libro se crea la maqueta, que es cuando se le da el form... [7387888064422579461].txt": [
+      1306,
+      1780090828713000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Como les prometí, ahora veamos los errores más comunes de estilo al e... [7449469197848988934].mp4": [
+      6094114,
+      1780088189617000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Como les prometí, ahora veamos los errores más comunes de estilo al e... [7449469197848988934].txt": [
+      1980,
+      1780090593392000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Compré que tiene un error de impresión que deja incompleta la histori... [7334835238180457734].mp4": [
+      5881440,
+      1780088441814000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Compré que tiene un error de impresión que deja incompleta la histori... [7334835238180457734].txt": [
+      1135,
+      1780091172493000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Cuando escribo, siempre pienso en las personas que lo van a leer para... [7159723578806652166].mp4": [
+      4817801,
+      1780089067463000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Cuando escribo, siempre pienso en las personas que lo van a leer para... [7159723578806652166].txt": [
+      1185,
+      1780092656056000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Editar un recetario no es cualquier cosa, se necesita saber cocinar p... [7376744007059246341].mp4": [
+      11293585,
+      1780088337343000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Editar un recetario no es cualquier cosa, se necesita saber cocinar p... [7376744007059246341].txt": [
+      1315,
+      1780090890521000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Estas son algunas herramientas para escribir con mejor ortografía en ... [7258389246459792645].mp4": [
+      4863332,
+      1780088688736000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Estas son algunas herramientas para escribir con mejor ortografía en ... [7258389246459792645].txt": [
+      1496,
+      1780091826372000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Estos son algunos de los libros que leeré próximamente： - Matías por ... [7377468431718780165].mp4": [
+      13749306,
+      1780088334141000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Estos son algunos de los libros que leeré próximamente： - Matías por ... [7377468431718780165].txt": [
+      1577,
+      1780090881153000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Innovación y Escritura Creativa parte 4. Seguimos en la parte de defi... [7273958820978756869].mp4": [
+      4133683,
+      1780088634468000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Innovación y Escritura Creativa parte 4. Seguimos en la parte de defi... [7273958820978756869].txt": [
+      1341,
+      1780091636995000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/La coma vocativa se usa cuando nos dirigimos a alguien, ya sea por no... [7575277764882746631].mp4": [
+      6661813,
+      1780087937439000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/La coma vocativa se usa cuando nos dirigimos a alguien, ya sea por no... [7575277764882746631].txt": [
+      1396,
+      1780090117676000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/La cubierta, a lo que muchos llamamos como portada, se compone del ár... [7392721435292077318].mp4": [
+      6584263,
+      1780088310739000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/La cubierta, a lo que muchos llamamos como portada, se compone del ár... [7392721435292077318].txt": [
+      1375,
+      1780090818658000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Las líneas huérfanas y viudas se consideran errores en la edición por... [7611693121113509128].mp4": [
+      5567810,
+      1780087870924000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Las líneas huérfanas y viudas se consideran errores en la edición por... [7611693121113509128].txt": [
+      1680,
+      1780089910059000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Las primeras portadas de mi primer libro 📘 #portadascreativas #portad... [7200910210104380678].mp4": [
+      7884401,
+      1780088931837000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Las primeras portadas de mi primer libro 📘 #portadascreativas #portad... [7200910210104380678].txt": [
+      1785,
+      1780092356364000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Les comparto mi proceso para autopublicar un libro en Amazon 📕💖 #auto... [7247562193955278086].mp4": [
+      3946466,
+      1780088753034000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Les comparto mi proceso para autopublicar un libro en Amazon 📕💖 #auto... [7247562193955278086].txt": [
+      1648,
+      1780091927634000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Les platico un poco acerca de mi libro “La eternidad de las manzanas”... [7170125890033044742].mp4": [
+      15892118,
+      1780089048224000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Les platico un poco acerca de mi libro “La eternidad de las manzanas”... [7170125890033044742].txt": [
+      1696,
+      1780092609463000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Les presento algunos de mis libros favoritos en el Día Internacional ... [7225345059963669786].mp4": [
+      13828195,
+      1780088842486000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Les presento algunos de mis libros favoritos en el Día Internacional ... [7225345059963669786].txt": [
+      3630,
+      1780092120396000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Los estilos de diseño de portada pueden ser de acuerdo al género del ... [7338206858785623302].mp4": [
+      3723999,
+      1780088430717000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Los estilos de diseño de portada pueden ser de acuerdo al género del ... [7338206858785623302].txt": [
+      1032,
+      1780091135306000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Me pidieron otro video sobre comas. Así que veamos la coma que sirve ... [7585015362924711175].mp4": [
+      4736850,
+      1780087917655000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Me pidieron otro video sobre comas. Así que veamos la coma que sirve ... [7585015362924711175].txt": [
+      1547,
+      1780090009589000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Más principios de la psicología de Gestalt aplicada en el diseño de p... [7341133296354544902].mp4": [
+      10874470,
+      1780088421902000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Más principios de la psicología de Gestalt aplicada en el diseño de p... [7341133296354544902].txt": [
+      1043,
+      1780091120882000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Nosotras somos las editoras en Aurores Emergentes y ofrecemos servici... [7562399534328909076].mp4": [
+      3038587,
+      1780087951125000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Nosotras somos las editoras en Aurores Emergentes y ofrecemos servici... [7562399534328909076].txt": [
+      675,
+      1780090187347000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Respuesta a @Sólo Un Libro Más Aquí va la parte 2 de los errores más ... [7458365282155842821].mp4": [
+      11179688,
+      1780088164928000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Respuesta a @Sólo Un Libro Más Aquí va la parte 2 de los errores más ... [7458365282155842821].txt": [
+      1579,
+      1780090568883000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Ten cuidado con las colaboraciones de diseño, portada, ilustraciones,... [7207993742240845061].mp4": [
+      11621779,
+      1780088910551000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Ten cuidado con las colaboraciones de diseño, portada, ilustraciones,... [7207993742240845061].txt": [
+      1156,
+      1780092297767000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Ya anunciaron que en octubre lanzarán el libro de Harry Potter y el C... [7475471412895993094].mp4": [
+      5927028,
+      1780088102723000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/Ya anunciaron que en octubre lanzarán el libro de Harry Potter y el C... [7475471412895993094].txt": [
+      1529,
+      1780090468448000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/¿Cómo diseñar la portada de tu libro para atraer a tu lector meta？ 📕💖... [7201994202387975430].mp4": [
+      3828185,
+      1780088928339000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/¿Cómo diseñar la portada de tu libro para atraer a tu lector meta？ 📕💖... [7201994202387975430].txt": [
+      919,
+      1780092349428000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/¿Sabes cuál es el corrector de textos más poderoso del mercado？ No es... [7465437119108992261].mp4": [
+      6897891,
+      1780088148506000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/¿Sabes cuál es el corrector de textos más poderoso del mercado？ No es... [7465437119108992261].txt": [
+      1717,
+      1780090534081000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/¿Sabes cuál es la mejor tipografía para tu libro？ 📝 Aquí te doy unos ... [7255759992396057862].mp4.part": [
+      5334787,
+      1780088697181000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/¿Sabes cuál es la mejor tipografía para tu libro？ 📝 Aquí te doy unos ... [7255759992396057862].txt": [
+      1528,
+      1780091850250000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/¿Sabes lo que son las correcciones, maquetado y edición de libros？ 🤓📕... [7257676155904412933].mp4": [
+      6613603,
+      1780088691300000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/¿Sabes lo que son las correcciones, maquetado y edición de libros？ 🤓📕... [7257676155904412933].txt": [
+      1261,
+      1780091834048000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/¿Sabes quienes serán los lectores de tu libro？  #autopublicaciondelib... [7190535228325121285].mp4": [
+      12450655,
+      1780088978403000000
+    ],
+    "nodia investigaciones/gelis lara/Edición/¿Sabes quienes serán los lectores de tu libro？  #autopublicaciondelib... [7190535228325121285].txt": [
+      1182,
+      1780092449446000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Ahora les platicaré del arco del cambio negativo de los personajes. H... [7548628267830496520].mp4": [
+      7461023,
+      1780087964278000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Ahora les platicaré del arco del cambio negativo de los personajes. H... [7548628267830496520].txt": [
+      1947,
+      1780090252317000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Anna vestida de sangre es un libro de terror con fantasmas escrito po... [7343728924381154565].mp4": [
+      2258155,
+      1780088415772000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Anna vestida de sangre es un libro de terror con fantasmas escrito po... [7343728924381154565].txt": [
+      676,
+      1780091107771000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Antes de escribir tu historia, considera cuál será la voz para darle ... [7221991638552333574].mp4": [
+      4840123,
+      1780088855260000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Antes de escribir tu historia, considera cuál será la voz para darle ... [7221991638552333574].txt": [
+      874,
+      1780092150086000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Autores Emergentes es un espacio de autores para escritores. En esta ... [7204564757821574405].mp4": [
+      3013482,
+      1780088919298000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Autores Emergentes es un espacio de autores para escritores. En esta ... [7204564757821574405].txt": [
+      952,
+      1780092318149000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Cada libro que he escrito, me ha tocado emocionalmente. La saga de Te... [7616879473778019591].mp4.part": [
+      4115693,
+      1780087862109000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Cada libro que he escrito, me ha tocado emocionalmente. La saga de Te... [7616879473778019591].txt": [
+      2029,
+      1780089879708000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Comparemos la película de Pedro Páramo con el libro escrito por Juan ... [7436519943706807608].mp4": [
+      7144808,
+      1780088211604000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Comparemos la película de Pedro Páramo con el libro escrito por Juan ... [7436519943706807608].txt": [
+      1549,
+      1780090633487000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Conoce cuáles son las muletillas más utilizadas al escribir para evit... [7466156178951736582].mp4.part": [
+      7395072,
+      1780088144672000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Conoce cuáles son las muletillas más utilizadas al escribir para evit... [7466156178951736582].txt": [
+      1688,
+      1780090529345000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Conoce los casos de cuándo se debe agravar una coma antes de “porque”... [7609038797380046098].mp4": [
+      3921576,
+      1780087874437000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Conoce los casos de cuándo se debe agravar una coma antes de “porque”... [7609038797380046098].txt": [
+      1870,
+      1780089922979000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Conoce los diferentes tipos de narradores en primera persona 🎤📝. #tip... [7223540479118380294].mp4": [
+      3711479,
+      1780088848898000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Conoce los diferentes tipos de narradores en primera persona 🎤📝. #tip... [7223540479118380294].txt": [
+      805,
+      1780092135335000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Continuando con la saga de La escuela del bien y del mal de Soman Cha... [7364844374091369729].mp4": [
+      8598628,
+      1780088355649000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Continuando con la saga de La escuela del bien y del mal de Soman Cha... [7364844374091369729].txt": [
+      2851,
+      1780090937520000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Conversatorio Literario en la @FILCO_COYOACAN con mis compañeros @mar... [7615795505020308743].mp4": [
+      5261272,
+      1780087866491000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Conversatorio Literario en la @FILCO_COYOACAN con mis compañeros @mar... [7615795505020308743].txt": [
+      2139,
+      1780089895917000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/De los libros que leí el año pasado, este es mi top 10. 📖💖 10. La esc... [7455827243818814726].mp4": [
+      28975653,
+      1780088175804000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/De los libros que leí el año pasado, este es mi top 10. 📖💖 10. La esc... [7455827243818814726].txt": [
+      2567,
+      1780090579702000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Distopía es la representación de una sociedad ficticia y futurista co... [7321073762051329286].mp4": [
+      1694768,
+      1780088482213000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Distopía es la representación de una sociedad ficticia y futurista co... [7321073762051329286].txt": [
+      776,
+      1780091291224000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/El estudio de Laika convertirá el libro de Wildwood en una película e... [7408656745016397062].mp4": [
+      5478729,
+      1780088292282000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/El estudio de Laika convertirá el libro de Wildwood en una película e... [7408656745016397062].txt": [
+      1527,
+      1780090796602000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/El libro de Asylum es de terror juvenil sobre un chico que va a unos ... [7314777389530107142].mp4.part": [
+      3654395,
+      1780088497892000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/El libro de Asylum es de terror juvenil sobre un chico que va a unos ... [7314777389530107142].txt": [
+      986,
+      1780091341427000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/El libro de El Himno del Desierto： El desierto sin fin de @Eduardo D.... [7321820288826494214].mp4": [
+      3083203,
+      1780088479063000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/El libro de El Himno del Desierto： El desierto sin fin de @Eduardo D.... [7321820288826494214].txt": [
+      1182,
+      1780091275523000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/El libro de Miseria es la continuación de Cometierra escrito por Dolo... [7506244938070379784].mp4": [
+      8679351,
+      1780088006334000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/El libro de Miseria es la continuación de Cometierra escrito por Dolo... [7506244938070379784].txt": [
+      1688,
+      1780090347400000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/El libro de Nuestras resistencias, escritoras que nos vuelan la cabez... [7327759560922467589].mp4": [
+      9837194,
+      1780088463060000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/El libro de Nuestras resistencias, escritoras que nos vuelan la cabez... [7327759560922467589].txt": [
+      1145,
+      1780091232434000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/El libro de Virginia Woolf que se llama Una habitación propia es un e... [7328482213538843910].mp4": [
+      3949698,
+      1780088459602000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/El libro de Virginia Woolf que se llama Una habitación propia es un e... [7328482213538843910].txt": [
+      1016,
+      1780091226892000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/El tiempo narrativo es la forma en la que se maneja el tiempo a lo la... [7502173920057986312].mp4": [
+      5739373,
+      1780088014263000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/El tiempo narrativo es la forma en la que se maneja el tiempo a lo la... [7502173920057986312].txt": [
+      1413,
+      1780090362915000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/En cada feria del libro me topo a Gustavo y su primo con la editorial... [7417156480366841094].mp4": [
+      17111004,
+      1780088276019000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/En cada feria del libro me topo a Gustavo y su primo con la editorial... [7417156480366841094].txt": [
+      4195,
+      1780090760524000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/En el Conversatorio Literario con Círculo de Tinta, en la @FILCO_COYO... [7616163640110140679].mp4": [
+      2956108,
+      1780087864422000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/En el Conversatorio Literario con Círculo de Tinta, en la @FILCO_COYO... [7616163640110140679].txt": [
+      1118,
+      1780089887566000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/En la saga de Estas brujas no arden hay personas que pueden controlar... [7437263854163316023].mp4": [
+      10652603,
+      1780088208993000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/En la saga de Estas brujas no arden hay personas que pueden controlar... [7437263854163316023].txt": [
+      2087,
+      1780090626804000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/En la saga de La escuela del bien y del mal, escrita por @Soman Chain... [7597906470545427719].mp4": [
+      11839830,
+      1780087897699000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/En la saga de La escuela del bien y del mal, escrita por @Soman Chain... [7597906470545427719].txt": [
+      2402,
+      1780089974039000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/En tus historias puedes usar varios narradores y diferentes tipos de ... [7224289873727868166].mp4": [
+      5723016,
+      1780088845474000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/En tus historias puedes usar varios narradores y diferentes tipos de ... [7224289873727868166].txt": [
+      1121,
+      1780092127544000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Escribí una pequeña carta para despedirme del 2025 y darle la bienven... [7590078384596684050].mp4": [
+      3929313,
+      1780087914887000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Escribí una pequeña carta para despedirme del 2025 y darle la bienven... [7590078384596684050].txt": [
+      782,
+      1780090002492000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Estas son algunas recomendaciones para no usar siempre la palabra dij... [7509964730845367570].mp4": [
+      4911425,
+      1780087999490000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Estas son algunas recomendaciones para no usar siempre la palabra dij... [7509964730845367570].txt": [
+      1100,
+      1780090336719000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Este año 2023 leí 21 libros contando los que leí en estas semanas de ... [7317331800328654086].mp4": [
+      15888098,
+      1780088495241000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Este año 2023 leí 21 libros contando los que leí en estas semanas de ... [7317331800328654086].txt": [
+      4075,
+      1780091325381000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Este es el primer video de una serie en donde hablaremos de Innovació... [7266138579397512453].mp4": [
+      4490221,
+      1780088662798000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Este es el primer video de una serie en donde hablaremos de Innovació... [7266138579397512453].txt": [
+      632,
+      1780091725687000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Este libro me enganchó de inicio a fin, es de terror o suspenso psico... [7304401656622468357].mp4": [
+      3416998,
+      1780088541489000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Este libro me enganchó de inicio a fin, es de terror o suspenso psico... [7304401656622468357].txt": [
+      967,
+      1780091425146000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Estos libros los compré en la FIL Guadalajara, uno ya lo leí y los ot... [7312196445640183045].mp4": [
+      6598498,
+      1780088508581000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Estos libros los compré en la FIL Guadalajara, uno ya lo leí y los ot... [7312196445640183045].txt": [
+      2510,
+      1780091368966000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Fun Home： una familia tragicómica es una novela gráfica, creada por A... [7384896560498281734].mp4": [
+      4638592,
+      1780088322765000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Fun Home： una familia tragicómica es una novela gráfica, creada por A... [7384896560498281734].txt": [
+      1277,
+      1780090838453000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Hay 4 ritmos en la velocidad de la narración que podrías usar en tus ... [7230541733224926470].mp4.part": [
+      4388013,
+      1780088812075000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Hay 4 ritmos en la velocidad de la narración que podrías usar en tus ... [7230541733224926470].txt": [
+      889,
+      1780092058554000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Hay patrón muy común en las historias de fantasía, el cual es el viaj... [7603873235825954066].mp4": [
+      29069460,
+      1780087887678000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Hay patrón muy común en las historias de fantasía, el cual es el viaj... [7603873235825954066].txt": [
+      2469,
+      1780089943531000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Innovación y Escritura Creativa parte 12： la prueba del resaltado es ... [7297321556504530182].mp4": [
+      3292482,
+      1780088561874000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Innovación y Escritura Creativa parte 12： la prueba del resaltado es ... [7297321556504530182].txt": [
+      995,
+      1780091476004000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Innovación y Escritura Creativa parte 13. Este es el último video de ... [7299976496192556293].mp4": [
+      5568986,
+      1780088554209000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Innovación y Escritura Creativa parte 13. Este es el último video de ... [7299976496192556293].txt": [
+      633,
+      1780091453673000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Innovación y Escritura Creativa parte 5： ya estamos en la parte de la... [7276599056472739078].mp4": [
+      5096649,
+      1780088629501000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Innovación y Escritura Creativa parte 5： ya estamos en la parte de la... [7276599056472739078].txt": [
+      1025,
+      1780091614642000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Innovación y Escritura Creativa parte 6： seguimos en ideación en dond... [7279205010305584389].mp4": [
+      8574529,
+      1780088620797000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Innovación y Escritura Creativa parte 6： seguimos en ideación en dond... [7279205010305584389].txt": [
+      1451,
+      1780091596189000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Innovación y Escritura Creativa parte 7： seguimos en la parte de idea... [7281720542124576006].mp4": [
+      3827893,
+      1780088611198000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Innovación y Escritura Creativa parte 7： seguimos en la parte de idea... [7281720542124576006].txt": [
+      1039,
+      1780091575200000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Innovación y Escritura Creativa parte 8： ahora trazarás el arco narra... [7284338249907178757].mp4": [
+      6656344,
+      1780088602157000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Innovación y Escritura Creativa parte 8： ahora trazarás el arco narra... [7284338249907178757].txt": [
+      1576,
+      1780091551341000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Innovación y Escritura Creativa parte 9： pasamos a la siguiente etapa... [7286919536924691718].mp4": [
+      8205522,
+      1780088592438000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Innovación y Escritura Creativa parte 9： pasamos a la siguiente etapa... [7286919536924691718].txt": [
+      784,
+      1780091532190000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Jaque mate al amor de Ali Hazelwood es una novela romántica de enemig... [7504016252390722824].mp4": [
+      17698379,
+      1780088011181000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Jaque mate al amor de Ali Hazelwood es una novela romántica de enemig... [7504016252390722824].txt": [
+      1672,
+      1780090353852000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/La autora @Mariana Narváez nos platicó un poco sobre su novela, Cuand... [7481007015653952774].mp4": [
+      5406443,
+      1780088083343000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/La autora @Mariana Narváez nos platicó un poco sobre su novela, Cuand... [7481007015653952774].txt": [
+      964,
+      1780090439116000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/La casa de los espíritus es una novela de realismo mágico ambientada ... [7379355174885723398].mp4": [
+      3995423,
+      1780088330761000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/La casa de los espíritus es una novela de realismo mágico ambientada ... [7379355174885723398].txt": [
+      1391,
+      1780090870770000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/La casa en el mar más azul, escrito por TJ Klune, es una historia aco... [7633973475572468999].mp4": [
+      7103966,
+      1780087831605000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/La casa en el mar más azul, escrito por TJ Klune, es una historia aco... [7633973475572468999].txt": [
+      1473,
+      1780089822161000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/La escaleta es como el esqueleto de tu historia y sirve como si fuera... [7538178375991430408].mp4": [
+      7178141,
+      1780087973119000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/La escaleta es como el esqueleto de tu historia y sirve como si fuera... [7538178375991430408].txt": [
+      1772,
+      1780090277361000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/La novela 1984 de George Orwell es considerada un clásico distópico p... [7322580924506443014].mp4": [
+      8190196,
+      1780088476820000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/La novela 1984 de George Orwell es considerada un clásico distópico p... [7322580924506443014].txt": [
+      1141,
+      1780091267273000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/La personalidad de la voz del narrador es muy importante para saber c... [7371174854088854789].mp4": [
+      3660793,
+      1780088344944000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/La personalidad de la voz del narrador es muy importante para saber c... [7371174854088854789].txt": [
+      1504,
+      1780090906993000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/La reseña de este mes es sobre el tercer libro de La escuela del bien... [7262112953057512709].mp4": [
+      8009616,
+      1780088677135000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/La reseña de este mes es sobre el tercer libro de La escuela del bien... [7262112953057512709].txt": [
+      2132,
+      1780091778566000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/La saga de Tempus Umbras es una macrohistoria compleja y cíclica con ... [7613567625079213319].mp4": [
+      7110129,
+      1780087868617000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/La saga de Tempus Umbras es una macrohistoria compleja y cíclica con ... [7613567625079213319].txt": [
+      2172,
+      1780089903061000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/La semana estuve enfocada totalmente en terminar el libro de fantasma... [7368613174255373573].mp4": [
+      4988517,
+      1780088353024000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/La semana estuve enfocada totalmente en terminar el libro de fantasma... [7368613174255373573].txt": [
+      1228,
+      1780090929045000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/La técnica del cuentacuentos o storytelling puedes aplicarla a tu vid... [7621710936855858439].mp4": [
+      8966335,
+      1780087856586000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/La técnica del cuentacuentos o storytelling puedes aplicarla a tu vid... [7621710936855858439].txt": [
+      1644,
+      1780089866937000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Las crónicas de Spiderwick fue creada por Holly Black y Tony Diterliz... [7374509177424710918].mp4": [
+      3506988,
+      1780088339379000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Las crónicas de Spiderwick fue creada por Holly Black y Tony Diterliz... [7374509177424710918].txt": [
+      1253,
+      1780090899869000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Les comparto un pedacito de la presentación del libro “La eternidad d... [7228739402292317445].mp4": [
+      10009972,
+      1780088820342000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Les comparto un pedacito de la presentación del libro “La eternidad d... [7228739402292317445].txt": [
+      2363,
+      1780092079334000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Les cuento el chismecito de la huelga de los escritores en Hollywood ... [7233935832946642182].mp4": [
+      7900885,
+      1780088802224000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Les cuento el chismecito de la huelga de los escritores en Hollywood ... [7233935832946642182].txt": [
+      1272,
+      1780092039311000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Les platicaré de un libro de cuentos de terror que cada historia me d... [7298478200651336965].mp4": [
+      4525087,
+      1780088558953000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Les platicaré de un libro de cuentos de terror que cada historia me d... [7298478200651336965].txt": [
+      1145,
+      1780091468770000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Les platico un poco sobre el cuarto libro de la saga de La escuela de... [7364130846573415681].mp4": [
+      11380581,
+      1780088361012000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Les platico un poco sobre el cuarto libro de la saga de La escuela de... [7364130846573415681].txt": [
+      3377,
+      1780090947237000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Les platico un poco sobre el uso de las Inteligencias Artificiales co... [7236128131592080645].mp4": [
+      7638041,
+      1780088799337000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Les platico un poco sobre el uso de las Inteligencias Artificiales co... [7236128131592080645].txt": [
+      1651,
+      1780092030699000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Les presento a @Nora Cayetano✍️🏻📚 una escritora muy versátil. Por un ... [7425706340749823237].mp4": [
+      16952160,
+      1780088244582000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Les presento a @Nora Cayetano✍️🏻📚 una escritora muy versátil. Por un ... [7425706340749823237].txt": [
+      1617,
+      1780090679663000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Les presento a unos escritores independientes que estuvieron firmando... [7424288697274666245].mp4": [
+      11028359,
+      1780088247450000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Les presento a unos escritores independientes que estuvieron firmando... [7424288697274666245].txt": [
+      3991,
+      1780090684648000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Lo que más me ha ayudado a quitar el bloqueo del escritor y seguir es... [7359647608857529606].mp4": [
+      4024898,
+      1780088371114000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Lo que más me ha ayudado a quitar el bloqueo del escritor y seguir es... [7359647608857529606].txt": [
+      1218,
+      1780090996733000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Los libros que compré en la Feria Internacional del Libro de Guadalaj... [7175287876509256965].mp4": [
+      25003327,
+      1780089030112000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Los libros que compré en la Feria Internacional del Libro de Guadalaj... [7175287876509256965].txt": [
+      2751,
+      1780092565123000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Los libros que compré en la Feria Internacional del Libro de Guadalaj... [7177977975084764421].mp4": [
+      14791223,
+      1780089014515000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Los libros que compré en la Feria Internacional del Libro de Guadalaj... [7177977975084764421].txt": [
+      1341,
+      1780092552076000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Los libros que compré en la Feria Internacional del Libro de Guadalaj... [7179301594335399173].mp4": [
+      11524697,
+      1780089010990000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Los libros que compré en la Feria Internacional del Libro de Guadalaj... [7179301594335399173].txt": [
+      1083,
+      1780092544271000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Los personajes redondos le dan profundidad a tu historia, pero los pe... [7577122820644261128].mp4": [
+      6047692,
+      1780087935746000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Los personajes redondos le dan profundidad a tu historia, pero los pe... [7577122820644261128].txt": [
+      1371,
+      1780090066665000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Mi nuevo libro favorito es La clase de griego de Han Kang, la ganador... [7520344353152322834].mp4": [
+      9671757,
+      1780087991729000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Mi nuevo libro favorito es La clase de griego de Han Kang, la ganador... [7520344353152322834].txt": [
+      1689,
+      1780090323230000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Muchas gracias a @CasaLibroUANL por invitarme a colaborar en la UANLe... [7347858992707931397].mp4": [
+      13004680,
+      1780088402794000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Muchas gracias a @CasaLibroUANL por invitarme a colaborar en la UANLe... [7347858992707931397].txt": [
+      1148,
+      1780091062014000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Narra tus historias con rupturas para hacerlas más interesantes 📝📖 #e... [7227969013098286341].mp4": [
+      4307795,
+      1780088823484000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Narra tus historias con rupturas para hacerlas más interesantes 📝📖 #e... [7227969013098286341].txt": [
+      941,
+      1780092087281000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Otros libros que me regalaron o que compré en la feria universitaria ... [7348531361382239493].mp4": [
+      17209597,
+      1780088398262000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Otros libros que me regalaron o que compré en la feria universitaria ... [7348531361382239493].txt": [
+      1639,
+      1780091054303000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Para no perderte al escribir una historia con tantos personajes, luga... [7470622799573339447].mp4": [
+      4703860,
+      1780088114945000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Para no perderte al escribir una historia con tantos personajes, luga... [7470622799573339447].txt": [
+      1545,
+      1780090485097000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Primer Plano, escrito por Antonio Malpica, es un libro de misterio qu... [7330347930886442245].mp4": [
+      3508645,
+      1780088449428000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Primer Plano, escrito por Antonio Malpica, es un libro de misterio qu... [7330347930886442245].txt": [
+      1127,
+      1780091214141000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Probemos unos plumones que compré en TikTok Shop. También les mostrar... [7469879537908616503].mp4": [
+      44507515,
+      1780088136020000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Probemos unos plumones que compré en TikTok Shop. También les mostrar... [7469879537908616503].txt": [
+      3090,
+      1780090497490000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Puedes convertir tu libro en audiolibro en automático con Google Libr... [7260967807750311174].mp4": [
+      2192642,
+      1780088679298000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Puedes convertir tu libro en audiolibro en automático con Google Libr... [7260967807750311174].txt": [
+      931,
+      1780091793050000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Reseña de libros de enero 📕📗 #librosrecomdados #libroleidos #librosin... [7194204105269660933].mp4": [
+      11640877,
+      1780088965716000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Reseña de libros de enero 📕📗 #librosrecomdados #libroleidos #librosin... [7194204105269660933].txt": [
+      2635,
+      1780092419810000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Reseña del libro de marzo 📘💙 #ellibrodeperle #librosrecomendados #lec... [7216520724658359557].mp4": [
+      12155886,
+      1780088874462000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Reseña del libro de marzo 📘💙 #ellibrodeperle #librosrecomendados #lec... [7216520724658359557].txt": [
+      1254,
+      1780092228565000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Reseñas de los libros de febrero parte 1 📚 #lecturadelibros #reseñasd... [7205364873188953349].mp4": [
+      4767177,
+      1780088915882000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Reseñas de los libros de febrero parte 1 📚 #lecturadelibros #reseñasd... [7205364873188953349].txt": [
+      1211,
+      1780092310634000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Respuesta a @Doti Te mostraré cómo organizo los documentos al escribi... [7477669158449089797].mp4": [
+      8087633,
+      1780088096430000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Respuesta a @Doti Te mostraré cómo organizo los documentos al escribi... [7477669158449089797].txt": [
+      2603,
+      1780090456227000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Respuesta a @Eduardo D. Allen  ¿Cómo introducir un capítulo de suspen... [7302567750298324229].mp4": [
+      5447259,
+      1780088547757000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Respuesta a @Eduardo D. Allen  ¿Cómo introducir un capítulo de suspen... [7302567750298324229].txt": [
+      1692,
+      1780091439688000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Respuesta a @Gaby Me tardé un poco, pero aquí van más ejemplos de la ... [7447999771207339269].mp4": [
+      4384633,
+      1780088193925000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Respuesta a @Gaby Me tardé un poco, pero aquí van más ejemplos de la ... [7447999771207339269].txt": [
+      2526,
+      1780090598771000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Respuesta a @H4D4L0KA Aquí van algunos ejemplos de mensajes de texto,... [7463192989540666629].mp4": [
+      9995428,
+      1780088151716000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Respuesta a @H4D4L0KA Aquí van algunos ejemplos de mensajes de texto,... [7463192989540666629].txt": [
+      1885,
+      1780090539117000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Respuesta a @Sara Michelle este es el análisis del viaje del héroe en... [7632449559620291848].mp4": [
+      9622163,
+      1780087836301000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Respuesta a @Sara Michelle este es el análisis del viaje del héroe en... [7632449559620291848].txt": [
+      2761,
+      1780089828817000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Respuesta a @Tony Soprano Veamos el arco del cambio positivo de los p... [7488434747190906118].mp4": [
+      14852350,
+      1780088066857000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Respuesta a @Tony Soprano Veamos el arco del cambio positivo de los p... [7488434747190906118].txt": [
+      2785,
+      1780090405616000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Respuesta a @useru8xnx76ov4 Aquí está la parte 2 sobre la puntuación ... [7457623645389589766].mp4": [
+      5592313,
+      1780088167147000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Respuesta a @useru8xnx76ov4 Aquí está la parte 2 sobre la puntuación ... [7457623645389589766].txt": [
+      2275,
+      1780090574247000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Respuesta a @_Lala23 Estos son otros ejemplos de libros narrados en t... [7370034609553231110].mp4": [
+      3673851,
+      1780088347567000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Respuesta a @_Lala23 Estos son otros ejemplos de libros narrados en t... [7370034609553231110].txt": [
+      970,
+      1780090913985000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Si quieres leer más libros, pero se te cansa mucho la vista o batalla... [7635012300709039367].mp4": [
+      9803686,
+      1780087826684000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Si quieres leer más libros, pero se te cansa mucho la vista o batalla... [7635012300709039367].txt": [
+      2111,
+      1780089814257000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Si te gusta leer los cuentos sombríos de Edgar Allan Poe, entonces ti... [7314040846964247813].mp4": [
+      4570108,
+      1780088500314000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Si te gusta leer los cuentos sombríos de Edgar Allan Poe, entonces ti... [7314040846964247813].txt": [
+      1326,
+      1780091348816000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Si ya empezaste a escribir una novela, necesitas conocer Scrivener, q... [7557091410587995400].mp4": [
+      5014144,
+      1780087956219000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Si ya empezaste a escribir una novela, necesitas conocer Scrivener, q... [7557091410587995400].txt": [
+      1853,
+      1780090206659000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Te muestro paso a paso para crear contenidos de calidad y también alg... [7485843146631335174].mp4": [
+      7865318,
+      1780088072916000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Te muestro paso a paso para crear contenidos de calidad y también alg... [7485843146631335174].txt": [
+      2449,
+      1780090417941000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Thornhill es un libro muy oscuro de terror, escrito y diseñado por Pa... [7332581789048884485].mp4": [
+      4688932,
+      1780088444159000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Thornhill es un libro muy oscuro de terror, escrito y diseñado por Pa... [7332581789048884485].txt": [
+      1099,
+      1780091180034000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/TikTok video #7450581867125886214 [7450581867125886214].mp4": [
+      7753846,
+      1780088185261000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/TikTok video #7450581867125886214 [7450581867125886214].txt": [
+      2057,
+      1780090588173000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Toda historia comienza con una idea 💡. Te comparto unas recomendacion... [7165138826996862213].mp4": [
+      3880494,
+      1780089062083000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Toda historia comienza con una idea 💡. Te comparto unas recomendacion... [7165138826996862213].txt": [
+      640,
+      1780092632167000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Una escalera hacia otro lado 💙 #aniversarioluctuoso #diadelpadre #mip... [7245431924972326149].mp4": [
+      4789618,
+      1780088760424000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Una escalera hacia otro lado 💙 #aniversarioluctuoso #diadelpadre #mip... [7245431924972326149].txt": [
+      2260,
+      1780091942189000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Una historia de terror psicológica con un toque de misterio, donde el... [7460233392643214598].mp4.part": [
+      6153291,
+      1780088161720000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Una historia de terror psicológica con un toque de misterio, donde el... [7460233392643214598].txt": [
+      1074,
+      1780090555804000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Una novela de misterio que te atrapará desde el inicio hasta el final... [7387117728588483846].mp4": [
+      3203902,
+      1780088320483000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Una novela de misterio que te atrapará desde el inicio hasta el final... [7387117728588483846].txt": [
+      1183,
+      1780090833656000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Wildwood, una saga de libros sobre un mundo escondido en el bosque in... [7299199315631754502].mp4": [
+      5353246,
+      1780088556545000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Wildwood, una saga de libros sobre un mundo escondido en el bosque in... [7299199315631754502].txt": [
+      1381,
+      1780091461029000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Ya, último video sobre los libros que obtuve en las ferias de libros.... [7434618396634893624].mp4": [
+      12611566,
+      1780088223452000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/Ya, último video sobre los libros que obtuve en las ferias de libros.... [7434618396634893624].txt": [
+      1662,
+      1780090638836000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/¿Conoces lo que son las cacofonías？ Es cuando reúnes sílabas o palabr... [7540762435595062546].mp4": [
+      8571691,
+      1780087970550000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/¿Conoces lo que son las cacofonías？ Es cuando reúnes sílabas o palabr... [7540762435595062546].txt": [
+      1593,
+      1780090271167000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/¿Cómo crear una buena descripción de tu libro？ 📝 #vendetulibro #lecto... [7196734550590885125].mp4": [
+      6791455,
+      1780088953317000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/¿Cómo crear una buena descripción de tu libro？ 📝 #vendetulibro #lecto... [7196734550590885125].txt": [
+      809,
+      1780092402355000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/¿Cómo títulos de libros creativos？ 📚⭐️ #titulosdelibros #titulosdelib... [7195722336161647877].mp4": [
+      2707634,
+      1780088955894000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/¿Cómo títulos de libros creativos？ 📚⭐️ #titulosdelibros #titulosdelib... [7195722336161647877].txt": [
+      803,
+      1780092408048000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/¿Quieres escribir una historia de ficción, pero no sabes por donde em... [7324793059781233925].mp4": [
+      2552564,
+      1780088471480000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/¿Quieres escribir una historia de ficción, pero no sabes por donde em... [7324793059781233925].txt": [
+      758,
+      1780091252931000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/¿Quieres escribir una novela con distintos narradores？ Aquí veremos u... [7489168178937974022].mp4": [
+      7873528,
+      1780088060476000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/¿Quieres escribir una novela con distintos narradores？ Aquí veremos u... [7489168178937974022].txt": [
+      1900,
+      1780090400661000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/¿Qué es mejor para escribir tu libro？ Google Docs o Microsoft Word 🤷‍... [7256892673775258885].mp4": [
+      4378461,
+      1780088693931000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/¿Qué es mejor para escribir tu libro？ Google Docs o Microsoft Word 🤷‍... [7256892673775258885].txt": [
+      1202,
+      1780091841473000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/¿Sabes cuándo se utiliza el salto de línea, el salto que tiene una lí... [7514458959445576968].mp4": [
+      6653014,
+      1780087995510000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/¿Sabes cuándo se utiliza el salto de línea, el salto que tiene una lí... [7514458959445576968].txt": [
+      1440,
+      1780090330744000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/¿Sabes distinguir cuándo escribir la palabra “porque” separada, junta... [7603112153050008839].mp4": [
+      9481855,
+      1780087890854000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/¿Sabes distinguir cuándo escribir la palabra “porque” separada, junta... [7603112153050008839].txt": [
+      2006,
+      1780089951823000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/¿Sabes lo que realmente es la Escritura Creativa？ Si sigues estos 4 a... [7264737563229883653].mp4": [
+      4970377,
+      1780088669200000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/¿Sabes lo que realmente es la Escritura Creativa？ Si sigues estos 4 a... [7264737563229883653].txt": [
+      980,
+      1780091748748000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/¿Sabes por qué muchos libros de fantasía usan el narrador en tercera ... [7222733369694637318].mp4": [
+      5782768,
+      1780088852772000000
+    ],
+    "nodia investigaciones/gelis lara/Escritura/¿Sabes por qué muchos libros de fantasía usan el narrador en tercera ... [7222733369694637318].txt": [
+      922,
+      1780092142270000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/@filcoahuila La Feria Internacional del Libro de Coahuila 2024 será d... [7413484653119573253].mp4": [
+      3381222,
+      1780088286107000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/@filcoahuila La Feria Internacional del Libro de Coahuila 2024 será d... [7413484653119573253].txt": [
+      2560,
+      1780090785298000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/@Folks Bazar y @Exlibris y más pa' lectorxs✨📖 organizaron un bazar li... [7490652309081443590].mp4": [
+      4761041,
+      1780088055953000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/@Folks Bazar y @Exlibris y más pa' lectorxs✨📖 organizaron un bazar li... [7490652309081443590].txt": [
+      905,
+      1780090395452000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Algunas recomendaciones antes de ir a la Feria Internacional del Libr... [7226141125629840646].mp4": [
+      12292879,
+      1780088837995000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Algunas recomendaciones antes de ir a la Feria Internacional del Libr... [7226141125629840646].txt": [
+      1208,
+      1780092114110000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Book Haul de los libros que compré en la @FIL Guadalajara  - Yo Sor J... [7582789890333723912].mp4": [
+      13373170,
+      1780087924638000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Book Haul de los libros que compré en la @FIL Guadalajara  - Yo Sor J... [7582789890333723912].txt": [
+      2973,
+      1780090023482000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Creando pulseras Booklovers para la Feria Internacional del Libro Mon... [7544584620822531336].mp4": [
+      1833990,
+      1780087966003000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Creando pulseras Booklovers para la Feria Internacional del Libro Mon... [7544584620822531336].txt": [
+      479,
+      1780090257752000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Del 26 de noviembre al 4 de diciembre, mis libros estarán disponibles... [7168526217958673669].mp4": [
+      4636899,
+      1780089059514000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Del 26 de noviembre al 4 de diciembre, mis libros estarán disponibles... [7168526217958673669].txt": [
+      605,
+      1780092623263000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Del 28 de septiembre al 6 de octubre será la @FIL Monterrey en Cinter... [7418339578504908039].mp4": [
+      24339303,
+      1780088271220000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Del 28 de septiembre al 6 de octubre será la @FIL Monterrey en Cinter... [7418339578504908039].txt": [
+      1683,
+      1780090755175000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Dividí el video en dos partes porque compré muchos libros 📚📚📚. #compr... [7293263037488729350].mp4": [
+      11454839,
+      1780088578698000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Dividí el video en dos partes porque compré muchos libros 📚📚📚. #compr... [7293263037488729350].txt": [
+      2678,
+      1780091509277000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/En la @FIL Monterrey 2024 conocí a autores increíbles como Christel G... [7423513910239644934].mp4": [
+      2656350,
+      1780088249866000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/En la @FIL Monterrey 2024 conocí a autores increíbles como Christel G... [7423513910239644934].txt": [
+      531,
+      1780090689342000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/En la Feria Internacional del Libro de Coahuila, conocí a las autoras... [7416461449217838342].mp4": [
+      8582935,
+      1780088279398000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/En la Feria Internacional del Libro de Coahuila, conocí a las autoras... [7416461449217838342].txt": [
+      1793,
+      1780090773438000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/En la FIL Guadalajara, platicamos un ratito con Antonio Lorente, quie... [7309937184310611206].mp4": [
+      8099672,
+      1780088511562000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/En la FIL Guadalajara, platicamos un ratito con Antonio Lorente, quie... [7309937184310611206].txt": [
+      1165,
+      1780091375613000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Entrevisté a Jorge Limón, autor de la novela que trata sobre salud me... [7480270481975708933].mp4": [
+      7631294,
+      1780088089195000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Entrevisté a Jorge Limón, autor de la novela que trata sobre salud me... [7480270481975708933].txt": [
+      2344,
+      1780090445376000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Estaré en la Feria Internacional del Libro de Coyoacán 2025 el vierne... [7476188475860028677].mp4": [
+      3044845,
+      1780088098820000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Estaré en la Feria Internacional del Libro de Coyoacán 2025 el vierne... [7476188475860028677].txt": [
+      588,
+      1780090461679000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Estaré en la Feria Internacional del Libro de Guadalajara 2023 con el... [7268032173129616642].mp4": [
+      7011072,
+      1780088657581000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Estaré en la Feria Internacional del Libro de Guadalajara 2023 con el... [7268032173129616642].txt": [
+      559,
+      1780091685961000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Estaré en la Feria Internacional del Libro en Coyoacán el 24 de marzo... [7212352102490737926].mp4": [
+      8089020,
+      1780088895636000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Estaré en la Feria Internacional del Libro en Coyoacán el 24 de marzo... [7212352102490737926].txt": [
+      825,
+      1780092257960000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Estaré regalando separadores de libros a quienes me visiten este domi... [7286211262055271686].mp4.part": [
+      3622455,
+      1780088595077000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Estaré regalando separadores de libros a quienes me visiten este domi... [7286211262055271686].txt": [
+      778,
+      1780091537784000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Este jueves, 13 de abril a las 5_00 pm estaré en la Feria Universitar... [7220921464705404165].mp4": [
+      9415653,
+      1780088858914000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Este jueves, 13 de abril a las 5_00 pm estaré en la Feria Universitar... [7220921464705404165].txt": [
+      792,
+      1780092158272000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Estos son algunos eventos que habrá en la Feria Universitaria del Lib... [7345596938647014661].mp4": [
+      2156286,
+      1780088410705000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Estos son algunos eventos que habrá en la Feria Universitaria del Lib... [7345596938647014661].txt": [
+      942,
+      1780091094558000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Estos son los libros que me regalaron los de la @CasaLibroUANL en la ... [7433895216630844677].mp4": [
+      10072821,
+      1780088226568000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Estos son los libros que me regalaron los de la @CasaLibroUANL en la ... [7433895216630844677].txt": [
+      1346,
+      1780090644906000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Fui a la Feria Internacional del Libro del Palacio de Minería y vi a ... [7478418479608089874].mp4": [
+      3072411,
+      1780088090859000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Fui a la Feria Internacional del Libro del Palacio de Minería y vi a ... [7478418479608089874].txt": [
+      1010,
+      1780090450789000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Fui a la firma de libros de Sébastien Perez y Benjamin Lacombe de la ... [7446502644081855749].mp4": [
+      7264101,
+      1780088200220000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Fui a la firma de libros de Sébastien Perez y Benjamin Lacombe de la ... [7446502644081855749].txt": [
+      1293,
+      1780090610257000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Fuimos a @Folks Bazar al Festival de calaveras 💀🎃 en donde había：  - ... [7428334487601253637].mp4": [
+      4461246,
+      1780088235530000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Fuimos a @Folks Bazar al Festival de calaveras 💀🎃 en donde había：  - ... [7428334487601253637].txt": [
+      1222,
+      1780090658478000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Fuimos a las Callejoneadas de leyendas que organizó el Museo de la Ka... [7296579821784665349].mp4": [
+      3063856,
+      1780088564247000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Fuimos a las Callejoneadas de leyendas que organizó el Museo de la Ka... [7296579821784665349].txt": [
+      673,
+      1780091483539000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/La feria universitaria del libro UANLeer 2024 ya empezó y estará hast... [7345907875732000006].mp4": [
+      2932757,
+      1780088408647000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/La feria universitaria del libro UANLeer 2024 ya empezó y estará hast... [7345907875732000006].txt": [
+      824,
+      1780091081342000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Les comparto unas recomendaciones antes de ir a la Feria Internaciona... [7303692921218370821].mp4": [
+      6785824,
+      1780088545175000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Les comparto unas recomendaciones antes de ir a la Feria Internaciona... [7303692921218370821].txt": [
+      962,
+      1780091434003000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Les cuento el chismecito de por qué casi no se hace mi plática en la ... [7215742202935299334].mp4": [
+      18625635,
+      1780088880620000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Les cuento el chismecito de por qué casi no se hace mi plática en la ... [7215742202935299334].txt": [
+      2045,
+      1780092234553000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Les mostraré los libros que me regalaron los organizadores de la @fil... [7429085354398960902].mp4": [
+      9858371,
+      1780088232802000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Les mostraré los libros que me regalaron los organizadores de la @fil... [7429085354398960902].txt": [
+      2007,
+      1780090653075000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Los libros de Tradiciones y Leyendas del Saltillo antiguo son mi gran... [7305115773364702469].mp4": [
+      3537123,
+      1780088539271000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Los libros de Tradiciones y Leyendas del Saltillo antiguo son mi gran... [7305115773364702469].txt": [
+      1161,
+      1780091417567000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Mi resumen del 3 de diciembre en la @FIL Guadalajara  Fui a la presen... [7580134334510796040].mp4": [
+      4132354,
+      1780087933266000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Mi resumen del 3 de diciembre en la @FIL Guadalajara  Fui a la presen... [7580134334510796040].txt": [
+      1044,
+      1780090060614000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Mi resumen del 4 de diciembre en la @FIL Guadalajara  Fui a la presen... [7580420407132441864].mp4": [
+      3759472,
+      1780087931507000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Mi resumen del 4 de diciembre en la @FIL Guadalajara  Fui a la presen... [7580420407132441864].txt": [
+      872,
+      1780090047980000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Mi resumen del 5 de diciembre en la @FIL Guadalajara  Fui a las sigui... [7580752190340418824].mp4": [
+      4643599,
+      1780087929295000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Mi resumen del 5 de diciembre en la @FIL Guadalajara  Fui a las sigui... [7580752190340418824].txt": [
+      1169,
+      1780090040019000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Mi resumen del 6 de diciembre en la @FIL Guadalajara  Fui a las sigui... [7581166161497181458].mp4": [
+      5041858,
+      1780087926597000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Mi resumen del 6 de diciembre en la @FIL Guadalajara  Fui a las sigui... [7581166161497181458].txt": [
+      1128,
+      1780090031956000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Mis libros estarán a la venta en Monterrey en la Feria Universitaria ... [7210577216902597894].mp4": [
+      5094534,
+      1780088902981000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Mis libros estarán a la venta en Monterrey en la Feria Universitaria ... [7210577216902597894].txt": [
+      529,
+      1780092278942000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Otros libros que compré en la @FIL Guadalajara 2023 como uno de vampi... [7312912792225385733].mp4": [
+      11628918,
+      1780088505063000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Otros libros que compré en la @FIL Guadalajara 2023 como uno de vampi... [7312912792225385733].txt": [
+      3537,
+      1780091363717000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Regalaré pulseras booklovers en la Feria Internacional del Libro Coah... [7406125399064808709].mp4": [
+      24592847,
+      1780088298216000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Regalaré pulseras booklovers en la Feria Internacional del Libro Coah... [7406125399064808709].txt": [
+      2416,
+      1780090802871000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Si publicaste tu libro en Amazon, con una editorial independiente o e... [7380449808802270469].mp4": [
+      2482512,
+      1780088328171000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Si publicaste tu libro en Amazon, con una editorial independiente o e... [7380449808802270469].txt": [
+      990,
+      1780090864063000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Soñé que platicaba contigo #sueños #recuerdosdemisabuelos #miabuela #... [7197660119994223877].mp4": [
+      2254304,
+      1780088949071000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Soñé que platicaba contigo #sueños #recuerdosdemisabuelos #miabuela #... [7197660119994223877].txt": [
+      852,
+      1780092396569000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Un libro sobre alimentación saludable con base en investigaciones cie... [7421939463787482374].mp4": [
+      6355744,
+      1780088254807000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Un libro sobre alimentación saludable con base en investigaciones cie... [7421939463787482374].txt": [
+      725,
+      1780090730418000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Vine a pasear por el stand de @CasaLibroUANL en la @FIL Monterrey Tie... [7421665530764856582].mp4": [
+      4704363,
+      1780088257212000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Vine a pasear por el stand de @CasaLibroUANL en la @FIL Monterrey Tie... [7421665530764856582].txt": [
+      750,
+      1780090736055000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Ya viene la @FIL Guadalajara, será del 29 de noviembre al 7 de diciem... [7574242308267248914].mp4": [
+      6724932,
+      1780087939685000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Ya viene la @FIL Guadalajara, será del 29 de noviembre al 7 de diciem... [7574242308267248914].txt": [
+      1678,
+      1780090122951000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Ya viene la @FIL Monterrey, será del 11 al 19 de octubre en Cintermex... [7553793016301899026].mp4": [
+      7404204,
+      1780087958239000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Ya viene la @FIL Monterrey, será del 11 al 19 de octubre en Cintermex... [7553793016301899026].txt": [
+      1176,
+      1780090213617000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Ya viene la Feria Internacional del Libro en Coyoacán 2026. Este año ... [7610985619690360072].mp4": [
+      5466190,
+      1780087872913000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Ya viene la Feria Internacional del Libro en Coyoacán 2026. Este año ... [7610985619690360072].txt": [
+      1211,
+      1780089916241000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Ya viene la Feria Internacional del Libro Monterrey, será del 7 al 15... [7281074265397464326].mp4": [
+      2874615,
+      1780088613626000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Ya viene la Feria Internacional del Libro Monterrey, será del 7 al 15... [7281074265397464326].txt": [
+      752,
+      1780091580186000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Ya viene la Feria Universitaria del Libro UANLeer 2024 en Monterrey. ... [7342962002316332294].mp4": [
+      3516173,
+      1780088418526000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/Ya viene la Feria Universitaria del Libro UANLeer 2024 en Monterrey. ... [7342962002316332294].txt": [
+      297,
+      1780091113763000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/¿Quieres proteger tus libros？ Si eres un autor que quiere cuidar sus ... [7412727877336124678].mp4": [
+      7232443,
+      1780088289034000000
+    ],
+    "nodia investigaciones/gelis lara/Eventos/¿Quieres proteger tus libros？ Si eres un autor que quiere cuidar sus ... [7412727877336124678].txt": [
+      1400,
+      1780090792291000000
+    ],
+    "nodia investigaciones/gelis lara/IA/De la serie de videos sobre lo que no detectaron las IA, como ChatGPT... [7528165908188073224].mp4": [
+      5883079,
+      1780087980289000000
+    ],
+    "nodia investigaciones/gelis lara/IA/De la serie de videos sobre lo que no detectaron las IA, como ChatGPT... [7528165908188073224].txt": [
+      1801,
+      1780090293721000000
+    ],
+    "nodia investigaciones/gelis lara/IA/Después del experimento para corregir un texto con las inteligencias ... [7525539268488416519].mp4": [
+      6104550,
+      1780087984487000000
+    ],
+    "nodia investigaciones/gelis lara/IA/Después del experimento para corregir un texto con las inteligencias ... [7525539268488416519].txt": [
+      1185,
+      1780090305970000000
+    ],
+    "nodia investigaciones/gelis lara/IA/Empezamos con la serie de videos de errores que no detectan las intel... [7524799162735398151].mp4": [
+      8840039,
+      1780087986994000000
+    ],
+    "nodia investigaciones/gelis lara/IA/Empezamos con la serie de videos de errores que no detectan las intel... [7524799162735398151].txt": [
+      1449,
+      1780090311753000000
+    ],
+    "nodia investigaciones/gelis lara/IA/Ni ChatGPT ni Gemini detectaron varias repeticiones de palabras que e... [7527461286502960402].mp4": [
+      5937667,
+      1780087982745000000
+    ],
+    "nodia investigaciones/gelis lara/IA/Ni ChatGPT ni Gemini detectaron varias repeticiones de palabras que e... [7527461286502960402].txt": [
+      1919,
+      1780090299412000000
+    ],
+    "nodia investigaciones/gelis lara/IA/Pongamos a prueba un texto corregido por una correctora editorial con... [7522253043144953095].mp4": [
+      10406708,
+      1780087989508000000
+    ],
+    "nodia investigaciones/gelis lara/IA/Pongamos a prueba un texto corregido por una correctora editorial con... [7522253043144953095].txt": [
+      3212,
+      1780090317102000000
+    ],
+    "nodia investigaciones/gelis lara/IA/Respuesta a @Kuany_Art Estos son los 10 errores más comunes que no de... [7642190699974118664].mp4": [
+      9365710,
+      1780087821037000000
+    ],
+    "nodia investigaciones/gelis lara/IA/Respuesta a @Kuany_Art Estos son los 10 errores más comunes que no de... [7642190699974118664].txt": [
+      2400,
+      1780089800333000000
+    ],
+    "nodia investigaciones/gelis lara/IA/Respuesta a @luisoscarvelazque4 Estas son las ambigüedades que no det... [7529994022971018504].mp4": [
+      7629140,
+      1780087978045000000
+    ],
+    "nodia investigaciones/gelis lara/IA/Respuesta a @luisoscarvelazque4 Estas son las ambigüedades que no det... [7529994022971018504].txt": [
+      2149,
+      1780090287959000000
+    ],
+    "nodia investigaciones/gelis lara/IA/Respuesta a @Lusn Como no me creen, le pregunté a la IA： Cuáles son l... [7639534429970664712].mp4": [
+      8869673,
+      1780087823135000000
+    ],
+    "nodia investigaciones/gelis lara/IA/Respuesta a @Lusn Como no me creen, le pregunté a la IA： Cuáles son l... [7639534429970664712].txt": [
+      2613,
+      1780089807885000000
+    ],
+    "nodia investigaciones/gelis lara/IA/¿Escribiste un libro con inteligencia artificial？ Si tu motivo es ser... [7626549915761544466].mp4": [
+      8551921,
+      1780087853387000000
+    ],
+    "nodia investigaciones/gelis lara/IA/¿Escribiste un libro con inteligencia artificial？ Si tu motivo es ser... [7626549915761544466].txt": [
+      1824,
+      1780089854520000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Ahora les platicaré de unos cómics que me gustan mucho como el de Loo... [7381930671792590086].mp4": [
+      12312258,
+      1780088325637000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Ahora les platicaré de unos cómics que me gustan mucho como el de Loo... [7381930671792590086].txt": [
+      1288,
+      1780090855120000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Charlotte C. escribió once escritos que nunca entregó sobre su amor y... [7357070725485694213].mp4": [
+      7686657,
+      1780088377327000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Charlotte C. escribió once escritos que nunca entregó sobre su amor y... [7357070725485694213].txt": [
+      1032,
+      1780091016251000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Como parte de las actividades de la @FIL Guadalajara, tuvimos el even... [7306600265543585029].mp4": [
+      6758958,
+      1780088533760000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Como parte de las actividades de la @FIL Guadalajara, tuvimos el even... [7306600265543585029].txt": [
+      1316,
+      1780091408422000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/El Gran Sueño, escrito por Jordi Sierra i Fabra, es un libro lleno de... [7331090010814352645].mp4.part": [
+      3233280,
+      1780088447117000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/El Gran Sueño, escrito por Jordi Sierra i Fabra, es un libro lleno de... [7331090010814352645].txt": [
+      1006,
+      1780091206548000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/El libro de La eternidad de las manzanas nació de las historias de mi... [7307371675446758662].mp4": [
+      3747329,
+      1780088518759000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/El libro de La eternidad de las manzanas nació de las historias de mi... [7307371675446758662].txt": [
+      756,
+      1780091390076000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/El primer libro que publiqué tenía tantos errores que hasta dejé una ... [7543358105212488967].mp4": [
+      7226853,
+      1780087968069000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/El primer libro que publiqué tenía tantos errores que hasta dejé una ... [7543358105212488967].txt": [
+      1226,
+      1780090264841000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/En la @FILCO_COYOACAN, fui a la presentación y firma de libros de Lau... [7484007682421067014].mp4": [
+      5717314,
+      1780088077875000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/En la @FILCO_COYOACAN, fui a la presentación y firma de libros de Lau... [7484007682421067014].txt": [
+      1441,
+      1780090423534000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Esta es la primera vez que comparto algo muy personal y me daba un po... [7414174753231064326].mp4": [
+      11794155,
+      1780088282936000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Esta es la primera vez que comparto algo muy personal y me daba un po... [7414174753231064326].txt": [
+      5952,
+      1780090779656000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Estas fueron algunas de mis Barbies en los 90’s 🧍‍♀️💖 #barbie #misbar... [7259507420148272389].mp4": [
+      12958627,
+      1780088685006000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Estas fueron algunas de mis Barbies en los 90’s 🧍‍♀️💖 #barbie #misbar... [7259507420148272389].txt": [
+      2115,
+      1780091808577000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Este es un fragmento de la historia que escribí, la cual tiene fantas... [7597183013713186056].mp4": [
+      21736488,
+      1780087901741000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Este es un fragmento de la historia que escribí, la cual tiene fantas... [7597183013713186056].txt": [
+      5430,
+      1780089981035000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Estos son los libros que compré para los regalos de Navidad. Al final... [7583445779868650770].mp4": [
+      11330450,
+      1780087921260000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Estos son los libros que compré para los regalos de Navidad. Al final... [7583445779868650770].txt": [
+      2251,
+      1780090015993000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Hace unos días recordé aquellos momentos especiales que me han ocurri... [7549751319691595026].mp4": [
+      5549679,
+      1780087961916000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Hace unos días recordé aquellos momentos especiales que me han ocurri... [7549751319691595026].txt": [
+      1246,
+      1780090246700000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Isabel Allende nos platica en su libro Mujeres del alma mía sobre su ... [7439106559415684407].mp4": [
+      5317562,
+      1780088205735000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Isabel Allende nos platica en su libro Mujeres del alma mía sobre su ... [7439106559415684407].txt": [
+      1337,
+      1780090621480000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/La vegetarina escrito por Han Kang, ganadora del Premio Nobel de Lite... [7447290790491049222].mp4": [
+      9076502,
+      1780088197657000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/La vegetarina escrito por Han Kang, ganadora del Premio Nobel de Lite... [7447290790491049222].txt": [
+      1877,
+      1780090604691000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Les comparto el último cuento de mi libro, La eternidad de las manzan... [7419774854171299078].mp4": [
+      48669877,
+      1780088266486000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Les comparto el último cuento de mi libro, La eternidad de las manzan... [7419774854171299078].txt": [
+      14713,
+      1780090741962000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Me mudé a la CDMX con todas mis cosas. En total fueron 13 cajas de li... [7445061714380328248].mp4": [
+      9513563,
+      1780088202632000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Me mudé a la CDMX con todas mis cosas. En total fueron 13 cajas de li... [7445061714380328248].txt": [
+      891,
+      1780090615744000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Mi hermana me ayudó a cambiarme el look mientras veíamos los cuentos ... [7269866516512771334].mp4": [
+      20720246,
+      1780088651693000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Mi hermana me ayudó a cambiarme el look mientras veíamos los cuentos ... [7269866516512771334].txt": [
+      970,
+      1780091673127000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Mi trabajo, como UX Writer, está siendo desplazado por la IA (Intelig... [7600519528887373064].mp4": [
+      18679586,
+      1780087894548000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Mi trabajo, como UX Writer, está siendo desplazado por la IA (Intelig... [7600519528887373064].txt": [
+      3916,
+      1780089958594000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Por el Día del Amor y la Amistad, les recomendaré mi nuevo libro de r... [7606720625671032082].mp4": [
+      7866284,
+      1780087877024000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Por el Día del Amor y la Amistad, les recomendaré mi nuevo libro de r... [7606720625671032082].txt": [
+      1531,
+      1780089929806000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Todo es temporal en este mundo. No dejes que la depresión te tumbe o ... [7499562692370287880].mp4": [
+      321592,
+      1780088018788000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Todo es temporal en este mundo. No dejes que la depresión te tumbe o ... [7499562692370287880].txt": [
+      192,
+      1780090374670000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Un pedacito de lo que fue mi presentación en la Feria Internacional d... [7218348911944011014].mp4": [
+      14741947,
+      1780088868894000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Un pedacito de lo que fue mi presentación en la Feria Internacional d... [7218348911944011014].txt": [
+      3922,
+      1780092197531000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Unboxing de mi nuevo libro, Tempus Umbras 3 🧙‍♀️📗. #tempusumbras3 #un... [7277660852155714822].mp4": [
+      7675743,
+      1780088626239000000
+    ],
+    "nodia investigaciones/gelis lara/Personal/Unboxing de mi nuevo libro, Tempus Umbras 3 🧙‍♀️📗. #tempusumbras3 #un... [7277660852155714822].txt": [
+      1830,
+      1780091608093000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/Antes de que se enfríe el café es un libro de Toshikazu Kawaguchi con... [7473592593708748037].mp4": [
+      6391735,
+      1780088107626000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/Antes de que se enfríe el café es un libro de Toshikazu Kawaguchi con... [7473592593708748037].txt": [
+      2079,
+      1780090473904000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/Buscalibre es una plataforma de venta de libros, solo de libros 📚. Lo... [7337399195395296517].mp4": [
+      4868366,
+      1780088433564000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/Buscalibre es una plataforma de venta de libros, solo de libros 📚. Lo... [7337399195395296517].txt": [
+      963,
+      1780091141186000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/El hábito de la lectura en la adolescencia y algunas recomendaciones.... [7629829771597319432].mp4": [
+      7115502,
+      1780087848328000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/El hábito de la lectura en la adolescencia y algunas recomendaciones.... [7629829771597319432].txt": [
+      1900,
+      1780089843809000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/El libro de Cuando nosotras fuimos dragonas, escrito por Kelly Barnhi... [7461314350922386693].mp4": [
+      5969817,
+      1780088158269000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/El libro de Cuando nosotras fuimos dragonas, escrito por Kelly Barnhi... [7461314350922386693].txt": [
+      1421,
+      1780090549818000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/En el 2023 me puse de meta leer 12 libros y terminé leyendo 21; en el... [7593156910782729490].mp4": [
+      6795215,
+      1780087906030000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/En el 2023 me puse de meta leer 12 libros y terminé leyendo 21; en el... [7593156910782729490].txt": [
+      1378,
+      1780089995841000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/En recomendaciones de libros adictivos para leer les traigo la saga d... [7506976343842770183].mp4": [
+      16980658,
+      1780088003403000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/En recomendaciones de libros adictivos para leer les traigo la saga d... [7506976343842770183].txt": [
+      1223,
+      1780090341636000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/Enviar un manuscrito a una editorial ya no es suficiente. Crea una pr... [7535574292700974343].mp4": [
+      5203826,
+      1780087975266000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/Enviar un manuscrito a una editorial ya no es suficiente. Crea una pr... [7535574292700974343].txt": [
+      1920,
+      1780090282676000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/Esta saga de terror juvenil está compuesta por dos libros, Anna vesti... [7356320237265980678].mp4": [
+      4447647,
+      1780088380607000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/Esta saga de terror juvenil está compuesta por dos libros, Anna vesti... [7356320237265980678].txt": [
+      1217,
+      1780091023586000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/Hagamos una cadena de lectura de libros que fomenten la equidad de gé... [7329633985489947909].mp4": [
+      11205512,
+      1780088456796000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/Hagamos una cadena de lectura de libros que fomenten la equidad de gé... [7329633985489947909].txt": [
+      1048,
+      1780091220743000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/La reseña del libro de Loveless de Alice Oseman 💖📕 #aliceoseman #love... [7229458181187996933].mp4": [
+      3407559,
+      1780088816642000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/La reseña del libro de Loveless de Alice Oseman 💖📕 #aliceoseman #love... [7229458181187996933].txt": [
+      909,
+      1780092067415000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/Les comparto unas recomendaciones para retomar la lectura en este 202... [7320370038890843397].mp4": [
+      10829730,
+      1780088486363000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/Les comparto unas recomendaciones para retomar la lectura en este 202... [7320370038890843397].txt": [
+      1361,
+      1780091297909000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/Les mostraré mi bitácora de lectura que le compré a Libretas Miau, la... [7462487463504776453].mp4.part": [
+      5319391,
+      1780088155210000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/Les mostraré mi bitácora de lectura que le compré a Libretas Miau, la... [7462487463504776453].txt": [
+      1211,
+      1780090544476000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/Les platico un poco sobre los libros de los cómics de Heartstopper cr... [7267291753756069126].mp4": [
+      6812717,
+      1780088660820000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/Les platico un poco sobre los libros de los cómics de Heartstopper cr... [7267291753756069126].txt": [
+      1628,
+      1780091718492000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/Libros que tienen romance, pero su tema principal no es el romance 💕📕... [7471373717059259703].mp4": [
+      3746361,
+      1780088110811000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/Libros que tienen romance, pero su tema principal no es el romance 💕📕... [7471373717059259703].txt": [
+      1242,
+      1780090479401000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/Los siete maridos de Evelyn Hugo, escrita por Taylor Jenkins Reid, es... [7605783004992097543].mp4": [
+      22439200,
+      1780087881113000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/Los siete maridos de Evelyn Hugo, escrita por Taylor Jenkins Reid, es... [7605783004992097543].txt": [
+      1617,
+      1780089936773000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/Minibooks para elegir mi siguiente lectura. 📚✨ Libro 3… . . . Lo inev... [7631674766990036232].mp4": [
+      2696052,
+      1780087840093000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/Minibooks para elegir mi siguiente lectura. 📚✨ Libro 3… . . . Lo inev... [7631674766990036232].txt": [
+      428,
+      1780089836735000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/Quería mostrarles algunos libros de romance de mi librero, pero solo ... [7335543285034896646].mp4": [
+      9384743,
+      1780088438910000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/Quería mostrarles algunos libros de romance de mi librero, pero solo ... [7335543285034896646].txt": [
+      1245,
+      1780091155665000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/Tipos de libros que dizque estoy leyendo, el mejor es el libro mueble... [7360793248635325701].mp4": [
+      7145975,
+      1780088368806000000
+    ],
+    "nodia investigaciones/gelis lara/Reseñas/Tipos de libros que dizque estoy leyendo, el mejor es el libro mueble... [7360793248635325701].txt": [
+      665,
+      1780090963045000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/#indautor #registroenindautor #registrodeobra #publicaciondelibros #o... [7214947560752942342].mp4": [
+      9469886,
+      1780088883756000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/#ISBN #registrodelibros #derechosdeautor #publicaciondelibros #public... [7213154009287265541].mp4": [
+      3385125,
+      1780088892249000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/#nanowrimo #nanowrimocamp #comunidaddeescritores #escritores #retodee... [7213911615798824197].mp4": [
+      9689657,
+      1780088886734000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/@yisuselnomada nos cuenta sobre el contenido de su libro “Cómo ser nó... [7251304247357181190].mp4": [
+      4486147,
+      1780088725740000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/@yisuselnomada nos platica en la entrevista de Autores Emergentes sob... [7252112256266194181].mp4": [
+      2543041,
+      1780088722874000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Ahora les traigo la reseña del libro ténico que leí en mayo que se ll... [7240236043943906587].mp4": [
+      3076854,
+      1780088776804000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Ahora sí, les comparto cómo publicar un libro en Amazon. Como el vide... [7241726206511566086].mp4": [
+      3117452,
+      1780088769892000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Carol Padrón nos cuenta de su novela “Abrir los ojos” que trata de un... [7353388014153764102].mp4": [
+      7039321,
+      1780088388082000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Como parte de las actividades de la @FIL Guadalajara, @El Tintero Tal... [7307711953798024454].mp4": [
+      8843651,
+      1780088517021000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Conoce los tres tipos de arcos de desarrollo de personajes para hacer... [7270636581898194182].mp4": [
+      4274831,
+      1780088646613000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Conoce un poco de César Zúñiga, autor de la saga Alfheim： la travesía... [7207207048549780742].mp4": [
+      2715711,
+      1780088912772000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Considera estos 3 criterios para los personajes de tus historias 🧝‍♀️... [7232006743000173830].mp4": [
+      6253685,
+      1780088805539000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Crea arcos narrativos más interesantes siguiendo este consejo 😉📝 #arc... [7250219135257398534].mp4": [
+      6450331,
+      1780088732288000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Crea personajes que enganchen a tus lectores con estos tres elementos... [7272526308314336518].mp4": [
+      4529961,
+      1780088639913000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Cómo publicar tu libro parte 2. En este video les muestro cómo subir ... [7242441013934001413].mp4": [
+      3223367,
+      1780088767036000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Después de ir a la Cafebrería El Péndulo 💖📚  #cafebreria #cafebreriae... [7161526046305619206].mp4": [
+      2444388,
+      1780089064354000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/El 2024 fue un año lleno de retos, con los que aprendí mucho, y tambi... [7454627071239703814].mp4": [
+      9706932,
+      1780088180726000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/El 8 de marzo se conmemora el Día Internacional de la Mujer para reco... [7344033296352939269].mp4": [
+      9868429,
+      1780088414144000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/El 8 de marzo se conmemora el Día Internacional de la Mujer para reco... [7344033296352939269].txt": [
+      1055,
+      1780091101220000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/En esta cuarta edición de Autores Emergentes, @yisuselnomada nos plat... [7250619593495006470].mp4": [
+      2246564,
+      1780088728423000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/En esta tercera edición de Autores Emergentes, Nora Cayetano nos cuen... [7238314528449105158].mp4": [
+      8423392,
+      1780088795175000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/En estas vacaciones me traje el libro de Los años de peregrinación de... [7262748489543617797].mp4": [
+      1390976,
+      1780088674427000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/En la charla de Punto-e en la Feria Internacional del Libro Monterrey... [7156401911351086342].mp4": [
+      912621,
+      1780089069737000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/En la entrevista de Autores Emergentes, Nora Cayetano nos platicó sob... [7239484513682853125].mp4": [
+      5426495,
+      1780088781387000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/En la presentación del libro Un silencio trenzado en la UANLeer 2024 ... [7350456025595612421].mp4": [
+      4771584,
+      1780088393613000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/En la presentación del libro Un silencio trenzado, @dane, la autora, ... [7351173337260756230].mp4": [
+      5854557,
+      1780088391139000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Escribe historias de terror usando las recomendaciones de R. L. Stine... [7295868224317492485].mp4": [
+      5009366,
+      1780088567819000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Estas son las reseñas de los primeros dos libros de la saga de La esc... [7252822837658914053].mp4": [
+      27679089,
+      1780088712788000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Este es el patrón circular del camino del héroe que se usa en muchas ... [7253915526022434054].mp4": [
+      5500188,
+      1780088703641000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Este es el prólogo del libro Tempus Umbras： Tres hechiceras y un sabi... [7285485846881488133].mp4": [
+      9368391,
+      1780088599203000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Este es el prólogo del libro Tempus Umbras： Tres hechiceras y un sabi... [7285485846881488133].txt": [
+      2149,
+      1780091543792000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Este mes les traigo la reseña del libro Los años de peregrinación del... [7273238959981972741].mp4": [
+      6509131,
+      1780088637571000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Estos son algunos ejemplos de mapas, un árbol genealógico y fichas de... [7249529676270537989].mp4": [
+      20079631,
+      1780088737777000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Estos son tres tipos de fichas de personajes que usé para diseñar los... [7282878714608766214].mp4": [
+      4299459,
+      1780088607730000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Estoy emocionada y nerviosa a la vez, pero ya casi termino de escribi... [7247568934507924742].mp4": [
+      2048857,
+      1780088749450000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Feria Internacional del Libro Coahuila 2023 💖📚 #librosencoahuila #boo... [7231306782944136453].mp4": [
+      5439351,
+      1780088808755000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Fue muy bonito ver mis libros en la Feria Internacional del Libro de ... [7173384951872670982].mp4": [
+      3299747,
+      1780089032817000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Fui al concierto de @AURORA en Monterrey, fue muy emotivo y mágico. S... [7431745065891925254].mp4": [
+      4224052,
+      1780088228989000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Happy Book Lovers Day! 💖📚  Les comparto algunos de los libros técnico... [7265459070520298758].mp4": [
+      8265087,
+      1780088666792000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Hice algunos separadores de libros de la saga de ＂Tempus Umbras＂ y de... [7151228365922372870].mp4": [
+      2499971,
+      1780089080241000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Hoy compartí estos consejos en la plática que di a los alumnos de la ... [7290702667599449350].mp4.part": [
+      4169053,
+      1780088589773000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Hoy di una plática en la UANE Saltillo sobre la comunidad de BookTok ... [7361531870481354001].mp4": [
+      1176628,
+      1780088365441000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Hoy me empezaron a festejar desde muy temprano porque cumplo 34 años ... [7278415033141300485].mp4": [
+      2066099,
+      1780088622955000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Hoy renuncié a mi trabajo... #renunciaramitrabajo #pasionporescribir ... [7195039299241282822].mp4": [
+      16762698,
+      1780088961895000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Innovación y Escritura Creativa 2： Empezamos con la parte de empatiza... [7268774071171779845].mp4": [
+      11614776,
+      1780088654734000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Innovación y Escritura Creativa 3： ahora definiremos el estilo de esc... [7271373099923180805].mp4": [
+      9801280,
+      1780088644250000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Innovación y Escritura Creativa parte 10： ahora reclutarás a tus lect... [7292121630418046213].mp4.part": [
+      3205266,
+      1780088581736000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Innovación y Escritura Creativa parte 11： empezamos con la etapa de l... [7294733319764315398].mp4": [
+      8301530,
+      1780088570796000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Jorge Casas nos platica de su poemario Autorretrato en el infierno qu... [7354125968136473862].mp4": [
+      6506923,
+      1780088384023000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Kindle Create es un software gratuito de Amazon para crear libros dig... [7283610238018702598].mp4": [
+      3071655,
+      1780088605343000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/La @FIL Monterrey en esta ocasión fue más grande, con más stands y má... [7564891618516520200].mp4": [
+      9741239,
+      1780087949709000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/La Feria Internacional del Libro de Guadalajara es impresionante 📚💖  ... [7170921929770028294].mp4": [
+      3990036,
+      1780089041085000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/La utopía es la representación de una sociedad ficticia y futurista c... [7323315420637711621].mp4": [
+      1936003,
+      1780088474122000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/La utopía es la representación de una sociedad ficticia y futurista c... [7323315420637711621].txt": [
+      611,
+      1780091259356000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Las emociones son lo más poderoso para contar una historia y hacerla ... [7255069921405635845].mp4": [
+      6850296,
+      1780088700620000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Les comparto un poco de lo que fue mi firma de libros en la Feria Int... [7306205552403549445].mp4": [
+      4564943,
+      1780088536799000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Les cuento un poco acerca de la saga de libros de Tempus Umbras 📚.  #... [7169426717868674309].mp4": [
+      16696380,
+      1780089054987000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Les doy un tour por el stand 434 de @Eicam Monterrey el cual está lle... [7422037951695047941].mp4": [
+      4700021,
+      1780088252171000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Les muestro mis stands favoritos de la @FIL Guadalajara 2023 como @El... [7306949073117007110].mp4": [
+      13431793,
+      1780088530128000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Les platico un poco de mis 3 libros de Tempus Umbras. Los dos primero... [7280280077357698309].mp4": [
+      9539553,
+      1780088617985000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Les traigo el cierre del chismecito de la Feria Internacional del Lib... [7291437431193226501].mp4": [
+      22859740,
+      1780088587347000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Los libros que compré en la Feria Internacional del Libro de Guadalaj... [7177234316261346565].mp4": [
+      25546732,
+      1780089021247000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Mark Zacarías es autor de 8 libros y participó en una antología de re... [7217316850420485381].mp4": [
+      3650045,
+      1780088871000000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Mark Zacarías nos platicó sobre los retos que se le presentaron al pu... [7219080082772479237].mp4": [
+      8151832,
+      1780088861550000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Mis dos grandes amores 💖 #daschundlovers #browniecandelabro #perrosal... [7200405051163020550].mp4": [
+      5348435,
+      1780088935077000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Mis lectores beta me compartieron sus comentarios, pero no esperaba q... [7275033847950068997].mp4": [
+      979269,
+      1780088631816000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Mis lectores beta me compartieron sus comentarios, pero no esperaba q... [7275033847950068997].txt": [
+      103,
+      1780091621572000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Muchas gracias a la UANE por invitarme a participar en su feria del l... [7497348300731944200].mp4": [
+      845513,
+      1780088047625000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Muchas gracias a los organizadores de la @FILCO_COYOACAN por este gra... [7618407487066082568].mp4": [
+      1688764,
+      1780087858734000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Muchas gracias a todos los que me apoyaron este año. Fue un año muy d... [7318804199276367109].mp4": [
+      7121878,
+      1780088489618000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Muchas gracias, @FILCO_COYOACAN, por organizar este hermoso evento ll... [7483604755311545605].mp4": [
+      5168979,
+      1780088080203000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Nora Cayetano nos compartió cuánto cuesta publicar un libro de forma ... [7239085882459081990].mp4": [
+      19049083,
+      1780088788518000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Nos vemos hoy a las 4 pm en Punto-e 🎤📚  #librosrecomendados #mty #eic... [7155170364308458757].mp4": [
+      4808737,
+      1780089072280000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Nuestras resistencias： Escritoras que nos vuelan la cabeza es un libr... [7327030151185698053].mp4": [
+      2961205,
+      1780088466488000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Nuestras resistencias： Escritoras que nos vuelan la cabeza es un libr... [7327030151185698053].txt": [
+      876,
+      1780091239453000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Otros libros que compré en la feria del libro parte 2. Entre esos est... [7294007745617923334].mp4": [
+      8364331,
+      1780088575534000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Paseando por la UANLeer, la feria universitaria del libro en Monterre... [7347003185392864517].mp4": [
+      3528176,
+      1780088405156000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Quiero darle a las gracias a todos los profesores que enseñan con gra... [7369341332646579462].mp4": [
+      8597507,
+      1780088350541000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Quiero darle a las gracias a todos los profesores que enseñan con gra... [7369341332646579462].txt": [
+      805,
+      1780090921782000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Reseña del libro El pozo de los ratones de Pascuala Corona, el cual e... [7240916963462040838].mp4.part": [
+      3672490,
+      1780088773660000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Reto de lectura 2023 📖 #reto2023 #analisisdelibros #clubdelectura #go... [7183121462193081605].mp4": [
+      5028188,
+      1780089005064000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Sigo editando el libro de Tempus Umbras 3 📖🌴. Próximamente estará dis... [7263153507828600069].mp4": [
+      1253824,
+      1780088671784000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Taller de verano de Escritura Creativa los martes y jueves de julio d... [7245024863948180742].mp4": [
+      2137148,
+      1780088763767000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Todo comenzó con una historia que vivía en mi cabeza… #escritos #escr... [7193181689491868934].mp4": [
+      7432846,
+      1780088968748000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Vende tus libros en la Feria Internacional del Libro Monterrey con el... [7246871183658929413].mp4": [
+      6600988,
+      1780088756809000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Ya terminó la @FIL Guadalajara 2023 y ahora tengo un poco de nostalgi... [7308814531348811013].mp4": [
+      4380864,
+      1780088513983000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/¡Feliz Año Nuevo! #happynewyear #newyear2023 #newyear #2023 #felizaño... [7183569055012359429].mp4": [
+      1477841,
+      1780089002376000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/¡Mañana ya es la Feria Internacional del Libro Monterrey! 🎉✨ Los libr... [7151952857414077701].mp4": [
+      7236955,
+      1780089077698000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/¡Ya es hoy la Feria Internacional del Libro Monterrey! 📚💖  Mis libros... [7152219446675868933].mp4": [
+      807484,
+      1780089074980000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/¿Prefieres acentuar o no acentuar la palabra “solo” para referirte a ... [7572694758305402130].mp4": [
+      5105354,
+      1780087941622000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/¿Prefieres acentuar o no acentuar la palabra “solo” para referirte a ... [7572694758305402130].txt": [
+      1242,
+      1780090128693000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/¿Si publico mi libro en digital, podrán copiarlo fácilmente？📱 #libros... [7211329464016325894].mp4": [
+      6693270,
+      1780088900110000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/¿Tengo que registrar los derechos de autor？ #derechosdeautor #registr... [7208723879651462406].mp4": [
+      4025988,
+      1780088905338000000
+    ],
+    "nodia investigaciones/gelis lara/Sin clasificar/Últimos días de la Feria Internacional del Libro de Guadalajara 📚💖  #... [7172665031786597638].mp4": [
+      648182,
+      1780089035649000000
+    ],
+    "nodia investigaciones/policiaco/policiaco.md": [
+      5647,
+      1780093073694000000
+    ],
+    "nodia investigaciones/policiaco/policiaco.svg": [
+      3728,
+      1780023515974000000
+    ],
+    "nodia-app/.gitignore": [
+      480,
+      1778217389575000000
+    ],
+    "nodia-app/audit_code.py": [
+      1218,
+      1778732833336000000
+    ],
+    "nodia-app/eslint.config.mjs": [
+      465,
+      1778217390648000000
+    ],
+    "nodia-app/fix_encoding.py": [
+      1048,
+      1778911104631000000
+    ],
+    "nodia-app/middleware.ts": [
+      818,
+      1778827644218000000
+    ],
+    "nodia-app/next-env.d.ts": [
+      251,
+      1779841383622000000
+    ],
+    "nodia-app/next.config.ts": [
+      219,
+      1778827636424000000
+    ],
+    "nodia-app/package.json": [
+      1027,
+      1778840146022000000
+    ],
+    "nodia-app/pnpm-lock.yaml": [
+      169255,
+      1778840185426000000
+    ],
+    "nodia-app/pnpm-workspace.yaml": [
+      128,
+      1778918736723000000
+    ],
+    "nodia-app/postcss.config.mjs": [
+      94,
+      1778217390704000000
+    ],
+    "nodia-app/README.md": [
+      1450,
+      1778217390598000000
+    ],
+    "nodia-app/tsconfig.json": [
+      666,
+      1778217391763000000
+    ],
+    "nodia-app/tsconfig.tsbuildinfo": [
+      485690,
+      1778843018886000000
+    ],
+    "nodia-app/app/favicon.ico": [
+      25931,
+      1778217390049000000
+    ],
+    "nodia-app/app/globals.css": [
+      7206,
+      1778842944956000000
+    ],
+    "nodia-app/app/layout.tsx": [
+      963,
+      1778839410230000000
+    ],
+    "nodia-app/app/page.tsx": [
+      2123,
+      1778842021583000000
+    ],
+    "nodia-app/app/home/page.tsx": [
+      305,
+      1779844089894000000
+    ],
+    "nodia-app/app/interface/page.tsx": [
+      6235,
+      1778856709852000000
+    ],
+    "nodia-app/app/launcher/page.tsx": [
+      1670,
+      1778856458955000000
+    ],
+    "nodia-app/app/splash/page.tsx": [
+      603,
+      1778856450707000000
+    ],
+    "nodia-app/components/AtmospherePanel.tsx": [
+      4919,
+      1778841902498000000
+    ],
+    "nodia-app/components/BackgroundGrid.tsx": [
+      9605,
+      1778308561416000000
+    ],
+    "nodia-app/components/EthyriaFloatingChat.tsx": [
+      4728,
+      1778826102794000000
+    ],
+    "nodia-app/components/Navbar.tsx": [
+      7005,
+      1778842784422000000
+    ],
+    "nodia-app/components/PoeWriterSheet.tsx": [
+      7165,
+      1778311460585000000
+    ],
+    "nodia-app/components/TacticalBackground.tsx": [
+      2101,
+      1778723873217000000
+    ],
+    "nodia-app/components/TitleBar.tsx": [
+      3222,
+      1778840720874000000
+    ],
+    "nodia-app/components/TopBar.tsx": [
+      4116,
+      1778828074738000000
+    ],
+    "nodia-app/components/WindowFrame.tsx": [
+      720,
+      1778721410195000000
+    ],
+    "nodia-app/components/layout/AppShell.tsx": [
+      1380,
+      1778840789893000000
+    ],
+    "nodia-app/components/layout/GlobalNav.tsx": [
+      4520,
+      1778830910293000000
+    ],
+    "nodia-app/components/layout/GlobalStatusBar.tsx": [
+      2493,
+      1778830922914000000
+    ],
+    "nodia-app/components/modes/AgenteMode/ActionQueuePanel.tsx": [
+      2617,
+      1778856731151000000
+    ],
+    "nodia-app/components/modes/AgenteMode/AgenteToolbar.tsx": [
+      2941,
+      1778823814352000000
+    ],
+    "nodia-app/components/modes/AgenteMode/AgentStatusPanel.tsx": [
+      2704,
+      1778856731275000000
+    ],
+    "nodia-app/components/modes/AgenteMode/ChatConsole.tsx": [
+      4256,
+      1778693798486000000
+    ],
+    "nodia-app/components/modes/AgenteMode/ChatMessage.tsx": [
+      5839,
+      1778842904401000000
+    ],
+    "nodia-app/components/modes/AgenteMode/index.tsx": [
+      6915,
+      1778842927412000000
+    ],
+    "nodia-app/components/modes/ArcoMode/ArcoToolbar.tsx": [
+      8429,
+      1778821481725000000
+    ],
+    "nodia-app/components/modes/ArcoMode/BeatCard.tsx": [
+      2103,
+      1778821497908000000
+    ],
+    "nodia-app/components/modes/ArcoMode/index.tsx": [
+      18871,
+      1778842601661000000
+    ],
+    "nodia-app/components/modes/CodexMode/index.tsx": [
+      13899,
+      1778734295906000000
+    ],
+    "nodia-app/components/modes/DevMode/index.tsx": [
+      10191,
+      1778822830399000000
+    ],
+    "nodia-app/components/modes/DevMode/StateInspector.tsx": [
+      1907,
+      1778727890483000000
+    ],
+    "nodia-app/components/modes/ExportMode/index.tsx": [
+      11427,
+      1778740176169000000
+    ],
+    "nodia-app/components/modes/HomeMode/ConfigModal.tsx": [
+      4396,
+      1778724600847000000
+    ],
+    "nodia-app/components/modes/HomeMode/CreateProjectModal.tsx": [
+      3359,
+      1778724611848000000
+    ],
+    "nodia-app/components/modes/HomeMode/index.tsx": [
+      12252,
+      1778856735841000000
+    ],
+    "nodia-app/components/modes/HomeMode/ProjectCard.tsx": [
+      2014,
+      1778722431446000000
+    ],
+    "nodia-app/components/modes/HomeMode/UserHeader.tsx": [
+      1011,
+      1778722422258000000
+    ],
+    "nodia-app/components/modes/MultiplayerMode/index.tsx": [
+      6885,
+      1778741423485000000
+    ],
+    "nodia-app/components/modes/NodosMode/Canvas.tsx": [
+      11972,
+      1778842881832000000
+    ],
+    "nodia-app/components/modes/NodosMode/CanvasToolbar.tsx": [
+      3104,
+      1778827399403000000
+    ],
+    "nodia-app/components/modes/NodosMode/DialogueNode.tsx": [
+      1853,
+      1778821242114000000
+    ],
+    "nodia-app/components/modes/NodosMode/GateNode.tsx": [
+      1324,
+      1778821247161000000
+    ],
+    "nodia-app/components/modes/NodosMode/GraphInspector.tsx": [
+      7026,
+      1778827385635000000
+    ],
+    "nodia-app/components/modes/NodosMode/index.tsx": [
+      633,
+      1778723345088000000
+    ],
+    "nodia-app/components/modes/NodosMode/NarrativeNode.tsx": [
+      2963,
+      1778842907026000000
+    ],
+    "nodia-app/components/modes/NodosMode/POIOverlay.tsx": [
+      3061,
+      1778717714404000000
+    ],
+    "nodia-app/components/modes/NodosMode/SceneBox.tsx": [
+      1727,
+      1778695019772000000
+    ],
+    "nodia-app/components/modes/NodosMode/StickyNode.tsx": [
+      1052,
+      1778821251719000000
+    ],
+    "nodia-app/components/modes/NodosMode/TacticalEdge.tsx": [
+      2139,
+      1778842951367000000
+    ],
+    "nodia-app/components/modes/NodosMode/useCanvasLogic.ts": [
+      17141,
+      1778842758924000000
+    ],
+    "nodia-app/components/modes/PoeMode/index.tsx": [
+      6210,
+      1778842747338000000
+    ],
+    "nodia-app/components/modes/PoeMode/PoeChatPanel.tsx": [
+      9790,
+      1778842454136000000
+    ],
+    "nodia-app/components/modes/PoeMode/PoeControlBar.tsx": [
+      4959,
+      1778820753727000000
+    ],
+    "nodia-app/components/modes/PoeMode/poeRuntime.ts": [
+      4360,
+      1778820724659000000
+    ],
+    "nodia-app/components/modes/PoeMode/Sheet.tsx": [
+      2715,
+      1778693754084000000
+    ],
+    "nodia-app/components/modes/PoeMode/StatsHUD.tsx": [
+      1542,
+      1778739697590000000
+    ],
+    "nodia-app/components/modes/PoeMode/ZenEditor.tsx": [
+      24506,
+      1778831187464000000
+    ],
+    "nodia-app/components/modes/PoeMode/ZenHUD.tsx": [
+      3953,
+      1778740185865000000
+    ],
+    "nodia-app/components/modes/PoeMode/hooks/usePoeAnimation.ts": [
+      3251,
+      1778693741571000000
+    ],
+    "nodia-app/components/modes/PoeMode/PoeRadar/CharacterSignalCard.tsx": [
+      746,
+      1778746904121000000
+    ],
+    "nodia-app/components/modes/PoeMode/PoeRadar/detectNarrativeSignals.ts": [
+      11463,
+      1778794889823000000
+    ],
+    "nodia-app/components/modes/PoeMode/PoeRadar/getRadarActionHint.ts": [
+      2585,
+      1778803258738000000
+    ],
+    "nodia-app/components/modes/PoeMode/PoeRadar/PoeRadarPanel.tsx": [
+      10660,
+      1778842792911000000
+    ],
+    "nodia-app/components/modes/PoeMode/PoeRadar/RadarSignalCard.tsx": [
+      6699,
+      1778798545625000000
+    ],
+    "nodia-app/components/modes/PublishingMode/index.tsx": [
+      6677,
+      1778741463132000000
+    ],
+    "nodia-app/components/modes/StageMode/BindingTool.tsx": [
+      4381,
+      1778741293398000000
+    ],
+    "nodia-app/components/modes/StageMode/GhostPOV.tsx": [
+      4932,
+      1778741316189000000
+    ],
+    "nodia-app/components/modes/StageMode/GizmoLayer.tsx": [
+      1574,
+      1778741302131000000
+    ],
+    "nodia-app/components/modes/StageMode/HeatmapOverlay.tsx": [
+      3246,
+      1778741132695000000
+    ],
+    "nodia-app/components/modes/StageMode/index.tsx": [
+      3428,
+      1778741262836000000
+    ],
+    "nodia-app/components/modes/StageMode/NarrativeVitalPanel.tsx": [
+      2338,
+      1778741141335000000
+    ],
+    "nodia-app/components/modes/StageMode/NarrativeVitals.tsx": [
+      2701,
+      1778741137239000000
+    ],
+    "nodia-app/components/modes/StageMode/StageToolbar.tsx": [
+      2301,
+      1778741199876000000
+    ],
+    "nodia-app/components/modes/StageMode/TriggerVisualizer.tsx": [
+      1703,
+      1778741128398000000
+    ],
+    "nodia-app/components/modes/StageMode/Viewport3D.tsx": [
+      5384,
+      1778824045095000000
+    ],
+    "nodia-app/components/modes/TimelineMode/EventModal.tsx": [
+      7458,
+      1778739474604000000
+    ],
+    "nodia-app/components/modes/TimelineMode/EventNode.tsx": [
+      3065,
+      1778739455698000000
+    ],
+    "nodia-app/components/modes/TimelineMode/index.tsx": [
+      7974,
+      1778739520687000000
+    ],
+    "nodia-app/components/Navbar/SubMenu.tsx": [
+      2114,
+      1778828005039000000
+    ],
+    "nodia-app/components/providers/QueryProvider.tsx": [
+      526,
+      1778839359739000000
+    ],
+    "nodia-app/components/SplashScreen/index.tsx": [
+      6471,
+      1778856731246000000
+    ],
+    "nodia-app/components/TopBar/Branding.tsx": [
+      504,
+      1778693552204000000
+    ],
+    "nodia-app/components/TopBar/Menus.tsx": [
+      5483,
+      1778309284115000000
+    ],
+    "nodia-app/components/TopBar/ModePill.tsx": [
+      2777,
+      1778825652574000000
+    ],
+    "nodia-app/components/TopBar/ModeSelector.tsx": [
+      3336,
+      1778294925726000000
+    ],
+    "nodia-app/components/TopBar/ToolGroup.tsx": [
+      1114,
+      1778693559133000000
+    ],
+    "nodia-app/components/TopBar/ToolGroups.tsx": [
+      2120,
+      1778294917059000000
+    ],
+    "nodia-app/components/TopBar/WindowControls.tsx": [
+      1541,
+      1778693546657000000
+    ],
+    "nodia-app/components/ui/ActivityPanel.tsx": [
+      3100,
+      1778721293402000000
+    ],
+    "nodia-app/components/ui/ModeLoadingOverlay.tsx": [
+      2011,
+      1778856710620000000
+    ],
+    "nodia-app/components/ui/NotificationToast.tsx": [
+      2877,
+      1778720416500000000
+    ],
+    "nodia-app/components/ui/PersistenceWidget.tsx": [
+      3426,
+      1778720248525000000
+    ],
+    "nodia-app/components/ui/Spotlight.tsx": [
+      7712,
+      1778721284849000000
+    ],
+    "nodia-app/components/ui/aaa/Badge.tsx": [
+      1585,
+      1778830067998000000
+    ],
+    "nodia-app/components/ui/aaa/Button.tsx": [
+      2444,
+      1778830050690000000
+    ],
+    "nodia-app/components/ui/aaa/Card.tsx": [
+      2704,
+      1778830081340000000
+    ],
+    "nodia-app/components/ui/aaa/Divider.tsx": [
+      1264,
+      1778830094406000000
+    ],
+    "nodia-app/components/ui/aaa/Kbd.tsx": [
+      668,
+      1778830097492000000
+    ],
+    "nodia-app/components/ui/aaa/Modal.tsx": [
+      3786,
+      1778830139041000000
+    ],
+    "nodia-app/components/ui/aaa/Panel.tsx": [
+      4403,
+      1778830156958000000
+    ],
+    "nodia-app/components/ui/aaa/ProgressBar.tsx": [
+      1779,
+      1778830111009000000
+    ],
+    "nodia-app/components/ui/aaa/Toast.tsx": [
+      3890,
+      1778830173714000000
+    ],
+    "nodia-app/components/ui/aaa/Tooltip.tsx": [
+      2059,
+      1778830123237000000
+    ],
+    "nodia-app/components/ui/atoms/BorderBeam.tsx": [
+      990,
+      1778310859963000000
+    ],
+    "nodia-app/components/ui/atoms/EtherealBeams.tsx": [
+      2437,
+      1778694246080000000
+    ],
+    "nodia-app/components/ui/atoms/GlassMaterial.tsx": [
+      1082,
+      1778693072762000000
+    ],
+    "nodia-app/components/ui/atoms/LowPolyIcons.tsx": [
+      8207,
+      1778739933338000000
+    ],
+    "nodia-app/components/ui/atoms/MagicalIcon.tsx": [
+      2057,
+      1778384304879000000
+    ],
+    "nodia-app/components/ui/atoms/MagicCard.tsx": [
+      1655,
+      1778311407442000000
+    ],
+    "nodia-app/components/ui/core/Badge.tsx": [
+      1089,
+      1778840485672000000
+    ],
+    "nodia-app/components/ui/core/Button.tsx": [
+      2507,
+      1778840476149000000
+    ],
+    "nodia-app/components/ui/core/Card.tsx": [
+      939,
+      1778840494074000000
+    ],
+    "nodia-app/components/ui/core/CommandPalette.tsx": [
+      9024,
+      1778840546830000000
+    ],
+    "nodia-app/components/ui/core/Divider.tsx": [
+      819,
+      1778840633700000000
+    ],
+    "nodia-app/components/ui/core/ProgressBar.tsx": [
+      1681,
+      1778840645001000000
+    ],
+    "nodia-app/components/ui/molecules/TacticalButton.tsx": [
+      3288,
+      1778693851904000000
+    ],
+    "nodia-app/components/ui/organisms/VDash.tsx": [
+      3238,
+      1778694326013000000
+    ],
+    "nodia-app/config/design.config.ts": [
+      1069,
+      1778723857602000000
+    ],
+    "nodia-app/config/interface.config.ts": [
+      846,
+      1778825655937000000
+    ],
+    "nodia-app/config/navbar.config.ts": [
+      10181,
+      1778828054405000000
+    ],
+    "nodia-app/config/nodos.config.ts": [
+      1872,
+      1778695318660000000
+    ],
+    "nodia-app/docs/CHATBOT_WINDOW_IMPLEMENTATION_PLAN.md": [
+      4434,
+      1778841379422000000
+    ],
+    "nodia-app/hooks/useAutosave.ts": [
+      2031,
+      1778840580885000000
+    ],
+    "nodia-app/hooks/useGhostEngine.ts": [
+      1833,
+      1778226746682000000
+    ],
+    "nodia-app/hooks/usePrefersReducedMotion.ts": [
+      572,
+      1778842832891000000
+    ],
+    "nodia-app/hooks/useTauriCommand.ts": [
+      1437,
+      1778728371954000000
+    ],
+    "nodia-app/hooks/useWritingRhythm.ts": [
+      1212,
+      1778740153944000000
+    ],
+    "nodia-app/public/bg.png": [
+      723669,
+      1778218153874000000
+    ],
+    "nodia-app/public/file.svg": [
+      391,
+      1778217390817000000
+    ],
+    "nodia-app/public/globe.svg": [
+      1035,
+      1778217390843000000
+    ],
+    "nodia-app/public/next.svg": [
+      1375,
+      1778217390868000000
+    ],
+    "nodia-app/public/vercel.svg": [
+      128,
+      1778217390895000000
+    ],
+    "nodia-app/public/window.svg": [
+      385,
+      1778217390915000000
+    ],
+    "nodia-app/public/home_assets/home_img_001.png": [
+      246402,
+      1779844089898000000
+    ],
+    "nodia-app/public/home_assets/home_img_002.png": [
+      246402,
+      1779844089900000000
+    ],
+    "nodia-app/public/home_assets/home_img_003.png": [
+      699352,
+      1779844089903000000
+    ],
+    "nodia-app/public/home_assets/home_img_004.png": [
+      616641,
+      1779844089907000000
+    ],
+    "nodia-app/public/home_assets/manifest.json": [
+      740,
+      1779844089907000000
+    ],
+    "nodia-app/public/start-lobby/app.js": [
+      10307,
+      1779844089909000000
+    ],
+    "nodia-app/public/start-lobby/app.js.bak": [
+      10453,
+      1779844089910000000
+    ],
+    "nodia-app/public/start-lobby/aurora-theme-component.js": [
+      4020,
+      1779844090215000000
+    ],
+    "nodia-app/public/start-lobby/biographies.js": [
+      25723,
+      1779844090216000000
+    ],
+    "nodia-app/public/start-lobby/cards.css": [
+      542,
+      1779844090216000000
+    ],
+    "nodia-app/public/start-lobby/genre-assets.js": [
+      11871,
+      1779844090217000000
+    ],
+    "nodia-app/public/start-lobby/genre-ornaments.js": [
+      11548,
+      1779844090217000000
+    ],
+    "nodia-app/public/start-lobby/genres.js": [
+      10475,
+      1779844090217000000
+    ],
+    "nodia-app/public/start-lobby/genres.js.bak": [
+      10475,
+      1779844090218000000
+    ],
+    "nodia-app/public/start-lobby/index.html": [
+      21286,
+      1779844090218000000
+    ],
+    "nodia-app/public/start-lobby/index.html.bak": [
+      18582,
+      1778955623921000000
+    ],
+    "nodia-app/public/start-lobby/lobby.css": [
+      4189,
+      1779844090219000000
+    ],
+    "nodia-app/public/start-lobby/lobby.js": [
+      1064,
+      1779844090219000000
+    ],
+    "nodia-app/public/start-lobby/NODIA_MUSA_NARRATIVA_PLAN.md": [
+      4819,
+      1779844089908000000
+    ],
+    "nodia-app/public/start-lobby/README.md": [
+      1090,
+      1779844089908000000
+    ],
+    "nodia-app/public/start-lobby/safe-genre-resolver.js": [
+      1464,
+      1779844090269000000
+    ],
+    "nodia-app/public/start-lobby/styles.css": [
+      435,
+      1779844090281000000
+    ],
+    "nodia-app/public/start-lobby/styles.css.bak": [
+      24571,
+      1778871779043000000
+    ],
+    "nodia-app/public/start-lobby/test2.html": [
+      16,
+      1778948479653000000
+    ],
+    "nodia-app/public/start-lobby/tinder-data.js": [
+      16439,
+      1779844090282000000
+    ],
+    "nodia-app/public/start-lobby/tinder-engine.js": [
+      969,
+      1779844090282000000
+    ],
+    "nodia-app/public/start-lobby/tinder.css": [
+      435,
+      1779844090283000000
+    ],
+    "nodia-app/public/start-lobby/ui-effects.js": [
+      2502,
+      1779844090283000000
+    ],
+    "nodia-app/public/start-lobby/zdog.js": [
+      1511,
+      1779844090283000000
+    ],
+    "nodia-app/public/start-lobby/zdog.min.js": [
+      29744,
+      1779844090284000000
+    ],
+    "nodia-app/public/start-lobby/zdog.min.js.bak": [
+      29744,
+      1779844090285000000
+    ],
+    "nodia-app/public/start-lobby/assets/escudos_de_armas/master_shield_1779010547752.png": [
+      773733,
+      1779844089918000000
+    ],
+    "nodia-app/public/start-lobby/assets/escudos_de_armas/medal_accion_1779010757194.png": [
+      846871,
+      1779844089923000000
+    ],
+    "nodia-app/public/start-lobby/assets/escudos_de_armas/medal_fantasia_1779010584719.png": [
+      861352,
+      1779844089930000000
+    ],
+    "nodia-app/public/start-lobby/assets/escudos_de_armas/medal_scifi_1779010596458.png": [
+      748891,
+      1779844089935000000
+    ],
+    "nodia-app/public/start-lobby/assets/escudos_de_armas/medal_terror_1779010712620.png": [
+      757214,
+      1779844089940000000
+    ],
+    "nodia-app/public/start-lobby/assets/genres/01_fantasia_luma_verdalia.png": [
+      2208631,
+      1779844089950000000
+    ],
+    "nodia-app/public/start-lobby/assets/genres/02_ciencia_ficcion_nexo_orbital.png": [
+      2150175,
+      1779844089959000000
+    ],
+    "nodia-app/public/start-lobby/assets/genres/03_terror_mora_vela.png": [
+      1695313,
+      1779844089966000000
+    ],
+    "nodia-app/public/start-lobby/assets/genres/04_noir_misterio_bruno_bruma.png": [
+      2320276,
+      1779844089980000000
+    ],
+    "nodia-app/public/start-lobby/assets/genres/05_drama_magico_alma_llovizna.png": [
+      2282130,
+      1779844089991000000
+    ],
+    "nodia-app/public/start-lobby/assets/genres/06_epico_auro_bronce.png": [
+      2388588,
+      1779844090001000000
+    ],
+    "nodia-app/public/start-lobby/assets/genres/07_accion_kira_risco.png": [
+      2317104,
+      1779844090011000000
+    ],
+    "nodia-app/public/start-lobby/assets/genres/08_comedia_pipo_cascara.png": [
+      2413817,
+      1779844090023000000
+    ],
+    "nodia-app/public/start-lobby/assets/genres/09_romance_lia_carmin.png": [
+      2292421,
+      1779844090034000000
+    ],
+    "nodia-app/public/start-lobby/assets/genres/10_western_toba_polvareda.png": [
+      2424374,
+      1779844090050000000
+    ],
+    "nodia-app/public/start-lobby/assets/genres/11_belico_mila_trinchera.png": [
+      2467119,
+      1779844090070000000
+    ],
+    "nodia-app/public/start-lobby/assets/genres/12_post_apocaliptico_ceniza_brote.png": [
+      2466534,
+      1779844090090000000
+    ],
+    "nodia-app/public/start-lobby/assets/genres/13_superheroes_atlas_prisma.png": [
+      2403206,
+      1779844090100000000
+    ],
+    "nodia-app/public/start-lobby/assets/genres/14_musical_viola_candileja.png": [
+      2444062,
+      1779844090110000000
+    ],
+    "nodia-app/public/start-lobby/assets/genres/15_deportivo_nico_gol.png": [
+      2334555,
+      1779844090120000000
+    ],
+    "nodia-app/public/start-lobby/assets/genres/16_aventura_gloria_la_madrid.png": [
+      2432156,
+      1779844090130000000
+    ],
+    "nodia-app/public/start-lobby/assets/genres/drama.png": [
+      766104,
+      1779844090133000000
+    ],
+    "nodia-app/public/start-lobby/assets/genres/epic.png": [
+      812479,
+      1779844090138000000
+    ],
+    "nodia-app/public/start-lobby/assets/genres/fantasia.png": [
+      925219,
+      1779844090143000000
+    ],
+    "nodia-app/public/start-lobby/assets/genres/horror.png": [
+      722318,
+      1779844090148000000
+    ],
+    "nodia-app/public/start-lobby/assets/genres/noir.png": [
+      782916,
+      1779844090151000000
+    ],
+    "nodia-app/public/start-lobby/assets/genres/scifi.png": [
+      715477,
+      1779844090155000000
+    ],
+    "nodia-app/public/start-lobby/assets/lobby-ambient/01_fantasia_ambiente_lowpoly_1x1.png": [
+      902121,
+      1779844090159000000
+    ],
+    "nodia-app/public/start-lobby/assets/lobby-ambient/02_ciencia_ficcion_ambiente_lowpoly_1x1.png": [
+      892284,
+      1779844090165000000
+    ],
+    "nodia-app/public/start-lobby/assets/lobby-ambient/03_terror_ambiente_lowpoly_1x1.png": [
+      755896,
+      1779844090168000000
+    ],
+    "nodia-app/public/start-lobby/assets/lobby-ambient/04_noir_misterio_ambiente_lowpoly_1x1.png": [
+      917397,
+      1779844090172000000
+    ],
+    "nodia-app/public/start-lobby/assets/lobby-ambient/05_drama_ambiente_lowpoly_1x1.png": [
+      904304,
+      1779844090176000000
+    ],
+    "nodia-app/public/start-lobby/assets/lobby-ambient/06_epico_ambiente_lowpoly_1x1.png": [
+      816550,
+      1779844090179000000
+    ],
+    "nodia-app/public/start-lobby/assets/lobby-ambient/07_accion_ambiente_lowpoly_1x1.png": [
+      801390,
+      1779844090183000000
+    ],
+    "nodia-app/public/start-lobby/assets/lobby-ambient/08_comedia_ambiente_lowpoly_1x1.png": [
+      785408,
+      1779844090187000000
+    ],
+    "nodia-app/public/start-lobby/assets/lobby-ambient/09_romance_ambiente_lowpoly_1x1.png": [
+      771480,
+      1779844090190000000
+    ],
+    "nodia-app/public/start-lobby/assets/lobby-ambient/10_western_ambiente_lowpoly_1x1.png": [
+      777241,
+      1779844090193000000
+    ],
+    "nodia-app/public/start-lobby/assets/lobby-ambient/11_belico_ambiente_lowpoly_1x1.png": [
+      761658,
+      1779844090197000000
+    ],
+    "nodia-app/public/start-lobby/assets/lobby-ambient/12_post_apocaliptico_ambiente_lowpoly_1x1.png": [
+      765544,
+      1779844090201000000
+    ],
+    "nodia-app/public/start-lobby/assets/lobby-ambient/13_superheroes_ambiente_lowpoly_1x1.png": [
+      782306,
+      1779844090204000000
+    ],
+    "nodia-app/public/start-lobby/assets/lobby-ambient/14_musical_ambiente_lowpoly_1x1.png": [
+      666130,
+      1779844090207000000
+    ],
+    "nodia-app/public/start-lobby/assets/lobby-ambient/15_deportivo_ambiente_lowpoly_1x1.png": [
+      664950,
+      1779844090211000000
+    ],
+    "nodia-app/public/start-lobby/assets/lobby-ambient/16_aventura_ambiente_lowpoly_1x1.png": [
+      810847,
+      1779844090215000000
+    ],
+    "nodia-app/public/start-lobby/modules/bootstrap.js": [
+      731,
+      1779844090220000000
+    ],
+    "nodia-app/public/start-lobby/modules/card.js": [
+      1619,
+      1779844090220000000
+    ],
+    "nodia-app/public/start-lobby/modules/deck.js": [
+      2949,
+      1779844090221000000
+    ],
+    "nodia-app/public/start-lobby/modules/router.js": [
+      2359,
+      1779844090221000000
+    ],
+    "nodia-app/public/start-lobby/modules/state.js": [
+      741,
+      1779844090222000000
+    ],
+    "nodia-app/public/start-lobby/refactor/zdog.min.js.raw": [
+      29744,
+      1779844090269000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/cards-css/part-001.css": [
+      5399,
+      1779844090223000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/cards-css/part-002.css": [
+      5198,
+      1779844090224000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/cards-css/part-003.css": [
+      6300,
+      1779844090224000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/cards-css/part-004.css": [
+      5488,
+      1779844090224000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/cards-css/part-005.css": [
+      6551,
+      1779844090225000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/cards-css/part-006.css": [
+      5268,
+      1779844090225000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/cards-css/part-007.css": [
+      5490,
+      1779844090226000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/cards-css/part-008.css": [
+      3138,
+      1779844090226000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/lobby-css/part-001.css": [
+      8092,
+      1779844090227000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/lobby-css/part-002.css": [
+      10460,
+      1779844090227000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/lobby-css/part-003.css": [
+      8635,
+      1779844090228000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/lobby-css/part-004.css": [
+      4956,
+      1779844090228000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/lobby-css/part-005.css": [
+      4959,
+      1779844090229000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/lobby-css/part-006.css": [
+      5212,
+      1779844090229000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/lobby-css/part-007.css": [
+      5833,
+      1779844090230000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/lobby-css/part-008.css": [
+      6432,
+      1779844090230000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/lobby-css/part-009.css": [
+      6390,
+      1779844090231000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/lobby-css/part-010.css": [
+      5204,
+      1779844090231000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/lobby-css/part-011.css": [
+      5151,
+      1779844090232000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/lobby-css/part-012.css": [
+      5107,
+      1779844090232000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/lobby-css/part-013.css": [
+      4788,
+      1779844090232000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/lobby-css/part-014.css": [
+      4912,
+      1779844090233000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/lobby-css/part-015.css": [
+      6419,
+      1779844090233000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/lobby-css/part-016.css": [
+      5914,
+      1779844090234000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/lobby-css/part-017.css": [
+      5006,
+      1779844090234000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/lobby-css/part-018.css": [
+      5928,
+      1779844090235000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/lobby-css/part-019.css": [
+      6347,
+      1779844090235000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/lobby-css/part-020.css": [
+      5863,
+      1779844090235000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/lobby-css/part-021.css": [
+      6039,
+      1779844090237000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/lobby-css/part-022.css": [
+      1587,
+      1779844090237000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/src-styles-app-css/part-001.css": [
+      6013,
+      1779844090238000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/src-styles-app-css/part-002.css": [
+      6435,
+      1779844090238000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/src-styles-app-css/part-003.css": [
+      483,
+      1779844090239000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/styles-css/part-001.css": [
+      5455,
+      1779844090243000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/styles-css/part-002.css": [
+      4550,
+      1779844090244000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/styles-css/part-003.css": [
+      4419,
+      1779844090244000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/styles-css/part-004.css": [
+      4863,
+      1779844090244000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/styles-css/part-005.css": [
+      4945,
+      1779844090245000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/styles-css/part-006.css": [
+      8736,
+      1779844090246000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/styles-css-bak/part-001.css": [
+      5466,
+      1779844090240000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/styles-css-bak/part-002.css": [
+      4047,
+      1779844090240000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/styles-css-bak/part-003.css": [
+      4335,
+      1779844090241000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/styles-css-bak/part-004.css": [
+      4681,
+      1779844090242000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/styles-css-bak/part-005.css": [
+      7125,
+      1779844090242000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/tinder-css/part-001.css": [
+      4536,
+      1779844090246000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/tinder-css/part-002.css": [
+      5726,
+      1779844090247000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/tinder-css/part-003.css": [
+      5052,
+      1779844090247000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/tinder-css/part-004.css": [
+      4728,
+      1779844090248000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/tinder-css/part-005.css": [
+      4526,
+      1779844090248000000
+    ],
+    "nodia-app/public/start-lobby/refactor/css/tinder-css/part-006.css": [
+      3115,
+      1779844090249000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/bootstrap/file-protocol-guard.js": [
+      2587,
+      1779844090250000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/bootstrap/route-sync.js": [
+      2146,
+      1779844090250000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/lobby-js/part-001.jsfrag": [
+      10016,
+      1779844090251000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/lobby-js/part-002.jsfrag": [
+      9353,
+      1779844090252000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/lobby-js/part-003.jsfrag": [
+      9853,
+      1779844090253000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/lobby-js/part-004.jsfrag": [
+      14532,
+      1779844090253000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/lobby-js/part-005.jsfrag": [
+      15618,
+      1779844090254000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/lobby-js/part-006.jsfrag": [
+      8877,
+      1779844090255000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/lobby-js/part-007.jsfrag": [
+      7456,
+      1779844090255000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/lobby-js/part-008.jsfrag": [
+      4233,
+      1779844090255000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/tinder-engine-js/part-001.jsfrag": [
+      11813,
+      1779844090257000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/tinder-engine-js/part-002.jsfrag": [
+      8254,
+      1779844090257000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/tinder-engine-js/part-003.jsfrag": [
+      8426,
+      1779844090258000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/tinder-engine-js/part-004.jsfrag": [
+      9295,
+      1779844090258000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/tinder-engine-js/part-005.jsfrag": [
+      5854,
+      1779844090259000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/zdog-js/part-001.jsfrag": [
+      928,
+      1779844090259000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/zdog-js/part-002.jsfrag": [
+      1073,
+      1779844090260000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/zdog-js/part-003.jsfrag": [
+      1232,
+      1779844090260000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/zdog-js/part-004.jsfrag": [
+      2720,
+      1779844090260000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/zdog-js/part-005.jsfrag": [
+      4746,
+      1779844090262000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/zdog-js/part-006.jsfrag": [
+      2307,
+      1779844090262000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/zdog-js/part-007.jsfrag": [
+      5361,
+      1779844090263000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/zdog-js/part-008.jsfrag": [
+      1779,
+      1779844090263000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/zdog-js/part-009.jsfrag": [
+      4238,
+      1779844090264000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/zdog-js/part-010.jsfrag": [
+      1000,
+      1779844090264000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/zdog-js/part-011.jsfrag": [
+      568,
+      1779844090264000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/zdog-js/part-012.jsfrag": [
+      1364,
+      1779844090264000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/zdog-js/part-013.jsfrag": [
+      1248,
+      1779844090265000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/zdog-js/part-014.jsfrag": [
+      686,
+      1779844090265000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/zdog-js/part-015.jsfrag": [
+      2177,
+      1779844090265000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/zdog-js/part-016.jsfrag": [
+      2993,
+      1779844090267000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/zdog-js/part-017.jsfrag": [
+      2927,
+      1779844090267000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/zdog-js/part-018.jsfrag": [
+      3073,
+      1779844090267000000
+    ],
+    "nodia-app/public/start-lobby/refactor/js/zdog-js/part-019.jsfrag": [
+      1035,
+      1779844090268000000
+    ],
+    "nodia-app/public/start-lobby/src/main.js": [
+      698,
+      1779844090274000000
+    ],
+    "nodia-app/public/start-lobby/src/atoms/ActionArrow.js": [
+      187,
+      1779844090270000000
+    ],
+    "nodia-app/public/start-lobby/src/atoms/AppLogo.js": [
+      202,
+      1779844090270000000
+    ],
+    "nodia-app/public/start-lobby/src/atoms/Kicker.js": [
+      176,
+      1779844090271000000
+    ],
+    "nodia-app/public/start-lobby/src/atoms/NavLink.js": [
+      151,
+      1779844090271000000
+    ],
+    "nodia-app/public/start-lobby/src/atoms/OptionIcon.js": [
+      194,
+      1779844090272000000
+    ],
+    "nodia-app/public/start-lobby/src/atoms/ProjectBadge.js": [
+      196,
+      1779844090272000000
+    ],
+    "nodia-app/public/start-lobby/src/atoms/SectionLabel.js": [
+      183,
+      1779844090273000000
+    ],
+    "nodia-app/public/start-lobby/src/data/worlds.js": [
+      2090,
+      1779844090273000000
+    ],
+    "nodia-app/public/start-lobby/src/molecules/HeroText.js": [
+      883,
+      1779844090274000000
+    ],
+    "nodia-app/public/start-lobby/src/molecules/OptionCard.js": [
+      2157,
+      1779844090275000000
+    ],
+    "nodia-app/public/start-lobby/src/molecules/OptionMeta.js": [
+      200,
+      1779844090275000000
+    ],
+    "nodia-app/public/start-lobby/src/molecules/ProjectCard.js": [
+      633,
+      1779844090276000000
+    ],
+    "nodia-app/public/start-lobby/src/molecules/TopNav.js": [
+      381,
+      1779844090276000000
+    ],
+    "nodia-app/public/start-lobby/src/molecules/WorldCircle.js": [
+      180,
+      1779844090277000000
+    ],
+    "nodia-app/public/start-lobby/src/molecules/WorldRings.js": [
+      365,
+      1779844090277000000
+    ],
+    "nodia-app/public/start-lobby/src/organisms/HeaderBar.js": [
+      323,
+      1779844090277000000
+    ],
+    "nodia-app/public/start-lobby/src/organisms/LeftPanel.js": [
+      924,
+      1779844090278000000
+    ],
+    "nodia-app/public/start-lobby/src/organisms/ProjectsPanel.js": [
+      548,
+      1779844090278000000
+    ],
+    "nodia-app/public/start-lobby/src/organisms/RightPanel.js": [
+      566,
+      1779844090278000000
+    ],
+    "nodia-app/public/start-lobby/src/organisms/WorldVisual.js": [
+      370,
+      1779844090279000000
+    ],
+    "nodia-app/public/start-lobby/src/styles/app.css": [
+      253,
+      1779844090280000000
+    ],
+    "nodia-app/public/start-lobby/src/templates/LobbyLayout.js": [
+      708,
+      1779844090281000000
+    ],
+    "nodia-app/scratch/IconShowcase.tsx": [
+      3725,
+      1778307057107000000
+    ],
+    "nodia-app/scripts/sync-home-to-c.ps1": [
+      1076,
+      1778890600343000000
+    ],
+    "nodia-app/scripts/sync-home-to-g.ps1": [
+      1068,
+      1778890609767000000
+    ],
+    "nodia-app/services/atmosphereService.ts": [
+      1963,
+      1778741400195000000
+    ],
+    "nodia-app/services/exportService.ts": [
+      5540,
+      1778740154852000000
+    ],
+    "nodia-app/services/persistenceService.ts": [
+      5870,
+      1778824835989000000
+    ],
+    "nodia-app/src-tauri/.gitignore": [
+      90,
+      1778218072467000000
+    ],
+    "nodia-app/src-tauri/build.rs": [
+      40,
+      1778218072469000000
+    ],
+    "nodia-app/src-tauri/Cargo.toml": [
+      1059,
+      1778740222112000000
+    ],
+    "nodia-app/src-tauri/tauri.conf.json": [
+      1453,
+      1778840369085000000
+    ],
+    "nodia-app/src-tauri/capabilities/default.json": [
+      396,
+      1778229099433000000
+    ],
+    "nodia-app/src-tauri/gen/schemas/acl-manifests.json": [
+      66420,
+      1778228021096000000
+    ],
+    "nodia-app/src-tauri/gen/schemas/capabilities.json": [
+      295,
+      1778229102383000000
+    ],
+    "nodia-app/src-tauri/gen/schemas/desktop-schema.json": [
+      116888,
+      1778228021114000000
+    ],
+    "nodia-app/src-tauri/gen/schemas/windows-schema.json": [
+      116888,
+      1778228021114000000
+    ],
+    "nodia-app/src-tauri/icons/128x128.png": [
+      11059,
+      1778218072471000000
+    ],
+    "nodia-app/src-tauri/icons/128x128@2x.png": [
+      23137,
+      1778218072472000000
+    ],
+    "nodia-app/src-tauri/icons/32x32.png": [
+      2225,
+      1778218072472000000
+    ],
+    "nodia-app/src-tauri/icons/icon.icns": [
+      277003,
+      1778218072479000000
+    ],
+    "nodia-app/src-tauri/icons/icon.ico": [
+      37710,
+      1778218072479000000
+    ],
+    "nodia-app/src-tauri/icons/icon.png": [
+      49979,
+      1778218072481000000
+    ],
+    "nodia-app/src-tauri/icons/Square107x107Logo.png": [
+      9202,
+      1778218072473000000
+    ],
+    "nodia-app/src-tauri/icons/Square142x142Logo.png": [
+      12530,
+      1778218072474000000
+    ],
+    "nodia-app/src-tauri/icons/Square150x150Logo.png": [
+      13032,
+      1778218072474000000
+    ],
+    "nodia-app/src-tauri/icons/Square284x284Logo.png": [
+      25943,
+      1778218072474000000
+    ],
+    "nodia-app/src-tauri/icons/Square30x30Logo.png": [
+      2078,
+      1778218072476000000
+    ],
+    "nodia-app/src-tauri/icons/Square310x310Logo.png": [
+      28507,
+      1778218072476000000
+    ],
+    "nodia-app/src-tauri/icons/Square44x44Logo.png": [
+      3419,
+      1778218072476000000
+    ],
+    "nodia-app/src-tauri/icons/Square71x71Logo.png": [
+      6027,
+      1778218072477000000
+    ],
+    "nodia-app/src-tauri/icons/Square89x89Logo.png": [
+      7551,
+      1778218072477000000
+    ],
+    "nodia-app/src-tauri/icons/StoreLogo.png": [
+      3971,
+      1778218072479000000
+    ],
+    "nodia-app/src-tauri/src/ai_core.rs": [
+      2219,
+      1778725300813000000
+    ],
+    "nodia-app/src-tauri/src/database.rs": [
+      6916,
+      1778739903760000000
+    ],
+    "nodia-app/src-tauri/src/dev_core.rs": [
+      4971,
+      1778732205680000000
+    ],
+    "nodia-app/src-tauri/src/engine.rs": [
+      20004,
+      1778740260007000000
+    ],
+    "nodia-app/src-tauri/src/lib.rs": [
+      4079,
+      1778840383053000000
+    ],
+    "nodia-app/src-tauri/src/main.rs": [
+      183,
+      1778218072482000000
+    ],
+    "nodia-app/src-tauri/src/security.rs": [
+      2605,
+      1778740407694000000
+    ],
+    "nodia-app/src-tauri/src/watcher.rs": [
+      1297,
+      1778731942777000000
+    ],
+    "nodia-app/src-tauri/src/window_effects.rs": [
+      1613,
+      1778312739515000000
+    ],
+    "nodia-app/stores/agentTools.ts": [
+      3864,
+      1778831218670000000
+    ],
+    "nodia-app/stores/chatbotToolsRegistry.ts": [
+      4375,
+      1778841379645000000
+    ],
+    "nodia-app/stores/useAgenteStore.ts": [
+      30715,
+      1778842791826000000
+    ],
+    "nodia-app/stores/useAgentRuntimeStore.ts": [
+      2362,
+      1778856710318000000
+    ],
+    "nodia-app/stores/useArcoStore.ts": [
+      8387,
+      1778842590684000000
+    ],
+    "nodia-app/stores/useAtmosphereStore.ts": [
+      1660,
+      1778739849714000000
+    ],
+    "nodia-app/stores/useCodexStore.ts": [
+      3061,
+      1778734279301000000
+    ],
+    "nodia-app/stores/useDevStore.ts": [
+      4098,
+      1778840611012000000
+    ],
+    "nodia-app/stores/useMultiplayerStore.ts": [
+      1239,
+      1778741408200000000
+    ],
+    "nodia-app/stores/useNodiaStore.ts": [
+      6206,
+      1778842808135000000
+    ],
+    "nodia-app/stores/usePoeStore.ts": [
+      4453,
+      1778747295512000000
+    ],
+    "nodia-app/stores/useStageStore.ts": [
+      2788,
+      1778741243201000000
+    ],
+    "nodia-app/stores/useTimelineStore.ts": [
+      2826,
+      1778840622428000000
+    ],
+    "nodia-app/types/poe.ts": [
+      1974,
+      1778747295510000000
+    ],
+    "nodia-app/utils/cn.ts": [
+      701,
+      1778841435633000000
+    ],
+    "nodia-app/utils/narrativeEngine.ts": [
+      5548,
+      1778747316352000000
+    ],
+    "stack/analisis_stack.md": [
+      3169,
+      1777976429397000000
+    ],
+    "stack/CATEGORIAS_INGENIERIA_NODIA.md": [
+      8346,
+      1778024558859000000
+    ],
+    "stack/LISTA_REPOSTS_COMPATIBLES.md": [
+      2167,
+      1778013777777000000
+    ],
+    "stack/PLAN_INSTALACION_GSAP_VANILLA.md": [
+      2183,
+      1778026545632000000
+    ],
+    "stack/PLAN_INSTALACION_SHADCN.md": [
+      2934,
+      1778025711833000000
+    ],
+    "stack/PLAN_INSTALACION_ZUSTAND_VANILLA.md": [
+      2535,
+      1778026339363000000
+    ],
+    "stack/stack_ipados.md": [
+      1078,
+      1777978452914000000
+    ],
+    "stack/stack_macos.md": [
+      1061,
+      1777978452944000000
+    ],
+    "stack/stack_windows.md": [
+      1671,
+      1777977500415000000
+    ],
+    "_archives/index.html": [
+      3836,
+      1778121072410000000
+    ],
+    "_archives/nodia_ide.html": [
+      21027,
+      1778152953421000000
+    ],
+    "_archives/pixel_art_book_original.html": [
+      8633,
+      1778121035276000000
+    ],
+    "_archives/script.js": [
+      1591,
+      1778121093375000000
+    ],
+    "_archives/styles.css": [
+      5025,
+      1778121086570000000
+    ],
+    "_archives/⚙️ PRD Motor Nodia.md": [
+      2079,
+      1777879796119000000
+    ],
+    "_archives/⭐ Planificador.md": [
+      6184,
+      1777960512640000000
+    ],
+    "_archives/🌐 PRD Infraestructura Técnica.md": [
+      1719,
+      1778012742952000000
+    ],
+    "_archives/🎨 Guía de Diseño Nodia.md": [
+      5014,
+      1777975126493000000
+    ],
+    "_archives/🎭 PRD Sistema Narrativo.md": [
+      2980,
+      1777977534471000000
+    ],
+    "_archives/🎮 CÓMO_FUNCIONA_NODIA.md": [
+      4305,
+      1778022017186000000
+    ],
+    "_archives/🎯 Plan Estratégico.md": [
+      3552,
+      1777853213036000000
+    ],
+    "_archives/👁️ DEFINICIÓN_DEL_SISTEMA_NODIA.md": [
+      2903,
+      1778013246734000000
+    ],
+    "_archives/👁️ Visión del Software.md": [
+      3551,
+      1777855175499000000
+    ],
+    "_archives/📑 ANÁLISIS_EXHAUSTIVO_SISTEMA_NODIA.md": [
+      2774,
+      1778023786367000000
+    ],
+    "_archives/📟 PRD Interfaz de Usuario.md": [
+      5360,
+      1777978827467000000
+    ],
+    "_archives/📦 RESUMEN_DEL_PROYECTO_NODIA.md": [
+      2175,
+      1778018709520000000
+    ],
+    "_archives/🔍 Investigación de Estilo UI.md": [
+      3673,
+      1777868540917000000
+    ],
+    "_archives/🤖 PRD Asistente IA.md": [
+      2384,
+      1777978842328000000
+    ]
+  }
+}

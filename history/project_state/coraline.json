@@ -1,0 +1,664 @@
+{
+  "project_id": "coraline",
+  "project": "CORALINE (Pink Palace)",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\05_videojuegos\\01_Coraline",
+  "captured_at": "2026-07-14T07:11:19-06:00",
+  "last_change": "2026-03-27T18:36:20-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 150,
+    "code_count": 3,
+    "doc_count": 21,
+    "asset_count": 122,
+    "test_count": 2,
+    "manifest_count": 0,
+    "latest_mtime": "2026-03-27T18:36:20-06:00",
+    "latest_file": "Documentacion para la IA/CHANGELOG.md",
+    "extensions": {
+      ".jpg": 63,
+      ".png": 36,
+      ".md": 20,
+      ".jpeg": 14,
+      ".webp": 5,
+      ".html": 3,
+      ".ico": 3,
+      ".max": 2,
+      ".obj": 2,
+      ".pdf": 1,
+      ".glb": 1
+    }
+  },
+  "progress": {
+    "project_id": "coraline",
+    "project": "CORALINE (Pink Palace)",
+    "mvp": 39,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 15,
+      "diseno": 4,
+      "arquitectura": 0,
+      "implementacion": 8,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 3,
+      "validacion": 3
+    },
+    "missing": [
+      "arquitectura verificable",
+      "empaquetado/distribución"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "croquis_3d_interactivo.html": [
+      3933,
+      1773911524704000000
+    ],
+    "instrucciones.md": [
+      12548,
+      1773901958594000000
+    ],
+    "enlaces.md": [
+      1697,
+      1773901922931000000
+    ],
+    "investigacion_jardin.md": [
+      3337,
+      1773906006891000000
+    ],
+    "1DF86288-37F7-472C-8905-6A0949E34726.jpeg": [
+      241969,
+      1754754586802000000
+    ],
+    "2024-09-13_181520_webp.webp": [
+      386738,
+      1753299510000000000
+    ],
+    "folder_button_carbon_256_only.ico": [
+      34442,
+      1755505805385000000
+    ],
+    "2024-09-13_181509_webp.webp": [
+      399340,
+      1753299499000000000
+    ],
+    "personaje.max": [
+      565248,
+      1773371048994000000
+    ],
+    "2024-06-07_180008_webp.webp": [
+      363446,
+      1753299499000000000
+    ],
+    "CACC8678-D2F2-4110-B328-BA0F03603B7B.jpeg": [
+      469462,
+      1754790048215000000
+    ],
+    "button_cirque_gdd_v8.html": [
+      107890,
+      1773912738678000000
+    ],
+    "button_cirque_gdd_v7.html": [
+      106175,
+      1773903734371000000
+    ],
+    "Sin-título-3_04.jpg": [
+      1943650,
+      1754806384000000000
+    ],
+    "ChatGPT Image 9 ago 2025, 07_40_09 p.m..png": [
+      3009381,
+      1754790009416000000
+    ],
+    "ChatGPT Image 9 ago 2025, 07_40_30 p.m..png": [
+      2960061,
+      1754790030352000000
+    ],
+    "ChatGPT Image 9 ago 2025, 08_53_45 p.m..png": [
+      2317207,
+      1754794425451000000
+    ],
+    "personaje coraline.max": [
+      1253376,
+      1774050310739000000
+    ],
+    "ChatGPT Image 9 ago 2025, 09_13_33 p.m..png": [
+      1850966,
+      1754795613606000000
+    ],
+    "ChatGPT Image 10 ago 2025, 06_56_03 p.m..png": [
+      1611674,
+      1754873769049000000
+    ],
+    "ChatGPT Image 9 ago 2025, 07_40_15 p.m..png": [
+      2900838,
+      1754790015641000000
+    ],
+    "asdsa.png": [
+      3270089,
+      1754806384000000000
+    ],
+    "ChatGPT Image 9 ago 2025, 07_40_04 p.m..png": [
+      3211068,
+      1754790005721000000
+    ],
+    "botones.jpg": [
+      2772503,
+      1754806465711000000
+    ],
+    "Sin-título-3_03.jpg": [
+      2316703,
+      1754806384000000000
+    ],
+    "ChatGPT Image 9 ago 2025, 07_40_21 p.m..png": [
+      2654033,
+      1754790021994000000
+    ],
+    "ChatGPT Image 9 ago 2025, 06_56_25 p.m..png": [
+      2654033,
+      1754787386208000000
+    ],
+    "ChatGPT Image 10 ago 2025, 01_47_54 p.m..png": [
+      2649096,
+      1754855285055000000
+    ],
+    "character_25K_game.obj": [
+      1666800,
+      1773963667974000000
+    ],
+    "B2F44E1F-4709-4418-86A8-B1DBECFB2CFA.jpeg": [
+      1209948,
+      1754806401000000000
+    ],
+    "ChatGPT Image 9 ago 2025, 07_40_12 p.m..png": [
+      2894930,
+      1754790012455000000
+    ],
+    "README.md": [
+      1709,
+      1773911526818000000
+    ],
+    "Sin-título-3_01.jpg": [
+      2241767,
+      1754806384000000000
+    ],
+    "folder_button_carbon_windows.ico": [
+      561,
+      1755505643000000000
+    ],
+    "Sin-título-3_02.jpg": [
+      2153341,
+      1754806384000000000
+    ],
+    "folder_button_carbon.ico": [
+      558,
+      1755503953000000000
+    ],
+    "inventario_assets.md": [
+      2703,
+      1773905771129000000
+    ],
+    "guia_blockout.md": [
+      2032,
+      1773911522683000000
+    ],
+    "reporte.md": [
+      5870,
+      1773905987554000000
+    ],
+    "ChatGPT Image 9 ago 2025, 07_41_07 p.m..png": [
+      3211068,
+      1754790067557000000
+    ],
+    "character_clean_3dsmax.obj": [
+      38301994,
+      1773953168534000000
+    ],
+    "ChatGPT Image 9 ago 2025, 07_40_32 p.m..png": [
+      2944896,
+      1754790033061000000
+    ],
+    "Documentacion para la IA/01_Coraline.md": [
+      2964,
+      1774166929996000000
+    ],
+    "Documentacion para la IA/CLAUDE.md": [
+      135,
+      1774658180537000000
+    ],
+    "Documentacion para la IA/CHANGELOG.md": [
+      135,
+      1774658180542000000
+    ],
+    "Documentacion para la IA/PROTOCOL.md": [
+      370,
+      1774658180493000000
+    ],
+    "Documentacion para la IA/docs/GLOSSARY.md": [
+      157,
+      1774658180531000000
+    ],
+    "Documentacion para la IA/docs/ROADMAP.md": [
+      178,
+      1774658180529000000
+    ],
+    "Documentacion para la IA/docs/TDD.md": [
+      138,
+      1774658180528000000
+    ],
+    "Documentacion para la IA/docs/PRD.md": [
+      179,
+      1774658180524000000
+    ],
+    "Documentacion para la IA/docs/DESIGN_SPEC.md": [
+      135,
+      1774658180526000000
+    ],
+    "Documentacion para la IA/docs/TEST_PLAN.md": [
+      160,
+      1774658180533000000
+    ],
+    "Documentacion para la IA/docs/USER_DOCS.md": [
+      142,
+      1774658180536000000
+    ],
+    "Documentacion para la IA/_meta/questions-log.md": [
+      671,
+      1774658180523000000
+    ],
+    "Documentacion para la IA/_meta/owner.md": [
+      215,
+      1774658180495000000
+    ],
+    "images/Sin-título-3_01.jpg": [
+      2241767,
+      1754797910379000000
+    ],
+    "images/Sin-título-3_05.jpg": [
+      1505309,
+      1754797911628000000
+    ],
+    "images/Danny_05.jpg": [
+      1505309,
+      1754797869390000000
+    ],
+    "images/asdsa.png": [
+      3270089,
+      1754804411870000000
+    ],
+    "images/Sin título.png": [
+      3270089,
+      1754806032471000000
+    ],
+    "images/Sin-título-3_03.jpg": [
+      2316703,
+      1754797911037000000
+    ],
+    "images/Sin-título-3_02.jpg": [
+      2153341,
+      1754797910709000000
+    ],
+    "images/Sin-título-3_04.jpg": [
+      1943650,
+      1754797911339000000
+    ],
+    "05_Iluminacion_y_Atmosfera/garden_lighting_01.jpg": [
+      71299,
+      1773894481000000000
+    ],
+    "05_Iluminacion_y_Atmosfera/overcast_01.jpg": [
+      130488,
+      1773894481000000000
+    ],
+    "05_Iluminacion_y_Atmosfera/night_01.jpg": [
+      434498,
+      1773894481000000000
+    ],
+    "05_Iluminacion_y_Atmosfera/garden_lighting_02.jpg": [
+      71299,
+      1773894481000000000
+    ],
+    "02_Disposicion_del_Sitio/concept_art_03.jpg": [
+      1133478,
+      1773894437000000000
+    ],
+    "02_Disposicion_del_Sitio/concept_art_01.jpeg": [
+      2132038,
+      1773894437000000000
+    ],
+    "02_Disposicion_del_Sitio/concept_art_02.png": [
+      950321,
+      1773894437000000000
+    ],
+    "01_Arquitectura/floor_plan_02.jpg": [
+      36845,
+      1773894437000000000
+    ],
+    "01_Arquitectura/floor_plan_01.jpg": [
+      36845,
+      1773894437000000000
+    ],
+    "01_Arquitectura/architecture_12.jpg": [
+      116433,
+      1773894605000000000
+    ],
+    "01_Arquitectura/architecture_11.jpg": [
+      189868,
+      1773894605000000000
+    ],
+    "01_Arquitectura/Pink_Palace_1.webp": [
+      216368,
+      1773724560911000000
+    ],
+    "01_Arquitectura/architecture_04.jpeg": [
+      67276,
+      1773894437000000000
+    ],
+    "01_Arquitectura/architecture_08.jpg": [
+      83644,
+      1773894605000000000
+    ],
+    "01_Arquitectura/architecture_06.jpg": [
+      116433,
+      1773894605000000000
+    ],
+    "01_Arquitectura/architecture_07.jpeg": [
+      997987,
+      1773894605000000000
+    ],
+    "01_Arquitectura/architecture_01.jpg": [
+      100523,
+      1773894437000000000
+    ],
+    "01_Arquitectura/architecture_02.jpg": [
+      425017,
+      1773894437000000000
+    ],
+    "01_Arquitectura/floor_plan_03.jpg": [
+      1000259,
+      1773894437000000000
+    ],
+    "01_Arquitectura/architecture_03.jpg": [
+      189868,
+      1773894437000000000
+    ],
+    "01_Arquitectura/architecture_09.jpeg": [
+      997987,
+      1773894605000000000
+    ],
+    "01_Arquitectura/architecture_13.jpg": [
+      189868,
+      1773894605000000000
+    ],
+    "01_Arquitectura/architecture_05.jpg": [
+      398484,
+      1773894437000000000
+    ],
+    "01_Arquitectura/Coraline Pink Palace Environment.pdf": [
+      7654483,
+      1773897957429000000
+    ],
+    "01_Arquitectura/architecture_rear.jpg": [
+      584173,
+      1773894605000000000
+    ],
+    "01_Arquitectura/architecture_10.jpg": [
+      425017,
+      1773894605000000000
+    ],
+    "04_Texturas/mossy_cobblestone_01.jpg": [
+      945073,
+      1773894467000000000
+    ],
+    "04_Texturas/laika_set_01.jpg": [
+      431491,
+      1773894467000000000
+    ],
+    "04_Texturas/victorian_moodboard.png": [
+      1549402,
+      1773894467000000000
+    ],
+    "04_Texturas/peeling_paint_01.jpg": [
+      34362,
+      1773894467000000000
+    ],
+    "04_Texturas/laika_set_03.png": [
+      132396,
+      1773894467000000000
+    ],
+    "04_Texturas/laika_set_02.jpg": [
+      521212,
+      1773894467000000000
+    ],
+    "04_Texturas/mossy_cobblestone_02.jpg": [
+      1917391,
+      1773894467000000000
+    ],
+    "04_Texturas/pink_house_ref.jpeg": [
+      566053,
+      1773894467000000000
+    ],
+    "06_Otro_Mundo/other_world_05.jpg": [
+      140965,
+      1773894605000000000
+    ],
+    "06_Otro_Mundo/comparison_01.jpg": [
+      57534,
+      1773894481000000000
+    ],
+    "06_Otro_Mundo/other_world_07.jpg": [
+      72964,
+      1773894605000000000
+    ],
+    "06_Otro_Mundo/comparison_02.jpg": [
+      24441,
+      1773894481000000000
+    ],
+    "06_Otro_Mundo/other_world_03.jpg": [
+      560391,
+      1773894605000000000
+    ],
+    "06_Otro_Mundo/other_world_01.jpg": [
+      126999,
+      1773894481000000000
+    ],
+    "06_Otro_Mundo/other_world_06.jpg": [
+      560391,
+      1773894605000000000
+    ],
+    "06_Otro_Mundo/other_world_garden.jpg": [
+      90845,
+      1773894481000000000
+    ],
+    "06_Otro_Mundo/other_world_04.jpg": [
+      41999,
+      1773894605000000000
+    ],
+    "09_Imagenes_Generadas/Gemini_Generated_Image_exj7dvexj7dvexj7.png": [
+      8019015,
+      1773724656737000000
+    ],
+    "09_Imagenes_Generadas/Gemini_Generated_Image_8cx0wv8cx0wv8cx0.png": [
+      5159073,
+      1773888091914000000
+    ],
+    "09_Imagenes_Generadas/Gemini_Generated_Image_m38zd7m38zd7m38z.png": [
+      5596581,
+      1773800843923000000
+    ],
+    "09_Imagenes_Generadas/Gemini_Generated_Image_59au7q59au7q59au (1).png": [
+      8509965,
+      1772353769348000000
+    ],
+    "09_Imagenes_Generadas/Gemini_Generated_Image_59au7q59au7q59au.png": [
+      8782319,
+      1772353733661000000
+    ],
+    "09_Imagenes_Generadas/Gemini_Generated_Image_9vh9sw9vh9sw9vh9.png": [
+      8192088,
+      1773727066641000000
+    ],
+    "09_Imagenes_Generadas/Gemini_Generated_Image_glwk2nglwk2nglwk.png": [
+      4992364,
+      1773887815940000000
+    ],
+    "09_Imagenes_Generadas/Gemini_Generated_Image_716cy2716cy2716c.png": [
+      3899966,
+      1773871731961000000
+    ],
+    "09_Imagenes_Generadas/Gemini_Generated_Image_36zquo36zquo36zq.png": [
+      4475159,
+      1773872505286000000
+    ],
+    "09_Imagenes_Generadas/Gemini_Generated_Image_5x1w6f5x1w6f5x1w.png": [
+      6343266,
+      1773804038279000000
+    ],
+    "09_Imagenes_Generadas/Gemini_Generated_Image_tq5dbbtq5dbbtq5d.png": [
+      8967799,
+      1773724799831000000
+    ],
+    "07_Produccion_Detras_de_Escena/production_02.jpeg": [
+      57910,
+      1773894605000000000
+    ],
+    "07_Produccion_Detras_de_Escena/production_01.jpg": [
+      29463,
+      1773894605000000000
+    ],
+    "07_Produccion_Detras_de_Escena/production_07.jpg": [
+      29463,
+      1773894605000000000
+    ],
+    "07_Produccion_Detras_de_Escena/set_design_01.jpg": [
+      41804,
+      1773894499000000000
+    ],
+    "07_Produccion_Detras_de_Escena/production_03.jpg": [
+      104919,
+      1773894605000000000
+    ],
+    "07_Produccion_Detras_de_Escena/miniature_01.jpeg": [
+      57910,
+      1773894499000000000
+    ],
+    "07_Produccion_Detras_de_Escena/02b48a7f-9c74-4720-8e9f-580b818ff3ed.jpeg": [
+      1034246,
+      1773872409620000000
+    ],
+    "07_Produccion_Detras_de_Escena/illustration_02.jpg": [
+      100523,
+      1773894499000000000
+    ],
+    "07_Produccion_Detras_de_Escena/production_05.jpg": [
+      425017,
+      1773894605000000000
+    ],
+    "07_Produccion_Detras_de_Escena/miniature_02.jpg": [
+      60229,
+      1773894499000000000
+    ],
+    "07_Produccion_Detras_de_Escena/illustration_01.jpg": [
+      425017,
+      1773894499000000000
+    ],
+    "07_Produccion_Detras_de_Escena/maxresdefault.jpg": [
+      194554,
+      1773891454778000000
+    ],
+    "07_Produccion_Detras_de_Escena/production_08.webp": [
+      50728,
+      1773894605000000000
+    ],
+    "07_Produccion_Detras_de_Escena/production_06.jpeg": [
+      57910,
+      1773894605000000000
+    ],
+    "07_Produccion_Detras_de_Escena/miniature_03.jpg": [
+      168086,
+      1773894499000000000
+    ],
+    "07_Produccion_Detras_de_Escena/miniature_04.jpeg": [
+      231638,
+      1773894499000000000
+    ],
+    "07_Produccion_Detras_de_Escena/production_04.jpeg": [
+      997987,
+      1773894605000000000
+    ],
+    "08_Personajes_y_Modelos/Doll with Voluminous Hair.png": [
+      1464620,
+      1773730412906000000
+    ],
+    "08_Personajes_y_Modelos/Uniformly Lit Character.png": [
+      1178370,
+      1773791594566000000
+    ],
+    "08_Personajes_y_Modelos/modelo personaje base.glb": [
+      9666040,
+      1773890419894000000
+    ],
+    "08_Personajes_y_Modelos/Character Model Sheet Reference.png": [
+      1105586,
+      1773799772777000000
+    ],
+    "08_Personajes_y_Modelos/Doll with Matching Shoes.png": [
+      1376866,
+      1773873825670000000
+    ],
+    "08_Personajes_y_Modelos/Doll in Yellow Polka Dots.png": [
+      1373850,
+      1773731717528000000
+    ],
+    "03_Objetos_y_Accesorios/cobblestone_ref.jpg": [
+      99846,
+      1773894454000000000
+    ],
+    "03_Objetos_y_Accesorios/well_02.png": [
+      140351,
+      1773894454000000000
+    ],
+    "03_Objetos_y_Accesorios/seeing_stone.jpg": [
+      26896,
+      1773894454000000000
+    ],
+    "03_Objetos_y_Accesorios/lego_model.jpg": [
+      1380121,
+      1773894454000000000
+    ],
+    "03_Objetos_y_Accesorios/well_01.jpg": [
+      12522,
+      1773894454000000000
+    ],
+    "03_Objetos_y_Accesorios/tree_01.jpg": [
+      50451,
+      1773894605000000000
+    ],
+    "03_Objetos_y_Accesorios/garden_01.jpg": [
+      37567,
+      1773894454000000000
+    ],
+    "03_Objetos_y_Accesorios/garden_gate_01.jpg": [
+      81516,
+      1773894605000000000
+    ],
+    "03_Objetos_y_Accesorios/minecraft_model.jpg": [
+      79692,
+      1773894454000000000
+    ],
+    "03_Objetos_y_Accesorios/exterior_01.jpg": [
+      710407,
+      1773894454000000000
+    ]
+  }
+}

@@ -1,0 +1,1806 @@
+{
+  "project_id": "vivo-promotor",
+  "project": "Vivo Promotor",
+  "root": "C:\\Desarrollos DEV daniel\\app vivo",
+  "captured_at": "2026-07-14T07:10:39-06:00",
+  "last_change": "2026-07-14T07:10:39-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 434,
+    "code_count": 155,
+    "doc_count": 20,
+    "asset_count": 184,
+    "test_count": 17,
+    "manifest_count": 8,
+    "latest_mtime": "2026-07-13T10:50:43-06:00",
+    "latest_file": "android/capacitor-cordova-android-plugins/cordova.variables.gradle",
+    "extensions": {
+      ".png": 162,
+      ".tsx": 77,
+      ".ts": 56,
+      ".xml": 29,
+      ".svg": 22,
+      ".md": 16,
+      ".js": 14,
+      ".gradle": 8,
+      "[sin extensión]": 7,
+      ".json": 7,
+      ".bin": 7,
+      ".properties": 5,
+      ".txt": 4,
+      ".example": 2,
+      ".html": 2,
+      ".ldb": 2,
+      ".kiro": 2,
+      ".java": 2,
+      ".css": 2,
+      ".apk": 2
+    }
+  },
+  "progress": {
+    "project_id": "vivo-promotor",
+    "project": "Vivo Promotor",
+    "mvp": 76,
+    "vision": "0",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 10,
+      "arquitectura": 10,
+      "implementacion": 30,
+      "pruebas": 10,
+      "empaquetado": 3,
+      "continuidad": 5,
+      "validacion": 3
+    },
+    "missing": []
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "Desde una subpantalla de Ajustes (reproducido en Productos y modelos / Editor de Inicio y Apariencia), el botón Atrás del sistema termina en el launcher en vez de regresar a Ajustes. Implementar una ruta de retorno consistente antes de cerrar la actividad.; Repetir la prueba en Productos, Inventario, Apariencia, Webs, Sistema e Historial; cada subpantalla debe conservar el estado de la sección padre al volver.; Verificar que Atrás cierre primero overlays, hojas y diálogos; después subpantalla; y solo al final permita salir de la app.; En Editor de Inicio, el primer estado visible puede mostrar el escenario negro con laterales vacíos mientras las portadas oficiales aún cargan. Evitar que el usuario interprete ese estado como fallo: mostrar placeholder/fallback visible y estable.; Medir y reducir el tiempo desde la entrada a Productos hasta la primera portada visible; no bloquear el resto de controles mientras se cargan las imágenes.; Confirmar que el mismo comportamiento no ocurra al volver desde Avanzado, cambiar de variante o abrir el editor en frío.; El APK permanece visualmente blanco durante aproximadamente 5–8 segundos antes de mostrar Registro. Agregar o reparar el fallback visible de arranque sin ocultar el contenido ya funcional.; Comprobar que una excepción de migración, storage o carga inicial pinte una recuperación visible y no una pantalla blanca/negra vacía.; Confirmar que el primer render no depende de que terminen de cargar todas las portadas.; Conservar la portada edge-to-edge, pero revisar el contraste de la tarjeta superior contra wallpapers claros y oscuros.",
+    "proximo_paso": "Desde una subpantalla de Ajustes (reproducido en Productos y modelos / Editor de Inicio y Apariencia), el botón Atrás del sistema termina en el launcher en vez de regresar a Ajustes. Implementar una ruta de retorno consistente antes de cerrar la actividad.",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "0",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "53"
+  },
+  "files": {
+    ".env.example": [
+      445,
+      1782742986000000000
+    ],
+    ".gitignore": [
+      73,
+      1782742986000000000
+    ],
+    "AGENTS.md": [
+      1384,
+      1782722252686541400
+    ],
+    "ARCHITECTURE.md": [
+      2225,
+      1783612990964312200
+    ],
+    "capacitor.config.ts": [
+      254,
+      1782722056535439500
+    ],
+    "CODEX_GUARDRAILS.md": [
+      4643,
+      1783612990961794700
+    ],
+    "DESIGN.md": [
+      6353,
+      1783961334668945000
+    ],
+    "DocumentoEstructural.md": [
+      13198,
+      1782742986000000000
+    ],
+    "git_log.txt": [
+      0,
+      1782742986000000000
+    ],
+    "index.html": [
+      1470,
+      1783797406122073400
+    ],
+    "metadata.json": [
+      153,
+      1782742986000000000
+    ],
+    "package-lock.json": [
+      234555,
+      1783796968550503900
+    ],
+    "package.json": [
+      1625,
+      1783961347929365000
+    ],
+    "README.md": [
+      542,
+      1782742986000000000
+    ],
+    "task.md": [
+      9131,
+      1783666901977451300
+    ],
+    "TECH_STACK.md": [
+      1608,
+      1783787665171670000
+    ],
+    "tmp-apk-appearance.png": [
+      107189,
+      1783665746527146900
+    ],
+    "tmp-apk-calendar.png": [
+      563109,
+      1783665673343996700
+    ],
+    "tmp-apk-catalog.png": [
+      401390,
+      1783665680508320500
+    ],
+    "tmp-apk-history.png": [
+      1775813,
+      1783665752083195500
+    ],
+    "tmp-apk-income.png": [
+      431391,
+      1783665687431422800
+    ],
+    "tmp-apk-inventory.png": [
+      1775813,
+      1783665740467544100
+    ],
+    "tmp-apk-launch-after.png": [
+      3032767,
+      1783665652877596400
+    ],
+    "tmp-apk-launch.png": [
+      20636,
+      1783665618986999900
+    ],
+    "tmp-apk-products.png": [
+      1920829,
+      1783665732690788900
+    ],
+    "tmp-apk-settings.png": [
+      310675,
+      1783665694734342200
+    ],
+    "tmp-localstorage-000005.ldb": [
+      18092,
+      1783053229071576100
+    ],
+    "tmp-localstorage-000007.ldb": [
+      15715,
+      1783053229020574300
+    ],
+    "tmp-piggy-ui.png": [
+      2499445,
+      1783052532239348000
+    ],
+    "tmp-register-after-fix-2.png": [
+      389674,
+      1783053061158280100
+    ],
+    "tmp-register-after-fix-3.png": [
+      174888,
+      1783053096942486900
+    ],
+    "tmp-register-after-fix-4.png": [
+      138812,
+      1783053112803397200
+    ],
+    "tmp-register-after-fix-5.png": [
+      646272,
+      1783053128159426000
+    ],
+    "tmp-register-after-fix-6.png": [
+      2465667,
+      1783053161176876200
+    ],
+    "tmp-register-after-fix.png": [
+      118072,
+      1783053021636285400
+    ],
+    "tmp-register-after-migration-fix.png": [
+      2548311,
+      1783053399349140000
+    ],
+    "tmp-register-plus-tap.png": [
+      2391234,
+      1783053423182763700
+    ],
+    "tmp-register-ui.png": [
+      2440459,
+      1783052532174353000
+    ],
+    "tmp-review2-appearance.png": [
+      1776031,
+      1783666227610274200
+    ],
+    "tmp-review2-appearance2.png": [
+      385721,
+      1783666265776346400
+    ],
+    "tmp-review2-history.png": [
+      1775825,
+      1783666310669061500
+    ],
+    "tmp-review2-products-advanced-after.png": [
+      1918589,
+      1783666168143339800
+    ],
+    "tmp-review2-products-advanced.png": [
+      1918589,
+      1783666137538892400
+    ],
+    "tmp-review2-products-advanced2.png": [
+      641013,
+      1783666194038434200
+    ],
+    "tmp-review2-products-after.png": [
+      1918589,
+      1783666112700883100
+    ],
+    "tmp-review2-products.png": [
+      567900,
+      1783666083009223900
+    ],
+    "tmp-review2-products.xml": [
+      44278,
+      1783666085843002100
+    ],
+    "tmp-review2-register.png": [
+      2814660,
+      1783666037844403800
+    ],
+    "tmp-review2-register.xml": [
+      2574,
+      1783666045479015500
+    ],
+    "tmp-review2-settings.png": [
+      311136,
+      1783666057888893300
+    ],
+    "tmp-review2-settings.xml": [
+      11405,
+      1783666060752662200
+    ],
+    "tmp-vivo-current-ui.png": [
+      344154,
+      1783052506360265300
+    ],
+    "tmp-vivo-home-test.png": [
+      308160,
+      1783052338671636000
+    ],
+    "tmp-window-apk-after.xml": [
+      23330,
+      1783665655565075900
+    ],
+    "tmp-window-apk-launch.xml": [
+      2574,
+      1783665623119787600
+    ],
+    "tmp-window-calendar.xml": [
+      31105,
+      1783665676411407200
+    ],
+    "tmp-window-catalog.xml": [
+      12377,
+      1783665683107831600
+    ],
+    "tmp-window-dump-after-fix.xml": [
+      48153,
+      1783053034130654900
+    ],
+    "tmp-window-dump-piggy.xml": [
+      2756,
+      1783053145435291200
+    ],
+    "tmp-window-dump.xml": [
+      2756,
+      1783052494696488900
+    ],
+    "tmp-window-income.xml": [
+      42645,
+      1783665690198988600
+    ],
+    "tmp-window-settings.xml": [
+      11405,
+      1783665697478804300
+    ],
+    "tsconfig.json": [
+      508,
+      1782742986000000000
+    ],
+    "vite.config.ts": [
+      708,
+      1782742986000000000
+    ],
+    "vitest.config.ts": [
+      844,
+      1783324210293069500
+    ],
+    ".kiro/specs/catalog-purchase-experience/.config.kiro": [
+      113,
+      1783319807376135100
+    ],
+    ".kiro/specs/catalog-purchase-experience/design.md": [
+      36963,
+      1783321385889934200
+    ],
+    ".kiro/specs/catalog-purchase-experience/requirements.md": [
+      18253,
+      1783320414427605100
+    ],
+    ".kiro/specs/catalog-purchase-experience/tasks.md": [
+      10346,
+      1783360947983249100
+    ],
+    ".kiro/specs/deep-app-audit-fixes/.config.kiro": [
+      110,
+      1783317243354773600
+    ],
+    ".kiro/specs/deep-app-audit-fixes/bugfix.md": [
+      14274,
+      1783317334222728500
+    ],
+    ".vscode/settings.json": [
+      4,
+      1783357383442275800
+    ],
+    "android/.gitignore": [
+      1837,
+      1780792689032014800
+    ],
+    "android/build.gradle": [
+      706,
+      1780794563357105300
+    ],
+    "android/capacitor.settings.gradle": [
+      335,
+      1783961443774507600
+    ],
+    "android/gradle.properties": [
+      987,
+      1780415704000000000
+    ],
+    "android/gradlew": [
+      8733,
+      1780415704000000000
+    ],
+    "android/gradlew.bat": [
+      2937,
+      1780415704000000000
+    ],
+    "android/key.properties.example": [
+      293,
+      1780792689033012900
+    ],
+    "android/settings.gradle": [
+      208,
+      1780415704000000000
+    ],
+    "android/variables.gradle": [
+      593,
+      1780794563360110600
+    ],
+    "android/.gradle/file-system.probe": [
+      8,
+      1783795948997139400
+    ],
+    "android/.gradle/8.14.3/gc.properties": [
+      0,
+      1783795956561000000
+    ],
+    "android/.gradle/8.14.3/checksums/md5-checksums.bin": [
+      132733,
+      1783797064659213500
+    ],
+    "android/.gradle/8.14.3/checksums/sha1-checksums.bin": [
+      271571,
+      1783797066770685900
+    ],
+    "android/.gradle/8.14.3/executionHistory/executionHistory.bin": [
+      7003421,
+      1783797240651331300
+    ],
+    "android/.gradle/8.14.3/fileChanges/last-build.bin": [
+      1,
+      1783797240679360000
+    ],
+    "android/.gradle/8.14.3/fileHashes/fileHashes.bin": [
+      404923,
+      1783797240651331300
+    ],
+    "android/.gradle/8.14.3/fileHashes/resourceHashesCache.bin": [
+      27915,
+      1783797098337986800
+    ],
+    "android/.gradle/buildOutputCleanup/cache.properties": [
+      54,
+      1780646130678350800
+    ],
+    "android/.gradle/buildOutputCleanup/outputFiles.bin": [
+      58847,
+      1783797240652355400
+    ],
+    "android/.gradle/vcs-1/gc.properties": [
+      0,
+      1783795956543396600
+    ],
+    "android/app/.gitignore": [
+      26,
+      1780415704000000000
+    ],
+    "android/app/build.gradle": [
+      3207,
+      1783961347930870200
+    ],
+    "android/app/capacitor.build.gradle": [
+      418,
+      1783961443775508100
+    ],
+    "android/app/proguard-rules.pro": [
+      751,
+      1780415704000000000
+    ],
+    "android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java": [
+      774,
+      1780415704000000000
+    ],
+    "android/app/src/main/AndroidManifest.xml": [
+      1703,
+      1782737634839331700
+    ],
+    "android/app/src/main/assets/capacitor.config.json": [
+      141,
+      1783961443668366000
+    ],
+    "android/app/src/main/assets/capacitor.plugins.json": [
+      104,
+      1783961443722561200
+    ],
+    "android/app/src/main/assets/public/cordova.js": [
+      0,
+      1783961443770508300
+    ],
+    "android/app/src/main/assets/public/cordova_plugins.js": [
+      0,
+      1783961443771508400
+    ],
+    "android/app/src/main/assets/public/index.html": [
+      1568,
+      1783961441187495500
+    ],
+    "android/app/src/main/assets/public/assets/CalendarFormMode-C23Wez1K.js": [
+      13539,
+      1783961441187495500
+    ],
+    "android/app/src/main/assets/public/assets/CalendarSection-CPMDi_A1.js": [
+      52595,
+      1783961441187495500
+    ],
+    "android/app/src/main/assets/public/assets/CatalogSection-QdnkaMo-.js": [
+      25166,
+      1783961441187495500
+    ],
+    "android/app/src/main/assets/public/assets/chevron-left-DMGsGan0.js": [
+      303,
+      1783961441187495500
+    ],
+    "android/app/src/main/assets/public/assets/circle-alert-CDbdSPg3.js": [
+      423,
+      1783961441187495500
+    ],
+    "android/app/src/main/assets/public/assets/globe-wATscZez.js": [
+      410,
+      1783961441189495500
+    ],
+    "android/app/src/main/assets/public/assets/index-aFrsQvzx.js": [
+      508149,
+      1783961441187495500
+    ],
+    "android/app/src/main/assets/public/assets/index-MiO217Jm.css": [
+      158780,
+      1783961441187495500
+    ],
+    "android/app/src/main/assets/public/assets/PiggyBankSection-B2dI76FG.js": [
+      33851,
+      1783961441187495500
+    ],
+    "android/app/src/main/assets/public/assets/SectionHeaderBackButton-CKex66JC.js": [
+      4734,
+      1783961441190001300
+    ],
+    "android/app/src/main/assets/public/assets/SettingsSection-DQECW4F9.js": [
+      145002,
+      1783961441187495500
+    ],
+    "android/app/src/main/assets/public/assets/web-Cd-ttJDP.js": [
+      514,
+      1783961441190001300
+    ],
+    "android/app/src/main/assets/public/assets/x-DXGwcrDV.js": [
+      1421,
+      1783961441187495500
+    ],
+    "android/app/src/main/assets/public/assets/branding/app-icon-coloros.png": [
+      1358330,
+      1783007955623573300
+    ],
+    "android/app/src/main/assets/public/assets/devices/official/vivov50lite_lilafantasia.png": [
+      2500310,
+      1781307940811394700
+    ],
+    "android/app/src/main/assets/public/assets/devices/official/vivov50lite_lilafantasia.svg": [
+      3050,
+      1782735081256116500
+    ],
+    "android/app/src/main/assets/public/assets/devices/official/Vivov50lite_negromistico.png": [
+      2219790,
+      1781307539273096800
+    ],
+    "android/app/src/main/assets/public/assets/devices/official/Vivov50lite_negromistico.svg": [
+      2881,
+      1782735081254117600
+    ],
+    "android/app/src/main/assets/public/assets/devices/official/vivov60lite_azultitanio.png": [
+      1792903,
+      1781309087494547800
+    ],
+    "android/app/src/main/assets/public/assets/devices/official/vivov60lite_azultitanio.svg": [
+      2713,
+      1782735081257643400
+    ],
+    "android/app/src/main/assets/public/assets/devices/official/vivov60lite_negroelegante.png": [
+      1816364,
+      1781309456904871200
+    ],
+    "android/app/src/main/assets/public/assets/devices/official/vivov60lite_negroelegante.svg": [
+      2711,
+      1782735081259646900
+    ],
+    "android/app/src/main/assets/public/assets/devices/official/vivoY04_lavanda_cristal.png": [
+      1942237,
+      1781302006834894600
+    ],
+    "android/app/src/main/assets/public/assets/devices/official/vivoY04_lavanda_cristal.svg": [
+      2534,
+      1782735081246056400
+    ],
+    "android/app/src/main/assets/public/assets/devices/official/vivoY04_verde_jade.png": [
+      1703925,
+      1781302049377571300
+    ],
+    "android/app/src/main/assets/public/assets/devices/official/vivoY04_verde_jade.svg": [
+      2534,
+      1782735081247061500
+    ],
+    "android/app/src/main/assets/public/assets/devices/official/vivoy21d_morado_lavanda.png": [
+      1705633,
+      1781302816943026100
+    ],
+    "android/app/src/main/assets/public/assets/devices/official/vivoy21d_morado_lavanda.svg": [
+      2881,
+      1782735081249570300
+    ],
+    "android/app/src/main/assets/public/assets/devices/official/vivoy21d_negrto_jade.png": [
+      1566172,
+      1781302812377628800
+    ],
+    "android/app/src/main/assets/public/assets/devices/official/vivoy21d_negrto_jade.svg": [
+      2535,
+      1782735081248058800
+    ],
+    "android/app/src/main/assets/public/assets/devices/official/vivoy29_black_exxpresso.png": [
+      1777514,
+      1781306082149810200
+    ],
+    "android/app/src/main/assets/public/assets/devices/official/vivoy29_black_exxpresso.svg": [
+      3094,
+      1782735081252103800
+    ],
+    "android/app/src/main/assets/public/assets/devices/official/vivoy29_blanconube.png": [
+      2674009,
+      1781303732923307400
+    ],
+    "android/app/src/main/assets/public/assets/devices/official/vivoy29_blanconube.svg": [
+      3247,
+      1782735081253120300
+    ],
+    "android/app/src/main/assets/public/assets/devices/official/vivoY31d_blanco_brillante.png": [
+      1956094,
+      1782182381615303700
+    ],
+    "android/app/src/main/assets/public/assets/devices/official/vivoY31d_blanco_brillante.svg": [
+      2721,
+      1782735081260156500
+    ],
+    "android/app/src/main/assets/public/assets/devices/official/vivoY31d_gris_estelar.png": [
+      1603771,
+      1782182035755882000
+    ],
+    "android/app/src/main/assets/public/assets/dock/calendar.png": [
+      1058855,
+      1783006794651313700
+    ],
+    "android/app/src/main/assets/public/assets/dock/catalog.png": [
+      1369863,
+      1783006795237846500
+    ],
+    "android/app/src/main/assets/public/assets/dock/piggybank.png": [
+      1221638,
+      1783006796001960600
+    ],
+    "android/app/src/main/assets/public/assets/dock/register.png": [
+      1110097,
+      1783006795626959500
+    ],
+    "android/app/src/main/assets/public/assets/dock/settings.png": [
+      1282885,
+      1783006796547757500
+    ],
+    "android/app/src/main/kotlin/com/davidsanchez/vivopromotor/MainActivity.kt": [
+      4462,
+      1782756125719798000
+    ],
+    "android/app/src/main/res/drawable/ic_launcher_background.xml": [
+      5606,
+      1780415704000000000
+    ],
+    "android/app/src/main/res/drawable/splash.png": [
+      53780,
+      1783007956073117600
+    ],
+    "android/app/src/main/res/drawable-land-hdpi/splash.png": [
+      101603,
+      1783007957447972400
+    ],
+    "android/app/src/main/res/drawable-land-mdpi/splash.png": [
+      53780,
+      1783007957340255200
+    ],
+    "android/app/src/main/res/drawable-land-xhdpi/splash.png": [
+      193955,
+      1783007957635972100
+    ],
+    "android/app/src/main/res/drawable-land-xxhdpi/splash.png": [
+      315497,
+      1783007957916018300
+    ],
+    "android/app/src/main/res/drawable-land-xxxhdpi/splash.png": [
+      504023,
+      1783007958309799100
+    ],
+    "android/app/src/main/res/drawable-port-hdpi/splash.png": [
+      100213,
+      1783007956275115300
+    ],
+    "android/app/src/main/res/drawable-port-mdpi/splash.png": [
+      53458,
+      1783007956178124200
+    ],
+    "android/app/src/main/res/drawable-port-xhdpi/splash.png": [
+      190756,
+      1783007956450446000
+    ],
+    "android/app/src/main/res/drawable-port-xxhdpi/splash.png": [
+      306061,
+      1783007956774443700
+    ],
+    "android/app/src/main/res/drawable-port-xxxhdpi/splash.png": [
+      493467,
+      1783007957265517700
+    ],
+    "android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml": [
+      1880,
+      1780415704000000000
+    ],
+    "android/app/src/main/res/layout/activity_main.xml": [
+      535,
+      1780415704000000000
+    ],
+    "android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml": [
+      265,
+      1780415704000000000
+    ],
+    "android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml": [
+      265,
+      1780415704000000000
+    ],
+    "android/app/src/main/res/mipmap-hdpi/ic_launcher.png": [
+      10210,
+      1783007955682570600
+    ],
+    "android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png": [
+      28543,
+      1783007955867607200
+    ],
+    "android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png": [
+      10210,
+      1783007955686583300
+    ],
+    "android/app/src/main/res/mipmap-mdpi/ic_launcher.png": [
+      5275,
+      1783007955653573900
+    ],
+    "android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png": [
+      14825,
+      1783007955840696800
+    ],
+    "android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png": [
+      5275,
+      1783007955656573600
+    ],
+    "android/app/src/main/res/mipmap-xhdpi/ic_launcher.png": [
+      16102,
+      1783007955716577200
+    ],
+    "android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png": [
+      45119,
+      1783007955899613000
+    ],
+    "android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png": [
+      16102,
+      1783007955719571800
+    ],
+    "android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png": [
+      31009,
+      1783007955753575500
+    ],
+    "android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png": [
+      89109,
+      1783007955944570600
+    ],
+    "android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png": [
+      31009,
+      1783007955759669200
+    ],
+    "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png": [
+      49206,
+      1783007955804568900
+    ],
+    "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png": [
+      148281,
+      1783007956014585900
+    ],
+    "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png": [
+      49206,
+      1783007955813659500
+    ],
+    "android/app/src/main/res/values/ic_launcher_background.xml": [
+      121,
+      1783008027158791700
+    ],
+    "android/app/src/main/res/values/strings.xml": [
+      324,
+      1782722479510289900
+    ],
+    "android/app/src/main/res/values/styles.xml": [
+      1451,
+      1782737326267649600
+    ],
+    "android/app/src/main/res/values-v27/styles.xml": [
+      717,
+      1782737344080108500
+    ],
+    "android/app/src/main/res/xml/config.xml": [
+      185,
+      1783961443772508700
+    ],
+    "android/app/src/main/res/xml/file_paths.xml": [
+      213,
+      1780415704000000000
+    ],
+    "android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java": [
+      402,
+      1780415704000000000
+    ],
+    "android/capacitor-cordova-android-plugins/build.gradle": [
+      1668,
+      1783961443777507600
+    ],
+    "android/capacitor-cordova-android-plugins/cordova.variables.gradle": [
+      312,
+      1783961443778507200
+    ],
+    "android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml": [
+      210,
+      1783961443778507200
+    ],
+    "android/capacitor-cordova-android-plugins/src/main/java/.gitkeep": [
+      0,
+      1781859670000000000
+    ],
+    "android/capacitor-cordova-android-plugins/src/main/res/.gitkeep": [
+      1,
+      1781859670000000000
+    ],
+    "android/gradle/wrapper/gradle-wrapper.jar": [
+      43764,
+      1780415704000000000
+    ],
+    "android/gradle/wrapper/gradle-wrapper.properties": [
+      253,
+      1780415704000000000
+    ],
+    "assets/.aistudio/.gitignore": [
+      2,
+      1782742986000000000
+    ],
+    "dist-apk/vivo-promotor-debug-v0.4.4-9.apk": [
+      37964739,
+      1783051987584757400
+    ],
+    "dist-apk/vivo-promotor-debug.apk": [
+      41063024,
+      1783797240182248100
+    ],
+    "docs/ANDROID_APK_FINAL_DELIVERY.md": [
+      1591,
+      1782768100540722700
+    ],
+    "docs/DESIGN_SYSTEM_ORIGIN_VIVO.md": [
+      1805,
+      1782742986000000000
+    ],
+    "docs/UX_RESPONSIVE_AUDIT.md": [
+      2411,
+      1782742986000000000
+    ],
+    "docs/evidence/android-vivo-0.4.1-launch-2026-06-29.png": [
+      20644,
+      1782736227283144400
+    ],
+    "docs/evidence/android-vivo-0.4.1-launch-wait-2026-06-29.png": [
+      1431207,
+      1782736258449674300
+    ],
+    "docs/evidence/android-vivo-0.4.2-register-corrected-2026-06-29.png": [
+      3042521,
+      1782736736618062300
+    ],
+    "docs/evidence/android-vivo-0.4.2-register-final-2-2026-06-29.png": [
+      3184417,
+      1782736981392567000
+    ],
+    "docs/evidence/android-vivo-0.4.2-register-final-2026-06-29.png": [
+      155649,
+      1782736872797621900
+    ],
+    "docs/evidence/android-vivo-0.4.2-register-final-blackbar-2026-06-29.png": [
+      3184417,
+      1782737462331914200
+    ],
+    "docs/evidence/android-vivo-0.4.2-register-final-edge-2026-06-29.png": [
+      3184417,
+      1782737126413744100
+    ],
+    "docs/evidence/android-vivo-0.4.2-register-final-viewportfit-2026-06-29.png": [
+      3184417,
+      1782737273307088200
+    ],
+    "docs/evidence/android-vivo-0.4.2-register-true-fullscreen-2026-06-29.png": [
+      3260475,
+      1782737715641278800
+    ],
+    "docs/evidence/emulator-ui-current.xml": [
+      2574,
+      1783600554138501000
+    ],
+    "docs/evidence/emulator-v0.4.5-calendar.png": [
+      461810,
+      1783600703876901800
+    ],
+    "docs/evidence/emulator-v0.4.5-camara.png": [
+      3472498,
+      1783600711180849900
+    ],
+    "docs/evidence/emulator-v0.4.5-catalog.png": [
+      3485567,
+      1783600661323656000
+    ],
+    "docs/evidence/emulator-v0.4.5-historial.png": [
+      615435,
+      1783600706795689700
+    ],
+    "docs/evidence/emulator-v0.4.5-launch-2026-07-09-0635.png": [
+      6992198,
+      1783600529275379700
+    ],
+    "docs/evidence/emulator-v0.4.5-launch-2026-07-09.png": [
+      355343,
+      1783600626035893800
+    ],
+    "docs/evidence/emulator-v0.4.5-piggybank.png": [
+      355139,
+      1783600663906887500
+    ],
+    "docs/evidence/emulator-v0.4.5-register.png": [
+      355343,
+      1783600652719086000
+    ],
+    "docs/evidence/emulator-v0.4.5-registro-calendario.png": [
+      968365,
+      1783600765151733500
+    ],
+    "docs/evidence/emulator-v0.4.5-settings.png": [
+      355139,
+      1783600666552419200
+    ],
+    "docs/evidence/oppo-app-foreground.png": [
+      2225742,
+      1783006259634070700
+    ],
+    "docs/evidence/oppo-calendar-final.png": [
+      596792,
+      1783006696447576300
+    ],
+    "docs/evidence/oppo-calendar-screen.png": [
+      555699,
+      1783006277409617500
+    ],
+    "docs/evidence/oppo-calendar-updated-seq.png": [
+      109172,
+      1783006503724706000
+    ],
+    "docs/evidence/oppo-calendar-updated.png": [
+      139043,
+      1783006450930881100
+    ],
+    "docs/evidence/oppo-catalog-blank-confirm.png": [
+      329673,
+      1783006477264174900
+    ],
+    "docs/evidence/oppo-catalog-bottom-final.png": [
+      315781,
+      1783006718932286800
+    ],
+    "docs/evidence/oppo-catalog-bottom-updated.png": [
+      109172,
+      1783006503361705900
+    ],
+    "docs/evidence/oppo-catalog-bottom.png": [
+      330757,
+      1783006320641724800
+    ],
+    "docs/evidence/oppo-catalog-screen-seq.png": [
+      329709,
+      1783006302272418400
+    ],
+    "docs/evidence/oppo-catalog-screen.png": [
+      555699,
+      1783006277552561500
+    ],
+    "docs/evidence/oppo-catalog-updated.png": [
+      139043,
+      1783006450926879200
+    ],
+    "docs/evidence/oppo-current-screen.png": [
+      695734,
+      1783006240467357500
+    ],
+    "docs/evidence/oppo-register-updated.png": [
+      2226916,
+      1783006437681008700
+    ],
+    "docs/evidence/qa-0.4.6-01-launch.png": [
+      114056,
+      1783608415087141400
+    ],
+    "docs/evidence/qa-0.4.6-02-after-welcome.png": [
+      114056,
+      1783608417974972900
+    ],
+    "docs/evidence/qa-0.4.6-03-calendar.png": [
+      114056,
+      1783608421743565300
+    ],
+    "docs/evidence/qa-0.4.6-04-ingresos.png": [
+      114056,
+      1783608425344770500
+    ],
+    "docs/evidence/qa-0.4.6-05-inicio.png": [
+      114056,
+      1783608429112385000
+    ],
+    "docs/evidence/qa-0.4.6-06-ajustes.png": [
+      114056,
+      1783608432679453600
+    ],
+    "docs/evidence/qa-0.4.7-01-launch.png": [
+      572511,
+      1783608669402056600
+    ],
+    "docs/evidence/qa-0.4.7-02-after-welcome.png": [
+      3166271,
+      1783608676649505400
+    ],
+    "docs/evidence/qa-0.4.7-03-calendar.png": [
+      845792,
+      1783608683748506300
+    ],
+    "docs/evidence/qa-0.4.7-04-ingresos.png": [
+      680739,
+      1783608779887362100
+    ],
+    "docs/evidence/qa-0.4.7-05-inicio.png": [
+      3178290,
+      1783608693920251400
+    ],
+    "docs/evidence/qa-inicio-top-layout.png": [
+      3068511,
+      1783609188409180600
+    ],
+    "docs/evidence/vivo-0.4.0-emulator-fixed-logcat.txt": [
+      93598,
+      1782724068415252100
+    ],
+    "docs/evidence/vivo-0.4.0-emulator-fixed-ui.xml": [
+      2609,
+      1782724071021953800
+    ],
+    "docs/evidence/vivo-0.4.0-emulator-logcat.txt": [
+      140001,
+      1782723661193360500
+    ],
+    "docs/evidence/vivo-0.4.0-emulator-open-fixed.png": [
+      3180499,
+      1782724071628938100
+    ],
+    "docs/evidence/vivo-0.4.0-emulator-open.png": [
+      20644,
+      1782723658308801700
+    ],
+    "docs/evidence/vivo-0.4.0-emulator-ui.xml": [
+      2609,
+      1782723661096548500
+    ],
+    "docs/evidence/vivo-0.4.6-emulator-launch-2026-07-09.png": [
+      229612,
+      1783607269229067800
+    ],
+    "docs/evidence/vivo-0.4.7-emulator-launch.png": [
+      2775317,
+      1783615784440801400
+    ],
+    "docs/evidence/vivo-black-screen-fix-0.4.4-emulator-clean.png": [
+      3263217,
+      1782768674870142300
+    ],
+    "docs/evidence/vivo-black-screen-fix-0.4.4-emulator.png": [
+      1822243,
+      1782768590351373000
+    ],
+    "docs/evidence/vivo-ingresos-compact-emulator-final.png": [
+      690175,
+      1782727809734700800
+    ],
+    "docs/evidence/vivo-ingresos-compact-emulator-ui.xml": [
+      2609,
+      1782727340388172500
+    ],
+    "docs/evidence/vivo-ingresos-compact-emulator.png": [
+      820719,
+      1782727339246714800
+    ],
+    "docs/evidence/vivo-oppo-crashfix-0.4.3-emulator-20s.png": [
+      3263217,
+      1782756560316519900
+    ],
+    "docs/evidence/vivo-oppo-crashfix-0.4.3-emulator.png": [
+      64139,
+      1782756495708437300
+    ],
+    "docs/evidence/vivo-register-edge-to-edge-final-2026-06-29.png": [
+      233976,
+      1782735586291679000
+    ],
+    "portadas fotos de celulares/guia_vendedores_vivo.md": [
+      7641,
+      1781337319560140500
+    ],
+    "portadas fotos de celulares/historial chat.txt": [
+      4651021,
+      1781445591822428400
+    ],
+    "portadas fotos de celulares/vivov50lite_lilafantasia.png": [
+      2500310,
+      1781307940811394700
+    ],
+    "portadas fotos de celulares/Vivov50lite_negromistico.png": [
+      2219790,
+      1781307539273096800
+    ],
+    "portadas fotos de celulares/vivov60lite_azultitanio.png": [
+      1792903,
+      1781309087494547800
+    ],
+    "portadas fotos de celulares/vivov60lite_negroelegante.png": [
+      1816364,
+      1781309456904871200
+    ],
+    "portadas fotos de celulares/vivoY04_lavanda_cristal.png": [
+      1942237,
+      1781302006834894600
+    ],
+    "portadas fotos de celulares/vivoY04_verde_jade.png": [
+      1703925,
+      1781302049377571300
+    ],
+    "portadas fotos de celulares/vivoy21d_morado_lavanda.png": [
+      1705633,
+      1781302816943026100
+    ],
+    "portadas fotos de celulares/vivoy21d_negrto_jade.png": [
+      1566172,
+      1781302812377628800
+    ],
+    "portadas fotos de celulares/vivoy29_black_exxpresso.png": [
+      1777514,
+      1781306082149810200
+    ],
+    "portadas fotos de celulares/vivoy29_blanconube.png": [
+      2674009,
+      1781303732923307400
+    ],
+    "portadas fotos de celulares/vivoY31d_blanco_brillante.png": [
+      1956094,
+      1782182381615303700
+    ],
+    "portadas fotos de celulares/vivoY31d_gris_estelar.png": [
+      1603771,
+      1782182035755882000
+    ],
+    "public/assets/branding/app-icon-coloros.png": [
+      1358330,
+      1783007955623573300
+    ],
+    "public/assets/devices/official/vivov50lite_lilafantasia.png": [
+      2500310,
+      1781307940811394700
+    ],
+    "public/assets/devices/official/vivov50lite_lilafantasia.svg": [
+      3050,
+      1782735081256116500
+    ],
+    "public/assets/devices/official/Vivov50lite_negromistico.png": [
+      2219790,
+      1781307539273096800
+    ],
+    "public/assets/devices/official/Vivov50lite_negromistico.svg": [
+      2881,
+      1782735081254117600
+    ],
+    "public/assets/devices/official/vivov60lite_azultitanio.png": [
+      1792903,
+      1781309087494547800
+    ],
+    "public/assets/devices/official/vivov60lite_azultitanio.svg": [
+      2713,
+      1782735081257643400
+    ],
+    "public/assets/devices/official/vivov60lite_negroelegante.png": [
+      1816364,
+      1781309456904871200
+    ],
+    "public/assets/devices/official/vivov60lite_negroelegante.svg": [
+      2711,
+      1782735081259646900
+    ],
+    "public/assets/devices/official/vivoY04_lavanda_cristal.png": [
+      1942237,
+      1781302006834894600
+    ],
+    "public/assets/devices/official/vivoY04_lavanda_cristal.svg": [
+      2534,
+      1782735081246056400
+    ],
+    "public/assets/devices/official/vivoY04_verde_jade.png": [
+      1703925,
+      1781302049377571300
+    ],
+    "public/assets/devices/official/vivoY04_verde_jade.svg": [
+      2534,
+      1782735081247061500
+    ],
+    "public/assets/devices/official/vivoy21d_morado_lavanda.png": [
+      1705633,
+      1781302816943026100
+    ],
+    "public/assets/devices/official/vivoy21d_morado_lavanda.svg": [
+      2881,
+      1782735081249570300
+    ],
+    "public/assets/devices/official/vivoy21d_negrto_jade.png": [
+      1566172,
+      1781302812377628800
+    ],
+    "public/assets/devices/official/vivoy21d_negrto_jade.svg": [
+      2535,
+      1782735081248058800
+    ],
+    "public/assets/devices/official/vivoy29_black_exxpresso.png": [
+      1777514,
+      1781306082149810200
+    ],
+    "public/assets/devices/official/vivoy29_black_exxpresso.svg": [
+      3094,
+      1782735081252103800
+    ],
+    "public/assets/devices/official/vivoy29_blanconube.png": [
+      2674009,
+      1781303732923307400
+    ],
+    "public/assets/devices/official/vivoy29_blanconube.svg": [
+      3247,
+      1782735081253120300
+    ],
+    "public/assets/devices/official/vivoY31d_blanco_brillante.png": [
+      1956094,
+      1782182381615303700
+    ],
+    "public/assets/devices/official/vivoY31d_blanco_brillante.svg": [
+      2721,
+      1782735081260156500
+    ],
+    "public/assets/devices/official/vivoY31d_gris_estelar.png": [
+      1603771,
+      1782182035755882000
+    ],
+    "public/assets/dock/calendar.png": [
+      1058855,
+      1783006794651313700
+    ],
+    "public/assets/dock/catalog.png": [
+      1369863,
+      1783006795237846500
+    ],
+    "public/assets/dock/piggybank.png": [
+      1221638,
+      1783006796001960600
+    ],
+    "public/assets/dock/register.png": [
+      1110097,
+      1783006795626959500
+    ],
+    "public/assets/dock/settings.png": [
+      1282885,
+      1783006796547757500
+    ],
+    "scripts/android-build-debug.ps1": [
+      2146,
+      1782756279496481100
+    ],
+    "src/App.tsx": [
+      2365,
+      1783798289713874700
+    ],
+    "src/index.css": [
+      7314,
+      1783860326225093400
+    ],
+    "src/main.tsx": [
+      300,
+      1783787665172667000
+    ],
+    "src/types.ts": [
+      6790,
+      1783787665203887400
+    ],
+    "src/components/AppShell.tsx": [
+      16599,
+      1783961333980101800
+    ],
+    "src/components/BootScreen.tsx": [
+      5639,
+      1783961333980101800
+    ],
+    "src/components/VersionWelcomeOverlay.tsx": [
+      3352,
+      1783787665284300000
+    ],
+    "src/components/icons/VivoPhoneIcon.tsx": [
+      4708,
+      1782736594141166400
+    ],
+    "src/components/ModelsVivo/Vivo60lite/AzulTitanio/AzulTitanio.tsx": [
+      3576,
+      1782742986000000000
+    ],
+    "src/components/ModelsVivo/Vivo60lite/NegroElegante/NegroElegante.tsx": [
+      3515,
+      1782742986000000000
+    ],
+    "src/components/ModelsVivo/VivoV50lite/LilaFantasia/LilaFantasia.tsx": [
+      3724,
+      1782742986000000000
+    ],
+    "src/components/ModelsVivo/VivoV50lite/NegroMistico/NegroMistico.tsx": [
+      3662,
+      1782742986000000000
+    ],
+    "src/components/ModelsVivo/VivoY04/LavandaCristal/LavandaCristal.tsx": [
+      2969,
+      1782742986000000000
+    ],
+    "src/components/ModelsVivo/VivoY04/VerdeJade/VerdeJade.tsx": [
+      2976,
+      1782742986000000000
+    ],
+    "src/components/ModelsVivo/VivoY21D/MoradoLavanda/MoradoLavanda.tsx": [
+      3372,
+      1782742986000000000
+    ],
+    "src/components/ModelsVivo/VivoY21D/NegroJade/NegroJade.tsx": [
+      3270,
+      1782742986000000000
+    ],
+    "src/components/ModelsVivo/VivoY29/BlackExpresso/BlackExpresso.tsx": [
+      3409,
+      1782742986000000000
+    ],
+    "src/components/ModelsVivo/VivoY29/BlancoNube/BlancoNube.tsx": [
+      3615,
+      1782742986000000000
+    ],
+    "src/components/ModelsVivo/VivoY29/LilaFantasia/LilaFantasia.tsx": [
+      3900,
+      1782742986000000000
+    ],
+    "src/components/ModelsVivo/VivoY31D/BlancoBrillante/BlancoBrillante.tsx": [
+      3104,
+      1782742986000000000
+    ],
+    "src/components/ModelsVivo/VivoY31D/GrisEstelar/GrisEstelar.tsx": [
+      3084,
+      1782742986000000000
+    ],
+    "src/components/ui/LiquidGlass.tsx": [
+      4405,
+      1783859852079087400
+    ],
+    "src/components/ui/SectionHeaderBackButton.tsx": [
+      1067,
+      1783787665285301100
+    ],
+    "src/components/ui/SectionHeaderContext.tsx": [
+      1260,
+      1783787665199865600
+    ],
+    "src/components/ui/SectionScreenHeader.tsx": [
+      1983,
+      1783795435371263600
+    ],
+    "src/components/ui/SmartPill.tsx": [
+      17204,
+      1783795435424900600
+    ],
+    "src/components/ui/SortableVerticalList.tsx": [
+      5600,
+      1783787665152572100
+    ],
+    "src/components/ui/Toast.tsx": [
+      1827,
+      1782742986000000000
+    ],
+    "src/components/ui/VariantMediaImage.tsx": [
+      792,
+      1783787665171670000
+    ],
+    "src/features/CalendarSection.tsx": [
+      22823,
+      1783798996847036200
+    ],
+    "src/features/CatalogSection.tsx": [
+      8712,
+      1783859861777958400
+    ],
+    "src/features/PiggyBankSection.tsx": [
+      12861,
+      1783795837866918200
+    ],
+    "src/features/RegisterSaleSection.tsx": [
+      20391,
+      1783795725607163500
+    ],
+    "src/features/SettingsSection.tsx": [
+      35802,
+      1783859852039760600
+    ],
+    "src/features/calendar/buildCalendarMonthDays.ts": [
+      4920,
+      1783787665241545600
+    ],
+    "src/features/calendar/buildCalendarYearOverview.ts": [
+      1683,
+      1783787665199865600
+    ],
+    "src/features/calendar/CalendarAgendaMode.tsx": [
+      17571,
+      1783859049384495100
+    ],
+    "src/features/calendar/CalendarDateParts.tsx": [
+      10122,
+      1783859222833072900
+    ],
+    "src/features/calendar/CalendarFormMode.tsx": [
+      8175,
+      1783795739085135900
+    ],
+    "src/features/calendar/CalendarGridView.tsx": [
+      18279,
+      1783795435093289700
+    ],
+    "src/features/calendar/calendarUtils.ts": [
+      7498,
+      1783799011200402800
+    ],
+    "src/features/calendar/CalendarYearOverview.tsx": [
+      8142,
+      1783787665173668900
+    ],
+    "src/features/calendar/ColoredGoalProgressBar.tsx": [
+      2432,
+      1783787665199865600
+    ],
+    "src/features/calendar/GoalDeviceBreakdownSheet.tsx": [
+      5040,
+      1783787665302924800
+    ],
+    "src/features/calendar/GoalPeriodCards.tsx": [
+      3415,
+      1783858919346318300
+    ],
+    "src/features/calendar/StatusGuideSheet.tsx": [
+      4511,
+      1783787665167144300
+    ],
+    "src/features/catalog/AcademyOverlay.tsx": [
+      5807,
+      1783118205994475900
+    ],
+    "src/features/catalog/CommercialProfileEditor.tsx": [
+      7448,
+      1782742986000000000
+    ],
+    "src/features/catalog/DeviceDetailOverlay.tsx": [
+      18672,
+      1783795435308086900
+    ],
+    "src/features/catalog/InventoryMovementList.tsx": [
+      4652,
+      1783007624157312200
+    ],
+    "src/features/catalog/InventorySheet.tsx": [
+      9738,
+      1783787665285301100
+    ],
+    "src/features/catalog/PurchaseBox.tsx": [
+      15951,
+      1783787665199865600
+    ],
+    "src/features/catalog/SalesTrainingCard.tsx": [
+      4396,
+      1782742986000000000
+    ],
+    "src/features/catalog/WebPreviewPanel.tsx": [
+      4954,
+      1783796862092228500
+    ],
+    "src/features/piggybank/AllTimeStatsPanel.tsx": [
+      2003,
+      1783795435233748000
+    ],
+    "src/features/piggybank/ChallengePanel.tsx": [
+      5759,
+      1782742986000000000
+    ],
+    "src/features/piggybank/CoachPanel.tsx": [
+      7576,
+      1783795435229564000
+    ],
+    "src/features/piggybank/MovementList.tsx": [
+      13557,
+      1783857786485860500
+    ],
+    "src/features/piggybank/PerformancePanel.tsx": [
+      7766,
+      1783795435231252200
+    ],
+    "src/features/piggybank/PiggyBankDashboard.tsx": [
+      8716,
+      1783860332362693800
+    ],
+    "src/features/piggybank/SaleWallpaperBackground.tsx": [
+      1398,
+      1783787665302924800
+    ],
+    "src/features/piggybank/WalletHeroCard.tsx": [
+      7751,
+      1783787665173668900
+    ],
+    "src/features/register/ConfirmSaleSheet.tsx": [
+      17351,
+      1783795701218423400
+    ],
+    "src/features/register/RegisterThumbnailSidePanels.tsx": [
+      6541,
+      1783795435407886000
+    ],
+    "src/features/settings/AccordionSection.tsx": [
+      1683,
+      1783799922292231400
+    ],
+    "src/features/settings/AdvancedGoalsConfig.tsx": [
+      5832,
+      1783787665243059800
+    ],
+    "src/features/settings/DataHealth.tsx": [
+      5451,
+      1783787665244076000
+    ],
+    "src/features/settings/DemoModeConfigPanel.tsx": [
+      10154,
+      1783857801079281800
+    ],
+    "src/features/settings/DeviceManager.tsx": [
+      33738,
+      1783859084065779400
+    ],
+    "src/features/settings/ImageUploadField.tsx": [
+      4223,
+      1782742986000000000
+    ],
+    "src/features/settings/LegalCompliancePanel.tsx": [
+      7858,
+      1783859101307052400
+    ],
+    "src/features/settings/RegisterHomeEditPanelSheet.tsx": [
+      7985,
+      1783787665173668900
+    ],
+    "src/features/settings/RegisterHomeFullscreenOverlay.tsx": [
+      11058,
+      1783787665285301100
+    ],
+    "src/features/settings/RegisterHomeMockDock.tsx": [
+      2333,
+      1783787665285301100
+    ],
+    "src/features/settings/RegisterHomePreviewStage.tsx": [
+      6454,
+      1783795732160900400
+    ],
+    "src/features/settings/RegisterHomeVisualEditor.tsx": [
+      19574,
+      1783787665199865600
+    ],
+    "src/features/settings/ReleaseNotesPanel.tsx": [
+      3172,
+      1783859051781332800
+    ],
+    "src/features/settings/SalesHistorySettingsPanel.tsx": [
+      11402,
+      1783859101308570100
+    ],
+    "src/features/settings/VariantImageGallery.tsx": [
+      8657,
+      1783613422224626100
+    ],
+    "src/features/settings/VisualPreferencesConfig.tsx": [
+      2898,
+      1783859125984469900
+    ],
+    "src/features/settings/WebCacheSettingsPanel.tsx": [
+      9269,
+      1783787665160099600
+    ],
+    "src/features/settings/WorkScheduleConfig.tsx": [
+      3379,
+      1783787665284300000
+    ],
+    "src/lib/analytics.ts": [
+      9599,
+      1783787665171670000
+    ],
+    "src/lib/appClock.ts": [
+      5005,
+      1783787665285301100
+    ],
+    "src/lib/backup.ts": [
+      1566,
+      1783787665285301100
+    ],
+    "src/lib/catalogAggregation.ts": [
+      1770,
+      1783344918834823400
+    ],
+    "src/lib/challenges.ts": [
+      7568,
+      1783787665171670000
+    ],
+    "src/lib/coach.ts": [
+      5988,
+      1783787665172667000
+    ],
+    "src/lib/commercialProfile.ts": [
+      629,
+      1783118117044067000
+    ],
+    "src/lib/constants.ts": [
+      6372,
+      1783796341174381500
+    ],
+    "src/lib/date.ts": [
+      2154,
+      1783787665240544600
+    ],
+    "src/lib/demoMode.ts": [
+      16621,
+      1783787665285301100
+    ],
+    "src/lib/demoModeConfig.ts": [
+      1813,
+      1783787665152572100
+    ],
+    "src/lib/deviceImages.ts": [
+      4555,
+      1783787665173668900
+    ],
+    "src/lib/deviceUtils.ts": [
+      743,
+      1783006905135287800
+    ],
+    "src/lib/events.ts": [
+      3994,
+      1783787665171670000
+    ],
+    "src/lib/goalBreakdown.ts": [
+      4072,
+      1783787665172667000
+    ],
+    "src/lib/imageUpload.ts": [
+      1954,
+      1783787665171670000
+    ],
+    "src/lib/insights.ts": [
+      9135,
+      1783787665285301100
+    ],
+    "src/lib/localMediaStore.ts": [
+      3839,
+      1783787665173668900
+    ],
+    "src/lib/modelOrdering.ts": [
+      7358,
+      1783787665171670000
+    ],
+    "src/lib/officialDeviceCovers.ts": [
+      9759,
+      1783342817907935500
+    ],
+    "src/lib/offlineFallbackHtml.ts": [
+      8588,
+      1783797931965156900
+    ],
+    "src/lib/points.ts": [
+      3888,
+      1783787665167144300
+    ],
+    "src/lib/quantityValidation.ts": [
+      413,
+      1783353023674760600
+    ],
+    "src/lib/registerHomeProjection.ts": [
+      4513,
+      1783787665173668900
+    ],
+    "src/lib/releaseNotes.ts": [
+      5820,
+      1783961348684010700
+    ],
+    "src/lib/saleCatalog.ts": [
+      2595,
+      1783787665285301100
+    ],
+    "src/lib/salesScripts.ts": [
+      692,
+      1782742986000000000
+    ],
+    "src/lib/saleTimestamps.ts": [
+      5211,
+      1783787665240544600
+    ],
+    "src/lib/saleWallpaper.ts": [
+      1290,
+      1783787665302924800
+    ],
+    "src/lib/storage.ts": [
+      47233,
+      1783796285902177900
+    ],
+    "src/lib/theme.ts": [
+      561,
+      1783787665240544600
+    ],
+    "src/lib/toast.ts": [
+      213,
+      1782742986000000000
+    ],
+    "src/lib/urlValidation.ts": [
+      870,
+      1783327347097220900
+    ],
+    "src/lib/variantImages.ts": [
+      1154,
+      1783122400150437900
+    ],
+    "src/lib/webArchive.ts": [
+      4755,
+      1783343585795770800
+    ],
+    "src/lib/webArchiveSync.ts": [
+      4533,
+      1783787665284300000
+    ],
+    "src/lib/__tests__/appClock.test.ts": [
+      746,
+      1783787665244076000
+    ],
+    "src/lib/__tests__/catalogAggregation.property.test.ts": [
+      8927,
+      1783346874741899300
+    ],
+    "src/lib/__tests__/date.test.ts": [
+      743,
+      1783787665285301100
+    ],
+    "src/lib/__tests__/officialDeviceCovers.property.test.ts": [
+      13691,
+      1783343255932462300
+    ],
+    "src/lib/__tests__/officialUrl.preservation.property.test.ts": [
+      9065,
+      1783326075831139700
+    ],
+    "src/lib/__tests__/periodMoneyProjection.test.ts": [
+      1747,
+      1783787665285301100
+    ],
+    "src/lib/__tests__/quantityValidation.property.test.ts": [
+      4093,
+      1783353040722597900
+    ],
+    "src/lib/__tests__/releaseNotes.test.ts": [
+      928,
+      1783787665172667000
+    ],
+    "src/lib/__tests__/saleInvariants.property.test.ts": [
+      18245,
+      1783358467913079400
+    ],
+    "src/lib/__tests__/smoke.test.ts": [
+      834,
+      1783324141090114700
+    ],
+    "src/lib/__tests__/urlValidation.property.test.ts": [
+      3755,
+      1783341724412121900
+    ],
+    "src/lib/__tests__/webArchive.property.test.ts": [
+      6921,
+      1783344384159803800
+    ],
+    "src/lib/__tests__/webArchiveSync.test.ts": [
+      891,
+      1783787665244076000
+    ]
+  }
+}

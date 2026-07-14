@@ -1,0 +1,9 @@
+{
+  "baseline_complete": true,
+  "baseline_at": "2026-06-19T03:51:02-06:00",
+  "backfill_days": 180,
+  "backfill_precision": "estimated",
+  "last_scan_at": "2026-07-14T07:11:20-06:00",
+  "last_scan_reason": "manual_api",
+  "last_global_scan_date": "2026-07-14"
+}

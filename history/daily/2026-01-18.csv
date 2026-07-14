@@ -1,0 +1,2 @@
+﻿timestamp,project_id,project,event_type,reason,precision,added,modified,deleted,sample_files
+2026-01-18T18:12:52-06:00,retriver,Retriver,historical_activity,initial_backfill,estimated,0,3,0,"Retriever/Database/Daniel/IMG/ChatGPT Image 18 ene 2026, 06_12_49 p.m..png; Retriever/Database/Daniel/IMG/piedra-fogata.png; Retriever/Database/Daniel/IMG/piedras-centro.png"

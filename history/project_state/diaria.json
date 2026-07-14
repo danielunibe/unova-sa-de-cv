@@ -1,0 +1,57 @@
+{
+  "project_id": "diaria",
+  "project": "Diaria",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\02_App IOS y android\\Diaria",
+  "captured_at": "2026-07-14T07:10:36-06:00",
+  "last_change": "",
+  "summary": {
+    "connected": true,
+    "file_count": 0,
+    "code_count": 0,
+    "doc_count": 0,
+    "asset_count": 0,
+    "test_count": 0,
+    "manifest_count": 0,
+    "latest_mtime": "",
+    "latest_file": "",
+    "extensions": {}
+  },
+  "progress": {
+    "project_id": "diaria",
+    "project": "Diaria",
+    "mvp": 0,
+    "vision": "N/D",
+    "confidence": "Baja",
+    "breakdown": {
+      "definicion": 0,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 0,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 0
+    },
+    "missing": [
+      "definición completa",
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "pruebas",
+      "empaquetado/distribución",
+      "próximo paso documentado",
+      "validación"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {}
+}

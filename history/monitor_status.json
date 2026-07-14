@@ -1,0 +1,54 @@
+{
+  "state": "idle",
+  "server": {
+    "host": "127.0.0.1",
+    "port": 4173,
+    "pid": 18664
+  },
+  "started_at": "2026-07-14T09:39:29-06:00",
+  "last_error": "",
+  "updated_at": "2026-07-14T11:08:46-06:00",
+  "localhost": {
+    "active": [],
+    "count": 0
+  },
+  "current_reason": "",
+  "scan_started_at": "2026-07-13T23:30:03-06:00",
+  "last_scan": {
+    "started_at": "2026-07-13T23:30:03-06:00",
+    "completed_at": "2026-07-14T07:11:20-06:00",
+    "reason": "manual_api",
+    "scope": "global",
+    "catalog": {
+      "generated_at": "2026-07-14T07:10:35-06:00",
+      "voyager_root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager",
+      "dev_root": "C:\\Desarrollos DEV daniel",
+      "voyager_project_folders_scanned": 62,
+      "dev_folders_scanned": 14,
+      "canonical_projects": 67,
+      "categories": {
+        "Apps móviles": 23,
+        "Ebooks": 1,
+        "Extensiones Chrome": 1,
+        "Gastronomía": 1,
+        "Juegos de mesa": 3,
+        "Música y composición": 1,
+        "Software": 27,
+        "Videojuegos": 10
+      },
+      "exclusions_logged": 26
+    },
+    "history": {
+      "scanned_projects": 67,
+      "changes_logged": 6,
+      "backfill_events": 0,
+      "status_files_written": 67,
+      "disconnected_projects": [],
+      "errors": [],
+      "completed_at": "2026-07-14T07:11:20-06:00",
+      "reason": "manual_api"
+    }
+  },
+  "last_success_at": "2026-07-14T07:11:20-06:00",
+  "last_monitor_failure_at": "2026-07-13T10:31:05-06:00"
+}

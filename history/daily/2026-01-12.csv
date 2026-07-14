@@ -1,0 +1,2 @@
+﻿timestamp,project_id,project,event_type,reason,precision,added,modified,deleted,sample_files
+2026-01-12T19:00:12-06:00,retriver,Retriver,historical_activity,initial_backfill,estimated,0,2,0,Retriever/Database/Daniel/IMG/montañas_parallax.png; Retriever/Database/Julia/AUD/00013964-AUDIO-2026-01-12-19-00-12.opus

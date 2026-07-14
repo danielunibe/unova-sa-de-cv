@@ -1,0 +1,201 @@
+{
+  "project_id": "nekiva",
+  "project": "Nekiva",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\02_App IOS y android\\10_Nekiva",
+  "captured_at": "2026-07-14T07:10:37-06:00",
+  "last_change": "2026-03-27T22:51:59-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 34,
+    "code_count": 5,
+    "doc_count": 22,
+    "asset_count": 5,
+    "test_count": 2,
+    "manifest_count": 0,
+    "latest_mtime": "2026-03-27T22:51:59-06:00",
+    "latest_file": "Documentacion para la IA/CHANGELOG.md",
+    "extensions": {
+      ".md": 14,
+      ".txt": 6,
+      ".png": 4,
+      ".html": 2,
+      ".pdf": 2,
+      ".zip": 1,
+      ".ps1": 1,
+      ".wav": 1,
+      ".js": 1,
+      ".css": 1,
+      ".json": 1
+    }
+  },
+  "progress": {
+    "project_id": "nekiva",
+    "project": "Nekiva",
+    "mvp": 33,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 0,
+      "implementacion": 15,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "arquitectura verificable",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "NEKIVA.TXT": [
+      17390,
+      1753303176144000000
+    ],
+    "nekira-prototipo-v3-final.zip": [
+      24358,
+      1753669882558000000
+    ],
+    "SpeedDocumentAI_Launcher.ps1": [
+      3332,
+      1753658718648000000
+    ],
+    "nekiva_ia.html": [
+      32198,
+      1753308474149000000
+    ],
+    "ChatGPT Image 23 jul 2025, 03_54_39 p.m..png": [
+      1814744,
+      1753307692687000000
+    ],
+    "19-20-3-_____Proyecto_david.txt": [
+      373046,
+      1756668484000000000
+    ],
+    "notebookkm.txt": [
+      9269,
+      1753325655482000000
+    ],
+    "TODO EL CHAT INTREALO EN UN DOCUMENTO TXT.txt": [
+      9219,
+      1753309109944000000
+    ],
+    "Analisis_NEKIVA_IA.txt": [
+      7548,
+      1753305373967000000
+    ],
+    "si y ademas necesito q se cree en documento txt.txt": [
+      10245,
+      1753313127243000000
+    ],
+    "ChatGPT Image 23 jul 2025, 04_08_57 p.m..png": [
+      1673308,
+      1753308545786000000
+    ],
+    "Nekira Jardín DocTenico.pdf": [
+      459439,
+      1753669826164000000
+    ],
+    "NEKIVA IA.wav": [
+      22374330,
+      1753318589660000000
+    ],
+    "ChatGPT Image 23 jul 2025, 05_57_15 p.m..png": [
+      1716563,
+      1753315045281000000
+    ],
+    "ChatGPT Image 23 jul 2025, 04_09_16 p.m..png": [
+      1995267,
+      1753308562962000000
+    ],
+    "AnálisisDesarrolloNekiraJardin.pdf": [
+      322563,
+      1753669825251000000
+    ],
+    "nekira-prototipo-v3-final/nekira-prototipo-v3/script.js": [
+      35008,
+      1753669981774000000
+    ],
+    "nekira-prototipo-v3-final/nekira-prototipo-v3/styles.css": [
+      33214,
+      1753669980769000000
+    ],
+    "nekira-prototipo-v3-final/nekira-prototipo-v3/index.html": [
+      24607,
+      1753669981765000000
+    ],
+    "nekira-prototipo-v3-final/nekira-prototipo-v3/design-tokens.json": [
+      4970,
+      1753669980757000000
+    ],
+    "nekira-prototipo-v3-final/nekira-prototipo-v3/README.md": [
+      6763,
+      1753669980778000000
+    ],
+    "Documentacion para la IA/10_Nekiva.md": [
+      1839,
+      1774166930117000000
+    ],
+    "Documentacion para la IA/CLAUDE.md": [
+      291,
+      1774673519300000000
+    ],
+    "Documentacion para la IA/CHANGELOG.md": [
+      240,
+      1774673519302000000
+    ],
+    "Documentacion para la IA/PROTOCOL.md": [
+      938,
+      1774658099144000000
+    ],
+    "Documentacion para la IA/docs/ROADMAP.md": [
+      462,
+      1774673519298000000
+    ],
+    "Documentacion para la IA/docs/PRD.md": [
+      726,
+      1774673519292000000
+    ],
+    "Documentacion para la IA/docs/DESIGN_SPEC.md": [
+      398,
+      1774673519294000000
+    ],
+    "Documentacion para la IA/docs/TDD.md": [
+      228,
+      1774658099165000000
+    ],
+    "Documentacion para la IA/docs/GLOSSARY.md": [
+      247,
+      1774658099170000000
+    ],
+    "Documentacion para la IA/docs/USER_DOCS.md": [
+      191,
+      1774658099175000000
+    ],
+    "Documentacion para la IA/docs/TEST_PLAN.md": [
+      229,
+      1774658099173000000
+    ],
+    "Documentacion para la IA/_meta/owner.md": [
+      286,
+      1774658099154000000
+    ],
+    "Documentacion para la IA/_meta/questions-log.md": [
+      1536,
+      1774673519290000000
+    ]
+  }
+}

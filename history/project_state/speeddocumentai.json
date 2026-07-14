@@ -1,0 +1,328 @@
+{
+  "project_id": "speeddocumentai",
+  "project": "SpeedDocumentAI 📄",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\02_App IOS y android\\17_SpeedDocumentAI",
+  "captured_at": "2026-07-14T07:10:38-06:00",
+  "last_change": "2026-03-27T18:34:59-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 66,
+    "code_count": 34,
+    "doc_count": 24,
+    "asset_count": 0,
+    "test_count": 4,
+    "manifest_count": 1,
+    "latest_mtime": "2026-03-27T18:34:59-06:00",
+    "latest_file": "Documentacion para la IA/CHANGELOG.md",
+    "extensions": {
+      ".md": 18,
+      ".tsx": 14,
+      ".ts": 8,
+      ".ps1": 8,
+      ".pdf": 4,
+      ".zip": 3,
+      ".txt": 2,
+      ".css": 2,
+      ".js": 2,
+      ".yml": 2,
+      ".json": 2,
+      "[sin extensión]": 1
+    }
+  },
+  "progress": {
+    "project_id": "speeddocumentai",
+    "project": "SpeedDocumentAI 📄",
+    "mvp": 47,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 5,
+      "implementacion": 22,
+      "pruebas": 6,
+      "empaquetado": 3,
+      "continuidad": 3,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "README.md",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "Pasted_content.txt": [
+      4122,
+      1753546750000000000
+    ],
+    "SpeedDocumentAI.zip": [
+      4955161,
+      1753618188000000000
+    ],
+    "quotas.ts": [
+      336,
+      1753546750000000000
+    ],
+    "setup.ps1": [
+      1272,
+      1753546750000000000
+    ],
+    "README.md": [
+      2059,
+      1753546750000000000
+    ],
+    "HUD.tsx": [
+      2756,
+      1753546750000000000
+    ],
+    "globals.css": [
+      413,
+      1753546750000000000
+    ],
+    "SpeedDocumentAI_UI_docs.zip": [
+      662355,
+      1753546750000000000
+    ],
+    "tailwind.config.js": [
+      496,
+      1753546750000000000
+    ],
+    "postcss.config.js": [
+      83,
+      1753546750000000000
+    ],
+    "technical_documentation.md": [
+      5901,
+      1753546750000000000
+    ],
+    "gestordeproyectos.txt": [
+      16901,
+      1753546750000000000
+    ],
+    "SpeedDocumentAI_updated.zip": [
+      323614,
+      1753546750000000000
+    ],
+    "technical_documentation.pdf": [
+      337602,
+      1753546750000000000
+    ],
+    "ui_aesthetics_and_interface.pdf": [
+      374476,
+      1753546750000000000
+    ],
+    "projects.ts": [
+      23,
+      1753546750000000000
+    ],
+    "tasks.ts": [
+      424,
+      1753546750000000000
+    ],
+    ".gitignore": [
+      382,
+      1753546750000000000
+    ],
+    "main.yml": [
+      641,
+      1753546750000000000
+    ],
+    "verify-structure.ps1": [
+      2380,
+      1753546750000000000
+    ],
+    "MiniDAG.tsx": [
+      6686,
+      1753546750000000000
+    ],
+    "package.json": [
+      721,
+      1753546750000000000
+    ],
+    "ui_aesthetics_and_interface.md": [
+      13133,
+      1753546750000000000
+    ],
+    "layout.tsx": [
+      872,
+      1753546750000000000
+    ],
+    "bootstrap.ps1": [
+      1126,
+      1753546750000000000
+    ],
+    "nodes.ts": [
+      412,
+      1753546750000000000
+    ],
+    "page.tsx": [
+      766,
+      1753546750000000000
+    ],
+    "ClusterStrip.tsx": [
+      3025,
+      1753546750000000000
+    ],
+    "TabBar.tsx": [
+      1980,
+      1753546750000000000
+    ],
+    "InspectorDrawer.tsx": [
+      4257,
+      1753546750000000000
+    ],
+    "tsconfig.json": [
+      597,
+      1753546750000000000
+    ],
+    "fix-setup.ps1": [
+      1414,
+      1753546750000000000
+    ],
+    "scripts/verify-structure.ps1": [
+      2380,
+      1753514041000000000
+    ],
+    "scripts/fix-setup.ps1": [
+      1414,
+      1753514035000000000
+    ],
+    "scripts/setup.ps1": [
+      1272,
+      1753513891000000000
+    ],
+    "scripts/bootstrap.ps1": [
+      1126,
+      1753513879000000000
+    ],
+    "docs/ui_aesthetics_and_interface.pdf": [
+      374476,
+      1753525064000000000
+    ],
+    "docs/technical_documentation.pdf": [
+      337602,
+      1753524831000000000
+    ],
+    "docs/ui_aesthetics_and_interface.md": [
+      13133,
+      1753525058000000000
+    ],
+    "docs/technical_documentation.md": [
+      5901,
+      1753524667000000000
+    ],
+    "src/pages/api/tasks.ts": [
+      424,
+      1753513806000000000
+    ],
+    "src/pages/api/nodes.ts": [
+      412,
+      1753513798000000000
+    ],
+    "src/pages/api/projects.ts": [
+      23,
+      1753513785000000000
+    ],
+    "src/pages/api/quotas.ts": [
+      336,
+      1753513792000000000
+    ],
+    "src/styles/globals.css": [
+      413,
+      1753513814000000000
+    ],
+    "src/components/ClusterStrip.tsx": [
+      3025,
+      1753524735000000000
+    ],
+    "src/components/MiniDAG.tsx": [
+      6686,
+      1753524811000000000
+    ],
+    "src/components/InspectorDrawer.tsx": [
+      4257,
+      1753524776000000000
+    ],
+    "src/components/TabBar.tsx": [
+      1980,
+      1753524750000000000
+    ],
+    "src/components/HUD.tsx": [
+      2756,
+      1753524714000000000
+    ],
+    "src/app/page.tsx": [
+      766,
+      1753524697000000000
+    ],
+    "src/app/layout.tsx": [
+      872,
+      1753524689000000000
+    ],
+    ".github/workflows/main.yml": [
+      641,
+      1753524841000000000
+    ],
+    "Documentacion para la IA/17_SpeedDocumentAI.md": [
+      1506,
+      1774166930123000000
+    ],
+    "Documentacion para la IA/PROTOCOL.md": [
+      947,
+      1774658099426000000
+    ],
+    "Documentacion para la IA/CLAUDE.md": [
+      244,
+      1774658099471000000
+    ],
+    "Documentacion para la IA/CHANGELOG.md": [
+      211,
+      1774658099473000000
+    ],
+    "Documentacion para la IA/docs/TEST_PLAN.md": [
+      238,
+      1774658099467000000
+    ],
+    "Documentacion para la IA/docs/ROADMAP.md": [
+      280,
+      1774658099463000000
+    ],
+    "Documentacion para la IA/docs/TDD.md": [
+      240,
+      1774658099443000000
+    ],
+    "Documentacion para la IA/docs/GLOSSARY.md": [
+      262,
+      1774658099465000000
+    ],
+    "Documentacion para la IA/docs/PRD.md": [
+      425,
+      1774658099439000000
+    ],
+    "Documentacion para la IA/docs/USER_DOCS.md": [
+      197,
+      1774658099468000000
+    ],
+    "Documentacion para la IA/docs/DESIGN_SPEC.md": [
+      336,
+      1774658099441000000
+    ],
+    "Documentacion para la IA/_meta/questions-log.md": [
+      1000,
+      1774658099436000000
+    ],
+    "Documentacion para la IA/_meta/owner.md": [
+      286,
+      1774658099433000000
+    ]
+  }
+}

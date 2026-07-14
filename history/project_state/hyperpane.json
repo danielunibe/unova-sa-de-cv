@@ -1,0 +1,2028 @@
+{
+  "project_id": "hyperpane",
+  "project": "Hyperpane 🪟",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\01_software\\06_hyperpane",
+  "captured_at": "2026-07-09T00:02:44-06:00",
+  "last_change": "2026-03-27T18:33:11-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 489,
+    "code_count": 354,
+    "doc_count": 105,
+    "asset_count": 4,
+    "test_count": 16,
+    "manifest_count": 7,
+    "latest_mtime": "2026-03-27T18:33:11-06:00",
+    "latest_file": "Documentacion para la IA/CHANGELOG.md",
+    "extensions": {
+      ".tsx": 202,
+      ".cs": 73,
+      ".md": 71,
+      ".ts": 63,
+      ".txt": 34,
+      ".json": 11,
+      ".js": 7,
+      ".ps1": 5,
+      ".xaml": 5,
+      ".html": 4,
+      ".svg": 4,
+      ".csproj": 2,
+      "[sin extensión]": 1,
+      ".zip": 1,
+      ".iss": 1,
+      ".sln": 1,
+      ".tsbuildinfo": 1,
+      ".yml": 1,
+      ".csv": 1,
+      ".yaml": 1
+    }
+  },
+  "progress": {
+    "project_id": "hyperpane",
+    "project": "Hyperpane 🪟",
+    "mvp": 60,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 5,
+      "implementacion": 30,
+      "pruebas": 10,
+      "empaquetado": 3,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "próximo paso documentado"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "Hyperpane/test_results.txt": [
+      88747,
+      1770785142000000000
+    ],
+    "Hyperpane/.gitignore": [
+      145,
+      1770775828000000000
+    ],
+    "Hyperpane/README.md": [
+      2066,
+      1773490743255000000
+    ],
+    "Hyperpane/Hyperpane-main.zip": [
+      126543,
+      1773485934138000000
+    ],
+    "Hyperpane/AGENTS.md": [
+      3325,
+      1773487089861000000
+    ],
+    "Hyperpane/installer.iss": [
+      3574,
+      1773509595753000000
+    ],
+    "Hyperpane/FINAL_ENGINEERING_REPORT.md": [
+      2442,
+      1773637567881000000
+    ],
+    "Hyperpane/release_test.txt": [
+      6,
+      1773596485950000000
+    ],
+    "Hyperpane/READY_TO_SHIP.txt": [
+      90,
+      1773596126673000000
+    ],
+    "Hyperpane/RELEASE_MANIFEST.md": [
+      392,
+      1773601323016000000
+    ],
+    "Hyperpane/build.ps1": [
+      1400,
+      1770935532000000000
+    ],
+    "Hyperpane/Hyperpane.sln": [
+      3169,
+      1770784658000000000
+    ],
+    "Hyperpane/cleanup_structure.ps1": [
+      1299,
+      1771104298000000000
+    ],
+    "Hyperpane/dev.ps1": [
+      1017,
+      1773492289433000000
+    ],
+    "Hyperpane/MAINTENANCE.md": [
+      2984,
+      1773650775008000000
+    ],
+    "Hyperpane/AUTO_DEV_LOG.md": [
+      4412,
+      1773503020616000000
+    ],
+    "Hyperpane/Hyperpane.Core/build_phase_d_deps.txt": [
+      346,
+      1770863190000000000
+    ],
+    "Hyperpane/Hyperpane.Core/build_phase_c2_retry.txt": [
+      961,
+      1770861796000000000
+    ],
+    "Hyperpane/Hyperpane.Core/build_phase_c3.txt": [
+      346,
+      1770862554000000000
+    ],
+    "Hyperpane/Hyperpane.Core/build_phase_c2.txt": [
+      859,
+      1770861686000000000
+    ],
+    "Hyperpane/Hyperpane.Core/build_schema_v1_1.txt": [
+      10371,
+      1770854814000000000
+    ],
+    "Hyperpane/Hyperpane.Core/build_phase_b.txt": [
+      2709,
+      1770857794000000000
+    ],
+    "Hyperpane/Hyperpane.Core/appsettings.json": [
+      678,
+      1770775826000000000
+    ],
+    "Hyperpane/Hyperpane.Core/build_release_phase_h.txt": [
+      1860,
+      1770865452000000000
+    ],
+    "Hyperpane/Hyperpane.Core/Hyperpane.runtimeconfig.template.json": [
+      190,
+      1770796694000000000
+    ],
+    "Hyperpane/Hyperpane.Core/build_schema_v1_1_final.txt": [
+      2009,
+      1770855040000000000
+    ],
+    "Hyperpane/Hyperpane.Core/build_schema_log.txt": [
+      803,
+      1770802756000000000
+    ],
+    "Hyperpane/Hyperpane.Core/build_phase_d_retry.txt": [
+      953,
+      1770863288000000000
+    ],
+    "Hyperpane/Hyperpane.Core/build_result.txt": [
+      217,
+      1770793816000000000
+    ],
+    "Hyperpane/Hyperpane.Core/build_phase_c1_retry.txt": [
+      2671,
+      1770860858000000000
+    ],
+    "Hyperpane/Hyperpane.Core/build_error_log.txt": [
+      1195,
+      1770802308000000000
+    ],
+    "Hyperpane/Hyperpane.Core/App.xaml.cs": [
+      30375,
+      1773702832995000000
+    ],
+    "Hyperpane/Hyperpane.Core/build_phase_c2_final.txt": [
+      346,
+      1770862318000000000
+    ],
+    "Hyperpane/Hyperpane.Core/build_phase_c1.txt": [
+      2693,
+      1770860832000000000
+    ],
+    "Hyperpane/Hyperpane.Core/Hyperpane.csproj": [
+      4831,
+      1773689441578000000
+    ],
+    "Hyperpane/Hyperpane.Core/build_phase_b_attempt3.txt": [
+      346,
+      1770858260000000000
+    ],
+    "Hyperpane/Hyperpane.Core/build_schema_final_log.txt": [
+      14694,
+      1770803062000000000
+    ],
+    "Hyperpane/Hyperpane.Core/build_phase_b_final.txt": [
+      3911,
+      1770858070000000000
+    ],
+    "Hyperpane/Hyperpane.Core/build_schema_v1_1_final_v2.txt": [
+      346,
+      1770855080000000000
+    ],
+    "Hyperpane/Hyperpane.Core/build_log.txt": [
+      943,
+      1770802056000000000
+    ],
+    "Hyperpane/Hyperpane.Core/build_phase_c_log.txt": [
+      346,
+      1770851818000000000
+    ],
+    "Hyperpane/Hyperpane.Core/ApplicationVersion.cs": [
+      255,
+      1770936944000000000
+    ],
+    "Hyperpane/Hyperpane.Core/build_phase_e.txt": [
+      346,
+      1770863908000000000
+    ],
+    "Hyperpane/Hyperpane.Core/build_schema_v1_1_round2.txt": [
+      10200,
+      1770854918000000000
+    ],
+    "Hyperpane/Hyperpane.Core/build_phase_d.txt": [
+      1041,
+      1770863218000000000
+    ],
+    "Hyperpane/Hyperpane.Core/App.xaml": [
+      1335,
+      1770775780000000000
+    ],
+    "Hyperpane/Hyperpane.Core/MainWindow.xaml": [
+      2589,
+      1770782988000000000
+    ],
+    "Hyperpane/Hyperpane.Core/build_cleanup_log.txt": [
+      346,
+      1770802452000000000
+    ],
+    "Hyperpane/Hyperpane.Core/GlobalUsings.cs": [
+      887,
+      1770783960000000000
+    ],
+    "Hyperpane/Hyperpane.Core/MainWindow.xaml.cs": [
+      33211,
+      1773698447841000000
+    ],
+    "Hyperpane/Hyperpane.Core/build_phase_c1_final.txt": [
+      346,
+      1770861014000000000
+    ],
+    "Hyperpane/Hyperpane.Core/build_fix_log.txt": [
+      14694,
+      1770802394000000000
+    ],
+    "Hyperpane/Hyperpane.Core/build_phase_d_final.txt": [
+      346,
+      1770863338000000000
+    ],
+    "Hyperpane/Hyperpane.Core/build_snap_visuals.txt": [
+      346,
+      1770859098000000000
+    ],
+    "Hyperpane/Hyperpane.Core/Infrastructure/Serialization/SerializationNamespace.cs": [
+      494,
+      1773498588193000000
+    ],
+    "Hyperpane/Hyperpane.Core/Infrastructure/Serialization/HyperpaneJsonContext.cs": [
+      10258,
+      1773699908195000000
+    ],
+    "Hyperpane/Hyperpane.Core/Infrastructure/Win32/NativeMethods.cs": [
+      17590,
+      1773687645785000000
+    ],
+    "Hyperpane/Hyperpane.Core/Infrastructure/Win32/WindowTracker.cs": [
+      5501,
+      1770784176000000000
+    ],
+    "Hyperpane/Hyperpane.Core/Infrastructure/Win32/WindowMover.cs": [
+      4610,
+      1773648674284000000
+    ],
+    "Hyperpane/Hyperpane.Core/Infrastructure/Win32/WorkerWManager.cs": [
+      2463,
+      1773493448772000000
+    ],
+    "Hyperpane/Hyperpane.Core/Infrastructure/Win32/WindowEnumerator.cs": [
+      5466,
+      1770787730000000000
+    ],
+    "Hyperpane/Hyperpane.Core/Infrastructure/Persistence/AutoSaveManager.cs": [
+      14184,
+      1770787228000000000
+    ],
+    "Hyperpane/Hyperpane.Core/Infrastructure/Persistence/WallpaperStateStore.cs": [
+      2712,
+      1773650550229000000
+    ],
+    "Hyperpane/Hyperpane.Core/Infrastructure/Persistence/ZoneLayoutSerializer.cs": [
+      6689,
+      1773646794759000000
+    ],
+    "Hyperpane/Hyperpane.Core/Infrastructure/Persistence/WorkspaceLayout.cs": [
+      5890,
+      1770775698000000000
+    ],
+    "Hyperpane/Hyperpane.Core/Infrastructure/Persistence/IWallpaperStateStore.cs": [
+      294,
+      1773650544776000000
+    ],
+    "Hyperpane/Hyperpane.Core/Infrastructure/SystemIntegration/TrayService.cs": [
+      5763,
+      1773649450708000000
+    ],
+    "Hyperpane/Hyperpane.Core/Infrastructure/SystemIntegration/HotkeyService.cs": [
+      6169,
+      1773684661298000000
+    ],
+    "Hyperpane/Hyperpane.Core/Infrastructure/SystemIntegration/WindowsIntegrationService.cs": [
+      2425,
+      1770851458000000000
+    ],
+    "Hyperpane/Hyperpane.Core/Infrastructure/SystemIntegration/StartupManager.cs": [
+      2720,
+      1770783672000000000
+    ],
+    "Hyperpane/Hyperpane.Core/Infrastructure/Web/DashboardBridge.cs": [
+      36150,
+      1773701024417000000
+    ],
+    "Hyperpane/Hyperpane.Core/Infrastructure/Web/LocalApiServer.cs": [
+      3051,
+      1773698468948000000
+    ],
+    "Hyperpane/Hyperpane.Core/Infrastructure/Web/HostDtos.cs": [
+      8511,
+      1773689247356000000
+    ],
+    "Hyperpane/Hyperpane.Core/Infrastructure/Cloud/GistSyncService.cs": [
+      4948,
+      1773702808678000000
+    ],
+    "Hyperpane/Hyperpane.Core/Infrastructure/Configuration/AppSettings.cs": [
+      11309,
+      1773699929780000000
+    ],
+    "Hyperpane/Hyperpane.Core/Infrastructure/Configuration/PerformanceConstants.cs": [
+      1234,
+      1773492887551000000
+    ],
+    "Hyperpane/Hyperpane.Core/Infrastructure/Configuration/SchemaGenerator.cs": [
+      7463,
+      1770854796000000000
+    ],
+    "Hyperpane/Hyperpane.Core/Resources/SettingsUI/index.html": [
+      3084,
+      1773496011806000000
+    ],
+    "Hyperpane/Hyperpane.Core/Resources/SettingsUI/assets/index-YbdPuAlt.js": [
+      323869,
+      1773496012807000000
+    ],
+    "Hyperpane/Hyperpane.Core/Resources/SettingsUI/assets/icon-Dzv4hRPj.svg": [
+      3605,
+      1773496011807000000
+    ],
+    "Hyperpane/Hyperpane.Core/Logic/WorkspaceCanvas.cs": [
+      4625,
+      1773508752502000000
+    ],
+    "Hyperpane/Hyperpane.Core/Logic/ZoneRenderer.cs": [
+      5828,
+      1770861542000000000
+    ],
+    "Hyperpane/Hyperpane.Core/Input/SlideController.cs": [
+      4148,
+      1773492936910000000
+    ],
+    "Hyperpane/Hyperpane.Core/Abstractions/Interfaces.cs": [
+      2629,
+      1770861714000000000
+    ],
+    "Hyperpane/Hyperpane.Core/Abstractions/IZoneLayoutEngine.cs": [
+      1847,
+      1773646848841000000
+    ],
+    "Hyperpane/Hyperpane.Core/Web/EcosystemDtos.cs": [
+      505,
+      1773700019859000000
+    ],
+    "Hyperpane/Hyperpane.Core/Diagnostics/PerfSampler.cs": [
+      2892,
+      1773647561554000000
+    ],
+    "Hyperpane/Hyperpane.Core/Diagnostics/EngineChronometer.cs": [
+      2539,
+      1773646837921000000
+    ],
+    "Hyperpane/Hyperpane.Core/Diagnostics/GlobalExceptionHandler.cs": [
+      4346,
+      1773511701519000000
+    ],
+    "Hyperpane/Hyperpane.Core/Diagnostics/CrashLogger.cs": [
+      3279,
+      1770799326000000000
+    ],
+    "Hyperpane/Hyperpane.Core/Diagnostics/PerformanceOverlayViewModel.cs": [
+      457,
+      1773495497028000000
+    ],
+    "Hyperpane/Hyperpane.Core/Diagnostics/CrashReporter.cs": [
+      3196,
+      1773511548730000000
+    ],
+    "Hyperpane/Hyperpane.Core/Diagnostics/Win32DiagnosticsProbe.cs": [
+      1299,
+      1773647569921000000
+    ],
+    "Hyperpane/Hyperpane.Core/Core/WebView2EnvironmentFactory.cs": [
+      3046,
+      1773595900265000000
+    ],
+    "Hyperpane/Hyperpane.Core/Domain/Entities/UserProfile.cs": [
+      7279,
+      1770854938000000000
+    ],
+    "Hyperpane/Hyperpane.Core/Domain/Entities/Zone.cs": [
+      544,
+      1773497015724000000
+    ],
+    "Hyperpane/Hyperpane.Core/Domain/Entities/ManagedWindow.cs": [
+      846,
+      1773497013661000000
+    ],
+    "Hyperpane/Hyperpane.Core/Domain/ValueObjects/Edge.cs": [
+      464,
+      1770775554000000000
+    ],
+    "Hyperpane/Hyperpane.Core/Domain/Services/MonitorService.cs": [
+      2699,
+      1773497041669000000
+    ],
+    "Hyperpane/Hyperpane.Core/Domain/Services/ShaderEngine.cs": [
+      7549,
+      1773699992219000000
+    ],
+    "Hyperpane/Hyperpane.Core/Domain/Services/AccessibilityService.cs": [
+      3232,
+      1773497023795000000
+    ],
+    "Hyperpane/Hyperpane.Core/Domain/Services/HardwareProfileService.cs": [
+      4213,
+      1773497032697000000
+    ],
+    "Hyperpane/Hyperpane.Core/Domain/Services/FocusDimmerService.cs": [
+      2490,
+      1773687690035000000
+    ],
+    "Hyperpane/Hyperpane.Core/Domain/Services/WindowRuleManager.cs": [
+      5075,
+      1773689194274000000
+    ],
+    "Hyperpane/Hyperpane.Core/Domain/Services/WindowMagnetizer.cs": [
+      10013,
+      1773649432376000000
+    ],
+    "Hyperpane/Hyperpane.Core/Domain/Services/ZoneLayoutEngine.cs": [
+      7906,
+      1773647601573000000
+    ],
+    "Hyperpane/Hyperpane.Core/Domain/Services/PluginManager.cs": [
+      3370,
+      1773701179333000000
+    ],
+    "Hyperpane/Hyperpane.Core/Domain/Services/ThemeSDK.cs": [
+      3298,
+      1773701083650000000
+    ],
+    "Hyperpane/Hyperpane.Core/Domain/Services/ViewportManager.cs": [
+      12032,
+      1773497121081000000
+    ],
+    "Hyperpane/Hyperpane.Core/Domain/Services/AIOrganizer.cs": [
+      2869,
+      1773701062019000000
+    ],
+    "Hyperpane/Hyperpane.Core/Domain/Services/ParallaxDepthService.cs": [
+      2046,
+      1773699940975000000
+    ],
+    "Hyperpane/Hyperpane.Core/Domain/Services/ThemeService.cs": [
+      3079,
+      1773497052213000000
+    ],
+    "Hyperpane/Hyperpane.Core/Services/AudioEngine.cs": [
+      2315,
+      1773699950638000000
+    ],
+    "Hyperpane/Hyperpane.Core/Services/CompatibilityManager.cs": [
+      4605,
+      1773490101229000000
+    ],
+    "Hyperpane/Hyperpane.Core/Services/WallpaperManager.cs": [
+      9791,
+      1773650692570000000
+    ],
+    "Hyperpane/Hyperpane.Core/Services/PerformanceBenchmark.cs": [
+      3465,
+      1773493129126000000
+    ],
+    "Hyperpane/Hyperpane.Core/Services/AutoDetectManager.cs": [
+      4275,
+      1773493188449000000
+    ],
+    "Hyperpane/Hyperpane.Core/UI/MiniMapControl.xaml.cs": [
+      6482,
+      1770782918000000000
+    ],
+    "Hyperpane/Hyperpane.Core/UI/DashboardWindow.xaml": [
+      3890,
+      1770792426000000000
+    ],
+    "Hyperpane/Hyperpane.Core/UI/MiniMapControl.xaml": [
+      943,
+      1770782906000000000
+    ],
+    "Hyperpane/Hyperpane.Core/UI/PerformanceOverlay.xaml": [
+      2556,
+      1773505714756000000
+    ],
+    "Hyperpane/Hyperpane.Core/UI/DashboardWindow.xaml.cs": [
+      10483,
+      1773646703755000000
+    ],
+    "Hyperpane/Hyperpane.Core/UI/PerformanceOverlay.xaml.cs": [
+      298,
+      1773495507976000000
+    ],
+    "Hyperpane/hyperpane_codex/DASHBOARD_SETTINGS_ANALYSIS.md": [
+      7558,
+      1773489259693000000
+    ],
+    "Hyperpane/hyperpane_codex/PHASE_15_HANDOVER_PROMPT.md": [
+      1965,
+      1773636381988000000
+    ],
+    "Hyperpane/hyperpane_codex/PHASE_26_GOLDEN_MASTER_V2.0_PROMPT.md": [
+      2922,
+      1773699432589000000
+    ],
+    "Hyperpane/hyperpane_codex/PHASE_16_AOT_PERFORMANCE_PROMPT.md": [
+      2169,
+      1773644175406000000
+    ],
+    "Hyperpane/hyperpane_codex/INTEGRATION_NOTES.md": [
+      3514,
+      1773486856055000000
+    ],
+    "Hyperpane/hyperpane_codex/PHASE_27_GOLDEN_POLISH_V2.0_FINAL_WIRING.md": [
+      2730,
+      1773700790885000000
+    ],
+    "Hyperpane/hyperpane_codex/PHASE_25_INFINITY_MASTERY_RECOVERY_PROMPT.md": [
+      2521,
+      1773691649729000000
+    ],
+    "Hyperpane/hyperpane_codex/PHASE_20_V1.1_FINAL_V1.2_SENSORY_MEGA_PROMPT.md": [
+      2749,
+      1773680701049000000
+    ],
+    "Hyperpane/hyperpane_codex/PHASE_24_INFINITY_INTEGRATION_RECOVERY_PROMPT.md": [
+      2418,
+      1773691266560000000
+    ],
+    "Hyperpane/hyperpane_codex/CODEBASE_MAP.md": [
+      6176,
+      1773486829681000000
+    ],
+    "Hyperpane/hyperpane_codex/PHASE_18_V1.1_SPRINT_3_FINALIZATION.md": [
+      2812,
+      1773648924385000000
+    ],
+    "Hyperpane/hyperpane_codex/PHASE_17_V1.1_SPRINT_2_EXECUTION.md": [
+      2805,
+      1773647089138000000
+    ],
+    "Hyperpane/hyperpane_codex/QnA_Usuario.md": [
+      2460,
+      1773486953669000000
+    ],
+    "Hyperpane/hyperpane_codex/PHASE_19_ENGINE_MASTERY_MEGA_PROMPT.md": [
+      3270,
+      1773650856015000000
+    ],
+    "Hyperpane/hyperpane_codex/PRD_FOR_CODEX.md": [
+      2272,
+      1773486281313000000
+    ],
+    "Hyperpane/hyperpane_codex/PHASE_14_MASTER_PROMPT.md": [
+      2312,
+      1773632286026000000
+    ],
+    "Hyperpane/hyperpane_codex/FINAL_PROMPT.md": [
+      1334,
+      1773490626104000000
+    ],
+    "Hyperpane/hyperpane_codex/PHASE_18_V1.1_RECOVERY_PROMPT.md": [
+      2834,
+      1773650250926000000
+    ],
+    "Hyperpane/hyperpane_codex/DEVELOPMENT_GUIDE.md": [
+      4159,
+      1773486884925000000
+    ],
+    "Hyperpane/hyperpane_codex/ARCHITECTURE.md": [
+      8619,
+      1773486951659000000
+    ],
+    "Hyperpane/hyperpane_codex/MEGA_MASTER_PROMPT_INFINITY.md": [
+      3108,
+      1773647765303000000
+    ],
+    "Hyperpane/hyperpane_codex/CODEX_MASTER_BRIEF.md": [
+      14708,
+      1773486759049000000
+    ],
+    "Hyperpane/hyperpane_codex/ROADMAP_ULTRA.md": [
+      3162,
+      1773700071477000000
+    ],
+    "Hyperpane/hyperpane_codex/PHASE_23_INFINITY_CYCLE_MEGA_PROMPT.md": [
+      2807,
+      1773690289524000000
+    ],
+    "Hyperpane/hyperpane_codex/ULTRA_MASTER_PROMPT_V1.1.md": [
+      3162,
+      1773644764211000000
+    ],
+    "Hyperpane/hyperpane_codex/TASKS_FOR_CODEX.md": [
+      4205,
+      1773486886935000000
+    ],
+    "Hyperpane/hyperpane_codex/PHASE_22_V1.3_STRESS_V1.4_VISUALS_MEGA_PROMPT.md": [
+      2523,
+      1773688051506000000
+    ],
+    "Hyperpane/hyperpane_codex/FINAL_ENGINEERING_REPORT_V2.0.md": [
+      349,
+      1773700059505000000
+    ],
+    "Hyperpane/hyperpane_codex/PHASE_21_V1.2_INTEGRATION_V1.3_LOGIC_MEGA_PROMPT.md": [
+      2860,
+      1773687132861000000
+    ],
+    "Hyperpane/hyperpane_codex/PHASE_28_ULTIMATE_CERTIFICATION_V2.0_GOLD.md": [
+      2455,
+      1773702346600000000
+    ],
+    "Hyperpane/hyperpane_codex/PHASE_16_V1.1_SPRINT_1_EXECUTION.md": [
+      3176,
+      1773646396371000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/index.tsx": [
+      461,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/README.md": [
+      2236,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/types.ts": [
+      3508,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/package.json": [
+      836,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/icon.svg": [
+      3605,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/App.tsx": [
+      9298,
+      1773485814000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/metadata.json": [
+      289,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/index.html": [
+      3396,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/constants.tsx": [
+      1458,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/hooks/useThemeLogic.ts": [
+      1904,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/hooks/usePhysicsEngine.ts": [
+      6437,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/hooks/useFPS.ts": [
+      681,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/hooks/useSoundFX.ts": [
+      8961,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/types/global.d.ts": [
+      1182,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/services/storageService.ts": [
+      2512,
+      1773485814000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/services/nativeBridge.ts": [
+      2838,
+      1773485814000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/context/ToastContext.tsx": [
+      2718,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/context/SettingsContext.tsx": [
+      6630,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/electron/preload.js": [
+      730,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/electron/main.js": [
+      3913,
+      1773485814000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/SettingsPanel.tsx": [
+      7162,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/PreviewPanel.tsx": [
+      19428,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/TitleBar.tsx": [
+      2560,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/Sidebar.tsx": [
+      6338,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/preview/DummyWindows.tsx": [
+      15283,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/preview/DesktopIcons.tsx": [
+      3519,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/preview/VirtualMonitorBezels.tsx": [
+      616,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/preview/ZoneGuides.tsx": [
+      1825,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/preview/WindowsTaskbar.tsx": [
+      6049,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/onboarding/WelcomeScreen.tsx": [
+      4789,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/types.ts": [
+      528,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/phantom/index.tsx": [
+      3408,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/phantom/visuals.tsx": [
+      2189,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/phantom/sounds.ts": [
+      632,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/pipboy/sounds.ts": [
+      668,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/pipboy/visuals.tsx": [
+      4451,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/pipboy/index.tsx": [
+      3860,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/blueprint/visuals.tsx": [
+      2838,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/blueprint/sounds.ts": [
+      1079,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/blueprint/index.tsx": [
+      4708,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/handheld/sounds.ts": [
+      736,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/handheld/visuals.tsx": [
+      4400,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/handheld/index.tsx": [
+      5128,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/island/index.tsx": [
+      3565,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/island/visuals.tsx": [
+      1633,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/island/sounds.ts": [
+      677,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/sheikah/sounds.ts": [
+      694,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/sheikah/visuals.tsx": [
+      2211,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/sheikah/index.tsx": [
+      4142,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/custom/visuals.tsx": [
+      3794,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/custom/index.tsx": [
+      4312,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/omni/sounds.ts": [
+      672,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/omni/index.tsx": [
+      3436,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/omni/visuals.tsx": [
+      1490,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/souls/sounds.ts": [
+      670,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/souls/index.tsx": [
+      4873,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/slayer/visuals.tsx": [
+      1473,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/slayer/sounds.ts": [
+      729,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/slayer/index.tsx": [
+      3387,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/netrunner/visuals.tsx": [
+      4050,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/netrunner/index.tsx": [
+      5650,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/netrunner/sounds.ts": [
+      723,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/voxel/visuals.tsx": [
+      1083,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/voxel/sounds.ts": [
+      649,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/minimap-themes/voxel/index.tsx": [
+      3163,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/ui/Collapse.tsx": [
+      825,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/ui/Select.tsx": [
+      5745,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/ui/Toggle.tsx": [
+      2421,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/ui/MiniMap.tsx": [
+      9588,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/ui/BigToggle.tsx": [
+      3315,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/ui/KeybindRecorder.tsx": [
+      2716,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/ui/Keycap.tsx": [
+      797,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/ui/Card.tsx": [
+      613,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/ui/SettingRow.tsx": [
+      2535,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/ui/TextInput.tsx": [
+      973,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/ui/MiniMapEffects.tsx": [
+      5866,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/ui/SectionLayout.tsx": [
+      1778,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/ui/SectionLabel.tsx": [
+      1277,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/ui/Button.tsx": [
+      1773,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/ui/Slider.tsx": [
+      3304,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/ui/SquareToggle.tsx": [
+      3186,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/ui/CipherHeader.tsx": [
+      383,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/dev/SentinelDebugger.tsx": [
+      2018,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/settings/MinimapSettings.tsx": [
+      9109,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/settings/ZonesSettings.tsx": [
+      3937,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/settings/types.ts": [
+      433,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/settings/PerformanceSettings.tsx": [
+      4980,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/settings/GesturesSettings.tsx": [
+      7054,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/settings/ControlsSettings.tsx": [
+      3945,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/settings/BackgroundsSettings.tsx": [
+      3392,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/settings/NavigationSettings.tsx": [
+      2632,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/settings/MonitorSettings.tsx": [
+      4291,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/settings/GeneralSettings.tsx": [
+      9509,
+      1773485813000000000
+    ],
+    "Hyperpane/hyperpane_codex/source/Hyperpane-main-mas-actual/components/backgrounds/ProceduralBackground.tsx": [
+      4404,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/metadata.json": [
+      289,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/constants.tsx": [
+      1458,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/index.html": [
+      3396,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/icon.svg": [
+      3605,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/package.json": [
+      836,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/types.ts": [
+      3508,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/index.tsx": [
+      461,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/README.md": [
+      2236,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/App.tsx": [
+      9298,
+      1773485814000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/types/global.d.ts": [
+      1182,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/context/SettingsContext.tsx": [
+      6630,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/context/ToastContext.tsx": [
+      2718,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/electron/preload.js": [
+      730,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/electron/main.js": [
+      3913,
+      1773485814000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/hooks/useFPS.ts": [
+      681,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/hooks/usePhysicsEngine.ts": [
+      6437,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/hooks/useThemeLogic.ts": [
+      1904,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/hooks/useSoundFX.ts": [
+      8961,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/services/nativeBridge.ts": [
+      2838,
+      1773485814000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/services/storageService.ts": [
+      2512,
+      1773485814000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/PreviewPanel.tsx": [
+      19428,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/Sidebar.tsx": [
+      6338,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/TitleBar.tsx": [
+      2560,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/SettingsPanel.tsx": [
+      7162,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/onboarding/WelcomeScreen.tsx": [
+      4789,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/types.ts": [
+      528,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/slayer/visuals.tsx": [
+      1473,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/slayer/index.tsx": [
+      3387,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/slayer/sounds.ts": [
+      729,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/sheikah/sounds.ts": [
+      694,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/sheikah/index.tsx": [
+      4142,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/sheikah/visuals.tsx": [
+      2211,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/netrunner/index.tsx": [
+      5650,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/netrunner/visuals.tsx": [
+      4050,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/netrunner/sounds.ts": [
+      723,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/pipboy/visuals.tsx": [
+      4451,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/pipboy/index.tsx": [
+      3860,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/pipboy/sounds.ts": [
+      668,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/voxel/sounds.ts": [
+      649,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/voxel/index.tsx": [
+      3163,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/voxel/visuals.tsx": [
+      1083,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/souls/sounds.ts": [
+      670,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/souls/index.tsx": [
+      4873,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/island/index.tsx": [
+      3565,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/island/sounds.ts": [
+      677,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/island/visuals.tsx": [
+      1633,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/custom/index.tsx": [
+      4312,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/custom/visuals.tsx": [
+      3794,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/handheld/sounds.ts": [
+      736,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/handheld/index.tsx": [
+      5128,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/handheld/visuals.tsx": [
+      4400,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/phantom/sounds.ts": [
+      632,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/phantom/index.tsx": [
+      3408,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/phantom/visuals.tsx": [
+      2189,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/omni/visuals.tsx": [
+      1490,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/omni/index.tsx": [
+      3436,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/omni/sounds.ts": [
+      672,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/blueprint/index.tsx": [
+      4708,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/blueprint/sounds.ts": [
+      1079,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/minimap-themes/blueprint/visuals.tsx": [
+      2838,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/settings/types.ts": [
+      433,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/settings/MinimapSettings.tsx": [
+      9109,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/settings/BackgroundsSettings.tsx": [
+      3392,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/settings/MonitorSettings.tsx": [
+      4291,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/settings/GeneralSettings.tsx": [
+      9509,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/settings/GesturesSettings.tsx": [
+      7054,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/settings/NavigationSettings.tsx": [
+      2632,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/settings/ZonesSettings.tsx": [
+      3937,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/settings/ControlsSettings.tsx": [
+      3945,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/settings/PerformanceSettings.tsx": [
+      4980,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/ui/Toggle.tsx": [
+      2421,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/ui/MiniMap.tsx": [
+      9588,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/ui/SettingRow.tsx": [
+      2535,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/ui/Slider.tsx": [
+      3304,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/ui/Button.tsx": [
+      1773,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/ui/KeybindRecorder.tsx": [
+      2716,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/ui/CipherHeader.tsx": [
+      383,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/ui/MiniMapEffects.tsx": [
+      5866,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/ui/SquareToggle.tsx": [
+      3186,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/ui/TextInput.tsx": [
+      973,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/ui/Select.tsx": [
+      5745,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/ui/Collapse.tsx": [
+      825,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/ui/Card.tsx": [
+      613,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/ui/Keycap.tsx": [
+      797,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/ui/SectionLayout.tsx": [
+      1778,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/ui/SectionLabel.tsx": [
+      1277,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/ui/BigToggle.tsx": [
+      3315,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/preview/VirtualMonitorBezels.tsx": [
+      616,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/preview/DesktopIcons.tsx": [
+      3519,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/preview/ZoneGuides.tsx": [
+      1825,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/preview/DummyWindows.tsx": [
+      15283,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/preview/WindowsTaskbar.tsx": [
+      6049,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/backgrounds/ProceduralBackground.tsx": [
+      4404,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane-main mas actual/components/dev/SentinelDebugger.tsx": [
+      2018,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Tests/ViewportManagerTests.cs": [
+      1773,
+      1773489206106000000
+    ],
+    "Hyperpane/Hyperpane.Tests/PerformanceBenchmarkTests.cs": [
+      1045,
+      1773490137908000000
+    ],
+    "Hyperpane/Hyperpane.Tests/Hyperpane.Tests.csproj": [
+      692,
+      1773489250149000000
+    ],
+    "Hyperpane/Hyperpane.Tests/AutoSaveManagerTests.cs": [
+      3149,
+      1773489425729000000
+    ],
+    "Hyperpane/Hyperpane.Tests/AutoDetectManagerTests.cs": [
+      1297,
+      1773490132522000000
+    ],
+    "Hyperpane/Hyperpane.Tests/WindowMagnetizerTests.cs": [
+      2227,
+      1773493902975000000
+    ],
+    "Hyperpane/Hyperpane.Tests/WallpaperManagerTests.cs": [
+      1896,
+      1773489585189000000
+    ],
+    "Hyperpane/roadmap/V1.1_SPEC.md": [
+      1481,
+      1773638302228000000
+    ],
+    "Hyperpane/.agent/rules/windowspfs.md": [
+      8411,
+      1770786736000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/tsconfig.tsbuildinfo": [
+      3968,
+      1773703017942000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/package-lock.json": [
+      142996,
+      1773703012236000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/index.html": [
+      3044,
+      1773488264603000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/metadata.json": [
+      289,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/tsconfig.json": [
+      747,
+      1773488382067000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/package.json": [
+      910,
+      1773488283764000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/vite.config.ts": [
+      530,
+      1770790690000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/icon.svg": [
+      3605,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/README.md": [
+      2236,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/types.ts": [
+      4554,
+      1773702925413000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/constants.tsx": [
+      1613,
+      1773702624678000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/App.tsx": [
+      9661,
+      1773689300155000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/index.tsx": [
+      461,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/Sidebar.tsx": [
+      6338,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/PreviewPanel.tsx": [
+      21602,
+      1773702771865000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/TitleBar.tsx": [
+      2560,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/SettingsPanel.tsx": [
+      8064,
+      1773702950800000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/Themes/ThemeGallery.tsx": [
+      1679,
+      1773701143761000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/onboarding/WelcomeScreen.tsx": [
+      4789,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/dev/SentinelDebugger.tsx": [
+      2018,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/Diagnostics/ProOverlay.tsx": [
+      4140,
+      1773687736759000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/settings/MonitorSettings.tsx": [
+      4291,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/settings/GeneralSettings.tsx": [
+      9509,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/settings/types.ts": [
+      369,
+      1773702944521000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/settings/PerformanceSettings.tsx": [
+      4980,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/settings/NavigationSettings.tsx": [
+      3449,
+      1773685722476000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/settings/BackgroundsSettings.tsx": [
+      3392,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/settings/ControlsSettings.tsx": [
+      3945,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/settings/MinimapSettings.tsx": [
+      9109,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/settings/EngineSettings.tsx": [
+      3047,
+      1773702902561000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/settings/ZonesSettings.tsx": [
+      3937,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/settings/GesturesSettings.tsx": [
+      7054,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/backgrounds/ProceduralBackground.tsx": [
+      4404,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/preview/ZoneGuides.tsx": [
+      1825,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/preview/DummyWindows.tsx": [
+      15283,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/preview/WindowsTaskbar.tsx": [
+      6049,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/preview/DesktopIcons.tsx": [
+      3519,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/preview/VirtualMonitorBezels.tsx": [
+      616,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/types.ts": [
+      528,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/voxel/sounds.ts": [
+      649,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/voxel/visuals.tsx": [
+      1083,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/voxel/index.tsx": [
+      3163,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/blueprint/visuals.tsx": [
+      2838,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/blueprint/index.tsx": [
+      4708,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/blueprint/sounds.ts": [
+      1079,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/handheld/index.tsx": [
+      5128,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/handheld/visuals.tsx": [
+      4400,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/handheld/sounds.ts": [
+      736,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/souls/index.tsx": [
+      4873,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/souls/sounds.ts": [
+      670,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/omni/visuals.tsx": [
+      1490,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/omni/sounds.ts": [
+      672,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/omni/index.tsx": [
+      3436,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/slayer/visuals.tsx": [
+      1473,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/slayer/index.tsx": [
+      3387,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/slayer/sounds.ts": [
+      729,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/netrunner/index.tsx": [
+      5650,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/netrunner/visuals.tsx": [
+      4050,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/netrunner/sounds.ts": [
+      723,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/pipboy/index.tsx": [
+      3860,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/pipboy/visuals.tsx": [
+      4451,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/pipboy/sounds.ts": [
+      668,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/phantom/index.tsx": [
+      3408,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/phantom/visuals.tsx": [
+      2189,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/phantom/sounds.ts": [
+      632,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/sheikah/sounds.ts": [
+      694,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/sheikah/index.tsx": [
+      4142,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/sheikah/visuals.tsx": [
+      2211,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/custom/visuals.tsx": [
+      3794,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/custom/index.tsx": [
+      4312,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/island/index.tsx": [
+      3565,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/island/sounds.ts": [
+      677,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/minimap-themes/island/visuals.tsx": [
+      1633,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/ui/TextInput.tsx": [
+      973,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/ui/BigToggle.tsx": [
+      3315,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/ui/SectionLabel.tsx": [
+      1277,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/ui/Card.tsx": [
+      613,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/ui/KeybindRecorder.tsx": [
+      2716,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/ui/SquareToggle.tsx": [
+      3186,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/ui/Slider.tsx": [
+      3304,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/ui/SettingRow.tsx": [
+      2535,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/ui/Select.tsx": [
+      5745,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/ui/MiniMap.tsx": [
+      9588,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/ui/SectionLayout.tsx": [
+      1778,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/ui/Keycap.tsx": [
+      797,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/ui/Toggle.tsx": [
+      2421,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/ui/CipherHeader.tsx": [
+      383,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/ui/Collapse.tsx": [
+      825,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/ui/Button.tsx": [
+      1773,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/ui/MiniMapEffects.tsx": [
+      5866,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/components/Plugins/PluginManagementPanel.tsx": [
+      1672,
+      1773701153583000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/context/SettingsContext.tsx": [
+      7530,
+      1773703003023000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/context/ToastContext.tsx": [
+      2718,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/hooks/useFPS.ts": [
+      681,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/hooks/useThemeLogic.ts": [
+      1904,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/hooks/usePhysicsEngine.ts": [
+      6840,
+      1773685916406000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/hooks/useSoundFX.ts": [
+      8961,
+      1773485813000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/services/nativeBridge.ts": [
+      7475,
+      1773701133506000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/src/services/storageService.ts": [
+      2588,
+      1773508733456000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/electron/main.js": [
+      3913,
+      1773485814000000000
+    ],
+    "Hyperpane/Hyperpane.Dashboard/electron/preload.js": [
+      730,
+      1773485813000000000
+    ],
+    "Hyperpane/.github/workflows/ci.yml": [
+      2077,
+      1773495972259000000
+    ],
+    "Hyperpane/docs/05_STACK_POTENTE_RECOMENDADO.md": [
+      12718,
+      1770702008931000000
+    ],
+    "Hyperpane/docs/HostApiSpec.md": [
+      1849,
+      1770790286000000000
+    ],
+    "Hyperpane/docs/03_PIPELINE_DESARROLLO.md": [
+      13152,
+      1770701830871000000
+    ],
+    "Hyperpane/docs/02_STACK_Y_ARQUITECTURA.md": [
+      18803,
+      1770701719377000000
+    ],
+    "Hyperpane/docs/01_VISION_Y_OBJETIVOS.md": [
+      10600,
+      1770701901013000000
+    ],
+    "Hyperpane/docs/e2e-stress-results.csv": [
+      332,
+      1770851890000000000
+    ],
+    "Hyperpane/docs/SettingsContract.md": [
+      2306,
+      1770855164000000000
+    ],
+    "Hyperpane/docs/02_ESPECIFICACION_FUNCIONAL.md": [
+      23235,
+      1770689204080000000
+    ],
+    "Hyperpane/docs/12-6-20-Proyecto_Hyperpane.md": [
+      52742,
+      1757328676000000000
+    ],
+    "Hyperpane/docs/04_ANALISIS_MODULOS.md": [
+      16273,
+      1770666906103000000
+    ],
+    "Hyperpane/docs/README.md": [
+      7415,
+      1770701955784000000
+    ],
+    "Hyperpane/docs/INTEGRATION_DASHBOARD.md": [
+      2379,
+      1770790288000000000
+    ],
+    "Hyperpane/docs/15-15-15-___Explicaci_n_proyecto_Hyperpane.md": [
+      84402,
+      1757330058000000000
+    ],
+    "Hyperpane/docs/06_ANALISIS_CODIGO_DESARROLLO.md": [
+      18182,
+      1770701786741000000
+    ],
+    "Hyperpane/docs/PROJECT_LINKAGE_MAP.md": [
+      5339,
+      1771106964000000000
+    ],
+    "Hyperpane/docs/07_PIPELINE_DESARROLLO.md": [
+      6023,
+      1770701865763000000
+    ],
+    "Hyperpane/docs/release/ANTIGRAVITY_RELEASE_CHECKLIST.md": [
+      653,
+      1773618525512000000
+    ],
+    "Hyperpane/docs/legal/EULA.txt": [
+      2308,
+      1770936110000000000
+    ],
+    "Hyperpane/docs/legal/PRIVACY.txt": [
+      1630,
+      1770936120000000000
+    ],
+    "Hyperpane/tools/antigravity/ANTIGRAVITY_RULESET.json": [
+      268,
+      1773618201116000000
+    ],
+    "Hyperpane/tools/antigravity/ANTIGRAVITY_AUTOFIX_SCRIPTS.ps1": [
+      1011,
+      1773618498318000000
+    ],
+    "Hyperpane/tools/antigravity/ANTIGRAVITY_VALIDATION_SUITE.yaml": [
+      592,
+      1773618230482000000
+    ],
+    "Hyperpane/tools/antigravity/lockdown.ps1": [
+      675,
+      1773638385089000000
+    ],
+    "Documentacion para la IA/06_hyperpane.md": [
+      3826,
+      1774166929879000000
+    ],
+    "Documentacion para la IA/PROTOCOL.md": [
+      941,
+      1774657989575000000
+    ],
+    "Documentacion para la IA/CLAUDE.md": [
+      513,
+      1774657991010000000
+    ],
+    "Documentacion para la IA/CHANGELOG.md": [
+      304,
+      1774657991013000000
+    ],
+    "Documentacion para la IA/docs/GLOSSARY.md": [
+      440,
+      1774657989631000000
+    ],
+    "Documentacion para la IA/docs/ROADMAP.md": [
+      753,
+      1774657989629000000
+    ],
+    "Documentacion para la IA/docs/TEST_PLAN.md": [
+      419,
+      1774657989632000000
+    ],
+    "Documentacion para la IA/docs/DESIGN_SPEC.md": [
+      470,
+      1774657989626000000
+    ],
+    "Documentacion para la IA/docs/USER_DOCS.md": [
+      395,
+      1774657991009000000
+    ],
+    "Documentacion para la IA/docs/TDD.md": [
+      461,
+      1774657989628000000
+    ],
+    "Documentacion para la IA/docs/PRD.md": [
+      741,
+      1774657989625000000
+    ],
+    "Documentacion para la IA/_meta/questions-log.md": [
+      1672,
+      1774657989619000000
+    ],
+    "Documentacion para la IA/_meta/owner.md": [
+      286,
+      1774657989577000000
+    ]
+  }
+}

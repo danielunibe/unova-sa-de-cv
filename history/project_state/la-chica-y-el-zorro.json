@@ -1,0 +1,155 @@
+{
+  "project_id": "la-chica-y-el-zorro",
+  "project": "La Chica y el Zorro",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\05_videojuegos\\05_La_chica_y_el_zorro",
+  "captured_at": "2026-07-14T07:11:20-06:00",
+  "last_change": "2026-03-27T18:36:22-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 24,
+    "code_count": 0,
+    "doc_count": 14,
+    "asset_count": 9,
+    "test_count": 2,
+    "manifest_count": 0,
+    "latest_mtime": "2026-03-27T18:36:22-06:00",
+    "latest_file": "Documentacion para la IA/CHANGELOG.md",
+    "extensions": {
+      ".md": 14,
+      ".png": 8,
+      ".url": 1,
+      ".webp": 1
+    }
+  },
+  "progress": {
+    "project_id": "la-chica-y-el-zorro",
+    "project": "La Chica y el Zorro",
+    "mvp": 18,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "46_La Chica y el zorro.md": [
+      1651,
+      1774196888621000000
+    ],
+    "mx.pinterest.com.url": [
+      72,
+      1753301188297000000
+    ],
+    "ChatGPT Image 7 sept 2025, 08_26_37 p.m..png": [
+      2223779,
+      1757298397708000000
+    ],
+    "ChatGPT Image 7 sept 2025, 08_27_10 p.m..png": [
+      2524699,
+      1757298430540000000
+    ],
+    "ChatGPT Image 7 sept 2025, 08_27_13 p.m..png": [
+      2360954,
+      1757298433465000000
+    ],
+    "ChatGPT Image 7 sept 2025, 08_27_22 p.m..png": [
+      2133402,
+      1757298442175000000
+    ],
+    "ChatGPT Image 7 sept 2025, 08_27_19 p.m..png": [
+      2033661,
+      1757298440109000000
+    ],
+    "ChatGPT Image 7 sept 2025, 08_27_15 p.m..png": [
+      2242429,
+      1757298436106000000
+    ],
+    "2025-05-23_235056_webp.webp": [
+      258612,
+      1753299496000000000
+    ],
+    "ChatGPT Image 7 sept 2025, 08_27_08 p.m..png": [
+      2295822,
+      1757298428364000000
+    ],
+    "ChatGPT Image 7 sept 2025, 08_27_04 p.m..png": [
+      2313574,
+      1757298425207000000
+    ],
+    "Documentacion para la IA/05_la_chica_y_el_zorro.md": [
+      178906,
+      1757320064000000000
+    ],
+    "Documentacion para la IA/CHANGELOG.md": [
+      146,
+      1774658182514000000
+    ],
+    "Documentacion para la IA/PROTOCOL.md": [
+      381,
+      1774658180657000000
+    ],
+    "Documentacion para la IA/CLAUDE.md": [
+      146,
+      1774658182512000000
+    ],
+    "Documentacion para la IA/docs/PRD.md": [
+      188,
+      1774658180671000000
+    ],
+    "Documentacion para la IA/docs/USER_DOCS.md": [
+      151,
+      1774658181520000000
+    ],
+    "Documentacion para la IA/docs/DESIGN_SPEC.md": [
+      146,
+      1774658180674000000
+    ],
+    "Documentacion para la IA/docs/ROADMAP.md": [
+      189,
+      1774658180678000000
+    ],
+    "Documentacion para la IA/docs/TDD.md": [
+      149,
+      1774658180676000000
+    ],
+    "Documentacion para la IA/docs/GLOSSARY.md": [
+      177,
+      1774658180683000000
+    ],
+    "Documentacion para la IA/docs/TEST_PLAN.md": [
+      171,
+      1774658180685000000
+    ],
+    "Documentacion para la IA/_meta/owner.md": [
+      215,
+      1774658180662000000
+    ],
+    "Documentacion para la IA/_meta/questions-log.md": [
+      678,
+      1774658180667000000
+    ]
+  }
+}

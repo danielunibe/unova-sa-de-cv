@@ -1,0 +1,4450 @@
+{
+  "project_id": "react-bite",
+  "project": "REACTBITE (Micro-app Runtime)",
+  "root": "C:\\Desarrollos DEV daniel\\Reactbite",
+  "captured_at": "2026-07-14T07:11:02-06:00",
+  "last_change": "2026-07-14T07:11:02-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 1095,
+    "code_count": 567,
+    "doc_count": 145,
+    "asset_count": 71,
+    "test_count": 14,
+    "manifest_count": 17,
+    "latest_mtime": "2026-07-05T01:27:41-06:00",
+    "latest_file": "reactbite-fusion/src-tauri/Cargo.toml",
+    "extensions": {
+      ".tsx": 255,
+      ".ts": 251,
+      ".md": 139,
+      ".pak": 97,
+      ".dll": 67,
+      ".png": 66,
+      ".json": 51,
+      ".exe": 46,
+      ".rs": 30,
+      "[sin extensión]": 16,
+      ".ps1": 14,
+      ".html": 7,
+      ".js": 7,
+      ".txt": 6,
+      ".svg": 5,
+      ".so": 4,
+      ".toml": 4,
+      ".example": 3,
+      ".css": 3,
+      ".cmd": 3
+    }
+  },
+  "progress": {
+    "project_id": "react-bite",
+    "project": "REACTBITE (Micro-app Runtime)",
+    "mvp": 63,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 5,
+      "implementacion": 30,
+      "pruebas": 10,
+      "empaquetado": 3,
+      "continuidad": 3,
+      "validacion": 3
+    },
+    "missing": []
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "README.md; PRD-ReactBite.md",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    ".gitignore": [
+      253,
+      1781346981415951800
+    ],
+    "17_reactbite.md": [
+      2768,
+      1774166929956000000
+    ],
+    "ARCHITECTURE_MIGRATION_REPORT.md": [
+      4391,
+      1781346981449279500
+    ],
+    "ChatGPT Image 13 jun 2026, 11_22_05 p.m..png": [
+      1909446,
+      1781414527737840300
+    ],
+    "CURATED_REACTBITE_OVERVIEW.md": [
+      6878,
+      1781388745765000000
+    ],
+    "Gemini_Generated_Image_ho9akkho9akkho9a.png": [
+      3631564,
+      1773594262196000000
+    ],
+    "index.html": [
+      4056,
+      1781346981494894700
+    ],
+    "metadata.json": [
+      191,
+      1781346981524623400
+    ],
+    "package-lock.json": [
+      81407,
+      1781347109926674600
+    ],
+    "package.json": [
+      505,
+      1781346981547221900
+    ],
+    "REACTBITE.txt": [
+      152156,
+      1773471929939000000
+    ],
+    "reactbite_icon_transparente.png": [
+      1856666,
+      1782515128530360300
+    ],
+    "README.md": [
+      550,
+      1781346981469375300
+    ],
+    "tsconfig.json": [
+      700,
+      1781346981570860600
+    ],
+    "vite.config.ts": [
+      845,
+      1781346981617059300
+    ],
+    "archivos para PRD/AI.md": [
+      3374,
+      1773488500874000000
+    ],
+    "archivos para PRD/ARCHITECTURE.md": [
+      2655,
+      1773488467754000000
+    ],
+    "archivos para PRD/CODEX_MASTER_PROMPT.md": [
+      4796,
+      1773499815766000000
+    ],
+    "archivos para PRD/CODE_STANDARDS.md": [
+      4934,
+      1773491069031000000
+    ],
+    "archivos para PRD/DEEP_ANALYSIS.md": [
+      6774,
+      1773489726913000000
+    ],
+    "archivos para PRD/FORMAT.md": [
+      2433,
+      1773488473840000000
+    ],
+    "archivos para PRD/gemini_integraciones diagramas.md": [
+      27396,
+      1773508496192000000
+    ],
+    "archivos para PRD/LANGUAGE_EVALUATION.md": [
+      5180,
+      1773490192619000000
+    ],
+    "archivos para PRD/PRD-ReactBite.md": [
+      23535,
+      1773488166767000000
+    ],
+    "archivos para PRD/RUNTIME.md": [
+      2129,
+      1773488475874000000
+    ],
+    "archivos para PRD/TASKS.md": [
+      4659,
+      1773500828228000000
+    ],
+    "archivos para PRD/UI-SPEC.md": [
+      4317,
+      1773494127058000000
+    ],
+    "Documentacion para la IA/CHANGELOG.md": [
+      304,
+      1774657991317000000
+    ],
+    "Documentacion para la IA/CLAUDE.md": [
+      514,
+      1774657991316000000
+    ],
+    "Documentacion para la IA/PROTOCOL.md": [
+      941,
+      1774657991288000000
+    ],
+    "Documentacion para la IA/docs/DESIGN_SPEC.md": [
+      470,
+      1774657991302000000
+    ],
+    "Documentacion para la IA/docs/GLOSSARY.md": [
+      411,
+      1774657991309000000
+    ],
+    "Documentacion para la IA/docs/PRD.md": [
+      676,
+      1774657991300000000
+    ],
+    "Documentacion para la IA/docs/ROADMAP.md": [
+      725,
+      1774657991307000000
+    ],
+    "Documentacion para la IA/docs/TDD.md": [
+      462,
+      1774657991305000000
+    ],
+    "Documentacion para la IA/docs/TEST_PLAN.md": [
+      419,
+      1774657991311000000
+    ],
+    "Documentacion para la IA/docs/USER_DOCS.md": [
+      366,
+      1774657991312000000
+    ],
+    "Documentacion para la IA/_meta/owner.md": [
+      286,
+      1774657991293000000
+    ],
+    "Documentacion para la IA/_meta/questions-log.md": [
+      1636,
+      1774657991296000000
+    ],
+    "media/frascos (1).png": [
+      4277668,
+      1767382040749000000
+    ],
+    "migrated_prompt_history/prompt_2025-12-23T13_42_25.544Z.json": [
+      1644521,
+      1781346981681083300
+    ],
+    "migrated_prompt_history/prompt_2025-12-31T05_04_37.982Z.json": [
+      4298614,
+      1781346984228667600
+    ],
+    "migrated_prompt_history/prompt_2026-01-02T20_52_38.446Z.json": [
+      1561151,
+      1781346984332598600
+    ],
+    "migrated_prompt_history/prompt_2026-01-25T06_08_27.848Z.json": [
+      4941531,
+      1781346984442786800
+    ],
+    "nueva implementacion/💬reactbite_18-may/.env.example": [
+      111,
+      1781347617462440000
+    ],
+    "nueva implementacion/💬reactbite_18-may/.gitignore": [
+      253,
+      1781347617596419400
+    ],
+    "nueva implementacion/💬reactbite_18-may/ANALISIS_ARQUITECTURA.md": [
+      6367,
+      1781347617679964100
+    ],
+    "nueva implementacion/💬reactbite_18-may/ARCHITECTURE_MIGRATION_REPORT.md": [
+      4391,
+      1781347617660154100
+    ],
+    "nueva implementacion/💬reactbite_18-may/AUDIT.md": [
+      8383,
+      1781347617616536500
+    ],
+    "nueva implementacion/💬reactbite_18-may/design.md": [
+      8029,
+      1781347617563049100
+    ],
+    "nueva implementacion/💬reactbite_18-may/eslint.config.js": [
+      749,
+      1781347617633893900
+    ],
+    "nueva implementacion/💬reactbite_18-may/FASE10_RCKBYTE_UI_FLOW.md": [
+      5621,
+      1781347626192889200
+    ],
+    "nueva implementacion/💬reactbite_18-may/FASE11_RCKBYTE_VIRTUAL_MOUNT.md": [
+      4890,
+      1781347626173325700
+    ],
+    "nueva implementacion/💬reactbite_18-may/FASE12_MINIAPP_WINDOW_RUNTIME.md": [
+      3543,
+      1781347626229077900
+    ],
+    "nueva implementacion/💬reactbite_18-may/FASE13_AI_MINIAPP_BUILDER_AGENT.md": [
+      3576,
+      1781347626248777800
+    ],
+    "nueva implementacion/💬reactbite_18-may/FASE14_AI_AGENT_E2E_HARDENING.md": [
+      4440,
+      1781347626210505000
+    ],
+    "nueva implementacion/💬reactbite_18-may/FASE15_MINIAPP_LIBRARY_LAUNCHER.md": [
+      5909,
+      1781347626266128200
+    ],
+    "nueva implementacion/💬reactbite_18-may/FASE16_PASTE_TO_MINIAPP_FLOW.md": [
+      6876,
+      1781347626284814100
+    ],
+    "nueva implementacion/💬reactbite_18-may/FASE17_DEPENDENCY_AUTO_RESOLVER.md": [
+      8004,
+      1781347626305485500
+    ],
+    "nueva implementacion/💬reactbite_18-may/FASE18_PREVIEW_PREFLIGHT_DIAGNOSTICS.md": [
+      7096,
+      1781347626327168200
+    ],
+    "nueva implementacion/💬reactbite_18-may/FASE19_AI_SELF_HEALING_FIX_PIPELINE.md": [
+      7771,
+      1781347626347536800
+    ],
+    "nueva implementacion/💬reactbite_18-may/FASE20_GOOGLE_AI_STUDIO_ZIP_COMPATIBILITY.md": [
+      9150,
+      1781347626369035900
+    ],
+    "nueva implementacion/💬reactbite_18-may/FASE21_MINI_APPS_TEMPLATE_STORE.md": [
+      3128,
+      1781347626388976000
+    ],
+    "nueva implementacion/💬reactbite_18-may/FASE22_MULTI_WINDOW_MINIAPP_RUNTIME.md": [
+      4253,
+      1781347626406579500
+    ],
+    "nueva implementacion/💬reactbite_18-may/FASE23_PROFESSIONAL_RCKBYTE_PACKAGING.md": [
+      2830,
+      1781347626505150300
+    ],
+    "nueva implementacion/💬reactbite_18-may/FASE24_DESKTOP_SHELL_WINDOWS.md": [
+      4325,
+      1781347626419750100
+    ],
+    "nueva implementacion/💬reactbite_18-may/FASE25_OPEN_RCKBYTE_FROM_WINDOWS.md": [
+      6729,
+      1781347626526291600
+    ],
+    "nueva implementacion/💬reactbite_18-may/FASE26_GOOGLE_AI_STUDIO_PRODUCT_POLISH_QA.md": [
+      6696,
+      1781347626546476900
+    ],
+    "nueva implementacion/💬reactbite_18-may/FASE27_DESKTOP_BUILD_HARDENING_WINDOWS_INSTALLER_QA.md": [
+      6757,
+      1781347628637260500
+    ],
+    "nueva implementacion/💬reactbite_18-may/FASE28_DESKTOP_RUNTIME_PERMISSIONS_SECURITY_CENTER.md": [
+      11173,
+      1781347628672658900
+    ],
+    "nueva implementacion/💬reactbite_18-may/FASE30_RELEASE_CANDIDATE_CONFIGURATION_AUDIT.md": [
+      4338,
+      1781347628689080300
+    ],
+    "nueva implementacion/💬reactbite_18-may/FASE6_COMPLETA.md": [
+      8180,
+      1781347617512265500
+    ],
+    "nueva implementacion/💬reactbite_18-may/FASE8_COMPLETA.md": [
+      5749,
+      1781347626135217300
+    ],
+    "nueva implementacion/💬reactbite_18-may/FASE9_RCKBYTE_CORE.md": [
+      4178,
+      1781347626155618400
+    ],
+    "nueva implementacion/💬reactbite_18-may/index.html": [
+      2388,
+      1781347617540770900
+    ],
+    "nueva implementacion/💬reactbite_18-may/metadata.json": [
+      259,
+      1781347617428949900
+    ],
+    "nueva implementacion/💬reactbite_18-may/package-lock.json": [
+      296238,
+      1781347617782723200
+    ],
+    "nueva implementacion/💬reactbite_18-may/package.json": [
+      2788,
+      1781347617702607500
+    ],
+    "nueva implementacion/💬reactbite_18-may/PATCH_RC1_AESTHETICS.md": [
+      3567,
+      1781347628888990800
+    ],
+    "nueva implementacion/💬reactbite_18-may/PATCH_RC1_AESTHETICS_REPAIR.md": [
+      3959,
+      1781347628911310600
+    ],
+    "nueva implementacion/💬reactbite_18-may/PATCH_RC1_DASHBOARD_SECTIONS.md": [
+      2078,
+      1781347628847156200
+    ],
+    "nueva implementacion/💬reactbite_18-may/PATCH_RC1_GLOBAL_COLORIMETRY_IDENTITY.md": [
+      3793,
+      1781347628726861100
+    ],
+    "nueva implementacion/💬reactbite_18-may/PATCH_RC1_LIGHTBULB_THEME.md": [
+      2467,
+      1781347628713278700
+    ],
+    "nueva implementacion/💬reactbite_18-may/PATCH_RC1_LIGHT_THEMES_SATURATION.md": [
+      1751,
+      1781347628867248400
+    ],
+    "nueva implementacion/💬reactbite_18-may/PATCH_RC1_LIGHT_THEME_HARDCODED_COLORS.md": [
+      3113,
+      1781347628795235200
+    ],
+    "nueva implementacion/💬reactbite_18-may/PATCH_RC1_MAX_TACTILE_NEUMORPHISM.md": [
+      1960,
+      1781347629012179200
+    ],
+    "nueva implementacion/💬reactbite_18-may/PATCH_RC1_NEUMORPHIC_MATERIAL_SYSTEM.md": [
+      3274,
+      1781347628990996800
+    ],
+    "nueva implementacion/💬reactbite_18-may/PATCH_RC1_NEUMORPHIC_THEME_CONSISTENCY.md": [
+      3204,
+      1781347628741009900
+    ],
+    "nueva implementacion/💬reactbite_18-may/PATCH_RC1_OMNIPRESENT_NEUMORPHISM.md": [
+      2106,
+      1781347628976219200
+    ],
+    "nueva implementacion/💬reactbite_18-may/PATCH_RC1_THEME_ENGINE_ARCHITECTURE.md": [
+      6307,
+      1781347628755753100
+    ],
+    "nueva implementacion/💬reactbite_18-may/PATCH_RC1_THEME_ICONS_RESTORED.md": [
+      2112,
+      1781347628816331800
+    ],
+    "nueva implementacion/💬reactbite_18-may/PATCH_RC1_THEME_RESTORATION.md": [
+      2634,
+      1781347628779079000
+    ],
+    "nueva implementacion/💬reactbite_18-may/PATCH_RC1_UNIFIED_NEUMORPHISM.md": [
+      2332,
+      1781347628949036200
+    ],
+    "nueva implementacion/💬reactbite_18-may/pnpm-lock.yaml": [
+      104677,
+      1781347625921480900
+    ],
+    "nueva implementacion/💬reactbite_18-may/pnpm-workspace.yaml": [
+      135,
+      1781347617723799900
+    ],
+    "nueva implementacion/💬reactbite_18-may/postcss.config.js": [
+      80,
+      1781347617754128900
+    ],
+    "nueva implementacion/💬reactbite_18-may/PREFERENCES_REPAIR.md": [
+      1804,
+      1781347617493054700
+    ],
+    "nueva implementacion/💬reactbite_18-may/QA_WINDOWS_RELEASE_CANDIDATE_RC1.md": [
+      5291,
+      1781347628699678400
+    ],
+    "nueva implementacion/💬reactbite_18-may/README.md": [
+      542,
+      1781347629028764100
+    ],
+    "nueva implementacion/💬reactbite_18-may/search.txt": [
+      7910,
+      1781347628657039300
+    ],
+    "nueva implementacion/💬reactbite_18-may/tailwind.config.js": [
+      1622,
+      1781347625944611300
+    ],
+    "nueva implementacion/💬reactbite_18-may/tmp_store.txt": [
+      3877,
+      1781347626113110300
+    ],
+    "nueva implementacion/💬reactbite_18-may/tsconfig.json": [
+      778,
+      1781347626048645400
+    ],
+    "nueva implementacion/💬reactbite_18-may/vite.config.ts": [
+      1811,
+      1781347626087472200
+    ],
+    "nueva implementacion/💬reactbite_18-may/electron/main.ts": [
+      3968,
+      1781347626459023600
+    ],
+    "nueva implementacion/💬reactbite_18-may/electron/preload.ts": [
+      716,
+      1781347626487316700
+    ],
+    "nueva implementacion/💬reactbite_18-may/migrated_prompt_history/prompt_2025-12-23T13_42_25.544Z.json": [
+      1644521,
+      1781347625650974300
+    ],
+    "nueva implementacion/💬reactbite_18-may/migrated_prompt_history/prompt_2025-12-31T05_04_37.982Z.json": [
+      4298614,
+      1781347625889735300
+    ],
+    "nueva implementacion/💬reactbite_18-may/migrated_prompt_history/prompt_2026-01-02T20_52_38.446Z.json": [
+      1561151,
+      1781347623157112000
+    ],
+    "nueva implementacion/💬reactbite_18-may/migrated_prompt_history/prompt_2026-01-25T06_08_27.848Z.json": [
+      4941531,
+      1781347625782725800
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/builder-debug.yml": [
+      936,
+      1781348931558198600
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/chrome-sandbox": [
+      19706,
+      1781347626647444900
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/chrome_100_percent.pak": [
+      212486,
+      1781347626707935900
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/chrome_200_percent.pak": [
+      353006,
+      1781347626674649900
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/chrome_crashpad_handler": [
+      2775115,
+      1781347627242684100
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/icudtl.dat": [
+      3216720,
+      1781347626870364700
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/libEGL.so": [
+      475820,
+      1781347626737351000
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/libffmpeg.so": [
+      3282799,
+      1781347627025278100
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/libGLESv2.so": [
+      2811271,
+      1781347626947324700
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/libvk_swiftshader.so": [
+      3236754,
+      1781347627187169700
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/libvulkan.so.1": [
+      2740216,
+      1781347627106800900
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/LICENSE.electron.txt": [
+      1096,
+      1781347626630674200
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/LICENSES.chromium.html": [
+      1999562,
+      1781347626795639600
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/af.pak": [
+      655346,
+      1781347627308029400
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/am.pak": [
+      1037518,
+      1781347627360595400
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/ar.pak": [
+      1139979,
+      1781347627414525600
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/bg.pak": [
+      1177529,
+      1781347627458653700
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/bn.pak": [
+      1502757,
+      1781347627609108000
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/ca.pak": [
+      733575,
+      1781347627491037800
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/cs.pak": [
+      761717,
+      1781347627567271500
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/da.pak": [
+      688573,
+      1781347627797965600
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/de.pak": [
+      735086,
+      1781347627767135000
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/el.pak": [
+      1290428,
+      1781347627699117700
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/en-GB.pak": [
+      601414,
+      1781347627535856500
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/en-US.pak": [
+      607770,
+      1781347627734799100
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/es-419.pak": [
+      724903,
+      1781347627639780000
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/es.pak": [
+      720519,
+      1781347627826728900
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/et.pak": [
+      662197,
+      1781347627898722900
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/fa.pak": [
+      1068012,
+      1781347628003876600
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/fi.pak": [
+      673413,
+      1781347627861433200
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/fil.pak": [
+      759506,
+      1781347628147873800
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/fr.pak": [
+      779744,
+      1781347627933666200
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/gu.pak": [
+      1485017,
+      1781347628195463200
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/he.pak": [
+      940823,
+      1781347627964438500
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/hi.pak": [
+      1570777,
+      1781347628079877400
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/hr.pak": [
+      733826,
+      1781347628112590200
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/hu.pak": [
+      780745,
+      1781347628033403100
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/id.pak": [
+      653439,
+      1781347628226584000
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/it.pak": [
+      710465,
+      1781347628402417900
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/ja.pak": [
+      855221,
+      1781347628304627200
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/kn.pak": [
+      1699656,
+      1781347628272640800
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/ko.pak": [
+      735341,
+      1781347628335092600
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/lt.pak": [
+      793006,
+      1781347628459379200
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/lv.pak": [
+      789487,
+      1781347628429636200
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/ml.pak": [
+      1745992,
+      1781347628375654300
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/mr.pak": [
+      1453907,
+      1781347628610453800
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/ms.pak": [
+      687126,
+      1781347628486121400
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/nb.pak": [
+      657638,
+      1781347628517271200
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/nl.pak": [
+      684655,
+      1781347628546458700
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/linux-unpacked/locales/pl.pak": [
+      760896,
+      1781347628572586500
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/chrome_100_percent.pak": [
+      119889,
+      1781348842654126100
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/chrome_200_percent.pak": [
+      197073,
+      1781348842332728500
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/d3dcompiler_47.dll": [
+      4741488,
+      1781348842489629300
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/dxcompiler.dll": [
+      25723392,
+      1781348843680694800
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/dxil.dll": [
+      1509760,
+      1781348842803233200
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/ffmpeg.dll": [
+      3036160,
+      1781348843157478000
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/icudtl.dat": [
+      10876560,
+      1781348843959369400
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/libEGL.dll": [
+      508928,
+      1781348843572473700
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/libGLESv2.dll": [
+      8112128,
+      1781348843242625900
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/LICENSE.electron.txt": [
+      1096,
+      1781348843256108100
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/LICENSES.chromium.html": [
+      20367095,
+      1781348843242005400
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/ReactBite Desktop.exe": [
+      226869248,
+      1781348931507680200
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/resources.pak": [
+      6876288,
+      1781348843525539400
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/snapshot_blob.bin": [
+      346432,
+      1781348842213863600
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/v8_context_snapshot.bin": [
+      721176,
+      1781348842199966200
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/vk_swiftshader.dll": [
+      5611520,
+      1781348842568862900
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/vk_swiftshader_icd.json": [
+      106,
+      1781348842026688300
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/vulkan-1.dll": [
+      955392,
+      1781348842720112900
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/af.pak": [
+      620482,
+      1781348842587729500
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/am.pak": [
+      1006731,
+      1781348842442565100
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/ar.pak": [
+      1109627,
+      1781348842013992300
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/bg.pak": [
+      1150764,
+      1781348842148941800
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/bn.pak": [
+      1479936,
+      1781348842843909800
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/ca.pak": [
+      699584,
+      1781348842624238400
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/cs.pak": [
+      726069,
+      1781348842624238400
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/da.pak": [
+      652599,
+      1781348842128371500
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/de.pak": [
+      700799,
+      1781348842355260400
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/el.pak": [
+      1265039,
+      1781348842596262800
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/en-GB.pak": [
+      565496,
+      1781348842005940800
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/en-US.pak": [
+      571518,
+      1781348842096435700
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/es-419.pak": [
+      690699,
+      1781348842670334000
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/es.pak": [
+      686799,
+      1781348842030373400
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/et.pak": [
+      627098,
+      1781348842253250500
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/fa.pak": [
+      1038151,
+      1781348842532314800
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/fi.pak": [
+      638637,
+      1781348842700912700
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/fil.pak": [
+      723756,
+      1781348842113819600
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/fr.pak": [
+      746468,
+      1781348842206194800
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/gu.pak": [
+      1462607,
+      1781348842655755700
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/he.pak": [
+      908717,
+      1781348842689114300
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/hi.pak": [
+      1549657,
+      1781348842055232700
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/hr.pak": [
+      698898,
+      1781348842908320100
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/hu.pak": [
+      747469,
+      1781348842023444700
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/id.pak": [
+      618246,
+      1781348843215925300
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/it.pak": [
+      675917,
+      1781348842646785200
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/ja.pak": [
+      824127,
+      1781348842191987900
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/kn.pak": [
+      1681104,
+      1781348842150476500
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/ko.pak": [
+      701212,
+      1781348842076703300
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/lt.pak": [
+      759941,
+      1781348842060373900
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/lv.pak": [
+      757295,
+      1781348842233966700
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/ml.pak": [
+      1728736,
+      1781348842184547900
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/mr.pak": [
+      1431694,
+      1781348843620459500
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/ms.pak": [
+      651309,
+      1781348842634482000
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/nb.pak": [
+      623206,
+      1781348842310340000
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/nl.pak": [
+      649223,
+      1781348842316425200
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/pl.pak": [
+      725422,
+      1781348842547746400
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/pt-BR.pak": [
+      680438,
+      1781348842603935600
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/pt-PT.pak": [
+      684180,
+      1781348842655755700
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/ro.pak": [
+      710046,
+      1781348842068522100
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/ru.pak": [
+      1177833,
+      1781348843250114000
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/sk.pak": [
+      738142,
+      1781348842560027000
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/sl.pak": [
+      706747,
+      1781348842537274800
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/sr.pak": [
+      1088532,
+      1781348842690627100
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/sv.pak": [
+      630691,
+      1781348842282765300
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/sw.pak": [
+      667151,
+      1781348842005132600
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/ta.pak": [
+      1720238,
+      1781348842767129000
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/te.pak": [
+      1591907,
+      1781348842152016400
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/th.pak": [
+      1337523,
+      1781348842735738200
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/tr.pak": [
+      679644,
+      1781348842479789100
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/uk.pak": [
+      1185632,
+      1781348842067399400
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/ur.pak": [
+      1021689,
+      1781348842254530600
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/vi.pak": [
+      808093,
+      1781348843646206000
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/zh-CN.pak": [
+      577794,
+      1781348842282765300
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/locales/zh-TW.pak": [
+      570101,
+      1781348842150476500
+    ],
+    "nueva implementacion/💬reactbite_18-may/release/win-unpacked/resources/app.asar": [
+      124681234,
+      1781348930494850300
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/index.css": [
+      5633,
+      1781347617823019500
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/app/App.tsx": [
+      6209,
+      1781347617854515500
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/app/main.tsx": [
+      1147,
+      1781347617874341200
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/app/hooks/useAppLogic.ts": [
+      12973,
+      1781347617930139700
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/core/audio/SoundProvider.tsx": [
+      1010,
+      1781347617989900000
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/core/theme/ThemeProvider.tsx": [
+      4166,
+      1781347618029188900
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/diagnostics/MiniAppDiagnosticsPanel.tsx": [
+      5233,
+      1781347619015050500
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/layout/AppShell.tsx": [
+      1391,
+      1781347618050900800
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/layout/ErrorBoundary.tsx": [
+      2709,
+      1781347618060952400
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/layout/ModalLayer.tsx": [
+      4333,
+      1781347618101786900
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/layout/SafeComponent.tsx": [
+      1752,
+      1781347618074553600
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/layout/StatusBar.tsx": [
+      3716,
+      1781347618191772300
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/layout/WindowFrame.tsx": [
+      16204,
+      1781347618087669700
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/layout/WorkspaceContextMenu.tsx": [
+      6202,
+      1781347618133387800
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/layout/ZenModeOverlay.tsx": [
+      1308,
+      1781347618217595300
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/modals/AIWizardAssistant.tsx": [
+      5400,
+      1781347618286197900
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/modals/CodeInputModal.tsx": [
+      8110,
+      1781347618309102600
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/modals/HistoryModal.tsx": [
+      2585,
+      1781347618431102900
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/modals/PackagesModal.tsx": [
+      12964,
+      1781347618329685600
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/modals/PreferencesModal.tsx": [
+      7411,
+      1781347618411481800
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/modals/ProjectMetadataModal.tsx": [
+      6361,
+      1781347618349964800
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/modals/QuickOpenModal.tsx": [
+      7119,
+      1781347618391762600
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/modals/TemplateSelectorView.tsx": [
+      10711,
+      1781347618369633000
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/modals/preferences/PreferenceComponents.tsx": [
+      2323,
+      1781347618464956300
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/modals/preferences/tabs/AITab.tsx": [
+      8398,
+      1781347618526418400
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/modals/preferences/tabs/EditorTab.tsx": [
+      5844,
+      1781347618505274700
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/modals/preferences/tabs/ExtensionsTab.tsx": [
+      6723,
+      1781347618546248200
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/modals/preferences/tabs/GeneralTab.tsx": [
+      11121,
+      1781347618626243500
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/modals/preferences/tabs/InterfaceTab.tsx": [
+      6083,
+      1781347618606748200
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/modals/preferences/tabs/KeyboardTab.tsx": [
+      15655,
+      1781347618587362300
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/modals/preferences/tabs/PersonalizationTab.tsx": [
+      7734,
+      1781347618567914300
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/templates/index.tsx": [
+      5259,
+      1781347618664614300
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/templates/types.ts": [
+      431,
+      1781347618701021800
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/templates/included/EisenhowerTemplate.tsx": [
+      697,
+      1781347618735650600
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/templates/included/KanbanTemplate.tsx": [
+      689,
+      1781347618754791200
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/templates/system/AiWizardTemplate.tsx": [
+      537,
+      1781347618811793000
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/templates/system/HtmlCssTemplate.tsx": [
+      1065,
+      1781347618791170300
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/templates/system/MarkdownTemplate.tsx": [
+      684,
+      1781347618830184700
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/templates/system/MermaidTemplate.tsx": [
+      560,
+      1781347618851054600
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/templates/system/ReactBaseTemplate.tsx": [
+      1022,
+      1781347618869424100
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/templates/system/TextDocTemplate.tsx": [
+      676,
+      1781347618890074200
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/terminal/TerminalPanel.tsx": [
+      9550,
+      1781347618923602800
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/ui/Icons.tsx": [
+      24664,
+      1781347618988741900
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/ui/Menu.tsx": [
+      13528,
+      1781347618944981600
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/ui/SearchWidget.tsx": [
+      11289,
+      1781347618971647200
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/components/ui/Toast.tsx": [
+      2017,
+      1781347618961588200
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/config/aiPrompts.ts": [
+      1446,
+      1781347619060082900
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/config/marketplacePackages.tsx": [
+      1449,
+      1781347619038737500
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/constants/index.ts": [
+      1553,
+      1781347620347302700
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/ai/AIChatPanel.tsx": [
+      13862,
+      1781347619091010600
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/ai/components/AIChatInput.tsx": [
+      4358,
+      1781347619114638400
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/ai/components/AIChatMessages.tsx": [
+      4060,
+      1781347619126679700
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/ai/components/AIChatToolbar.tsx": [
+      5792,
+      1781347619155872900
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/ai/components/CodeBlock.tsx": [
+      2825,
+      1781347619142195800
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/auth/LoginModal.tsx": [
+      7301,
+      1781347619355182000
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/dashboard/CreateProjectHeader.tsx": [
+      3753,
+      1781347619178671100
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/dashboard/DashboardSidebar.tsx": [
+      20125,
+      1781347619196813900
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/dashboard/DashboardView.tsx": [
+      24347,
+      1781347619252333300
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/dashboard/ProjectCard.tsx": [
+      4266,
+      1781347619215554000
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/dashboard/RecentProjectCard.tsx": [
+      24946,
+      1781347619232167600
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/dashboard/useDashboardLogic.ts": [
+      3461,
+      1781347619317394600
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/dashboard/VirtualizedProjectGrid.tsx": [
+      2068,
+      1781347619273063000
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/miniapp/library/index.ts": [
+      191,
+      1781347619982447600
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/miniapp/library/MiniAppCard.tsx": [
+      5854,
+      1781347619946259300
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/miniapp/library/miniAppLibraryAdapters.ts": [
+      3718,
+      1781347619964357400
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/miniapp/library/MiniAppLibraryFilters.tsx": [
+      1893,
+      1781347619915582700
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/miniapp/library/miniAppLibraryTypes.ts": [
+      527,
+      1781347619936663800
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/miniapp/library/MiniAppLibraryView.tsx": [
+      3630,
+      1781347619902525300
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/miniapp/library/preloadedMiniApps.ts": [
+      39,
+      1781347620003272000
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/miniapp/templates/index.ts": [
+      128,
+      1781347620077668700
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/miniapp/templates/miniAppTemplateAdapters.ts": [
+      611,
+      1781347620095951100
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/miniapp/templates/miniAppTemplateTypes.ts": [
+      569,
+      1781347620031898500
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/miniapp/templates/preloadedMiniAppTemplates.ts": [
+      22455,
+      1781347620054996700
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/miniapp/windowManager/index.ts": [
+      147,
+      1781347620210054100
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/miniapp/windowManager/MiniAppDock.tsx": [
+      2548,
+      1781347620168781800
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/miniapp/windowManager/MiniAppWindowFrame.tsx": [
+      5786,
+      1781347620116064200
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/miniapp/windowManager/MiniAppWindowManager.tsx": [
+      6668,
+      1781347620129436700
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/miniapp/windowManager/miniAppWindowTypes.ts": [
+      366,
+      1781347620151603200
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/recovery/ProjectHistoryPanel.tsx": [
+      7072,
+      1781347620250024600
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/security/MiniAppSecurityPanel.tsx": [
+      4581,
+      1781347620290885700
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/templates/BaseTemplateCard.tsx": [
+      7615,
+      1781347619436337400
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/templates/MiniAppTemplateGrid.tsx": [
+      4100,
+      1781347619457373900
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/templates/templateConfig.tsx": [
+      129,
+      1781347619393015400
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/templates/TemplateGrid.tsx": [
+      1747,
+      1781347619414426800
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/workspace/Editor.tsx": [
+      13436,
+      1781347619488808000
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/workspace/EditorTabs.tsx": [
+      2524,
+      1781347619549736000
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/workspace/ExplorerSidebar.tsx": [
+      1871,
+      1781347619630736900
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/workspace/MermaidVisualEditor.tsx": [
+      9868,
+      1781347619510025800
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/workspace/MonacoEditorAdapter.tsx": [
+      12826,
+      1781347619530901200
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/workspace/PremiumNode.tsx": [
+      3137,
+      1781347619570844900
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/workspace/Preview.tsx": [
+      15367,
+      1781347619650270600
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/workspace/TopRibbon.tsx": [
+      5510,
+      1781347619587434500
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/workspace/WorkspaceView.tsx": [
+      8673,
+      1781347619607496900
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/workspace/components/AIChatPanelContainer.tsx": [
+      1967,
+      1781347619684745600
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/workspace/components/BasicAiOverlay.tsx": [
+      2151,
+      1781347619702911600
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/workspace/components/DependenciesPanel.tsx": [
+      7135,
+      1781347619718743900
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/workspace/components/EditorPanel.tsx": [
+      3298,
+      1781347619739155200
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/workspace/components/FileTree.tsx": [
+      3851,
+      1781347619760274800
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/workspace/components/MonacoAIOrchestrator.tsx": [
+      4069,
+      1781347619839654400
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/workspace/components/PreviewPanel.tsx": [
+      7668,
+      1781347619797388400
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/workspace/components/SidebarPanel.tsx": [
+      1984,
+      1781347619779227800
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/workspace/components/SplitterHandle.tsx": [
+      1236,
+      1781347619827526400
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/workspace/components/TerminalPanelContainer.tsx": [
+      1905,
+      1781347619816487400
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/features/workspace/hooks/useWorkspaceEvents.ts": [
+      3883,
+      1781347619871341500
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/hooks/useAppMenus.tsx": [
+      11017,
+      1781347620383750600
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/hooks/useAppShortcuts.ts": [
+      2484,
+      1781347620427131100
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/hooks/useConsoleListener.ts": [
+      708,
+      1781347620472105500
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/hooks/useDebounce.ts": [
+      704,
+      1781347620719699700
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/hooks/useDesktopRckByteOpen.ts": [
+      2193,
+      1781347620757287100
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/hooks/useMobile.ts": [
+      424,
+      1781347620557507500
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/hooks/useProjects.ts": [
+      22727,
+      1781347620517517000
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/hooks/useScaffolding.ts": [
+      6433,
+      1781347620601724700
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/hooks/useScrollActivity.ts": [
+      727,
+      1781347620680773300
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/hooks/useSplitter.ts": [
+      1647,
+      1781347620639000900
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/plugins/AIArchitectPlugin.ts": [
+      1002,
+      1781347622821501800
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/dependencyService.ts": [
+      2392,
+      1781347620902662300
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/geminiService.ts": [
+      8891,
+      1781347620828809300
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/pnpmService.ts": [
+      1599,
+      1781347620879968800
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/StorageManager.ts": [
+      8647,
+      1781347620798055400
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/supabaseClient.ts": [
+      2155,
+      1781347620854017100
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/SystemMonitor.ts": [
+      2146,
+      1781347620927076200
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/typeService.ts": [
+      2334,
+      1781347620965292500
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/ai/index.ts": [
+      115,
+      1781347621340433600
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/ai/miniAppAgentIntent.ts": [
+      1512,
+      1781347621379344400
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/ai/miniAppAgentPrompts.ts": [
+      2095,
+      1781347621235939200
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/ai/miniAppAgentTypes.ts": [
+      762,
+      1781347621259450400
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/ai/MiniAppBuilderAgent.ts": [
+      6227,
+      1781347621300027200
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/ai/MiniAppSelfHealingService.ts": [
+      5048,
+      1781347621417870600
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/dependencies/MiniAppDependencyResolver.ts": [
+      11143,
+      1781347621617359600
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/diagnostics/miniAppDiagnosticsTypes.ts": [
+      1082,
+      1781347621520673800
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/diagnostics/MiniAppPreflightService.ts": [
+      6295,
+      1781347621561289500
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/miniapp/MiniAppCodeIntakeService.ts": [
+      9764,
+      1781347621472316800
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/preview/PreviewSandboxManager.ts": [
+      1177,
+      1781347621019824800
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/preview/previewTypes.ts": [
+      278,
+      1781347620995924700
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/rckbyte/index.ts": [
+      222,
+      1781347621168574400
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/rckbyte/rckbyteExporters.ts": [
+      3303,
+      1781347621104264500
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/rckbyte/rckbyteImporters.ts": [
+      5707,
+      1781347621066294700
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/rckbyte/rckbyteManifest.ts": [
+      4977,
+      1781347621047654200
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/rckbyte/RckBytePackageManager.ts": [
+      2268,
+      1781347621125594000
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/rckbyte/rckbyteProjectAdapters.ts": [
+      6201,
+      1781347621146398000
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/rckbyte/rckbyteTypes.ts": [
+      4338,
+      1781347621085876500
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/rckbyte/importers/GoogleAIStudioZipAdapter.ts": [
+      7519,
+      1781347621195039700
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/recovery/index.ts": [
+      115,
+      1781347621874828600
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/recovery/ProjectBackupService.ts": [
+      2338,
+      1781347621981636900
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/recovery/ProjectSnapshotService.ts": [
+      2994,
+      1781347621832876500
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/recovery/recoveryTypes.ts": [
+      1131,
+      1781347621934126900
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/security/index.ts": [
+      87,
+      1781347621726557500
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/security/MiniAppPermissionAnalyzer.ts": [
+      8229,
+      1781347621774554200
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/services/security/miniAppPermissionTypes.ts": [
+      848,
+      1781347621684080900
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/store/uiStore.ts": [
+      2082,
+      1781347622059386700
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/store/slices/pluginSlice.ts": [
+      1976,
+      1781347622105769500
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/store/slices/settingsSlice.ts": [
+      9932,
+      1781347622177843800
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/store/slices/systemSlice.ts": [
+      7161,
+      1781347622205554300
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/store/slices/workspaceSlice.ts": [
+      1345,
+      1781347622138643600
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/styles/componentStyles.ts": [
+      12079,
+      1781347622241901800
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/theme/index.ts": [
+      100,
+      1781347622926953300
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/theme/themeCssVariables.ts": [
+      2654,
+      1781347622964447900
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/theme/themeRegistry.ts": [
+      7848,
+      1781347623006101800
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/theme/themeTypes.ts": [
+      1104,
+      1781347622887325500
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/theme/materials/materialTypes.ts": [
+      714,
+      1781347623101831200
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/theme/materials/neumorphicMaterials.ts": [
+      895,
+      1781347623063133300
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/types/editor.ts": [
+      261,
+      1781347622614470700
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/types/fs.ts": [
+      422,
+      1781347622660894600
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/types/index.ts": [
+      7507,
+      1781347622703122500
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/utils/compiler.ts": [
+      1121,
+      1781347622450689500
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/utils/DesktopBridge.ts": [
+      3157,
+      1781347622274041300
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/utils/exportUtils.ts": [
+      1457,
+      1781347622369908100
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/utils/hardwareDetector.ts": [
+      1697,
+      1781347622320000800
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/utils/helpers.ts": [
+      785,
+      1781347622297197800
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/utils/mermaidParser.ts": [
+      3989,
+      1781347622342988800
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/utils/previewInjector.ts": [
+      9238,
+      1781347622388648500
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/utils/RuntimeManager.ts": [
+      5260,
+      1781347622491180500
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/utils/shortcutManager.ts": [
+      2564,
+      1781347622429375400
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/utils/soundManager.ts": [
+      5425,
+      1781347622410300900
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/utils/vfs.ts": [
+      6051,
+      1781347622540794300
+    ],
+    "nueva implementacion/💬reactbite_18-may/src/workers/babel.worker.ts": [
+      457,
+      1781347622763304000
+    ],
+    "nueva implementacion/💬reactbite_18-may/tmp/replace_colors.ts": [
+      1945,
+      1781347626021543800
+    ],
+    "nueva implementacion/💬reactbite_18-may/tmp/search.js": [
+      622,
+      1781347625975359100
+    ],
+    "ractbite apps incluidas/Markbite/.env.local": [
+      35,
+      1770279532000000000
+    ],
+    "ractbite apps incluidas/Markbite/.gitignore": [
+      253,
+      1770279532000000000
+    ],
+    "ractbite apps incluidas/Markbite/App.tsx": [
+      11300,
+      1770279532000000000
+    ],
+    "ractbite apps incluidas/Markbite/constants.ts": [
+      1384,
+      1770279532000000000
+    ],
+    "ractbite apps incluidas/Markbite/index.html": [
+      3901,
+      1770279532000000000
+    ],
+    "ractbite apps incluidas/Markbite/index.tsx": [
+      349,
+      1770279532000000000
+    ],
+    "ractbite apps incluidas/Markbite/metadata.json": [
+      274,
+      1770279532000000000
+    ],
+    "ractbite apps incluidas/Markbite/package.json": [
+      608,
+      1770279532000000000
+    ],
+    "ractbite apps incluidas/Markbite/README.md": [
+      553,
+      1770279532000000000
+    ],
+    "ractbite apps incluidas/Markbite/tsconfig.json": [
+      542,
+      1770279532000000000
+    ],
+    "ractbite apps incluidas/Markbite/types.ts": [
+      180,
+      1770279532000000000
+    ],
+    "ractbite apps incluidas/Markbite/vite.config.ts": [
+      580,
+      1770279532000000000
+    ],
+    "ractbite apps incluidas/Markbite/components/Editor.tsx": [
+      1623,
+      1770279532000000000
+    ],
+    "ractbite apps incluidas/Markbite/components/FileUploader.tsx": [
+      1572,
+      1770279532000000000
+    ],
+    "ractbite apps incluidas/Markbite/components/MarkdownPreview.tsx": [
+      5671,
+      1770279532000000000
+    ],
+    "ractbite apps incluidas/Markbite/components/MermaidDiagram.tsx": [
+      1989,
+      1770279532000000000
+    ],
+    "ractbite apps incluidas/Markbite/components/VoiceControl.tsx": [
+      2940,
+      1770279532000000000
+    ],
+    "ractbite apps incluidas/Markbite/hooks/useGeminiLive.ts": [
+      7595,
+      1770279532000000000
+    ],
+    "ractbite apps incluidas/Markbite/hooks/useGeminiTTS.ts": [
+      3121,
+      1770279532000000000
+    ],
+    "ractbite apps incluidas/Markbite/utils/audio-utils.ts": [
+      1671,
+      1770279532000000000
+    ],
+    "ractbite apps incluidas/mermaid files/formatos para incluir.txt": [
+      3036,
+      1773479564366000000
+    ],
+    "reactbite/services/geminiService.ts": [
+      3897,
+      1769369280000000000
+    ],
+    "reactbite/services/supabaseClient.ts": [
+      1293,
+      1769369280000000000
+    ],
+    "reactbite/store/uiStore.ts": [
+      5297,
+      1769369280000000000
+    ],
+    "reactbite/styles/componentStyles.ts": [
+      8511,
+      1769790249000000000
+    ],
+    "reactbite/utils/helpers.ts": [
+      785,
+      1769369280000000000
+    ],
+    "reactbite/utils/previewInjector.ts": [
+      8933,
+      1769369280000000000
+    ],
+    "reactbite/utils/soundManager.ts": [
+      4439,
+      1769369280000000000
+    ],
+    "reactbite-fusion/.env.example": [
+      138,
+      1781408782134954100
+    ],
+    "reactbite-fusion/.git": [
+      76,
+      1781478343394798200
+    ],
+    "reactbite-fusion/.gitignore": [
+      445,
+      1781426805814204500
+    ],
+    "reactbite-fusion/AGENTS.md": [
+      1340,
+      1781369991287830500
+    ],
+    "reactbite-fusion/ARCHITECTURE.md": [
+      7465,
+      1781646497821203500
+    ],
+    "reactbite-fusion/ARCHITECTURE_MIGRATION_REPORT.md": [
+      4690,
+      1781369991298720000
+    ],
+    "reactbite-fusion/BUILD_ISOLATION_CHAIN_PLAN_2026-06-16.md": [
+      7044,
+      1781687969965019100
+    ],
+    "reactbite-fusion/CODEX_GUARDRAILS.md": [
+      6561,
+      1781646507867402900
+    ],
+    "reactbite-fusion/DECISIONS.md": [
+      12513,
+      1781687969965019100
+    ],
+    "reactbite-fusion/DESIGN.md": [
+      5562,
+      1781503421628193800
+    ],
+    "reactbite-fusion/DOCUMENTATION_INDEX.md": [
+      1475,
+      1781646497818940400
+    ],
+    "reactbite-fusion/eslint.config.js": [
+      954,
+      1781375539028292000
+    ],
+    "reactbite-fusion/IMPLEMENTATION_STATUS.md": [
+      6311,
+      1781687969963982400
+    ],
+    "reactbite-fusion/index.html": [
+      509,
+      1781369163718983500
+    ],
+    "reactbite-fusion/metadata.json": [
+      259,
+      1781347617428949900
+    ],
+    "reactbite-fusion/NATIVE_QA.md": [
+      20997,
+      1781687969966037500
+    ],
+    "reactbite-fusion/package-lock.json": [
+      206011,
+      1781590048367281400
+    ],
+    "reactbite-fusion/package.json": [
+      4710,
+      1781687969962482700
+    ],
+    "reactbite-fusion/postcss.config.js": [
+      80,
+      1781347617754128900
+    ],
+    "reactbite-fusion/REACTBITE_REPAIR_IMPLEMENTATION_PLAN_2026-06-14.md": [
+      19864,
+      1781687969966793800
+    ],
+    "reactbite-fusion/README.md": [
+      3957,
+      1781590136333186500
+    ],
+    "reactbite-fusion/STACK_ARCHITECTURE_EVALUATION_2026.md": [
+      19629,
+      1781391962050144400
+    ],
+    "reactbite-fusion/tailwind.config.js": [
+      1622,
+      1781347625944611300
+    ],
+    "reactbite-fusion/TECH_STACK.md": [
+      10032,
+      1781687969963231800
+    ],
+    "reactbite-fusion/tsconfig.json": [
+      821,
+      1781374819018598800
+    ],
+    "reactbite-fusion/vite.config.ts": [
+      876,
+      1781368330377815100
+    ],
+    "reactbite-fusion/docs/DEVELOPMENT_OVERVIEW.md": [
+      12725,
+      1781483476471761600
+    ],
+    "reactbite-fusion/docs/history/ANALISIS_ARQUITECTURA.md": [
+      6367,
+      1781347617679964100
+    ],
+    "reactbite-fusion/docs/history/ARCHITECTURE_MIGRATION_REPORT.md": [
+      4391,
+      1781347617660154100
+    ],
+    "reactbite-fusion/docs/history/AUDIT.md": [
+      8383,
+      1781347617616536500
+    ],
+    "reactbite-fusion/docs/history/design.md": [
+      8029,
+      1781347617563049100
+    ],
+    "reactbite-fusion/docs/history/FASE10_RCKBYTE_UI_FLOW.md": [
+      5621,
+      1781347626192889200
+    ],
+    "reactbite-fusion/docs/history/FASE11_RCKBYTE_VIRTUAL_MOUNT.md": [
+      4890,
+      1781347626173325700
+    ],
+    "reactbite-fusion/docs/history/FASE12_MINIAPP_WINDOW_RUNTIME.md": [
+      3543,
+      1781347626229077900
+    ],
+    "reactbite-fusion/docs/history/FASE13_AI_MINIAPP_BUILDER_AGENT.md": [
+      3576,
+      1781347626248777800
+    ],
+    "reactbite-fusion/docs/history/FASE14_AI_AGENT_E2E_HARDENING.md": [
+      4440,
+      1781347626210505000
+    ],
+    "reactbite-fusion/docs/history/FASE15_MINIAPP_LIBRARY_LAUNCHER.md": [
+      5909,
+      1781347626266128200
+    ],
+    "reactbite-fusion/docs/history/FASE16_PASTE_TO_MINIAPP_FLOW.md": [
+      6876,
+      1781347626284814100
+    ],
+    "reactbite-fusion/docs/history/FASE17_DEPENDENCY_AUTO_RESOLVER.md": [
+      8004,
+      1781347626305485500
+    ],
+    "reactbite-fusion/docs/history/FASE18_PREVIEW_PREFLIGHT_DIAGNOSTICS.md": [
+      7096,
+      1781347626327168200
+    ],
+    "reactbite-fusion/docs/history/FASE19_AI_SELF_HEALING_FIX_PIPELINE.md": [
+      7771,
+      1781347626347536800
+    ],
+    "reactbite-fusion/docs/history/FASE20_GOOGLE_AI_STUDIO_ZIP_COMPATIBILITY.md": [
+      9150,
+      1781347626369035900
+    ],
+    "reactbite-fusion/docs/history/FASE21_MINI_APPS_TEMPLATE_STORE.md": [
+      3128,
+      1781347626388976000
+    ],
+    "reactbite-fusion/docs/history/FASE22_MULTI_WINDOW_MINIAPP_RUNTIME.md": [
+      4253,
+      1781347626406579500
+    ],
+    "reactbite-fusion/docs/history/FASE23_PROFESSIONAL_RCKBYTE_PACKAGING.md": [
+      2830,
+      1781347626505150300
+    ],
+    "reactbite-fusion/docs/history/FASE24_DESKTOP_SHELL_WINDOWS.md": [
+      4325,
+      1781347626419750100
+    ],
+    "reactbite-fusion/docs/history/FASE25_OPEN_RCKBYTE_FROM_WINDOWS.md": [
+      6729,
+      1781347626526291600
+    ],
+    "reactbite-fusion/docs/history/FASE26_GOOGLE_AI_STUDIO_PRODUCT_POLISH_QA.md": [
+      6696,
+      1781347626546476900
+    ],
+    "reactbite-fusion/docs/history/FASE27_DESKTOP_BUILD_HARDENING_WINDOWS_INSTALLER_QA.md": [
+      6757,
+      1781347628637260500
+    ],
+    "reactbite-fusion/docs/history/FASE28_DESKTOP_RUNTIME_PERMISSIONS_SECURITY_CENTER.md": [
+      11173,
+      1781347628672658900
+    ],
+    "reactbite-fusion/docs/history/FASE30_RELEASE_CANDIDATE_CONFIGURATION_AUDIT.md": [
+      4338,
+      1781347628689080300
+    ],
+    "reactbite-fusion/docs/history/FASE6_COMPLETA.md": [
+      8180,
+      1781347617512265500
+    ],
+    "reactbite-fusion/docs/history/FASE8_COMPLETA.md": [
+      5749,
+      1781347626135217300
+    ],
+    "reactbite-fusion/docs/history/FASE9_RCKBYTE_CORE.md": [
+      4178,
+      1781347626155618400
+    ],
+    "reactbite-fusion/docs/history/PATCH_RC1_AESTHETICS.md": [
+      3567,
+      1781347628888990800
+    ],
+    "reactbite-fusion/docs/history/PATCH_RC1_AESTHETICS_REPAIR.md": [
+      3959,
+      1781347628911310600
+    ],
+    "reactbite-fusion/docs/history/PATCH_RC1_DASHBOARD_SECTIONS.md": [
+      2078,
+      1781347628847156200
+    ],
+    "reactbite-fusion/docs/history/PATCH_RC1_GLOBAL_COLORIMETRY_IDENTITY.md": [
+      3793,
+      1781347628726861100
+    ],
+    "reactbite-fusion/docs/history/PATCH_RC1_LIGHTBULB_THEME.md": [
+      2467,
+      1781347628713278700
+    ],
+    "reactbite-fusion/docs/history/PATCH_RC1_LIGHT_THEMES_SATURATION.md": [
+      1751,
+      1781347628867248400
+    ],
+    "reactbite-fusion/docs/history/PATCH_RC1_LIGHT_THEME_HARDCODED_COLORS.md": [
+      3113,
+      1781347628795235200
+    ],
+    "reactbite-fusion/docs/history/PATCH_RC1_MAX_TACTILE_NEUMORPHISM.md": [
+      1960,
+      1781347629012179200
+    ],
+    "reactbite-fusion/docs/history/PATCH_RC1_NEUMORPHIC_MATERIAL_SYSTEM.md": [
+      3274,
+      1781347628990996800
+    ],
+    "reactbite-fusion/docs/history/PATCH_RC1_NEUMORPHIC_THEME_CONSISTENCY.md": [
+      3204,
+      1781347628741009900
+    ],
+    "reactbite-fusion/docs/history/PATCH_RC1_OMNIPRESENT_NEUMORPHISM.md": [
+      2106,
+      1781347628976219200
+    ],
+    "reactbite-fusion/docs/history/PATCH_RC1_THEME_ENGINE_ARCHITECTURE.md": [
+      6307,
+      1781347628755753100
+    ],
+    "reactbite-fusion/docs/history/PATCH_RC1_THEME_ICONS_RESTORED.md": [
+      2112,
+      1781347628816331800
+    ],
+    "reactbite-fusion/docs/history/PATCH_RC1_THEME_RESTORATION.md": [
+      2634,
+      1781347628779079000
+    ],
+    "reactbite-fusion/docs/history/PATCH_RC1_UNIFIED_NEUMORPHISM.md": [
+      2332,
+      1781347628949036200
+    ],
+    "reactbite-fusion/docs/history/PREFERENCES_REPAIR.md": [
+      1804,
+      1781347617493054700
+    ],
+    "reactbite-fusion/docs/history/QA_WINDOWS_RELEASE_CANDIDATE_RC1.md": [
+      5291,
+      1781347628699678400
+    ],
+    "reactbite-fusion/docs/history/README.md": [
+      542,
+      1781347629028764100
+    ],
+    "reactbite-fusion/public/noise.svg": [
+      438,
+      1781377463096780900
+    ],
+    "reactbite-fusion/scripts/build-qa-release.ps1": [
+      2480,
+      1781586969221126800
+    ],
+    "reactbite-fusion/scripts/build-signed-release.ps1": [
+      3614,
+      1781588573721208900
+    ],
+    "reactbite-fusion/scripts/new-qa-signing-key.ps1": [
+      2189,
+      1781427508920813800
+    ],
+    "reactbite-fusion/scripts/new-update-channel-manifest.ps1": [
+      1676,
+      1781431398579973800
+    ],
+    "reactbite-fusion/scripts/prepare-ai-runtime.ps1": [
+      3568,
+      1781375705080882500
+    ],
+    "reactbite-fusion/scripts/prepare-runtime.ps1": [
+      3970,
+      1781374819017593900
+    ],
+    "reactbite-fusion/scripts/run-updater-installed-qa.ps1": [
+      19002,
+      1781589933214110100
+    ],
+    "reactbite-fusion/scripts/smoke-local-ai.ps1": [
+      8730,
+      1781430726262121600
+    ],
+    "reactbite-fusion/scripts/smoke-native-runtime.ps1": [
+      2866,
+      1781376752338998200
+    ],
+    "reactbite-fusion/scripts/verify-ai-runtime.ps1": [
+      1164,
+      1781375705081891700
+    ],
+    "reactbite-fusion/scripts/verify-runtime.ps1": [
+      1778,
+      1781374716295858100
+    ],
+    "reactbite-fusion/scripts/verify-update-signature.ps1": [
+      1862,
+      1781426496557475400
+    ],
+    "reactbite-fusion/services/platform-api/.env.example": [
+      353,
+      1781419908999200400
+    ],
+    "reactbite-fusion/services/platform-api/Cargo.toml": [
+      874,
+      1781419895838724800
+    ],
+    "reactbite-fusion/services/platform-api/docker-compose.yml": [
+      1287,
+      1781419917702210300
+    ],
+    "reactbite-fusion/services/platform-api/Dockerfile": [
+      373,
+      1781408343540123500
+    ],
+    "reactbite-fusion/services/platform-api/migrations/0001_platform.sql": [
+      2896,
+      1781408343538125600
+    ],
+    "reactbite-fusion/services/platform-api/src/auth.rs": [
+      4008,
+      1781426812660976300
+    ],
+    "reactbite-fusion/services/platform-api/src/config.rs": [
+      2167,
+      1781426812661975600
+    ],
+    "reactbite-fusion/services/platform-api/src/main.rs": [
+      1496,
+      1781419891831591100
+    ],
+    "reactbite-fusion/services/platform-api/src/routes.rs": [
+      16579,
+      1781426812670611500
+    ],
+    "reactbite-fusion/services/platform-api/src/scanner.rs": [
+      16833,
+      1781427001002098400
+    ],
+    "reactbite-fusion/services/platform-api/src/storage.rs": [
+      1139,
+      1781426812680287400
+    ],
+    "reactbite-fusion/src/index.css": [
+      8171,
+      1781448665689236900
+    ],
+    "reactbite-fusion/src/app/App.tsx": [
+      7764,
+      1781586977143754400
+    ],
+    "reactbite-fusion/src/app/main.tsx": [
+      888,
+      1781368330379339700
+    ],
+    "reactbite-fusion/src/app/hooks/useAppLogic.ts": [
+      13009,
+      1781430769483124400
+    ],
+    "reactbite-fusion/src/components/core/audio/SoundProvider.tsx": [
+      1010,
+      1781347617989900000
+    ],
+    "reactbite-fusion/src/components/core/theme/ThemeProvider.tsx": [
+      4166,
+      1781377463092785500
+    ],
+    "reactbite-fusion/src/components/diagnostics/MiniAppDiagnosticsPanel.tsx": [
+      5233,
+      1781347619015050500
+    ],
+    "reactbite-fusion/src/components/layout/AppShell.tsx": [
+      1669,
+      1781429988067631500
+    ],
+    "reactbite-fusion/src/components/layout/ErrorBoundary.tsx": [
+      2709,
+      1781347618060952400
+    ],
+    "reactbite-fusion/src/components/layout/ModalLayer.tsx": [
+      4569,
+      1781426805809205900
+    ],
+    "reactbite-fusion/src/components/layout/SafeComponent.tsx": [
+      1752,
+      1781347618074553600
+    ],
+    "reactbite-fusion/src/components/layout/StatusBar.tsx": [
+      5609,
+      1781409032993515500
+    ],
+    "reactbite-fusion/src/components/layout/WindowFrame.tsx": [
+      16434,
+      1781449898984440300
+    ],
+    "reactbite-fusion/src/components/layout/WorkspaceContextMenu.tsx": [
+      6202,
+      1781347618133387800
+    ],
+    "reactbite-fusion/src/components/layout/ZenModeOverlay.tsx": [
+      1308,
+      1781347618217595300
+    ],
+    "reactbite-fusion/src/components/modals/AIWizardAssistant.tsx": [
+      5400,
+      1781347618286197900
+    ],
+    "reactbite-fusion/src/components/modals/CodeInputModal.tsx": [
+      8203,
+      1781368940279085000
+    ],
+    "reactbite-fusion/src/components/modals/HistoryModal.tsx": [
+      2585,
+      1781347618431102900
+    ],
+    "reactbite-fusion/src/components/modals/PackagesModal.tsx": [
+      13349,
+      1781409032998041300
+    ],
+    "reactbite-fusion/src/components/modals/PreferencesModal.tsx": [
+      7965,
+      1781426805812206600
+    ],
+    "reactbite-fusion/src/components/modals/ProjectMetadataModal.tsx": [
+      6361,
+      1781347618349964800
+    ],
+    "reactbite-fusion/src/components/modals/QuickOpenModal.tsx": [
+      7119,
+      1781347618391762600
+    ],
+    "reactbite-fusion/src/components/modals/TemplateSelectorView.tsx": [
+      10711,
+      1781347618369633000
+    ],
+    "reactbite-fusion/src/components/modals/preferences/PreferenceComponents.tsx": [
+      2323,
+      1781347618464956300
+    ],
+    "reactbite-fusion/src/components/modals/preferences/tabs/AITab.tsx": [
+      15312,
+      1781503201168220500
+    ],
+    "reactbite-fusion/src/components/modals/preferences/tabs/EditorTab.tsx": [
+      5844,
+      1781347618505274700
+    ],
+    "reactbite-fusion/src/components/modals/preferences/tabs/ExtensionsTab.tsx": [
+      4525,
+      1781376293876336400
+    ],
+    "reactbite-fusion/src/components/modals/preferences/tabs/GeneralTab.tsx": [
+      15081,
+      1781428924432073600
+    ],
+    "reactbite-fusion/src/components/modals/preferences/tabs/InterfaceTab.tsx": [
+      6083,
+      1781347618606748200
+    ],
+    "reactbite-fusion/src/components/modals/preferences/tabs/KeyboardTab.tsx": [
+      15655,
+      1781347618587362300
+    ],
+    "reactbite-fusion/src/components/modals/preferences/tabs/PersonalizationTab.tsx": [
+      7730,
+      1781376535054695700
+    ],
+    "reactbite-fusion/src/components/templates/index.tsx": [
+      5259,
+      1781347618664614300
+    ],
+    "reactbite-fusion/src/components/templates/types.ts": [
+      431,
+      1781347618701021800
+    ],
+    "reactbite-fusion/src/components/templates/included/EisenhowerTemplate.tsx": [
+      697,
+      1781347618735650600
+    ],
+    "reactbite-fusion/src/components/templates/included/KanbanTemplate.tsx": [
+      689,
+      1781347618754791200
+    ],
+    "reactbite-fusion/src/components/templates/system/AiWizardTemplate.tsx": [
+      537,
+      1781347618811793000
+    ],
+    "reactbite-fusion/src/components/templates/system/HtmlCssTemplate.tsx": [
+      1299,
+      1781376535052790800
+    ],
+    "reactbite-fusion/src/components/templates/system/MarkdownTemplate.tsx": [
+      684,
+      1781347618830184700
+    ],
+    "reactbite-fusion/src/components/templates/system/MermaidTemplate.tsx": [
+      560,
+      1781347618851054600
+    ],
+    "reactbite-fusion/src/components/templates/system/ReactBaseTemplate.tsx": [
+      1022,
+      1781347618869424100
+    ],
+    "reactbite-fusion/src/components/templates/system/TextDocTemplate.tsx": [
+      676,
+      1781347618890074200
+    ],
+    "reactbite-fusion/src/components/terminal/TerminalPanel.tsx": [
+      10044,
+      1781369699189156700
+    ],
+    "reactbite-fusion/src/components/ui/Icons.tsx": [
+      27730,
+      1781368915831753600
+    ],
+    "reactbite-fusion/src/components/ui/Menu.tsx": [
+      13528,
+      1781347618944981600
+    ],
+    "reactbite-fusion/src/components/ui/SearchWidget.tsx": [
+      11289,
+      1781347618971647200
+    ],
+    "reactbite-fusion/src/components/ui/Toast.tsx": [
+      2017,
+      1781347618961588200
+    ],
+    "reactbite-fusion/src/config/aiPrompts.ts": [
+      1446,
+      1781347619060082900
+    ],
+    "reactbite-fusion/src/config/recommendedDependencies.tsx": [
+      1462,
+      1781408519520049900
+    ],
+    "reactbite-fusion/src/constants/index.ts": [
+      2358,
+      1781376535051727900
+    ],
+    "reactbite-fusion/src/features/ai/AIChatPanel.tsx": [
+      11710,
+      1781407887531571100
+    ],
+    "reactbite-fusion/src/features/ai/components/AIChatInput.tsx": [
+      1660,
+      1781369096957873700
+    ],
+    "reactbite-fusion/src/features/ai/components/AIChatMessages.tsx": [
+      4060,
+      1781347619126679700
+    ],
+    "reactbite-fusion/src/features/ai/components/AIChatToolbar.tsx": [
+      3737,
+      1781422380900276400
+    ],
+    "reactbite-fusion/src/features/ai/components/CodeBlock.tsx": [
+      2825,
+      1781347619142195800
+    ],
+    "reactbite-fusion/src/features/dashboard/CreateProjectHeader.tsx": [
+      3753,
+      1781347619178671100
+    ],
+    "reactbite-fusion/src/features/dashboard/DashboardCollectionToolbar.test.tsx": [
+      1407,
+      1781448939517552400
+    ],
+    "reactbite-fusion/src/features/dashboard/DashboardCollectionToolbar.tsx": [
+      3671,
+      1781448778815774400
+    ],
+    "reactbite-fusion/src/features/dashboard/DashboardSidebar.test.tsx": [
+      2644,
+      1781450142224292400
+    ],
+    "reactbite-fusion/src/features/dashboard/DashboardSidebar.tsx": [
+      8640,
+      1781448857513992700
+    ],
+    "reactbite-fusion/src/features/dashboard/DashboardView.tsx": [
+      12335,
+      1781448857515014600
+    ],
+    "reactbite-fusion/src/features/dashboard/ProjectCard.tsx": [
+      1972,
+      1781368820338208700
+    ],
+    "reactbite-fusion/src/features/dashboard/RecentProjectCard.tsx": [
+      24326,
+      1781448857517990600
+    ],
+    "reactbite-fusion/src/features/dashboard/useDashboardLogic.ts": [
+      3461,
+      1781347619317394600
+    ],
+    "reactbite-fusion/src/features/dashboard/VirtualizedProjectGrid.tsx": [
+      2088,
+      1781368940286079200
+    ],
+    "reactbite-fusion/src/features/miniapp/library/index.ts": [
+      191,
+      1781347619982447600
+    ],
+    "reactbite-fusion/src/features/miniapp/library/MiniAppCard.tsx": [
+      5854,
+      1781347619946259300
+    ],
+    "reactbite-fusion/src/features/miniapp/library/miniAppLibraryAdapters.ts": [
+      3718,
+      1781347619964357400
+    ],
+    "reactbite-fusion/src/features/miniapp/library/MiniAppLibraryFilters.tsx": [
+      1893,
+      1781347619915582700
+    ],
+    "reactbite-fusion/src/features/miniapp/library/miniAppLibraryTypes.ts": [
+      527,
+      1781347619936663800
+    ],
+    "reactbite-fusion/src/features/miniapp/library/MiniAppLibraryView.tsx": [
+      3630,
+      1781347619902525300
+    ],
+    "reactbite-fusion/src/features/miniapp/library/preloadedMiniApps.ts": [
+      39,
+      1781347620003272000
+    ],
+    "reactbite-fusion/src/features/miniapp/templates/index.ts": [
+      128,
+      1781347620077668700
+    ],
+    "reactbite-fusion/src/features/miniapp/templates/miniAppTemplateAdapters.ts": [
+      611,
+      1781347620095951100
+    ],
+    "reactbite-fusion/src/features/miniapp/templates/miniAppTemplateTypes.ts": [
+      569,
+      1781347620031898500
+    ],
+    "reactbite-fusion/src/features/miniapp/templates/preloadedMiniAppTemplates.ts": [
+      22455,
+      1781347620054996700
+    ],
+    "reactbite-fusion/src/features/miniapp/windowManager/index.ts": [
+      147,
+      1781347620210054100
+    ],
+    "reactbite-fusion/src/features/miniapp/windowManager/MiniAppDock.tsx": [
+      2548,
+      1781347620168781800
+    ],
+    "reactbite-fusion/src/features/miniapp/windowManager/MiniAppWindowFrame.tsx": [
+      5786,
+      1781347620116064200
+    ],
+    "reactbite-fusion/src/features/miniapp/windowManager/MiniAppWindowManager.tsx": [
+      6758,
+      1781376638569104600
+    ],
+    "reactbite-fusion/src/features/miniapp/windowManager/miniAppWindowTypes.ts": [
+      366,
+      1781347620151603200
+    ],
+    "reactbite-fusion/src/features/projects/importedRckByteGoldenFlow.test.ts": [
+      4384,
+      1781483362424334000
+    ],
+    "reactbite-fusion/src/features/projects/pastedHtmlGoldenFlow.test.ts": [
+      3100,
+      1781479025230287700
+    ],
+    "reactbite-fusion/src/features/projects/pastedReactGoldenFlow.test.ts": [
+      3813,
+      1781483235396423200
+    ],
+    "reactbite-fusion/src/features/projects/projectPatch.test.ts": [
+      899,
+      1781420038322057900
+    ],
+    "reactbite-fusion/src/features/projects/projectPatch.ts": [
+      1264,
+      1781420038320546500
+    ],
+    "reactbite-fusion/src/features/projects/projectRepository.ts": [
+      1861,
+      1781368627135931800
+    ],
+    "reactbite-fusion/src/features/projects/projectStore.ts": [
+      22263,
+      1781420038324572900
+    ],
+    "reactbite-fusion/src/features/projects/projectTypes.test.ts": [
+      1240,
+      1781369893607989500
+    ],
+    "reactbite-fusion/src/features/projects/projectTypes.ts": [
+      737,
+      1781406594244535800
+    ],
+    "reactbite-fusion/src/features/recovery/ProjectHistoryPanel.tsx": [
+      7031,
+      1781375387643235300
+    ],
+    "reactbite-fusion/src/features/security/MiniAppSecurityPanel.tsx": [
+      4409,
+      1781409032995516500
+    ],
+    "reactbite-fusion/src/features/templates/BaseTemplateCard.tsx": [
+      7615,
+      1781347619436337400
+    ],
+    "reactbite-fusion/src/features/templates/MiniAppTemplateGrid.tsx": [
+      2899,
+      1781448889404224300
+    ],
+    "reactbite-fusion/src/features/templates/templateConfig.tsx": [
+      129,
+      1781347619393015400
+    ],
+    "reactbite-fusion/src/features/templates/TemplateGrid.tsx": [
+      1747,
+      1781347619414426800
+    ],
+    "reactbite-fusion/src/features/workspace/Editor.tsx": [
+      13363,
+      1781369066164233300
+    ],
+    "reactbite-fusion/src/features/workspace/EditorTabs.tsx": [
+      2298,
+      1781369893597464100
+    ],
+    "reactbite-fusion/src/features/workspace/ExplorerSidebar.tsx": [
+      1871,
+      1781347619630736900
+    ],
+    "reactbite-fusion/src/features/workspace/MermaidVisualEditor.tsx": [
+      9874,
+      1781369066166233400
+    ],
+    "reactbite-fusion/src/features/workspace/MonacoEditorAdapter.tsx": [
+      12832,
+      1781369066165233600
+    ],
+    "reactbite-fusion/src/features/workspace/PremiumNode.tsx": [
+      3137,
+      1781347619570844900
+    ],
+    "reactbite-fusion/src/features/workspace/Preview.tsx": [
+      16926,
+      1781376535049708300
+    ],
+    "reactbite-fusion/src/features/workspace/TopRibbon.tsx": [
+      5510,
+      1781347619587434500
+    ],
+    "reactbite-fusion/src/features/workspace/WorkspaceView.tsx": [
+      8690,
+      1781375478720936500
+    ],
+    "reactbite-fusion/src/features/workspace/components/AIChatPanelContainer.tsx": [
+      1967,
+      1781347619684745600
+    ],
+    "reactbite-fusion/src/features/workspace/components/BasicAiOverlay.tsx": [
+      2160,
+      1781369893599465700
+    ],
+    "reactbite-fusion/src/features/workspace/components/DependenciesPanel.tsx": [
+      7522,
+      1781368970700201500
+    ],
+    "reactbite-fusion/src/features/workspace/components/EditorPanel.tsx": [
+      3467,
+      1781426805810204200
+    ],
+    "reactbite-fusion/src/features/workspace/components/FileTree.tsx": [
+      3851,
+      1781347619760274800
+    ],
+    "reactbite-fusion/src/features/workspace/components/MonacoAIOrchestrator.tsx": [
+      4069,
+      1781347619839654400
+    ],
+    "reactbite-fusion/src/features/workspace/components/PreviewPanel.tsx": [
+      7794,
+      1781376454189902200
+    ],
+    "reactbite-fusion/src/features/workspace/components/SidebarPanel.tsx": [
+      1984,
+      1781347619779227800
+    ],
+    "reactbite-fusion/src/features/workspace/components/SplitterHandle.tsx": [
+      1236,
+      1781347619827526400
+    ],
+    "reactbite-fusion/src/features/workspace/components/TerminalPanelContainer.tsx": [
+      1905,
+      1781347619816487400
+    ],
+    "reactbite-fusion/src/features/workspace/hooks/useWorkspaceEvents.ts": [
+      3883,
+      1781347619871341500
+    ],
+    "reactbite-fusion/src/hooks/useAppMenus.tsx": [
+      10902,
+      1781370408807266800
+    ],
+    "reactbite-fusion/src/hooks/useAppShortcuts.ts": [
+      2484,
+      1781347620427131100
+    ],
+    "reactbite-fusion/src/hooks/useConsoleListener.ts": [
+      708,
+      1781347620472105500
+    ],
+    "reactbite-fusion/src/hooks/useDebounce.ts": [
+      704,
+      1781347620719699700
+    ],
+    "reactbite-fusion/src/hooks/useDesktopRckByteOpen.ts": [
+      2193,
+      1781347620757287100
+    ],
+    "reactbite-fusion/src/hooks/useDesktopWindowLifecycle.ts": [
+      786,
+      1781428924304894200
+    ],
+    "reactbite-fusion/src/hooks/useMobile.ts": [
+      424,
+      1781347620557507500
+    ],
+    "reactbite-fusion/src/hooks/useProjects.ts": [
+      273,
+      1781368627137937400
+    ],
+    "reactbite-fusion/src/hooks/useScaffolding.ts": [
+      6036,
+      1781430769485136700
+    ],
+    "reactbite-fusion/src/hooks/useScrollActivity.ts": [
+      727,
+      1781347620680773300
+    ],
+    "reactbite-fusion/src/hooks/useSplitter.ts": [
+      1647,
+      1781347620639000900
+    ],
+    "reactbite-fusion/src/plugins/AIArchitectPlugin.ts": [
+      1004,
+      1781369893605990500
+    ],
+    "reactbite-fusion/src/services/dependencyService.ts": [
+      2379,
+      1781376545469153600
+    ],
+    "reactbite-fusion/src/services/pnpmService.ts": [
+      1599,
+      1781347620879968800
+    ],
+    "reactbite-fusion/src/services/StorageManager.ts": [
+      8772,
+      1781368627137937400
+    ],
+    "reactbite-fusion/src/services/SystemMonitor.ts": [
+      2146,
+      1781347620927076200
+    ],
+    "reactbite-fusion/src/services/typeService.ts": [
+      2334,
+      1781347620965292500
+    ],
+    "reactbite-fusion/src/services/ai/agentToolService.ts": [
+      5686,
+      1781501407063620700
+    ],
+    "reactbite-fusion/src/services/ai/aiGatewayService.test.ts": [
+      7749,
+      1781503289175108100
+    ],
+    "reactbite-fusion/src/services/ai/aiGatewayService.ts": [
+      4781,
+      1781503201166214300
+    ],
+    "reactbite-fusion/src/services/ai/index.ts": [
+      187,
+      1781409090505185400
+    ],
+    "reactbite-fusion/src/services/ai/localAiService.ts": [
+      8315,
+      1781430769487123500
+    ],
+    "reactbite-fusion/src/services/ai/miniAppAgentPrompts.ts": [
+      2095,
+      1781347621235939200
+    ],
+    "reactbite-fusion/src/services/ai/miniAppAgentTypes.ts": [
+      762,
+      1781347621259450400
+    ],
+    "reactbite-fusion/src/services/ai/MiniAppBuilderAgent.ts": [
+      4904,
+      1781430769486107400
+    ],
+    "reactbite-fusion/src/services/ai/MiniAppSelfHealingService.ts": [
+      5048,
+      1781347621417870600
+    ],
+    "reactbite-fusion/src/services/ai/permissionBroker.ts": [
+      1575,
+      1781407887530568800
+    ],
+    "reactbite-fusion/src/services/dependencies/MiniAppDependencyResolver.ts": [
+      11445,
+      1781483235395420900
+    ],
+    "reactbite-fusion/src/services/diagnostics/miniAppDiagnosticsTypes.ts": [
+      1082,
+      1781347621520673800
+    ],
+    "reactbite-fusion/src/services/diagnostics/MiniAppPreflightService.ts": [
+      6295,
+      1781347621561289500
+    ],
+    "reactbite-fusion/src/services/extensions/extensionService.ts": [
+      2004,
+      1781427001000099600
+    ],
+    "reactbite-fusion/src/services/miniapp/MiniAppCodeIntakeService.ts": [
+      9729,
+      1781376572188907300
+    ],
+    "reactbite-fusion/src/services/platform/catalogService.ts": [
+      753,
+      1781408726715583700
+    ],
+    "reactbite-fusion/src/services/preview/PreviewSandboxManager.ts": [
+      1177,
+      1781347621019824800
+    ],
+    "reactbite-fusion/src/services/preview/previewTypes.ts": [
+      278,
+      1781347620995924700
+    ],
+    "reactbite-fusion/src/services/rag/ragService.ts": [
+      1179,
+      1781407043037398700
+    ],
+    "reactbite-fusion/src/services/rckbyte/index.ts": [
+      255,
+      1781408812231308500
+    ],
+    "reactbite-fusion/src/services/rckbyte/rckbyteCrypto.ts": [
+      3354,
+      1781407916020311500
+    ],
+    "reactbite-fusion/src/services/rckbyte/rckbyteExporters.ts": [
+      4464,
+      1781426957673150600
+    ],
+    "reactbite-fusion/src/services/rckbyte/rckbyteImporters.ts": [
+      11233,
+      1781426957672083200
+    ],
+    "reactbite-fusion/src/services/rckbyte/rckbyteManifest.ts": [
+      6930,
+      1781483235396423200
+    ],
+    "reactbite-fusion/src/services/rckbyte/RckBytePackageManager.ts": [
+      2268,
+      1781347621125594000
+    ],
+    "reactbite-fusion/src/services/rckbyte/rckbyteProjectAdapters.ts": [
+      6223,
+      1781368940291216200
+    ],
+    "reactbite-fusion/src/services/rckbyte/rckbyteTypes.ts": [
+      5220,
+      1781407564376969500
+    ],
+    "reactbite-fusion/src/services/rckbyte/rckbyteV3.test.ts": [
+      9766,
+      1781483235398424000
+    ],
+    "reactbite-fusion/src/services/rckbyte/rckbyteZipImport.test.ts": [
+      3003,
+      1781483235397424600
+    ],
+    "reactbite-fusion/src/services/rckbyte/importers/GoogleAIStudioZipAdapter.ts": [
+      7519,
+      1781347621195039700
+    ],
+    "reactbite-fusion/src/services/recovery/index.ts": [
+      153,
+      1781375387639236600
+    ],
+    "reactbite-fusion/src/services/recovery/ProjectBackupService.ts": [
+      2338,
+      1781347621981636900
+    ],
+    "reactbite-fusion/src/services/recovery/ProjectSnapshotService.test.ts": [
+      1446,
+      1781426805805202700
+    ],
+    "reactbite-fusion/src/services/recovery/ProjectSnapshotService.ts": [
+      2994,
+      1781347621832876500
+    ],
+    "reactbite-fusion/src/services/recovery/recoveryTypes.ts": [
+      1131,
+      1781347621934126900
+    ],
+    "reactbite-fusion/src/services/recovery/snapshotRepository.ts": [
+      1605,
+      1781375387637235200
+    ],
+    "reactbite-fusion/src/services/security/index.ts": [
+      87,
+      1781347621726557500
+    ],
+    "reactbite-fusion/src/services/security/MiniAppPermissionAnalyzer.ts": [
+      8229,
+      1781347621774554200
+    ],
+    "reactbite-fusion/src/services/security/miniAppPermissionTypes.ts": [
+      848,
+      1781347621684080900
+    ],
+    "reactbite-fusion/src/services/updates/qaUpdaterHarness.ts": [
+      1610,
+      1781589218076853100
+    ],
+    "reactbite-fusion/src/services/updates/updateService.ts": [
+      1304,
+      1781408836124639100
+    ],
+    "reactbite-fusion/src/store/uiStore.ts": [
+      2696,
+      1781409456615334700
+    ],
+    "reactbite-fusion/src/store/slices/pluginSlice.ts": [
+      1976,
+      1781347622105769500
+    ],
+    "reactbite-fusion/src/store/slices/settingsSlice.ts": [
+      10004,
+      1781420038326232500
+    ],
+    "reactbite-fusion/src/store/slices/systemSlice.ts": [
+      7161,
+      1781347622205554300
+    ],
+    "reactbite-fusion/src/store/slices/workspaceSlice.ts": [
+      1345,
+      1781347622138643600
+    ],
+    "reactbite-fusion/src/styles/componentStyles.ts": [
+      12079,
+      1781347622241901800
+    ],
+    "reactbite-fusion/src/theme/index.ts": [
+      100,
+      1781347622926953300
+    ],
+    "reactbite-fusion/src/theme/themeCssVariables.ts": [
+      2654,
+      1781347622964447900
+    ],
+    "reactbite-fusion/src/theme/themeRegistry.ts": [
+      7848,
+      1781347623006101800
+    ],
+    "reactbite-fusion/src/theme/themeTypes.ts": [
+      1104,
+      1781347622887325500
+    ],
+    "reactbite-fusion/src/theme/materials/materialTypes.ts": [
+      714,
+      1781347623101831200
+    ],
+    "reactbite-fusion/src/theme/materials/neumorphicMaterials.ts": [
+      895,
+      1781347623063133300
+    ],
+    "reactbite-fusion/src/types/editor.ts": [
+      261,
+      1781347622614470700
+    ],
+    "reactbite-fusion/src/types/fs.ts": [
+      422,
+      1781347622660894600
+    ],
+    "reactbite-fusion/src/types/index.ts": [
+      8107,
+      1781407680961270500
+    ],
+    "reactbite-fusion/src/utils/compiler.ts": [
+      1121,
+      1781347622450689500
+    ],
+    "reactbite-fusion/src/utils/DesktopBridge.ts": [
+      9646,
+      1781428924303895000
+    ],
+    "reactbite-fusion/src/utils/downloadBlob.ts": [
+      335,
+      1781368940287237400
+    ],
+    "reactbite-fusion/src/utils/exportUtils.ts": [
+      1479,
+      1781368940289230900
+    ],
+    "reactbite-fusion/src/utils/hardwareDetector.ts": [
+      1697,
+      1781347622320000800
+    ],
+    "reactbite-fusion/src/utils/helpers.ts": [
+      785,
+      1781347622297197800
+    ],
+    "reactbite-fusion/src/utils/mermaidParser.ts": [
+      3989,
+      1781347622342988800
+    ],
+    "reactbite-fusion/src/utils/previewInjector.ts": [
+      8145,
+      1781376559239994900
+    ],
+    "reactbite-fusion/src/utils/RuntimeManager.ts": [
+      6905,
+      1781376535047826500
+    ],
+    "reactbite-fusion/src/utils/shortcutManager.ts": [
+      2564,
+      1781347622429375400
+    ],
+    "reactbite-fusion/src/utils/soundManager.ts": [
+      5425,
+      1781347622410300900
+    ],
+    "reactbite-fusion/src/utils/vfs.ts": [
+      5955,
+      1781369893601468600
+    ],
+    "reactbite-fusion/src/workers/babel.worker.ts": [
+      457,
+      1781347622763304000
+    ],
+    "reactbite-fusion/src-tauri/build.rs": [
+      39,
+      1781374827475989000
+    ],
+    "reactbite-fusion/src-tauri/Cargo.toml": [
+      1803,
+      1783236461125068300
+    ],
+    "reactbite-fusion/src-tauri/tauri.conf.json": [
+      1649,
+      1781590048367281400
+    ],
+    "reactbite-fusion/src-tauri/capabilities/default.json": [
+      611,
+      1781499141418263100
+    ],
+    "reactbite-fusion/src-tauri/gen/schemas/acl-manifests.json": [
+      158843,
+      1781406704863380700
+    ],
+    "reactbite-fusion/src-tauri/gen/schemas/capabilities.json": [
+      489,
+      1781499197325764200
+    ],
+    "reactbite-fusion/src-tauri/gen/schemas/desktop-schema.json": [
+      448126,
+      1781406704922049400
+    ],
+    "reactbite-fusion/src-tauri/gen/schemas/windows-schema.json": [
+      448126,
+      1781406704922049400
+    ],
+    "reactbite-fusion/src-tauri/icons/128x128.png": [
+      2097,
+      1781369711139574800
+    ],
+    "reactbite-fusion/src-tauri/icons/128x128@2x.png": [
+      4093,
+      1781369711160483800
+    ],
+    "reactbite-fusion/src-tauri/icons/32x32.png": [
+      654,
+      1781369711128045700
+    ],
+    "reactbite-fusion/src-tauri/icons/64x64.png": [
+      1076,
+      1781369711132050900
+    ],
+    "reactbite-fusion/src-tauri/icons/app-icon.svg": [
+      345,
+      1781369699187157100
+    ],
+    "reactbite-fusion/src-tauri/icons/icon.icns": [
+      50298,
+      1781369711101737400
+    ],
+    "reactbite-fusion/src-tauri/icons/icon.ico": [
+      9286,
+      1781369711126046900
+    ],
+    "reactbite-fusion/src-tauri/icons/icon.png": [
+      8266,
+      1781369711215258800
+    ],
+    "reactbite-fusion/src-tauri/icons/Square107x107Logo.png": [
+      1768,
+      1781369710670862300
+    ],
+    "reactbite-fusion/src-tauri/icons/Square142x142Logo.png": [
+      2301,
+      1781369710684403500
+    ],
+    "reactbite-fusion/src-tauri/icons/Square150x150Logo.png": [
+      2435,
+      1781369710701495600
+    ],
+    "reactbite-fusion/src-tauri/icons/Square284x284Logo.png": [
+      4631,
+      1781369710729551300
+    ],
+    "reactbite-fusion/src-tauri/icons/Square30x30Logo.png": [
+      575,
+      1781369710644288700
+    ],
+    "reactbite-fusion/src-tauri/icons/Square310x310Logo.png": [
+      4784,
+      1781369710757148800
+    ],
+    "reactbite-fusion/src-tauri/icons/Square44x44Logo.png": [
+      757,
+      1781369710648814000
+    ],
+    "reactbite-fusion/src-tauri/icons/Square71x71Logo.png": [
+      1193,
+      1781369710654334000
+    ],
+    "reactbite-fusion/src-tauri/icons/Square89x89Logo.png": [
+      1458,
+      1781369710662864800
+    ],
+    "reactbite-fusion/src-tauri/icons/StoreLogo.png": [
+      890,
+      1781369710636778300
+    ],
+    "reactbite-fusion/src-tauri/icons/android/mipmap-anydpi-v26/ic_launcher.xml": [
+      261,
+      1781369711714802200
+    ],
+    "reactbite-fusion/src-tauri/icons/android/mipmap-hdpi/ic_launcher.png": [
+      1633,
+      1781369711611047000
+    ],
+    "reactbite-fusion/src-tauri/icons/android/mipmap-hdpi/ic_launcher_foreground.png": [
+      2663,
+      1781369711490824800
+    ],
+    "reactbite-fusion/src-tauri/icons/android/mipmap-hdpi/ic_launcher_round.png": [
+      1313,
+      1781369711604522900
+    ],
+    "reactbite-fusion/src-tauri/icons/android/mipmap-mdpi/ic_launcher.png": [
+      1560,
+      1781369711624792400
+    ],
+    "reactbite-fusion/src-tauri/icons/android/mipmap-mdpi/ic_launcher_foreground.png": [
+      1809,
+      1781369711499019300
+    ],
+    "reactbite-fusion/src-tauri/icons/android/mipmap-mdpi/ic_launcher_round.png": [
+      1278,
+      1781369711620042000
+    ],
+    "reactbite-fusion/src-tauri/icons/android/mipmap-xhdpi/ic_launcher.png": [
+      3012,
+      1781369711644758800
+    ],
+    "reactbite-fusion/src-tauri/icons/android/mipmap-xhdpi/ic_launcher_foreground.png": [
+      3413,
+      1781369711521072800
+    ],
+    "reactbite-fusion/src-tauri/icons/android/mipmap-xhdpi/ic_launcher_round.png": [
+      2378,
+      1781369711632804200
+    ],
+    "reactbite-fusion/src-tauri/icons/android/mipmap-xxhdpi/ic_launcher.png": [
+      4507,
+      1781369711671154900
+    ],
+    "reactbite-fusion/src-tauri/icons/android/mipmap-xxhdpi/ic_launcher_foreground.png": [
+      5071,
+      1781369711552644800
+    ],
+    "reactbite-fusion/src-tauri/icons/android/mipmap-xxhdpi/ic_launcher_round.png": [
+      3440,
+      1781369711655625400
+    ],
+    "reactbite-fusion/src-tauri/icons/android/mipmap-xxxhdpi/ic_launcher.png": [
+      6030,
+      1781369711710786000
+    ],
+    "reactbite-fusion/src-tauri/icons/android/mipmap-xxxhdpi/ic_launcher_foreground.png": [
+      6819,
+      1781369711600989100
+    ],
+    "reactbite-fusion/src-tauri/icons/android/mipmap-xxxhdpi/ic_launcher_round.png": [
+      4617,
+      1781369711691218100
+    ],
+    "reactbite-fusion/src-tauri/icons/android/values/ic_launcher_background.xml": [
+      115,
+      1781369711712807900
+    ],
+    "reactbite-fusion/src-tauri/icons/ios/AppIcon-20x20@1x.png": [
+      454,
+      1781369711219256800
+    ],
+    "reactbite-fusion/src-tauri/icons/ios/AppIcon-20x20@2x-1.png": [
+      742,
+      1781369711218257500
+    ],
+    "reactbite-fusion/src-tauri/icons/ios/AppIcon-20x20@2x.png": [
+      742,
+      1781369711222259400
+    ],
+    "reactbite-fusion/src-tauri/icons/ios/AppIcon-20x20@3x.png": [
+      1060,
+      1781369711225255400
+    ],
+    "reactbite-fusion/src-tauri/icons/ios/AppIcon-29x29@1x.png": [
+      565,
+      1781369711229807000
+    ],
+    "reactbite-fusion/src-tauri/icons/ios/AppIcon-29x29@2x-1.png": [
+      1023,
+      1781369711227281400
+    ],
+    "reactbite-fusion/src-tauri/icons/ios/AppIcon-29x29@2x.png": [
+      1023,
+      1781369711233802900
+    ],
+    "reactbite-fusion/src-tauri/icons/ios/AppIcon-29x29@3x.png": [
+      1437,
+      1781369711238330700
+    ],
+    "reactbite-fusion/src-tauri/icons/ios/AppIcon-40x40@1x.png": [
+      742,
+      1781369711243844200
+    ],
+    "reactbite-fusion/src-tauri/icons/ios/AppIcon-40x40@2x-1.png": [
+      1261,
+      1781369711242331300
+    ],
+    "reactbite-fusion/src-tauri/icons/ios/AppIcon-40x40@2x.png": [
+      1261,
+      1781369711247577500
+    ],
+    "reactbite-fusion/src-tauri/icons/ios/AppIcon-40x40@3x.png": [
+      1856,
+      1781369711253092700
+    ],
+    "reactbite-fusion/src-tauri/icons/ios/AppIcon-512@2x.png": [
+      18740,
+      1781369711472783100
+    ],
+    "reactbite-fusion/src-tauri/icons/ios/AppIcon-60x60@2x.png": [
+      1856,
+      1781369711259600800
+    ],
+    "reactbite-fusion/src-tauri/icons/ios/AppIcon-60x60@3x.png": [
+      2879,
+      1781369711269620400
+    ],
+    "reactbite-fusion/src-tauri/icons/ios/AppIcon-76x76@1x.png": [
+      1294,
+      1781369711273628300
+    ],
+    "reactbite-fusion/src-tauri/icons/ios/AppIcon-76x76@2x.png": [
+      2398,
+      1781369711283625700
+    ],
+    "reactbite-fusion/src-tauri/icons/ios/AppIcon-83.5x83.5@2x.png": [
+      2587,
+      1781369711292130100
+    ],
+    "reactbite-fusion/src-tauri/resources/ai-runtime-manifest.json": [
+      718,
+      1781375705083891800
+    ],
+    "reactbite-fusion/src-tauri/resources/README.md": [
+      882,
+      1781375705084893000
+    ],
+    "reactbite-fusion/src-tauri/resources/runtime-manifest.json": [
+      580,
+      1781374716296880300
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/LICENSE": [
+      1078,
+      1781375790261045200
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/prepared.json": [
+      304,
+      1781375790357702600
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/ggml-base.dll": [
+      763904,
+      1781380600000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/ggml-cpu-alderlake.dll": [
+      1157120,
+      1781380616000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/ggml-cpu-cannonlake.dll": [
+      1370624,
+      1781380616000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/ggml-cpu-cascadelake.dll": [
+      1356800,
+      1781380616000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/ggml-cpu-cooperlake.dll": [
+      1357824,
+      1781380616000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/ggml-cpu-haswell.dll": [
+      1161728,
+      1781380614000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/ggml-cpu-icelake.dll": [
+      1363456,
+      1781380616000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/ggml-cpu-ivybridge.dll": [
+      1049600,
+      1781380614000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/ggml-cpu-piledriver.dll": [
+      1052672,
+      1781380614000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/ggml-cpu-sandybridge.dll": [
+      1030144,
+      1781380614000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/ggml-cpu-sapphirerapids.dll": [
+      1635328,
+      1781380616000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/ggml-cpu-skylakex.dll": [
+      1364480,
+      1781380616000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/ggml-cpu-sse42.dll": [
+      855552,
+      1781380614000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/ggml-cpu-x64.dll": [
+      848896,
+      1781380614000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/ggml-cpu-zen4.dll": [
+      1364480,
+      1781380616000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/ggml-rpc.dll": [
+      136192,
+      1781380616000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/ggml.dll": [
+      86016,
+      1781380616000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/libomp140.x86_64.dll": [
+      661528,
+      1780930760000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/llama-batched-bench-impl.dll": [
+      60416,
+      1781380624000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/llama-batched-bench.exe": [
+      9216,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/llama-bench-impl.dll": [
+      373248,
+      1781380624000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/llama-bench.exe": [
+      9216,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/llama-cli-impl.dll": [
+      2507776,
+      1781380624000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/llama-cli.exe": [
+      9216,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/llama-common.dll": [
+      7614464,
+      1781380624000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/llama-completion-impl.dll": [
+      132096,
+      1781380624000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/llama-completion.exe": [
+      9216,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/llama-fit-params-impl.dll": [
+      39936,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/llama-fit-params.exe": [
+      9216,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/llama-gemma3-cli.exe": [
+      27136,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/llama-gguf-split.exe": [
+      59904,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/llama-imatrix.exe": [
+      246272,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/llama-llava-cli.exe": [
+      27136,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/llama-minicpmv-cli.exe": [
+      27136,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/llama-mtmd-cli.exe": [
+      80896,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/llama-mtmd-debug.exe": [
+      54272,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/llama-perplexity-impl.dll": [
+      193024,
+      1781380624000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/llama-perplexity.exe": [
+      9216,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/llama-quantize-impl.dll": [
+      136704,
+      1781380624000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/llama-quantize.exe": [
+      9216,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/llama-qwen2vl-cli.exe": [
+      27136,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/llama-results.exe": [
+      44032,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/llama-server-impl.dll": [
+      15279104,
+      1781380822000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/llama-server.exe": [
+      9216,
+      1781380822000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/llama-template-analysis.exe": [
+      269824,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/llama-tokenize.exe": [
+      44032,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/llama-tts.exe": [
+      321536,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/llama.dll": [
+      2499072,
+      1781380622000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/llama.exe": [
+      43008,
+      1781380822000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/mtmd.dll": [
+      1243648,
+      1781380624000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/cpu/rpc-server.exe": [
+      101376,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/ggml-base.dll": [
+      763904,
+      1781380600000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/ggml-cpu-alderlake.dll": [
+      1157120,
+      1781380616000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/ggml-cpu-cannonlake.dll": [
+      1370624,
+      1781380616000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/ggml-cpu-cascadelake.dll": [
+      1356800,
+      1781380616000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/ggml-cpu-cooperlake.dll": [
+      1357824,
+      1781380616000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/ggml-cpu-haswell.dll": [
+      1161728,
+      1781380614000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/ggml-cpu-icelake.dll": [
+      1363456,
+      1781380616000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/ggml-cpu-ivybridge.dll": [
+      1049600,
+      1781380614000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/ggml-cpu-piledriver.dll": [
+      1052672,
+      1781380614000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/ggml-cpu-sandybridge.dll": [
+      1030144,
+      1781380614000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/ggml-cpu-sapphirerapids.dll": [
+      1635328,
+      1781380616000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/ggml-cpu-skylakex.dll": [
+      1364480,
+      1781380616000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/ggml-cpu-sse42.dll": [
+      855552,
+      1781380614000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/ggml-cpu-x64.dll": [
+      848896,
+      1781380614000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/ggml-cpu-zen4.dll": [
+      1364480,
+      1781380616000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/ggml-rpc.dll": [
+      136192,
+      1781380616000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/ggml-vulkan.dll": [
+      74006528,
+      1781380984000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/ggml.dll": [
+      86016,
+      1781380616000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/libomp140.x86_64.dll": [
+      661528,
+      1780930760000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/llama-batched-bench-impl.dll": [
+      60416,
+      1781380624000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/llama-batched-bench.exe": [
+      9216,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/llama-bench-impl.dll": [
+      373248,
+      1781380624000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/llama-bench.exe": [
+      9216,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/llama-cli-impl.dll": [
+      2507776,
+      1781380624000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/llama-cli.exe": [
+      9216,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/llama-common.dll": [
+      7614464,
+      1781380624000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/llama-completion-impl.dll": [
+      132096,
+      1781380624000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/llama-completion.exe": [
+      9216,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/llama-fit-params-impl.dll": [
+      39936,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/llama-fit-params.exe": [
+      9216,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/llama-gemma3-cli.exe": [
+      27136,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/llama-gguf-split.exe": [
+      59904,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/llama-imatrix.exe": [
+      246272,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/llama-llava-cli.exe": [
+      27136,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/llama-minicpmv-cli.exe": [
+      27136,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/llama-mtmd-cli.exe": [
+      80896,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/llama-mtmd-debug.exe": [
+      54272,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/llama-perplexity-impl.dll": [
+      193024,
+      1781380624000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/llama-perplexity.exe": [
+      9216,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/llama-quantize-impl.dll": [
+      136704,
+      1781380624000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/llama-quantize.exe": [
+      9216,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/llama-qwen2vl-cli.exe": [
+      27136,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/llama-results.exe": [
+      44032,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/llama-server-impl.dll": [
+      15279104,
+      1781380822000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/llama-server.exe": [
+      9216,
+      1781380822000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/llama-template-analysis.exe": [
+      269824,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/llama-tokenize.exe": [
+      44032,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/llama-tts.exe": [
+      321536,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/llama.dll": [
+      2499072,
+      1781380622000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/llama.exe": [
+      43008,
+      1781380822000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/mtmd.dll": [
+      1243648,
+      1781380624000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/llama/vulkan/rpc-server.exe": [
+      101376,
+      1781380626000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/runtime/prepared.json": [
+      623,
+      1781374955362920900
+    ],
+    "reactbite-fusion/src-tauri/resources/runtime/node/CHANGELOG.md": [
+      56187,
+      1779343226000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/runtime/node/corepack": [
+      334,
+      1731015152000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/runtime/node/corepack.cmd": [
+      218,
+      1731015152000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/runtime/node/install_tools.bat": [
+      3094,
+      1778760040000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/runtime/node/LICENSE": [
+      159872,
+      1779343226000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/runtime/node/node.exe": [
+      92279112,
+      1779345880000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/runtime/node/nodevars.bat": [
+      702,
+      1731015184000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/runtime/node/npm": [
+      2073,
+      1731015292000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/runtime/node/npm.cmd": [
+      538,
+      1731015292000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/runtime/node/npm.ps1": [
+      1700,
+      1758729624000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/runtime/node/npx": [
+      2073,
+      1731015292000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/runtime/node/npx.cmd": [
+      538,
+      1731015292000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/runtime/node/npx.ps1": [
+      1700,
+      1758729624000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/runtime/node/README.md": [
+      43075,
+      1779343226000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/runtime/pnpm/LICENSE": [
+      1170,
+      499162500000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/runtime/pnpm/package.json": [
+      2186,
+      499162500000000000
+    ],
+    "reactbite-fusion/src-tauri/resources/runtime/pnpm/README.md": [
+      12406,
+      499162500000000000
+    ],
+    "reactbite-fusion/src-tauri/src/ai.rs": [
+      29906,
+      1781520931920884800
+    ],
+    "reactbite-fusion/src-tauri/src/ai_gateway.rs": [
+      33261,
+      1781536966752233800
+    ],
+    "reactbite-fusion/src-tauri/src/database.rs": [
+      6261,
+      1781419543139309300
+    ],
+    "reactbite-fusion/src-tauri/src/diagnostics.rs": [
+      8195,
+      1781422065325478700
+    ],
+    "reactbite-fusion/src-tauri/src/extensions.rs": [
+      6378,
+      1781376301321899100
+    ],
+    "reactbite-fusion/src-tauri/src/isolation.rs": [
+      38109,
+      1781687830755632500
+    ],
+    "reactbite-fusion/src-tauri/src/lib.rs": [
+      10672,
+      1781587181608519100
+    ],
+    "reactbite-fusion/src-tauri/src/main.rs": [
+      40,
+      1781374827527989700
+    ],
+    "reactbite-fusion/src-tauri/src/permissions.rs": [
+      6158,
+      1781426805801205400
+    ],
+    "reactbite-fusion/src-tauri/src/process_guard.rs": [
+      6903,
+      1781430957282441200
+    ],
+    "reactbite-fusion/src-tauri/src/projects.rs": [
+      10305,
+      1781406577552683000
+    ],
+    "reactbite-fusion/src-tauri/src/rag.rs": [
+      14768,
+      1781426805799186500
+    ],
+    "reactbite-fusion/src-tauri/src/runtime.rs": [
+      36463,
+      1781501407061620100
+    ],
+    "reactbite-fusion/src-tauri/src/secrets.rs": [
+      9359,
+      1781536966750725400
+    ],
+    "reactbite-fusion/src-tauri/src/signing.rs": [
+      4387,
+      1781422065385081800
+    ],
+    "reactbite-fusion/src-tauri/src/terminal.rs": [
+      4712,
+      1781374827523989500
+    ],
+    "reactbite-fusion/src-tauri/src/trust.rs": [
+      1965,
+      1781478884445385600
+    ],
+    "reactbite-fusion/src-tauri/src/updater.rs": [
+      2011,
+      1781478648741798600
+    ],
+    "reactbite-fusion/src-tauri/src/viewer.rs": [
+      11531,
+      1781503205512335400
+    ],
+    "reactbite-fusion/src-tauri/windows/hooks.nsh": [
+      737,
+      1781494796798145100
+    ],
+    "reactbite-fusion/tools/update-signature-verifier/Cargo.toml": [
+      132,
+      1781426468237321300
+    ],
+    "reactbite-fusion/tools/update-signature-verifier/src/main.rs": [
+      2078,
+      1781426812627959400
+    ],
+    "Reactbite-main/Reactbite-main/src/app/App.tsx": [
+      13707,
+      1781346984498451400
+    ],
+    "Reactbite-main/Reactbite-main/src/app/main.tsx": [
+      353,
+      1781346984517957100
+    ],
+    "Reactbite-main/Reactbite-main/src/components/AppShell.tsx": [
+      1108,
+      1781346984558298700
+    ],
+    "Reactbite-main/Reactbite-main/src/components/ModalLayer.tsx": [
+      3039,
+      1781346984574947300
+    ],
+    "Reactbite-main/Reactbite-main/src/components/WindowFrame.tsx": [
+      8103,
+      1781346984596219200
+    ],
+    "Reactbite-main/Reactbite-main/src/components/layout/AppShell.tsx": [
+      1119,
+      1781346984626531100
+    ],
+    "Reactbite-main/Reactbite-main/src/components/layout/ModalLayer.tsx": [
+      4207,
+      1781346984642598400
+    ],
+    "Reactbite-main/Reactbite-main/src/components/layout/WindowFrame.tsx": [
+      9578,
+      1781346984663247600
+    ],
+    "Reactbite-main/Reactbite-main/src/components/modals/CodeInputModal.tsx": [
+      24750,
+      1781346984703952300
+    ],
+    "Reactbite-main/Reactbite-main/src/components/modals/PackagesModal.tsx": [
+      10739,
+      1781346984724810600
+    ],
+    "Reactbite-main/Reactbite-main/src/components/modals/PreferencesModal.tsx": [
+      30841,
+      1781346984746441000
+    ],
+    "Reactbite-main/Reactbite-main/src/components/ui/Icons.tsx": [
+      22703,
+      1781346984781883800
+    ],
+    "Reactbite-main/Reactbite-main/src/components/ui/Menu.tsx": [
+      14037,
+      1781346984804115700
+    ],
+    "Reactbite-main/Reactbite-main/src/components/ui/Toast.tsx": [
+      1839,
+      1781346984820203700
+    ],
+    "Reactbite-main/Reactbite-main/src/constants/index.ts": [
+      1011,
+      1781346984883898000
+    ],
+    "Reactbite-main/Reactbite-main/src/features/ai/AIChatPanel.tsx": [
+      20825,
+      1781346984941210100
+    ],
+    "Reactbite-main/Reactbite-main/src/features/auth/LoginModal.tsx": [
+      6556,
+      1781346984981009200
+    ],
+    "Reactbite-main/Reactbite-main/src/features/dashboard/DashboardView.tsx": [
+      4133,
+      1781346985025619700
+    ],
+    "Reactbite-main/Reactbite-main/src/features/dashboard/ProjectCard.tsx": [
+      1610,
+      1781346985046071300
+    ],
+    "Reactbite-main/Reactbite-main/src/features/dashboard/RecentProjectCard.tsx": [
+      9509,
+      1781346985068698000
+    ],
+    "Reactbite-main/Reactbite-main/src/features/workspace/ConsolePanel.tsx": [
+      2933,
+      1781346985105182600
+    ],
+    "Reactbite-main/Reactbite-main/src/features/workspace/Editor.tsx": [
+      13230,
+      1781346985128313000
+    ],
+    "Reactbite-main/Reactbite-main/src/features/workspace/Preview.tsx": [
+      7945,
+      1781346985151618600
+    ],
+    "Reactbite-main/Reactbite-main/src/features/workspace/WorkspaceView.tsx": [
+      10961,
+      1781346985174342000
+    ],
+    "Reactbite-main/Reactbite-main/src/hooks/useDebounce.ts": [
+      704,
+      1781346985234713900
+    ],
+    "Reactbite-main/Reactbite-main/src/hooks/useProjects.ts": [
+      5535,
+      1781346985274939500
+    ],
+    "Reactbite-main/Reactbite-main/src/services/geminiService.ts": [
+      3897,
+      1781346985328585600
+    ],
+    "Reactbite-main/Reactbite-main/src/services/supabaseClient.ts": [
+      1293,
+      1781346985367291800
+    ],
+    "Reactbite-main/Reactbite-main/src/store/uiStore.ts": [
+      5600,
+      1781346985423021100
+    ],
+    "Reactbite-main/Reactbite-main/src/styles/componentStyles.ts": [
+      8945,
+      1781346985481496000
+    ],
+    "Reactbite-main/Reactbite-main/src/types/index.ts": [
+      4133,
+      1781346985537807500
+    ],
+    "Reactbite-main/Reactbite-main/src/utils/helpers.ts": [
+      785,
+      1781346985595420800
+    ],
+    "Reactbite-main/Reactbite-main/src/utils/previewInjector.ts": [
+      8933,
+      1781346985627723000
+    ],
+    "Reactbite-main/Reactbite-main/src/utils/soundManager.ts": [
+      4439,
+      1781346985667196200
+    ],
+    "ReactBite_developer/Reactbite-main/migrated_prompt_history/prompt_2025-12-23T13_42_25.544Z.json": [
+      1644521,
+      1773479402000000000
+    ],
+    "ReactBite_developer/Reactbite-main/migrated_prompt_history/prompt_2025-12-31T05_04_37.982Z.json": [
+      4298614,
+      1773479402000000000
+    ],
+    "ReactBite_developer/Reactbite-main/migrated_prompt_history/prompt_2026-01-02T20_52_38.446Z.json": [
+      1561151,
+      1773479402000000000
+    ],
+    "ReactBite_developer/Reactbite-main/migrated_prompt_history/prompt_2026-01-25T06_08_27.848Z.json": [
+      4941531,
+      1773479402000000000
+    ],
+    "ReactBite_Host/.gitignore": [
+      277,
+      1773496922106000000
+    ],
+    "ReactBite_Host/index.html": [
+      4220,
+      1773502791190000000
+    ],
+    "ReactBite_Host/package-lock.json": [
+      111981,
+      1773497130260000000
+    ],
+    "ReactBite_Host/package.json": [
+      728,
+      1773496977279000000
+    ],
+    "ReactBite_Host/README.md": [
+      385,
+      1773496922105000000
+    ],
+    "ReactBite_Host/tsconfig.json": [
+      680,
+      1773497134158000000
+    ],
+    "ReactBite_Host/tsconfig.node.json": [
+      223,
+      1773496922116000000
+    ],
+    "ReactBite_Host/vite.config.ts": [
+      850,
+      1773496922118000000
+    ],
+    "ReactBite_Host/.vscode/extensions.json": [
+      83,
+      1773496922103000000
+    ],
+    "ReactBite_Host/public/tauri.svg": [
+      2605,
+      1773496922120000000
+    ],
+    "ReactBite_Host/public/vite.svg": [
+      1497,
+      1773496922123000000
+    ],
+    "ReactBite_Host/src/App.tsx": [
+      14031,
+      1773501114390000000
+    ],
+    "ReactBite_Host/src/constants.ts": [
+      1011,
+      1773479402000000000
+    ],
+    "ReactBite_Host/src/index.css": [
+      1241,
+      1773484908927000000
+    ],
+    "ReactBite_Host/src/index.tsx": [
+      349,
+      1773479402000000000
+    ],
+    "ReactBite_Host/src/metadata.json": [
+      191,
+      1773479402000000000
+    ],
+    "ReactBite_Host/src/types.ts": [
+      6163,
+      1773492342966000000
+    ],
+    "ReactBite_Host/src/vite-env.d.ts": [
+      39,
+      1773496922114000000
+    ],
+    "ReactBite_Host/src/assets/react.svg": [
+      4126,
+      1773496922119000000
+    ],
+    "ReactBite_Host/src/components/AIChatPanel.tsx": [
+      20815,
+      1773479402000000000
+    ],
+    "ReactBite_Host/src/components/AppShell.tsx": [
+      1109,
+      1773479402000000000
+    ],
+    "ReactBite_Host/src/components/CodeInputModal.tsx": [
+      27330,
+      1773484908870000000
+    ],
+    "ReactBite_Host/src/components/ConsolePanel.tsx": [
+      2921,
+      1773479402000000000
+    ],
+    "ReactBite_Host/src/components/Editor.tsx": [
+      13219,
+      1773479402000000000
+    ],
+    "ReactBite_Host/src/components/Icons.tsx": [
+      29318,
+      1773479868939000000
+    ],
+    "ReactBite_Host/src/components/LoginModal.tsx": [
+      6545,
+      1773479402000000000
+    ],
+    "ReactBite_Host/src/components/Menu.tsx": [
+      14265,
+      1773492182687000000
+    ],
+    "ReactBite_Host/src/components/MermaidTools.tsx": [
+      8858,
+      1773481005497000000
+    ],
+    "ReactBite_Host/src/components/ModalLayer.tsx": [
+      2947,
+      1773479402000000000
+    ],
+    "ReactBite_Host/src/components/PackagesModal.tsx": [
+      10729,
+      1773479402000000000
+    ],
+    "ReactBite_Host/src/components/PreferencesModal.tsx": [
+      45373,
+      1773505471338000000
+    ],
+    "ReactBite_Host/src/components/Preview.tsx": [
+      7934,
+      1773479402000000000
+    ],
+    "ReactBite_Host/src/components/ProjectCard.tsx": [
+      1653,
+      1773492014816000000
+    ],
+    "ReactBite_Host/src/components/RecentProjectCard.tsx": [
+      9556,
+      1773505451306000000
+    ],
+    "ReactBite_Host/src/components/Toast.tsx": [
+      1827,
+      1773479402000000000
+    ],
+    "ReactBite_Host/src/components/WindowFrame.tsx": [
+      8090,
+      1773479402000000000
+    ],
+    "ReactBite_Host/src/components/layout/AppShell.tsx": [
+      420,
+      1773501126802000000
+    ],
+    "ReactBite_Host/src/components/layout/ModalLayer.tsx": [
+      4116,
+      1773479402000000000
+    ],
+    "ReactBite_Host/src/components/layout/WindowFrame.tsx": [
+      11772,
+      1773502296045000000
+    ],
+    "ReactBite_Host/src/components/views/DashboardView.tsx": [
+      4830,
+      1773501299383000000
+    ],
+    "ReactBite_Host/src/components/views/WorkspaceView.tsx": [
+      10889,
+      1773502380022000000
+    ],
+    "ReactBite_Host/src/hooks/useDebounce.ts": [
+      704,
+      1773479402000000000
+    ],
+    "ReactBite_Host/src/hooks/useProjects.ts": [
+      5537,
+      1773479402000000000
+    ],
+    "ReactBite_Host/src/services/geminiService.ts": [
+      3897,
+      1773479402000000000
+    ],
+    "ReactBite_Host/src/services/supabaseClient.ts": [
+      1293,
+      1773479402000000000
+    ],
+    "ReactBite_Host/src/store/uiStore.ts": [
+      7458,
+      1773492371982000000
+    ],
+    "ReactBite_Host/src/styles/componentStyles.ts": [
+      8451,
+      1773505442832000000
+    ],
+    "ReactBite_Host/src/utils/helpers.ts": [
+      785,
+      1773479402000000000
+    ],
+    "ReactBite_Host/src/utils/previewInjector.ts": [
+      8933,
+      1773479402000000000
+    ],
+    "ReactBite_Host/src/utils/soundManager.ts": [
+      4439,
+      1773479402000000000
+    ],
+    "ReactBite_Host/src-tauri/.gitignore": [
+      173,
+      1773496922072000000
+    ],
+    "ReactBite_Host/src-tauri/build.rs": [
+      42,
+      1773496922073000000
+    ],
+    "ReactBite_Host/src-tauri/Cargo.toml": [
+      761,
+      1773505836974000000
+    ],
+    "ReactBite_Host/src-tauri/tauri.conf.json": [
+      853,
+      1773499934298000000
+    ],
+    "ReactBite_Host/src-tauri/capabilities/default.json": [
+      258,
+      1773500762827000000
+    ],
+    "ReactBite_Host/src-tauri/gen/schemas/acl-manifests.json": [
+      67644,
+      1773497280392000000
+    ],
+    "ReactBite_Host/src-tauri/gen/schemas/capabilities.json": [
+      185,
+      1773500765228000000
+    ],
+    "ReactBite_Host/src-tauri/gen/schemas/desktop-schema.json": [
+      126319,
+      1773497280411000000
+    ],
+    "ReactBite_Host/src-tauri/gen/schemas/windows-schema.json": [
+      126319,
+      1773497280411000000
+    ],
+    "ReactBite_Host/src-tauri/icons/128x128.png": [
+      3512,
+      1773496922076000000
+    ],
+    "ReactBite_Host/src-tauri/icons/128x128@2x.png": [
+      7012,
+      1773496922077000000
+    ],
+    "ReactBite_Host/src-tauri/icons/32x32.png": [
+      974,
+      1773496922078000000
+    ],
+    "ReactBite_Host/src-tauri/icons/icon.icns": [
+      98451,
+      1773496922096000000
+    ],
+    "ReactBite_Host/src-tauri/icons/icon.ico": [
+      86642,
+      1773496922097000000
+    ],
+    "ReactBite_Host/src-tauri/icons/icon.png": [
+      14183,
+      1773496922100000000
+    ],
+    "ReactBite_Host/src-tauri/icons/Square107x107Logo.png": [
+      2863,
+      1773496922080000000
+    ],
+    "ReactBite_Host/src-tauri/icons/Square142x142Logo.png": [
+      3858,
+      1773496922083000000
+    ],
+    "ReactBite_Host/src-tauri/icons/Square150x150Logo.png": [
+      3966,
+      1773496922083000000
+    ],
+    "ReactBite_Host/src-tauri/icons/Square284x284Logo.png": [
+      7737,
+      1773496922085000000
+    ],
+    "ReactBite_Host/src-tauri/icons/Square30x30Logo.png": [
+      903,
+      1773496922086000000
+    ],
+    "ReactBite_Host/src-tauri/icons/Square310x310Logo.png": [
+      8591,
+      1773496922088000000
+    ],
+    "ReactBite_Host/src-tauri/icons/Square44x44Logo.png": [
+      1299,
+      1773496922089000000
+    ],
+    "ReactBite_Host/src-tauri/icons/Square71x71Logo.png": [
+      2011,
+      1773496922090000000
+    ],
+    "ReactBite_Host/src-tauri/icons/Square89x89Logo.png": [
+      2468,
+      1773496922091000000
+    ],
+    "ReactBite_Host/src-tauri/icons/StoreLogo.png": [
+      1523,
+      1773496922092000000
+    ],
+    "ReactBite_Host/src-tauri/src/lib.rs": [
+      818,
+      1773505854048000000
+    ],
+    "ReactBite_Host/src-tauri/src/main.rs": [
+      195,
+      1773496922102000000
+    ],
+    "src/app/App.tsx": [
+      14013,
+      1781346628008272300
+    ],
+    "src/app/main.tsx": [
+      367,
+      1781346628009787000
+    ],
+    "src/components/AppShell.tsx": [
+      1145,
+      1781346628011309900
+    ],
+    "src/components/ModalLayer.tsx": [
+      3135,
+      1781346628012311100
+    ],
+    "src/components/WindowFrame.tsx": [
+      8307,
+      1781346628013314800
+    ],
+    "src/components/layout/AppShell.tsx": [
+      1156,
+      1781346628015844900
+    ],
+    "src/components/layout/ModalLayer.tsx": [
+      4333,
+      1781346628016844600
+    ],
+    "src/components/layout/WindowFrame.tsx": [
+      9824,
+      1781346628023362300
+    ],
+    "src/components/modals/CodeInputModal.tsx": [
+      25155,
+      1781346628025883500
+    ],
+    "src/components/modals/PackagesModal.tsx": [
+      10987,
+      1781346628026894000
+    ],
+    "src/components/modals/PreferencesModal.tsx": [
+      31411,
+      1781346628028896900
+    ],
+    "src/components/ui/Icons.tsx": [
+      23174,
+      1781346628029895300
+    ],
+    "src/components/ui/Menu.tsx": [
+      14383,
+      1781346628031409500
+    ],
+    "src/components/ui/Toast.tsx": [
+      1895,
+      1781346628032420900
+    ],
+    "src/constants/index.ts": [
+      1024,
+      1781346628034942800
+    ],
+    "src/features/ai/AIChatPanel.tsx": [
+      21268,
+      1781346628040479500
+    ],
+    "src/features/auth/LoginModal.tsx": [
+      6711,
+      1781346628042481600
+    ],
+    "src/features/dashboard/DashboardView.tsx": [
+      4216,
+      1781346628044535600
+    ],
+    "src/features/dashboard/ProjectCard.tsx": [
+      1664,
+      1781346628045227800
+    ],
+    "src/features/dashboard/RecentProjectCard.tsx": [
+      9715,
+      1781346628046238900
+    ],
+    "src/features/workspace/ConsolePanel.tsx": [
+      2999,
+      1781346628049249500
+    ],
+    "src/features/workspace/Editor.tsx": [
+      13569,
+      1781346628052251300
+    ],
+    "src/features/workspace/Preview.tsx": [
+      8107,
+      1781346628054763400
+    ],
+    "src/features/workspace/WorkspaceView.tsx": [
+      11197,
+      1781346628056781500
+    ],
+    "src/hooks/useDebounce.ts": [
+      731,
+      1781346628060289900
+    ],
+    "src/hooks/useProjects.ts": [
+      5711,
+      1781346628062321500
+    ],
+    "src/services/geminiService.ts": [
+      4007,
+      1781346628064819400
+    ],
+    "src/services/supabaseClient.ts": [
+      1332,
+      1781346628066851200
+    ],
+    "src/store/uiStore.ts": [
+      5775,
+      1781346628069847500
+    ],
+    "src/styles/componentStyles.ts": [
+      9115,
+      1781346628071848000
+    ],
+    "src/types/index.ts": [
+      4296,
+      1781346628075364500
+    ],
+    "src/utils/helpers.ts": [
+      809,
+      1781346628077889200
+    ],
+    "src/utils/previewInjector.ts": [
+      9160,
+      1781346628080900300
+    ],
+    "src/utils/soundManager.ts": [
+      4584,
+      1781346628081901800
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+﻿timestamp,project_id,project,event_type,reason,precision,added,modified,deleted,sample_files
+2025-12-23T13:56:14-06:00,faast,FAAST / SLAP!FAAST,historical_activity,initial_backfill,estimated,0,305,0,Slap!FaastV1/KinectSDK-v1.8-Setup.exe; Slap!FaastV1/debug_tools/inspect_dll.py; Slap!FaastV1/debug_tools/kinect_ninja_init.py; Slap!FaastV1/debug_tools/kinect_usb_scan.py
+2025-12-23T06:19:26-06:00,interface-new-prop-cerrar,Interface New Prop Cerrar,historical_activity,initial_backfill,estimated,0,2,0,22719aba3cf10c650768e381f41ebab8.jpg; 311da5d665fe7a2cb553e0c9c298294d.jpg
+2025-12-23T15:18:03-06:00,my-soul,MY SOUL (Digital Identity),historical_activity,initial_backfill,estimated,0,5,0,mysoul/gesture_demo.py; mysoul/ingesters/chatgpt_ingester.py; mysoul/main.py; mysoul/models/hand_landmarker.task

@@ -1,0 +1,4 @@
+﻿timestamp,project_id,project,event_type,reason,precision,added,modified,deleted,sample_files
+2026-02-26T10:41:28-06:00,proyectia,PROYECTIA (Command Center),historical_activity,initial_backfill,estimated,0,2,0,info vieja/15_Proyectia/documentacion/scoreproyectos.txt; info vieja/15_Proyectia/scoreproyectos.txt
+2026-02-26T19:39:07-06:00,pulsar-tiktok,PULSAR TIKTOK,historical_activity,initial_backfill,estimated,0,1277,0,"links videos tiktok/Entretenimiento y Redes/Adiós, quédate bien/안녕히 계세요..txt; links videos tiktok/Entretenimiento y Redes/Barbie Que Niñas La Ruth/Barbie Que Niñas La Ruth.txt; links videos tiktok/Entretenimiento y Redes/Barbie Que Niñas La Ruth_1/Barbie Que Niñas La Ruth_1.txt; links videos tiktok/Entretenimiento y Redes/Barra Tareas Nuestra Vamos Vea/Barra Tareas Nuestra Vamos Vea.txt"
+2026-02-26T09:06:31-06:00,retriver,Retriver,historical_activity,initial_backfill,estimated,0,1,0,Retriever/Database/Daniel/docs/bookmarks_RAINDROP_FINAL.csv

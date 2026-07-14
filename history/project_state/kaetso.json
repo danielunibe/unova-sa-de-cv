@@ -1,0 +1,260 @@
+{
+  "project_id": "kaetso",
+  "project": "Kaetso ⚔️",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\05_videojuegos\\04_Kaetso",
+  "captured_at": "2026-07-14T07:11:20-06:00",
+  "last_change": "2026-03-27T18:36:20-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 49,
+    "code_count": 6,
+    "doc_count": 34,
+    "asset_count": 7,
+    "test_count": 2,
+    "manifest_count": 0,
+    "latest_mtime": "2026-03-27T18:36:20-06:00",
+    "latest_file": "Documentacion para la IA/CHANGELOG.md",
+    "extensions": {
+      ".md": 22,
+      ".pdf": 12,
+      ".html": 4,
+      ".jpg": 2,
+      ".json": 2,
+      ".ai": 2,
+      ".png": 2,
+      ".psd": 1,
+      ".js": 1,
+      ".css": 1
+    }
+  },
+  "progress": {
+    "project_id": "kaetso",
+    "project": "Kaetso ⚔️",
+    "mvp": 33,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 0,
+      "implementacion": 15,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "arquitectura verificable",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "Kaetso .pdf": [
+      47897,
+      1561008548000000000
+    ],
+    "Screenplay-2.pdf": [
+      47897,
+      1562801849000000000
+    ],
+    "kaetso-preview.html": [
+      19399,
+      1764937069331000000
+    ],
+    "66362924e674fb8011a07bcb65a2cf6a.jpg": [
+      25723,
+      1767064457040000000
+    ],
+    "kaetso.png.supplemental-metadata.json": [
+      587,
+      1756282366219000000
+    ],
+    "Portal kaetso .JPG.supplemental-metadata.json": [
+      608,
+      1756282526317000000
+    ],
+    "parte uno.html": [
+      0,
+      1764937451092000000
+    ],
+    "parte dos.html": [
+      0,
+      1764937480007000000
+    ],
+    "Documento final industria de los videojuegos_.pdf": [
+      40604819,
+      1725860414000000000
+    ],
+    "KAETSO PRESENTACION.ai": [
+      12130436,
+      1753301465175000000
+    ],
+    "Kaetso Documento.ai": [
+      21351473,
+      1753301351551000000
+    ],
+    "Ilustración_sin_título.psd": [
+      3193272,
+      1753299628000000000
+    ],
+    "Gemini_Generated_Image_z9nd3kz9nd3kz9nd.png": [
+      6077508,
+      1767390418489000000
+    ],
+    "Portal kaetso .JPG": [
+      198237,
+      1756282525933000000
+    ],
+    "kaetso.png": [
+      6139852,
+      1756282366520000000
+    ],
+    "Documentacion para la IA/04_kaetso.md": [
+      1848,
+      1774166930206000000
+    ],
+    "Documentacion para la IA/CHANGELOG.md": [
+      133,
+      1774658180653000000
+    ],
+    "Documentacion para la IA/CLAUDE.md": [
+      133,
+      1774658180648000000
+    ],
+    "Documentacion para la IA/PROTOCOL.md": [
+      368,
+      1774658180619000000
+    ],
+    "Documentacion para la IA/_meta/questions-log.md": [
+      641,
+      1774658180626000000
+    ],
+    "Documentacion para la IA/_meta/owner.md": [
+      215,
+      1774658180624000000
+    ],
+    "Documentacion para la IA/docs/TEST_PLAN.md": [
+      158,
+      1774658180642000000
+    ],
+    "Documentacion para la IA/docs/PRD.md": [
+      163,
+      1774658180630000000
+    ],
+    "Documentacion para la IA/docs/DESIGN_SPEC.md": [
+      133,
+      1774658180633000000
+    ],
+    "Documentacion para la IA/docs/GLOSSARY.md": [
+      139,
+      1774658180641000000
+    ],
+    "Documentacion para la IA/docs/TDD.md": [
+      136,
+      1774658180635000000
+    ],
+    "Documentacion para la IA/docs/USER_DOCS.md": [
+      126,
+      1774658180645000000
+    ],
+    "Documentacion para la IA/docs/ROADMAP.md": [
+      176,
+      1774658180638000000
+    ],
+    "Kaetso/Kaetso, Kalel y Daniel.pdf": [
+      56987963,
+      1753302459904000000
+    ],
+    "Kaetso/Kaetso, Kalel y Daniel 2.pdf": [
+      56983728,
+      1753302282806000000
+    ],
+    "Kaetso/Abrir Documento final industria de los videojuegos(1).pdf": [
+      40598647,
+      1671163951000000000
+    ],
+    "Kaetso/Documento final industria de los videojuegos_.pdf": [
+      40604819,
+      1725860414000000000
+    ],
+    "Kaetso/Presentacion_Kaetso_Daniel_Unibe_V6.pdf": [
+      6106233,
+      1753302464257000000
+    ],
+    "Kaetso/KAETSO PRESENTACION.pdf": [
+      12200088,
+      1753302404378000000
+    ],
+    "Kaetso/Presentacion_Kaetso_Daniel_Unibe_V6_20220526073541.pdf": [
+      6106233,
+      1753302234334000000
+    ],
+    "Kaetso/Presentacion_Kaetso_Daniel_Unibe_V6_1.pdf": [
+      6106233,
+      1753302301395000000
+    ],
+    "Kaetso/Presentacion_Kaetso_Daniel_Unibe_V6_1_20220526073541.pdf": [
+      6106233,
+      1753302420671000000
+    ],
+    "kaetso-docs/07_ESTETICA.md": [
+      4368,
+      1767060543996000000
+    ],
+    "kaetso-docs/index.html": [
+      2444,
+      1767161093400000000
+    ],
+    "kaetso-docs/06_MECANICAS.md": [
+      4536,
+      1767060542100000000
+    ],
+    "kaetso-docs/05_CRONOLOGIA.md": [
+      4188,
+      1767060505245000000
+    ],
+    "kaetso-docs/08_PROMPTS_IMAGENES.md": [
+      9376,
+      1767061383178000000
+    ],
+    "kaetso-docs/01_VISION_PROYECTO.md": [
+      2808,
+      1767060348488000000
+    ],
+    "kaetso-docs/04_CASAS_ELEMENTALES.md": [
+      5078,
+      1767060471182000000
+    ],
+    "kaetso-docs/script.js": [
+      4411,
+      1767158594542000000
+    ],
+    "kaetso-docs/00_INDICE.md": [
+      1969,
+      1767060324944000000
+    ],
+    "kaetso-docs/03_PERSONAJES.md": [
+      5558,
+      1767060385587000000
+    ],
+    "kaetso-docs/styles.css": [
+      9621,
+      1767161094300000000
+    ],
+    "kaetso-docs/02_COSMOGONIA.md": [
+      3425,
+      1767060383648000000
+    ]
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "project_id": "medicia",
+  "project": "MedicIA 🏥",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\02_App IOS y android\\09_MedicIA",
+  "captured_at": "2026-07-14T07:10:37-06:00",
+  "last_change": "2026-03-27T18:34:59-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 39,
+    "code_count": 20,
+    "doc_count": 14,
+    "asset_count": 0,
+    "test_count": 2,
+    "manifest_count": 2,
+    "latest_mtime": "2026-03-27T18:34:59-06:00",
+    "latest_file": "Documentacion para la IA/CHANGELOG.md",
+    "extensions": {
+      ".tsx": 15,
+      ".md": 14,
+      ".ts": 4,
+      ".json": 3,
+      ".html": 1,
+      ".local": 1,
+      "[sin extensión]": 1
+    }
+  },
+  "progress": {
+    "project_id": "medicia",
+    "project": "MedicIA 🏥",
+    "mvp": 47,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 5,
+      "implementacion": 22,
+      "pruebas": 6,
+      "empaquetado": 3,
+      "continuidad": 3,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "index.html": [
+      1886,
+      1770280544000000000
+    ],
+    ".env.local": [
+      35,
+      1770280544000000000
+    ],
+    "types.ts": [
+      439,
+      1770280544000000000
+    ],
+    "index.tsx": [
+      351,
+      1770280544000000000
+    ],
+    "constants.ts": [
+      2862,
+      1770280544000000000
+    ],
+    "metadata.json": [
+      334,
+      1770280544000000000
+    ],
+    "tsconfig.json": [
+      542,
+      1770280544000000000
+    ],
+    "README.md": [
+      553,
+      1770280544000000000
+    ],
+    "vite.config.ts": [
+      580,
+      1770280544000000000
+    ],
+    ".gitignore": [
+      253,
+      1770280544000000000
+    ],
+    "App.tsx": [
+      3064,
+      1770280544000000000
+    ],
+    "package.json": [
+      448,
+      1770280544000000000
+    ],
+    "components/SafetyWarning.tsx": [
+      830,
+      1770280544000000000
+    ],
+    "components/DrugCard.tsx": [
+      2979,
+      1770280544000000000
+    ],
+    "components/AddDrugModal.tsx": [
+      4586,
+      1770280544000000000
+    ],
+    "components/ComparisonBar.tsx": [
+      1669,
+      1770280544000000000
+    ],
+    "components/BottomNavBar.tsx": [
+      1707,
+      1770280544000000000
+    ],
+    "components/Header.tsx": [
+      2607,
+      1770280544000000000
+    ],
+    "components/EquivalentsDrawer.tsx": [
+      3527,
+      1770280544000000000
+    ],
+    "components/FilterControls.tsx": [
+      2988,
+      1770280544000000000
+    ],
+    "components/modules/NutritionModule.tsx": [
+      3061,
+      1770280544000000000
+    ],
+    "components/modules/EquivalentsModule.tsx": [
+      2820,
+      1770280544000000000
+    ],
+    "components/modules/ErgonomicsModule.tsx": [
+      3907,
+      1770280544000000000
+    ],
+    "components/modules/BurnsModule.tsx": [
+      3905,
+      1770280544000000000
+    ],
+    "components/modules/NephroModule.tsx": [
+      3040,
+      1770280544000000000
+    ],
+    "Documentacion para la IA/09_MedicIA.md": [
+      1856,
+      1774166930183000000
+    ],
+    "Documentacion para la IA/CLAUDE.md": [
+      245,
+      1774658099136000000
+    ],
+    "Documentacion para la IA/CHANGELOG.md": [
+      203,
+      1774658099137000000
+    ],
+    "Documentacion para la IA/PROTOCOL.md": [
+      939,
+      1774658099105000000
+    ],
+    "Documentacion para la IA/docs/TEST_PLAN.md": [
+      230,
+      1774658099131000000
+    ],
+    "Documentacion para la IA/docs/USER_DOCS.md": [
+      215,
+      1774658099134000000
+    ],
+    "Documentacion para la IA/docs/DESIGN_SPEC.md": [
+      328,
+      1774658099123000000
+    ],
+    "Documentacion para la IA/docs/ROADMAP.md": [
+      272,
+      1774658099126000000
+    ],
+    "Documentacion para la IA/docs/PRD.md": [
+      459,
+      1774658099119000000
+    ],
+    "Documentacion para la IA/docs/GLOSSARY.md": [
+      272,
+      1774658099129000000
+    ],
+    "Documentacion para la IA/docs/TDD.md": [
+      241,
+      1774658099125000000
+    ],
+    "Documentacion para la IA/_meta/owner.md": [
+      286,
+      1774658099112000000
+    ],
+    "Documentacion para la IA/_meta/questions-log.md": [
+      1016,
+      1774658099113000000
+    ],
+    "lib/utils.ts": [
+      1312,
+      1770280544000000000
+    ]
+  }
+}

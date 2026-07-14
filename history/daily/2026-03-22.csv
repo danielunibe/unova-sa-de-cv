@@ -1,0 +1,46 @@
+﻿timestamp,project_id,project,event_type,reason,precision,added,modified,deleted,sample_files
+2026-03-22T02:08:49-06:00,aparment,APARMENT (Renta IA Hub),historical_activity,initial_backfill,estimated,0,1,0,Documentacion para la IA/01_aparment.md
+2026-03-22T02:08:50-06:00,app-brainstorming,App Brainstorming,historical_activity,initial_backfill,estimated,0,1,0,Documentacion para la IA/02_app_brainstorming.md
+2026-03-22T02:08:50-06:00,calculadora-inteligente,Calculadora Inteligente,historical_activity,initial_backfill,estimated,0,1,0,62_calculadora inteligente.md
+2026-03-22T02:08:49-06:00,couplepay,Couplepay 💳,historical_activity,initial_backfill,estimated,0,1,0,Documentacion para la IA/06_Couplepay.md
+2026-03-22T02:08:50-06:00,hilaria,HILARIA,historical_activity,initial_backfill,estimated,0,1,0,48_HilarIA.md
+2026-03-22T02:08:50-06:00,ipad-magic-pro,iPad Magic Pro,historical_activity,initial_backfill,estimated,0,1,0,45_iPad Magic Pro.md
+2026-03-22T02:08:50-06:00,medicia,MedicIA 🏥,historical_activity,initial_backfill,estimated,0,1,0,Documentacion para la IA/09_MedicIA.md
+2026-03-22T02:08:50-06:00,nekiva,Nekiva,historical_activity,initial_backfill,estimated,0,1,0,Documentacion para la IA/10_Nekiva.md
+2026-03-22T02:08:49-06:00,nutriflow,NUTRIFLOW,historical_activity,initial_backfill,estimated,0,1,0,Documentacion para la IA/11_nutriflow.md
+2026-03-22T02:08:49-06:00,prismacraft,PrismaCraft 🎨,historical_activity,initial_backfill,estimated,0,1,0,Documentacion para la IA/12_PrismaCraft.md
+2026-03-22T02:08:49-06:00,prompt-ia,Prompt-IA ⌨️,historical_activity,initial_backfill,estimated,0,1,0,Documentacion para la IA/13_Prompt-IA.md
+2026-03-22T02:08:49-06:00,punkped-ia,Punkped-IA,historical_activity,initial_backfill,estimated,0,1,0,Documentacion para la IA/14_Punkped-IA.md
+2026-03-22T02:08:50-06:00,punkpedia,Punkpedia,historical_activity,initial_backfill,estimated,0,1,0,61_escenarios futuristas.md
+2026-03-22T02:08:50-06:00,robtinator,Robtinator,historical_activity,initial_backfill,estimated,0,1,0,Documentacion para la IA/16_Robtinator.md
+2026-03-22T02:08:50-06:00,speeddocumentai,SpeedDocumentAI 📄,historical_activity,initial_backfill,estimated,0,1,0,Documentacion para la IA/17_SpeedDocumentAI.md
+2026-03-22T02:08:50-06:00,uiverse,Uiverse,historical_activity,initial_backfill,estimated,0,1,0,18_Ui_lab/Documentacion para la IA/18_ui_lab.md
+2026-03-22T02:08:50-06:00,vitalia,VitalIA,historical_activity,initial_backfill,estimated,0,1,0,Documentacion para la IA/19_VitalIA.md
+2026-03-22T02:08:49-06:00,volt-ia,VOLT-IA,historical_activity,initial_backfill,estimated,0,1,0,Documentacion para la IA/20_Volt-IA.md
+2026-03-22T02:00:28-06:00,closet-a-la-pantalla,Closet a la Pantalla,historical_activity,initial_backfill,estimated,0,1,0,Documentacion para la IA/01_closet_a_la_pantalla.md
+2026-03-22T02:08:49-06:00,proyectia-tabs,PROYECTIA TABS,historical_activity,initial_backfill,estimated,0,1,0,6_Proyectia Tabs.md
+2026-03-22T02:08:50-06:00,dragon-alebrije,DRAGÓN ALEBRIJE,historical_activity,initial_backfill,estimated,0,1,0,Documentacion para la IA/01_dragon_alebrije.md
+2026-03-22T02:08:50-06:00,the-good-liar,The Good Liar,historical_activity,initial_backfill,estimated,0,1,0,Documentacion para la IA/02_the_good_liar.md
+2026-03-22T02:08:49-06:00,titanes,Titanes,historical_activity,initial_backfill,estimated,0,1,0,18_Titanes.md
+2026-03-22T02:08:50-06:00,debatia,DEBATIA (Multi-IA Deliberation),historical_activity,initial_backfill,estimated,0,1,0,Documentacion para la IA/03_Debatia.md
+2026-03-22T02:08:50-06:00,faast,FAAST / SLAP!FAAST,historical_activity,initial_backfill,estimated,0,1,0,Slap!FaastV1/documentacion/kinect_guides/60_FAAST.md
+2026-03-22T02:08:49-06:00,hyperpane,Hyperpane 🪟,historical_activity,initial_backfill,estimated,0,1,0,Documentacion para la IA/06_hyperpane.md
+2026-03-22T02:08:50-06:00,interface-new-prop-cerrar,Interface New Prop Cerrar,historical_activity,initial_backfill,estimated,0,1,0,11_nueva_propuesta_de_interface_cerrar.md
+2026-03-22T02:08:50-06:00,mentor-ia,Mentor-IA 🎓,historical_activity,initial_backfill,estimated,0,1,0,09_mentor-ia.md
+2026-03-22T02:08:50-06:00,my-soul,MY SOUL (Digital Identity),historical_activity,initial_backfill,estimated,0,1,0,10_mysoul.md
+2026-03-22T02:08:50-06:00,predictia,PredictIA ✍️,historical_activity,initial_backfill,estimated,0,1,0,Documentacion para la IA/14_Predictia.md
+2026-03-22T02:08:50-06:00,proyectia,PROYECTIA (Command Center),historical_activity,initial_backfill,estimated,0,2,0,info vieja/15_Proyectia/documentacion/59_Focus.md; info vieja/15_Proyectia/widgets/59_Focus/59_Focus.md
+2026-03-22T02:08:50-06:00,quick-look-app,Quick Look App ⚡,historical_activity,initial_backfill,estimated,0,1,0,Documentacion para la IA/01_Quick_Look_App.md
+2026-03-22T02:08:49-06:00,reflectia,REFLECTIA (Luxury Simulation),historical_activity,initial_backfill,estimated,0,1,0,Documentacion para la IA/18_Reflectia.md
+2026-03-22T10:32:51-06:00,retriver,Retriver,historical_activity,initial_backfill,estimated,0,1,0,Retriever/Database/Oliver/DOCS/hallazgos_internet.md
+2026-03-22T02:08:49-06:00,serenesymphony,SERENESYMPHONY (Visual Orchestration),historical_activity,initial_backfill,estimated,0,2,0,Documentacion para la IA/19_serenesymphony.md; Master SereneSymphony/03_Research_Legacy/Raw_Snapshots/04_Docs_IA/19_serenesymphony.md
+2026-03-22T02:08:49-06:00,switch-click-swiss,SWITCH CLICK SWISS (Natural Interaction),historical_activity,initial_backfill,estimated,0,1,0,Master dev click switch swiss/docs/22_Switch click swiss.md
+2026-03-22T02:08:50-06:00,transfiria,TransfirIA 🔊,historical_activity,initial_backfill,estimated,0,1,0,Documentacion para la IA/23_transfiria.md
+2026-03-22T02:08:49-06:00,voyager-files,Voyager Files,historical_activity,initial_backfill,estimated,0,1,0,Documentacion para la IA/25_voyager_files.md
+2026-03-22T02:08:49-06:00,coraline,CORALINE (Pink Palace),historical_activity,initial_backfill,estimated,0,1,0,Documentacion para la IA/01_Coraline.md
+2026-03-22T02:08:50-06:00,die-rabbits-die,Die Rabbits Die,historical_activity,initial_backfill,estimated,0,1,0,Documentacion para la IA/02_die_rabbits_die.md
+2026-03-22T02:08:50-06:00,hot-dog-hero,Hot Dog Hero!,historical_activity,initial_backfill,estimated,0,1,0,47_Hot Dog Hero!.md
+2026-03-22T02:08:50-06:00,kaetso,Kaetso ⚔️,historical_activity,initial_backfill,estimated,0,1,0,Documentacion para la IA/04_kaetso.md
+2026-03-22T10:28:08-06:00,la-chica-y-el-zorro,La Chica y el Zorro,historical_activity,initial_backfill,estimated,0,1,0,46_La Chica y el zorro.md
+2026-03-22T02:08:50-06:00,nanny-ninja,Nanny Ninja,historical_activity,initial_backfill,estimated,0,1,0,Documentacion para la IA/06_nanny_ninja.md
+2026-03-22T02:08:50-06:00,viajeros,Viajeros,historical_activity,initial_backfill,estimated,0,1,0,Documentacion para la IA/08_Viajeros.md

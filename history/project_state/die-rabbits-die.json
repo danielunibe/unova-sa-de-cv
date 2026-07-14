@@ -1,0 +1,125 @@
+{
+  "project_id": "die-rabbits-die",
+  "project": "Die Rabbits Die",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\05_videojuegos\\02_Die_rabbits_die",
+  "captured_at": "2026-07-14T07:11:19-06:00",
+  "last_change": "2026-03-27T18:36:20-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 17,
+    "code_count": 0,
+    "doc_count": 13,
+    "asset_count": 4,
+    "test_count": 2,
+    "manifest_count": 0,
+    "latest_mtime": "2026-03-27T18:36:20-06:00",
+    "latest_file": "Documentacion para la IA/CHANGELOG.md",
+    "extensions": {
+      ".md": 13,
+      ".png": 4
+    }
+  },
+  "progress": {
+    "project_id": "die-rabbits-die",
+    "project": "Die Rabbits Die",
+    "mvp": 18,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "Gemini_Generated_Image_udgpabudgpabudgp.png": [
+      8044610,
+      1764900205076000000
+    ],
+    "Gemini_Generated_Image_4twf7h4twf7h4twf.png": [
+      7407897,
+      1764901524878000000
+    ],
+    "Die Rabits Die_daniel_unibe.png": [
+      7407897,
+      1764901524878000000
+    ],
+    "Gemini_Generated_Image_dkx6m7dkx6m7dkx6.png": [
+      7693324,
+      1764900049787000000
+    ],
+    "Documentacion para la IA/02_die_rabbits_die.md": [
+      823,
+      1774166930146000000
+    ],
+    "Documentacion para la IA/PROTOCOL.md": [
+      377,
+      1774658180548000000
+    ],
+    "Documentacion para la IA/CLAUDE.md": [
+      142,
+      1774658180571000000
+    ],
+    "Documentacion para la IA/CHANGELOG.md": [
+      142,
+      1774658180574000000
+    ],
+    "Documentacion para la IA/_meta/questions-log.md": [
+      682,
+      1774658180552000000
+    ],
+    "Documentacion para la IA/_meta/owner.md": [
+      215,
+      1774658180550000000
+    ],
+    "Documentacion para la IA/docs/TEST_PLAN.md": [
+      167,
+      1774658180567000000
+    ],
+    "Documentacion para la IA/docs/PRD.md": [
+      188,
+      1774658180555000000
+    ],
+    "Documentacion para la IA/docs/USER_DOCS.md": [
+      151,
+      1774658180569000000
+    ],
+    "Documentacion para la IA/docs/TDD.md": [
+      145,
+      1774658180560000000
+    ],
+    "Documentacion para la IA/docs/ROADMAP.md": [
+      185,
+      1774658180562000000
+    ],
+    "Documentacion para la IA/docs/DESIGN_SPEC.md": [
+      142,
+      1774658180557000000
+    ],
+    "Documentacion para la IA/docs/GLOSSARY.md": [
+      173,
+      1774658180564000000
+    ]
+  }
+}

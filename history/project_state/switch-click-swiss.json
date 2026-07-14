@@ -1,0 +1,498 @@
+{
+  "project_id": "switch-click-swiss",
+  "project": "SWITCH CLICK SWISS (Natural Interaction)",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\01_software\\21_switch_click_swiss",
+  "captured_at": "2026-07-14T07:11:18-06:00",
+  "last_change": "2026-05-08T01:51:24-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 107,
+    "code_count": 40,
+    "doc_count": 26,
+    "asset_count": 17,
+    "test_count": 5,
+    "manifest_count": 7,
+    "latest_mtime": "2026-05-08T01:51:24-06:00",
+    "latest_file": "Master dev click switch swiss/src/ui/package-lock.json",
+    "extensions": {
+      ".cs": 20,
+      ".md": 14,
+      ".png": 14,
+      ".json": 12,
+      ".txt": 10,
+      ".tsx": 10,
+      "[sin extensión]": 4,
+      ".ts": 3,
+      ".svg": 3,
+      ".rs": 3,
+      ".docx": 2,
+      ".csproj": 2,
+      ".html": 2,
+      ".css": 2,
+      ".wapproj": 1,
+      ".appxmanifest": 1,
+      ".sln": 1,
+      ".toml": 1,
+      ".icns": 1,
+      ".ico": 1
+    }
+  },
+  "progress": {
+    "project_id": "switch-click-swiss",
+    "project": "SWITCH CLICK SWISS (Natural Interaction)",
+    "mvp": 55,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 5,
+      "implementacion": 22,
+      "pruebas": 10,
+      "empaquetado": 3,
+      "continuidad": 3,
+      "validacion": 3
+    },
+    "missing": []
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "Master dev click switch swiss/.gitignore": [
+      153,
+      1777997981915000000
+    ],
+    "Master dev click switch swiss/actualizaciones.txt": [
+      33462,
+      1778010351972000000
+    ],
+    "Master dev click switch swiss/README.md": [
+      1213,
+      1778109204513000000
+    ],
+    "Master dev click switch swiss/SMOKE_TEST.md": [
+      2866,
+      1778117683165000000
+    ],
+    "Master dev click switch swiss/config/default_profile.json": [
+      1440,
+      1778218284587000000
+    ],
+    "Master dev click switch swiss/docs/gui_example.md": [
+      1759,
+      1754060300672000000
+    ],
+    "Master dev click switch swiss/docs/interfaz_gestos.md": [
+      2229,
+      1754060301138000000
+    ],
+    "Master dev click switch swiss/docs/22_Switch click swiss.md": [
+      3698,
+      1774166929930000000
+    ],
+    "Master dev click switch swiss/docs/RESUMEN_PROYECTO_SWITCH_CLICK_SWISS.md": [
+      8925,
+      1777591172084000000
+    ],
+    "Master dev click switch swiss/docs/architecture.md": [
+      7584,
+      1777593559394000000
+    ],
+    "Master dev click switch swiss/docs/PLAN_ESTRATEGICO_VOYAGER_2026.md": [
+      2840,
+      1777856320676000000
+    ],
+    "Master dev click switch swiss/docs/REVISION_DOCUMENTOS_DEFINITIVOS.md": [
+      4038,
+      1777997269081000000
+    ],
+    "Master dev click switch swiss/docs/SCS_GitHub_Repos.docx": [
+      25020,
+      1778017112000000000
+    ],
+    "Master dev click switch swiss/docs/SCS_PRD_v3.docx": [
+      34441,
+      1778017112000000000
+    ],
+    "Master dev click switch swiss/docs/IPC_CONTRACT_MVP.md": [
+      2909,
+      1778109161036000000
+    ],
+    "Master dev click switch swiss/docs/DEV_GUIDE.md": [
+      2023,
+      1778109180843000000
+    ],
+    "Master dev click switch swiss/docs/QA_VALIDATION_MVP.md": [
+      1629,
+      1778129726236000000
+    ],
+    "Master dev click switch swiss/docs/product_final/01_CHECKLIST_GLOBAL.txt": [
+      1203,
+      1778143237758000000
+    ],
+    "Master dev click switch swiss/docs/product_final/02_EULA_SWITCH_CLICK_SWISS_v1.txt": [
+      1306,
+      1778143238137000000
+    ],
+    "Master dev click switch swiss/docs/product_final/03_ARQUITECTURA_BACKEND_UI_MAP.txt": [
+      781,
+      1778143238521000000
+    ],
+    "Master dev click switch swiss/docs/product_final/04_PLAN_INTEGRACION_FUNCIONES_PENDIENTES.txt": [
+      576,
+      1778143239207000000
+    ],
+    "Master dev click switch swiss/docs/product_final/05_CONTRATO_IPC_EXTENDIDO_v2.txt": [
+      534,
+      1778143239548000000
+    ],
+    "Master dev click switch swiss/docs/product_final/06_GUIA_UI_CONFIG_DESDE_MOCK.txt": [
+      587,
+      1778143239943000000
+    ],
+    "Master dev click switch swiss/docs/product_final/07_RUNBOOK_RELEASE_MSIX.txt": [
+      617,
+      1778143240351000000
+    ],
+    "Master dev click switch swiss/docs/product_final/08_QA_PLAN_FINAL.txt": [
+      638,
+      1778143240709000000
+    ],
+    "Master dev click switch swiss/docs/product_final/09_FINAL_HANDOFF_OPERATIVO.txt": [
+      4183,
+      1778225226062000000
+    ],
+    "Master dev click switch swiss/src/packaging/SwitchClickSwiss.Package/SwitchClickSwiss.Package.wapproj": [
+      1174,
+      1778000443467000000
+    ],
+    "Master dev click switch swiss/src/packaging/SwitchClickSwiss.Package/Package.appxmanifest": [
+      1874,
+      1778000443467000000
+    ],
+    "Master dev click switch swiss/src/packaging/SwitchClickSwiss.Package/README.md": [
+      1175,
+      1778129702362000000
+    ],
+    "Master dev click switch swiss/src/packaging/SwitchClickSwiss.Package/Assets/.gitkeep": [
+      1,
+      1778000449322000000
+    ],
+    "Master dev click switch swiss/src/service/SwitchClickSwiss.sln": [
+      2964,
+      1777998041212000000
+    ],
+    "Master dev click switch swiss/src/service/SwitchClickSwiss.Service/Program.cs": [
+      302,
+      1777998213703000000
+    ],
+    "Master dev click switch swiss/src/service/SwitchClickSwiss.Service/SwitchClickSwiss.Service.csproj": [
+      748,
+      1778000571861000000
+    ],
+    "Master dev click switch swiss/src/service/SwitchClickSwiss.Service/App/SwitchClickSwissApp.cs": [
+      2874,
+      1778001664734000000
+    ],
+    "Master dev click switch swiss/src/service/SwitchClickSwiss.Service/Autostart/AutostartManager.cs": [
+      2536,
+      1778000561386000000
+    ],
+    "Master dev click switch swiss/src/service/SwitchClickSwiss.Service/Config/AppPaths.cs": [
+      1332,
+      1777998914492000000
+    ],
+    "Master dev click switch swiss/src/service/SwitchClickSwiss.Service/Config/Profile.cs": [
+      5445,
+      1778218278690000000
+    ],
+    "Master dev click switch swiss/src/service/SwitchClickSwiss.Service/Core/MouseEvent.cs": [
+      332,
+      1777998272816000000
+    ],
+    "Master dev click switch swiss/src/service/SwitchClickSwiss.Service/Core/MouseHook.cs": [
+      4981,
+      1777998515848000000
+    ],
+    "Master dev click switch swiss/src/service/SwitchClickSwiss.Service/Core/HotkeyManager.cs": [
+      3126,
+      1778002103014000000
+    ],
+    "Master dev click switch swiss/src/service/SwitchClickSwiss.Service/Core/GestureDetector.cs": [
+      4430,
+      1778143035444000000
+    ],
+    "Master dev click switch swiss/src/service/SwitchClickSwiss.Service/Core/ActionExecutor.cs": [
+      4027,
+      1778143068150000000
+    ],
+    "Master dev click switch swiss/src/service/SwitchClickSwiss.Service/Core/GestureEngine.cs": [
+      12783,
+      1778218406951000000
+    ],
+    "Master dev click switch swiss/src/service/SwitchClickSwiss.Service/IPC/PipeServer.cs": [
+      21744,
+      1778143112533000000
+    ],
+    "Master dev click switch swiss/src/service/SwitchClickSwiss.Service/Logging/AppLogger.cs": [
+      781,
+      1777998214055000000
+    ],
+    "Master dev click switch swiss/src/service/SwitchClickSwiss.Service/Storage/AppDb.cs": [
+      1158,
+      1777998242370000000
+    ],
+    "Master dev click switch swiss/src/service/SwitchClickSwiss.Service/Storage/ProfileRepository.cs": [
+      3966,
+      1777998242372000000
+    ],
+    "Master dev click switch swiss/src/service/SwitchClickSwiss.Service/Storage/SettingsRepository.cs": [
+      2356,
+      1778001817703000000
+    ],
+    "Master dev click switch swiss/src/service/SwitchClickSwiss.Service/Tray/TrayAppContext.cs": [
+      5597,
+      1778002050508000000
+    ],
+    "Master dev click switch swiss/src/service/SwitchClickSwiss.Service.Tests/UnitTest1.cs": [
+      126,
+      1777998013030000000
+    ],
+    "Master dev click switch swiss/src/service/SwitchClickSwiss.Service.Tests/SwitchClickSwiss.Service.Tests.csproj": [
+      807,
+      1777998969426000000
+    ],
+    "Master dev click switch swiss/src/service/SwitchClickSwiss.Service.Tests/GestureEngineTests.cs": [
+      1776,
+      1778218461950000000
+    ],
+    "Master dev click switch swiss/src/service/SwitchClickSwiss.Service.Tests/GestureDetectorTests.cs": [
+      2242,
+      1778224238177000000
+    ],
+    "Master dev click switch swiss/src/ui/README.md": [
+      385,
+      1777998601439000000
+    ],
+    "Master dev click switch swiss/src/ui/.gitignore": [
+      277,
+      1777998601441000000
+    ],
+    "Master dev click switch swiss/src/ui/index.html": [
+      390,
+      1777998601442000000
+    ],
+    "Master dev click switch swiss/src/ui/tsconfig.json": [
+      630,
+      1777998601450000000
+    ],
+    "Master dev click switch swiss/src/ui/tsconfig.node.json": [
+      223,
+      1777998601451000000
+    ],
+    "Master dev click switch swiss/src/ui/package.json": [
+      777,
+      1777998691951000000
+    ],
+    "Master dev click switch swiss/src/ui/vite.config.ts": [
+      972,
+      1778001735235000000
+    ],
+    "Master dev click switch swiss/src/ui/package-lock.json": [
+      102070,
+      1778226684174000000
+    ],
+    "Master dev click switch swiss/src/ui/.vscode/extensions.json": [
+      83,
+      1777998601437000000
+    ],
+    "Master dev click switch swiss/src/ui/public/tauri.svg": [
+      2605,
+      1777998601461000000
+    ],
+    "Master dev click switch swiss/src/ui/public/vite.svg": [
+      1497,
+      1777998601464000000
+    ],
+    "Master dev click switch swiss/src/ui/src/vite-env.d.ts": [
+      39,
+      1777998601449000000
+    ],
+    "Master dev click switch swiss/src/ui/src/main.tsx": [
+      238,
+      1777998601449000000
+    ],
+    "Master dev click switch swiss/src/ui/src/hud.html": [
+      294,
+      1778001721277000000
+    ],
+    "Master dev click switch swiss/src/ui/src/hud.tsx": [
+      243,
+      1778001721278000000
+    ],
+    "Master dev click switch swiss/src/ui/src/App.tsx": [
+      8236,
+      1778218063429000000
+    ],
+    "Master dev click switch swiss/src/ui/src/App.css": [
+      5206,
+      1778218361155000000
+    ],
+    "Master dev click switch swiss/src/ui/src/assets/react.svg": [
+      4126,
+      1777998601459000000
+    ],
+    "Master dev click switch swiss/src/ui/src/hud/Hud.tsx": [
+      2138,
+      1778001721280000000
+    ],
+    "Master dev click switch swiss/src/ui/src/hud/hud.css": [
+      521,
+      1778001721281000000
+    ],
+    "Master dev click switch swiss/src/ui/src/store/scsStore.ts": [
+      5518,
+      1778218305569000000
+    ],
+    "Master dev click switch swiss/src/ui/src/tabs/ActionsTab.tsx": [
+      2677,
+      1778001984534000000
+    ],
+    "Master dev click switch swiss/src/ui/src/tabs/MonitorTab.tsx": [
+      4879,
+      1778002279583000000
+    ],
+    "Master dev click switch swiss/src/ui/src/tabs/MouseTab.tsx": [
+      5454,
+      1778002279585000000
+    ],
+    "Master dev click switch swiss/src/ui/src/tabs/Onboarding.tsx": [
+      4231,
+      1778002279586000000
+    ],
+    "Master dev click switch swiss/src/ui/src/tabs/AdvancedTab.tsx": [
+      3908,
+      1778143153005000000
+    ],
+    "Master dev click switch swiss/src/ui/src/tabs/StructureTab.tsx": [
+      7049,
+      1778218343148000000
+    ],
+    "Master dev click switch swiss/src/ui/src-tauri/.gitignore": [
+      173,
+      1777998601400000000
+    ],
+    "Master dev click switch swiss/src/ui/src-tauri/build.rs": [
+      42,
+      1777998601402000000
+    ],
+    "Master dev click switch swiss/src/ui/src-tauri/tauri.conf.json": [
+      1013,
+      1778001752071000000
+    ],
+    "Master dev click switch swiss/src/ui/src-tauri/Cargo.toml": [
+      714,
+      1778009740201000000
+    ],
+    "Master dev click switch swiss/src/ui/src-tauri/capabilities/default.json": [
+      230,
+      1777998601403000000
+    ],
+    "Master dev click switch swiss/src/ui/src-tauri/gen/schemas/acl-manifests.json": [
+      69499,
+      1778009889437000000
+    ],
+    "Master dev click switch swiss/src/ui/src-tauri/gen/schemas/windows-schema.json": [
+      129129,
+      1778009889463000000
+    ],
+    "Master dev click switch swiss/src/ui/src-tauri/gen/schemas/desktop-schema.json": [
+      129129,
+      1778009889463000000
+    ],
+    "Master dev click switch swiss/src/ui/src-tauri/gen/schemas/capabilities.json": [
+      163,
+      1778009889469000000
+    ],
+    "Master dev click switch swiss/src/ui/src-tauri/icons/128x128.png": [
+      3512,
+      1777998601405000000
+    ],
+    "Master dev click switch swiss/src/ui/src-tauri/icons/128x128@2x.png": [
+      7012,
+      1777998601408000000
+    ],
+    "Master dev click switch swiss/src/ui/src-tauri/icons/32x32.png": [
+      974,
+      1777998601409000000
+    ],
+    "Master dev click switch swiss/src/ui/src-tauri/icons/Square107x107Logo.png": [
+      2863,
+      1777998601410000000
+    ],
+    "Master dev click switch swiss/src/ui/src-tauri/icons/Square142x142Logo.png": [
+      3858,
+      1777998601412000000
+    ],
+    "Master dev click switch swiss/src/ui/src-tauri/icons/Square150x150Logo.png": [
+      3966,
+      1777998601414000000
+    ],
+    "Master dev click switch swiss/src/ui/src-tauri/icons/Square284x284Logo.png": [
+      7737,
+      1777998601417000000
+    ],
+    "Master dev click switch swiss/src/ui/src-tauri/icons/Square30x30Logo.png": [
+      903,
+      1777998601418000000
+    ],
+    "Master dev click switch swiss/src/ui/src-tauri/icons/Square310x310Logo.png": [
+      8591,
+      1777998601420000000
+    ],
+    "Master dev click switch swiss/src/ui/src-tauri/icons/Square44x44Logo.png": [
+      1299,
+      1777998601421000000
+    ],
+    "Master dev click switch swiss/src/ui/src-tauri/icons/Square71x71Logo.png": [
+      2011,
+      1777998601422000000
+    ],
+    "Master dev click switch swiss/src/ui/src-tauri/icons/Square89x89Logo.png": [
+      2468,
+      1777998601423000000
+    ],
+    "Master dev click switch swiss/src/ui/src-tauri/icons/StoreLogo.png": [
+      1523,
+      1777998601425000000
+    ],
+    "Master dev click switch swiss/src/ui/src-tauri/icons/icon.icns": [
+      98451,
+      1777998601428000000
+    ],
+    "Master dev click switch swiss/src/ui/src-tauri/icons/icon.ico": [
+      86642,
+      1777998601431000000
+    ],
+    "Master dev click switch swiss/src/ui/src-tauri/icons/icon.png": [
+      14183,
+      1777998601433000000
+    ],
+    "Master dev click switch swiss/src/ui/src-tauri/src/main.rs": [
+      183,
+      1777998601436000000
+    ],
+    "Master dev click switch swiss/src/ui/src-tauri/src/lib.rs": [
+      3832,
+      1778109050378000000
+    ]
+  }
+}

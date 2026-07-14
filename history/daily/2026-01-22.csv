@@ -1,0 +1,2 @@
+﻿timestamp,project_id,project,event_type,reason,precision,added,modified,deleted,sample_files
+2026-01-22T13:18:20-06:00,retriver,Retriver,historical_activity,initial_backfill,estimated,0,1,0,Retriever/Database/Julia/VID/00014122-VIDEO-2026-01-22-13-13-38.mp4

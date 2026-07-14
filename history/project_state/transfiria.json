@@ -1,0 +1,136 @@
+{
+  "project_id": "transfiria",
+  "project": "TransfirIA 🔊",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\01_software\\23_Transfiria",
+  "captured_at": "2026-07-14T07:11:18-06:00",
+  "last_change": "2026-03-27T18:33:11-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 19,
+    "code_count": 2,
+    "doc_count": 15,
+    "asset_count": 0,
+    "test_count": 2,
+    "manifest_count": 0,
+    "latest_mtime": "2026-03-27T18:33:11-06:00",
+    "latest_file": "Documentacion para la IA/CHANGELOG.md",
+    "extensions": {
+      ".md": 14,
+      ".exe": 2,
+      ".ps1": 1,
+      ".txt": 1,
+      ".cs": 1
+    }
+  },
+  "progress": {
+    "project_id": "transfiria",
+    "project": "TransfirIA 🔊",
+    "mvp": 22,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 8,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "que es transfiria.md": [
+      119,
+      1769030654670000000
+    ],
+    "Documentacion para la IA/23_transfiria.md": [
+      1525,
+      1774166930103000000
+    ],
+    "Documentacion para la IA/CHANGELOG.md": [
+      305,
+      1774657991577000000
+    ],
+    "Documentacion para la IA/CLAUDE.md": [
+      508,
+      1774657991574000000
+    ],
+    "Documentacion para la IA/PROTOCOL.md": [
+      942,
+      1774657991542000000
+    ],
+    "Documentacion para la IA/docs/DESIGN_SPEC.md": [
+      471,
+      1774657991558000000
+    ],
+    "Documentacion para la IA/docs/USER_DOCS.md": [
+      376,
+      1774657991570000000
+    ],
+    "Documentacion para la IA/docs/TDD.md": [
+      456,
+      1774657991561000000
+    ],
+    "Documentacion para la IA/docs/ROADMAP.md": [
+      727,
+      1774657991563000000
+    ],
+    "Documentacion para la IA/docs/PRD.md": [
+      678,
+      1774657991557000000
+    ],
+    "Documentacion para la IA/docs/GLOSSARY.md": [
+      421,
+      1774657991565000000
+    ],
+    "Documentacion para la IA/docs/TEST_PLAN.md": [
+      420,
+      1774657991567000000
+    ],
+    "Documentacion para la IA/_meta/questions-log.md": [
+      1631,
+      1774657991553000000
+    ],
+    "Documentacion para la IA/_meta/owner.md": [
+      286,
+      1774657991548000000
+    ],
+    "AirPlayNativeCS/run.ps1": [
+      999,
+      1768009370764000000
+    ],
+    "AirPlayNativeCS/AirPlaySender.exe": [
+      14848,
+      1768009193510000000
+    ],
+    "AirPlayNativeCS/TransfirIA.exe": [
+      15360,
+      1768009428126000000
+    ],
+    "AirPlayNativeCS/LEEME.txt": [
+      1046,
+      1768009387178000000
+    ],
+    "AirPlayNativeCS/AirPlaySender.cs": [
+      15582,
+      1768009422242000000
+    ]
+  }
+}

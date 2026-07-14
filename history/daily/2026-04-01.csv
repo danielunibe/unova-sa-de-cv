@@ -1,0 +1,2 @@
+﻿timestamp,project_id,project,event_type,reason,precision,added,modified,deleted,sample_files
+2026-04-01T15:04:40-06:00,retriver,Retriver,historical_activity,initial_backfill,estimated,0,1,0,Retriever/Database/02_DAVID_SANCHEZ_PAREJA/DOCS/guia_david_optimizada.html

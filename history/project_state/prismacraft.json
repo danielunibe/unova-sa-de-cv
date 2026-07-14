@@ -1,0 +1,273 @@
+{
+  "project_id": "prismacraft",
+  "project": "PrismaCraft 🎨",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\02_App IOS y android\\12_PrismaCraft",
+  "captured_at": "2026-07-14T07:10:37-06:00",
+  "last_change": "2026-03-27T18:34:59-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 53,
+    "code_count": 22,
+    "doc_count": 14,
+    "asset_count": 12,
+    "test_count": 2,
+    "manifest_count": 2,
+    "latest_mtime": "2026-03-27T18:34:59-06:00",
+    "latest_file": "Documentacion para la IA/CHANGELOG.md",
+    "extensions": {
+      ".md": 14,
+      ".tsx": 12,
+      ".png": 11,
+      ".ts": 9,
+      ".json": 3,
+      ".psd": 1,
+      ".html": 1,
+      "[sin extensión]": 1,
+      ".local": 1
+    }
+  },
+  "progress": {
+    "project_id": "prismacraft",
+    "project": "PrismaCraft 🎨",
+    "mvp": 48,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 5,
+      "implementacion": 22,
+      "pruebas": 6,
+      "empaquetado": 3,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "próximo paso documentado"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "12EXPLICAR-→-#E91E63-→-Elefante.png": [
+      3004296,
+      1764202870424000000
+    ],
+    "5CÓDIGO-→-#3949AB-→-Pulpo.png": [
+      2788166,
+      1764192801214000000
+    ],
+    "11OPTIMIZAR-→-#9C27B0-→-Hormiga.png": [
+      2547519,
+      1764196583610000000
+    ],
+    "1VISUAL-→-#E53935-→-cangrejo-rojo.png": [
+      1957917,
+      1764192246258000000
+    ],
+    "6IDEAR-→-#D84315-→-Cuervo.png": [
+      2873512,
+      1764193007069000000
+    ],
+    "4AUDIO-→-#1E88E5-→-Delfín.png": [
+      2981963,
+      1764192025806000000
+    ],
+    "2TEXTO-→-#D1A01F-→-pollito.png": [
+      1707369,
+      1764191495234000000
+    ],
+    "3VIDEO-→-#FF6F00-→-Guepardo.png": [
+      2786972,
+      1764191898995000000
+    ],
+    "7#E53935---VISUAL.png": [
+      3023648,
+      1764197861253000000
+    ],
+    "10ANALIZAR → #6A1B9A → Zorro ártico.png": [
+      2762975,
+      1764194392504000000
+    ],
+    "9ESTILO-→-#0097A7-→-Pavo-real.png": [
+      2680050,
+      1764198200513000000
+    ],
+    "animales prismacraft.psd": [
+      169053367,
+      1764256471473000000
+    ],
+    "desarrollo/App.tsx": [
+      10671,
+      1770279194000000000
+    ],
+    "desarrollo/tsconfig.json": [
+      542,
+      1770279194000000000
+    ],
+    "desarrollo/README.md": [
+      553,
+      1770279194000000000
+    ],
+    "desarrollo/themes.ts": [
+      5441,
+      1770279194000000000
+    ],
+    "desarrollo/vite.config.ts": [
+      580,
+      1770279194000000000
+    ],
+    "desarrollo/types.ts": [
+      753,
+      1770279194000000000
+    ],
+    "desarrollo/index.html": [
+      4013,
+      1770279194000000000
+    ],
+    "desarrollo/metadata.json": [
+      259,
+      1770279194000000000
+    ],
+    "desarrollo/.gitignore": [
+      253,
+      1770279194000000000
+    ],
+    "desarrollo/package.json": [
+      443,
+      1770279194000000000
+    ],
+    "desarrollo/index.tsx": [
+      351,
+      1770279194000000000
+    ],
+    "desarrollo/.env.local": [
+      35,
+      1770279194000000000
+    ],
+    "desarrollo/constants.ts": [
+      2686,
+      1770279194000000000
+    ],
+    "desarrollo/hooks/usePromptWorkflow.ts": [
+      3764,
+      1770279194000000000
+    ],
+    "desarrollo/hooks/useInteractiveWelcome.ts": [
+      1704,
+      1770279194000000000
+    ],
+    "desarrollo/hooks/useCarousel.ts": [
+      4014,
+      1770279194000000000
+    ],
+    "desarrollo/utils/colorUtils.ts": [
+      1055,
+      1770279194000000000
+    ],
+    "desarrollo/components/CraftEditor.tsx": [
+      3908,
+      1770279194000000000
+    ],
+    "desarrollo/components/ErrorBoundary.tsx": [
+      1462,
+      1770279195000000000
+    ],
+    "desarrollo/components/SelectionCarousel.tsx": [
+      11938,
+      1770279194000000000
+    ],
+    "desarrollo/components/icons.tsx": [
+      1845,
+      1770279194000000000
+    ],
+    "desarrollo/components/InitialIdeaCard.tsx": [
+      9595,
+      1770279194000000000
+    ],
+    "desarrollo/components/CraftCard.tsx": [
+      1994,
+      1770279194000000000
+    ],
+    "desarrollo/components/WelcomeScreen.tsx": [
+      4068,
+      1770279194000000000
+    ],
+    "desarrollo/components/FinalPromptCard.tsx": [
+      2770,
+      1770279194000000000
+    ],
+    "desarrollo/components/LanguageSelector.tsx": [
+      1990,
+      1770279194000000000
+    ],
+    "desarrollo/components/BreadcrumbTrail.tsx": [
+      2656,
+      1770279194000000000
+    ],
+    "desarrollo/services/geminiService.ts": [
+      1935,
+      1770279195000000000
+    ],
+    "Documentacion para la IA/12_PrismaCraft.md": [
+      4238,
+      1774166929838000000
+    ],
+    "Documentacion para la IA/CHANGELOG.md": [
+      207,
+      1774658099261000000
+    ],
+    "Documentacion para la IA/CLAUDE.md": [
+      239,
+      1774658099257000000
+    ],
+    "Documentacion para la IA/PROTOCOL.md": [
+      943,
+      1774658099226000000
+    ],
+    "Documentacion para la IA/docs/DESIGN_SPEC.md": [
+      332,
+      1774658099242000000
+    ],
+    "Documentacion para la IA/docs/TDD.md": [
+      235,
+      1774658099244000000
+    ],
+    "Documentacion para la IA/docs/GLOSSARY.md": [
+      278,
+      1774658099251000000
+    ],
+    "Documentacion para la IA/docs/ROADMAP.md": [
+      276,
+      1774658099249000000
+    ],
+    "Documentacion para la IA/docs/USER_DOCS.md": [
+      217,
+      1774658099255000000
+    ],
+    "Documentacion para la IA/docs/TEST_PLAN.md": [
+      234,
+      1774658099254000000
+    ],
+    "Documentacion para la IA/docs/PRD.md": [
+      465,
+      1774658099240000000
+    ],
+    "Documentacion para la IA/_meta/owner.md": [
+      286,
+      1774658099231000000
+    ],
+    "Documentacion para la IA/_meta/questions-log.md": [
+      1020,
+      1774658099236000000
+    ]
+  }
+}

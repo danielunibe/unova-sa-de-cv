@@ -1,0 +1,126 @@
+{
+  "project_id": "materialcode",
+  "project": "MaterialCode 🧊",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\01_software\\08_MaterialCode",
+  "captured_at": "2026-07-14T07:10:56-06:00",
+  "last_change": "2026-03-27T17:57:11-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 17,
+    "code_count": 0,
+    "doc_count": 15,
+    "asset_count": 1,
+    "test_count": 3,
+    "manifest_count": 0,
+    "latest_mtime": "2026-03-27T17:57:11-06:00",
+    "latest_file": "CHANGELOG.md",
+    "extensions": {
+      ".md": 15,
+      ".png": 1,
+      ".yml": 1
+    }
+  },
+  "progress": {
+    "project_id": "materialcode",
+    "project": "MaterialCode 🧊",
+    "mvp": 17,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 3,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "MaterialCode.md": [
+      3521,
+      1768011487611000000
+    ],
+    "PROTOCOL.md": [
+      16267,
+      1774655043427000000
+    ],
+    "CHANGELOG.md": [
+      674,
+      1774655831241000000
+    ],
+    "CLAUDE.md": [
+      811,
+      1774655823837000000
+    ],
+    "genesis/test_gen.png": [
+      21,
+      1768009929820000000
+    ],
+    "genesis/.github/workflows/ci.yml": [
+      1063,
+      1768009954655000000
+    ],
+    ".agent/rules/promptdios.md": [
+      2782,
+      1768008593501000000
+    ],
+    "Documentacion para la IA/08_materialcode.md": [
+      2239,
+      1774514439971000000
+    ],
+    "_meta/owner.md": [
+      313,
+      1774655049124000000
+    ],
+    "_meta/questions-log.md": [
+      2484,
+      1774655059529000000
+    ],
+    "docs/GLOSSARY.md": [
+      1418,
+      1774655803006000000
+    ],
+    "docs/PRD.md": [
+      1632,
+      1774655771392000000
+    ],
+    "docs/DESIGN_SPEC.md": [
+      1163,
+      1774655778555000000
+    ],
+    "docs/TEST_PLAN.md": [
+      1386,
+      1774655810245000000
+    ],
+    "docs/ROADMAP.md": [
+      1899,
+      1774655795018000000
+    ],
+    "docs/USER_DOCS.md": [
+      978,
+      1774655817296000000
+    ],
+    "docs/TDD.md": [
+      1570,
+      1774655786643000000
+    ]
+  }
+}

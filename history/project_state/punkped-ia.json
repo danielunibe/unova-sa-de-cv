@@ -1,0 +1,171 @@
+{
+  "project_id": "punkped-ia",
+  "project": "Punkped-IA",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\02_App IOS y android\\14_Punkped-IA",
+  "captured_at": "2026-07-14T07:10:38-06:00",
+  "last_change": "2026-03-27T22:52:53-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 28,
+    "code_count": 9,
+    "doc_count": 14,
+    "asset_count": 0,
+    "test_count": 2,
+    "manifest_count": 2,
+    "latest_mtime": "2026-03-27T22:52:53-06:00",
+    "latest_file": "Documentacion para la IA/CHANGELOG.md",
+    "extensions": {
+      ".md": 14,
+      ".tsx": 4,
+      ".ts": 4,
+      ".json": 3,
+      "[sin extensión]": 1,
+      ".local": 1,
+      ".html": 1
+    }
+  },
+  "progress": {
+    "project_id": "punkped-ia",
+    "project": "Punkped-IA",
+    "mvp": 40,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 5,
+      "implementacion": 15,
+      "pruebas": 6,
+      "empaquetado": 3,
+      "continuidad": 3,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "index.tsx": [
+      351,
+      1770279964000000000
+    ],
+    "package.json": [
+      481,
+      1770279964000000000
+    ],
+    "vite.config.ts": [
+      580,
+      1770279964000000000
+    ],
+    "types.ts": [
+      731,
+      1770279964000000000
+    ],
+    "tsconfig.json": [
+      542,
+      1770279964000000000
+    ],
+    "App.tsx": [
+      1665,
+      1770279964000000000
+    ],
+    "metadata.json": [
+      345,
+      1770279964000000000
+    ],
+    ".gitignore": [
+      253,
+      1770279964000000000
+    ],
+    ".env.local": [
+      35,
+      1770279964000000000
+    ],
+    "README.md": [
+      553,
+      1770279964000000000
+    ],
+    "index.html": [
+      3500,
+      1770279964000000000
+    ],
+    "Documentacion para la IA/14_Punkped-IA.md": [
+      4030,
+      1774166929854000000
+    ],
+    "Documentacion para la IA/CHANGELOG.md": [
+      216,
+      1774673573840000000
+    ],
+    "Documentacion para la IA/PROTOCOL.md": [
+      942,
+      1774658099306000000
+    ],
+    "Documentacion para la IA/CLAUDE.md": [
+      273,
+      1774673573837000000
+    ],
+    "Documentacion para la IA/_meta/owner.md": [
+      286,
+      1774658099310000000
+    ],
+    "Documentacion para la IA/_meta/questions-log.md": [
+      1351,
+      1774673573830000000
+    ],
+    "Documentacion para la IA/docs/DESIGN_SPEC.md": [
+      427,
+      1774673573833000000
+    ],
+    "Documentacion para la IA/docs/TDD.md": [
+      234,
+      1774658099319000000
+    ],
+    "Documentacion para la IA/docs/TEST_PLAN.md": [
+      233,
+      1774658099333000000
+    ],
+    "Documentacion para la IA/docs/GLOSSARY.md": [
+      253,
+      1774658099331000000
+    ],
+    "Documentacion para la IA/docs/PRD.md": [
+      574,
+      1774673573832000000
+    ],
+    "Documentacion para la IA/docs/USER_DOCS.md": [
+      193,
+      1774658099335000000
+    ],
+    "Documentacion para la IA/docs/ROADMAP.md": [
+      395,
+      1774673573835000000
+    ],
+    "constants/punkData.ts": [
+      11434,
+      1770279964000000000
+    ],
+    "services/geminiService.ts": [
+      4422,
+      1770279965000000000
+    ],
+    "components/Sidebar.tsx": [
+      4092,
+      1770279964000000000
+    ],
+    "components/PunkDetail.tsx": [
+      22785,
+      1770279965000000000
+    ]
+  }
+}

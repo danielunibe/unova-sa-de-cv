@@ -1,0 +1,2 @@
+﻿timestamp,project_id,project,event_type,reason,precision,added,modified,deleted,sample_files
+2026-05-18T23:42:43-06:00,proyectia,PROYECTIA (Command Center),historical_activity,initial_backfill,estimated,0,115,0,Proyec[tdh]ia-tsk DEV/AGENTS.md; Proyec[tdh]ia-tsk DEV/AI_RULES.md; Proyec[tdh]ia-tsk DEV/components/atoms/NavItem.tsx; Proyec[tdh]ia-tsk DEV/components/atoms/PanningDotsBackground.tsx

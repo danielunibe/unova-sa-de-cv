@@ -1,0 +1,2254 @@
+{
+  "project_id": "ethyria",
+  "project": "ETHYRIA (IA Evolutiva)",
+  "root": "C:\\Desarrollos DEV daniel\\Ethyria",
+  "captured_at": "2026-07-14T07:10:51-06:00",
+  "last_change": "2026-06-19T23:30:42-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 546,
+    "code_count": 304,
+    "doc_count": 78,
+    "asset_count": 80,
+    "test_count": 16,
+    "manifest_count": 9,
+    "latest_mtime": "2026-06-19T22:53:21-06:00",
+    "latest_file": "Desarrollop definitivo ethyria/inside-out-ai-core.zip",
+    "extensions": {
+      ".rs": 95,
+      ".md": 61,
+      ".ts": 60,
+      ".tsx": 55,
+      ".py": 46,
+      ".png": 43,
+      ".json": 35,
+      ".ps1": 27,
+      ".txt": 16,
+      ".html": 11,
+      ".mp4": 11,
+      ".gif": 11,
+      ".css": 9,
+      ".svg": 6,
+      ".mjs": 6,
+      ".jpg": 5,
+      "[sin extensión]": 5,
+      ".aep": 4,
+      ".toml": 4,
+      ".conf": 4
+    }
+  },
+  "progress": {
+    "project_id": "ethyria",
+    "project": "ETHYRIA (IA Evolutiva)",
+    "mvp": 68,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 10,
+      "implementacion": 30,
+      "pruebas": 10,
+      "empaquetado": 3,
+      "continuidad": 3,
+      "validacion": 3
+    },
+    "missing": []
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "04_Ethyria/17-46-27-Funcionamiento_Ethyria_IA.txt": [
+      16568,
+      1755446664000000000
+    ],
+    "04_Ethyria/20250728_0210_Glowing Glass Sphere_simple_compose_01k1819qcmfbnbq95ym2tkc1mz.png": [
+      1174907,
+      1753883198000000000
+    ],
+    "04_Ethyria/4EE32E55-1CEF-4E28-97E5-334E0A998B21.png": [
+      763379,
+      1753883198000000000
+    ],
+    "04_Ethyria/animacion 1.aep": [
+      77981,
+      1753883198000000000
+    ],
+    "04_Ethyria/c42ce0410008a0d0d8e44f7c0993160b.jpg": [
+      103374,
+      1753883198000000000
+    ],
+    "04_Ethyria/CHANGELOG.md": [
+      686,
+      1774652203704000000
+    ],
+    "04_Ethyria/CLAUDE.md": [
+      820,
+      1774652197037000000
+    ],
+    "04_Ethyria/Documentación General del Proyecto Voyager Files y Ethyria.md": [
+      10324,
+      1756722700000000000
+    ],
+    "04_Ethyria/ethyria casi final.txt": [
+      520307,
+      1753883198000000000
+    ],
+    "04_Ethyria/ethyria ejecutador.txt": [
+      0,
+      1756556568166000000
+    ],
+    "04_Ethyria/Ethyria.one": [
+      36237579,
+      1755673906000000000
+    ],
+    "04_Ethyria/Ethyria.part2.rar": [
+      237881570,
+      1753883198630000000
+    ],
+    "04_Ethyria/ethyria.txt": [
+      4829,
+      1756646220747000000
+    ],
+    "04_Ethyria/Ethyria_ Asistente IA para Voyager Files metad.json": [
+      275,
+      315532800000000000
+    ],
+    "04_Ethyria/Ethyria_ Asistente IA para Voyager Files.html": [
+      9420,
+      315532800000000000
+    ],
+    "04_Ethyria/Ethyria_ Sistema Inteligente de Archivos y Org.html": [
+      4050,
+      315532800000000000
+    ],
+    "04_Ethyria/Ethyria_ Sistema Inteligente de Archivos y Org.json": [
+      291,
+      315532800000000000
+    ],
+    "04_Ethyria/Ethyria_ Soluciones Tecnológicas e IA Integral.html": [
+      17619,
+      315532800000000000
+    ],
+    "04_Ethyria/ethyria_chatbotui_setup.ps1": [
+      2717,
+      1753883199000000000
+    ],
+    "04_Ethyria/ethyria_despliegue_total.txt": [
+      2531,
+      1753883199000000000
+    ],
+    "04_Ethyria/ethyria_documentacion_tecnica.md": [
+      11214,
+      1753883199000000000
+    ],
+    "04_Ethyria/ethyria_documentacion_tecnica.md metadata.json": [
+      271,
+      315532800000000000
+    ],
+    "04_Ethyria/ethyria_documentacion_tecnica.md.html": [
+      13792,
+      315532800000000000
+    ],
+    "04_Ethyria/ethyria_ejecutador.html": [
+      10961,
+      1756556760493000000
+    ],
+    "04_Ethyria/ethyria_guia_construccion.md": [
+      23712,
+      1753883199000000000
+    ],
+    "04_Ethyria/ethyria_guia_construccion.md metadata.json": [
+      267,
+      315532800000000000
+    ],
+    "04_Ethyria/ethyria_guia_construccion.md.html": [
+      17089,
+      315532800000000000
+    ],
+    "04_Ethyria/ethyria_manual_completo_desarrollo.md": [
+      146172,
+      1756722700000000000
+    ],
+    "04_Ethyria/ETHYRIA_PROMPT_MASTER_1_20250408151104.pdf": [
+      4279,
+      1753302318264000000
+    ],
+    "04_Ethyria/ethyria_requirements.txt": [
+      3123,
+      1753883810000000000
+    ],
+    "04_Ethyria/ethyria_tareas_flujo.json": [
+      7501,
+      1753883199000000000
+    ],
+    "04_Ethyria/folder_icon.ico": [
+      91660,
+      1753947860000000000
+    ],
+    "04_Ethyria/Generated File May 30, 2025 - 11_11PM.mp4": [
+      1090490,
+      1753883199000000000
+    ],
+    "04_Ethyria/Generated File May 30, 2025 - 11_12PM.mp4": [
+      1540062,
+      1753883199000000000
+    ],
+    "04_Ethyria/Indice_Maestro_Proyecto_Ethyria.md": [
+      3511,
+      1753883199000000000
+    ],
+    "04_Ethyria/Indice_Maestro_Proyecto_Ethyria.md metadata.json": [
+      273,
+      315532800000000000
+    ],
+    "04_Ethyria/Indice_Maestro_Proyecto_Ethyria.md.html": [
+      6778,
+      315532800000000000
+    ],
+    "04_Ethyria/install_ethyria_power_plugins.ps1": [
+      4419,
+      1753883199000000000
+    ],
+    "04_Ethyria/original-2fe208a6d9eabe065d6c75661e18541c.mp4": [
+      2740470,
+      1753883199000000000
+    ],
+    "04_Ethyria/original-e07a82376ac56619d23c8706be56db91.mp4": [
+      1438128,
+      1753947860000000000
+    ],
+    "04_Ethyria/original-fbf2cd13736c992086173cc0d1bd0f1b.webp": [
+      285644,
+      1753947860000000000
+    ],
+    "04_Ethyria/PROTOCOL.md": [
+      32739,
+      1774652121925000000
+    ],
+    "04_Ethyria/que es ethyria.txt": [
+      1636219,
+      1753883199000000000
+    ],
+    "04_Ethyria/que incluye ethyria.txt": [
+      108036,
+      1756646384886000000
+    ],
+    "04_Ethyria/unnamed.jpg": [
+      18972,
+      1753883199000000000
+    ],
+    "04_Ethyria/Voyager Files y Ethyria_ Cuando Tu Explorador .json": [
+      771,
+      1756282000678000000
+    ],
+    "04_Ethyria/Voyager Files y Ethyria_ Cuando Tu Explorador d.wav": [
+      15448890,
+      1756282035485000000
+    ],
+    "04_Ethyria/Voyager Files y Ethyria_ Gestión de Archivos I.html": [
+      15459,
+      315532800000000000
+    ],
+    "04_Ethyria/Voyager Files y Ethyria_ Gestión de Archivos I.json": [
+      292,
+      315532800000000000
+    ],
+    "04_Ethyria/Voyager Files_ Ethyria y el Explorador Intelig.html": [
+      11780,
+      315532800000000000
+    ],
+    "04_Ethyria/🦾  Ethyria.one": [
+      75165110,
+      1755673918000000000
+    ],
+    "04_Ethyria/Adobe After Effects Auto-Save/animacion 1 auto-save 1.aep": [
+      97565,
+      1753883203000000000
+    ],
+    "04_Ethyria/docs/DESIGN_SPEC.md": [
+      1428,
+      1774652151914000000
+    ],
+    "04_Ethyria/docs/GLOSSARY.md": [
+      1318,
+      1774652176116000000
+    ],
+    "04_Ethyria/docs/PRD.md": [
+      1604,
+      1774652144405000000
+    ],
+    "04_Ethyria/docs/ROADMAP.md": [
+      2166,
+      1774652168267000000
+    ],
+    "04_Ethyria/docs/TDD.md": [
+      1200,
+      1774652159109000000
+    ],
+    "04_Ethyria/docs/TEST_PLAN.md": [
+      1010,
+      1774652183076000000
+    ],
+    "04_Ethyria/docs/USER_DOCS.md": [
+      962,
+      1774652190331000000
+    ],
+    "04_Ethyria/Documentacion para la IA/04_ethyria.md": [
+      2554,
+      1774514874795000000
+    ],
+    "04_Ethyria/Ethyria/14-46-47-Ethyria_AI.md": [
+      244419,
+      1757323478000000000
+    ],
+    "04_Ethyria/Ethyria/1A1B8A37-AA13-4021-BDD2-A91CC57B73F9.png": [
+      1265503,
+      1745121014000000000
+    ],
+    "04_Ethyria/Ethyria/20250728_0210_Glowing Glass Sphere_simple_compose_01k1819qcmfbnbq95ym2tkc1mz.png": [
+      1174907,
+      1753883198000000000
+    ],
+    "04_Ethyria/Ethyria/292454657798510-all-task-files.zip": [
+      38875,
+      1753296670000000000
+    ],
+    "04_Ethyria/Ethyria/292484417646676-all-task-files.zip": [
+      740895,
+      1753296671000000000
+    ],
+    "04_Ethyria/Ethyria/4EE32E55-1CEF-4E28-97E5-334E0A998B21.png": [
+      763379,
+      1753883198000000000
+    ],
+    "04_Ethyria/Ethyria/animacion 1.aep": [
+      77981,
+      1753883198000000000
+    ],
+    "04_Ethyria/Ethyria/asistente_personal_maestro.md": [
+      7522,
+      1753978108822000000
+    ],
+    "04_Ethyria/Ethyria/c42ce0410008a0d0d8e44f7c0993160b.jpg": [
+      103374,
+      1753883198000000000
+    ],
+    "04_Ethyria/Ethyria/ChatGPT Image 28 jul 2025, 02_08_45 a.m..png": [
+      1013701,
+      1753883198000000000
+    ],
+    "04_Ethyria/Ethyria/ChatGPT Image 28 jul 2025, 02_08_45 a.m_.png": [
+      1013701,
+      1753883198000000000
+    ],
+    "04_Ethyria/Ethyria/ChatGPT Image 30 jul 2025, 12_22_21 p.m..png": [
+      621862,
+      1753947860000000000
+    ],
+    "04_Ethyria/Ethyria/ChatGPT Image 31 may 2025, 10_52_32 p.m..png": [
+      1388574,
+      1748753555407000000
+    ],
+    "04_Ethyria/Ethyria/ChatGPT Image 5 sept 2025, 10_59_22 p.m..png": [
+      1013701,
+      1757134762794000000
+    ],
+    "04_Ethyria/Ethyria/check_imports.py": [
+      389,
+      1753883200000000000
+    ],
+    "04_Ethyria/Ethyria/esfera_detallada_sin_fondo.png": [
+      1114221,
+      1748753480436000000
+    ],
+    "04_Ethyria/Ethyria/esfera_sin_fondo.png": [
+      1047366,
+      1748753252269000000
+    ],
+    "04_Ethyria/Ethyria/ethyria casi final.txt": [
+      520307,
+      1753883198000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria.part2.rar": [
+      237881570,
+      1753883198000000000
+    ],
+    "04_Ethyria/Ethyria/ethyria_chatbotui_setup.ps1": [
+      2717,
+      1753883199000000000
+    ],
+    "04_Ethyria/Ethyria/ethyria_despliegue_total.txt": [
+      2531,
+      1753883199000000000
+    ],
+    "04_Ethyria/Ethyria/ethyria_documentacion_tecnica.md": [
+      11214,
+      1753883199000000000
+    ],
+    "04_Ethyria/Ethyria/ethyria_guia_construccion.md": [
+      23712,
+      1753883199000000000
+    ],
+    "04_Ethyria/Ethyria/ethyria_tareas_flujo.json": [
+      7501,
+      1753883199000000000
+    ],
+    "04_Ethyria/Ethyria/Generated File May 30, 2025 - 11_11PM.mp4": [
+      1090490,
+      1753883199000000000
+    ],
+    "04_Ethyria/Ethyria/Generated File May 30, 2025 - 11_12PM.mp4": [
+      1540062,
+      1753883199000000000
+    ],
+    "04_Ethyria/Ethyria/gui.py": [
+      4569,
+      1753883200000000000
+    ],
+    "04_Ethyria/Ethyria/identity.toml": [
+      265,
+      1753883203000000000
+    ],
+    "04_Ethyria/Ethyria/improvement_daemon.py": [
+      581,
+      1753883203000000000
+    ],
+    "04_Ethyria/Ethyria/Indice_Maestro_Proyecto_Ethyria.md": [
+      3511,
+      1753883199000000000
+    ],
+    "04_Ethyria/Ethyria/main.py": [
+      1843,
+      1753883199000000000
+    ],
+    "04_Ethyria/Ethyria/original-2fe208a6d9eabe065d6c75661e18541c.mp4": [
+      2740470,
+      1753883199000000000
+    ],
+    "04_Ethyria/Ethyria/original-e07a82376ac56619d23c8706be56db91.mp4": [
+      1438128,
+      1753947860000000000
+    ],
+    "04_Ethyria/Ethyria/original-fbf2cd13736c992086173cc0d1bd0f1b.webp": [
+      285644,
+      1753947860000000000
+    ],
+    "04_Ethyria/Ethyria/Prompt de Descripción Visual Interf.txt": [
+      2815,
+      1756556815457000000
+    ],
+    "04_Ethyria/Ethyria/que es ethyria.txt": [
+      1636219,
+      1753883199000000000
+    ],
+    "04_Ethyria/Ethyria/reporte_final_explorador_archivos_ia.md": [
+      24647,
+      1753883809000000000
+    ],
+    "04_Ethyria/Ethyria/test_identity.py": [
+      136,
+      1753883199000000000
+    ],
+    "04_Ethyria/Ethyria/test_llm.py": [
+      109,
+      1753883199000000000
+    ],
+    "04_Ethyria/Ethyria/unnamed.jpg": [
+      18972,
+      1753883199000000000
+    ],
+    "04_Ethyria/Ethyria/Adobe After Effects Auto-Save/animacion 1 auto-save 1.aep": [
+      97565,
+      1753883203000000000
+    ],
+    "04_Ethyria/Ethyria/context/__init__.py": [
+      0,
+      1753883203000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/check_imports.py": [
+      389,
+      1753883200000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/gemini_generated_video_0EC971C1.mp4": [
+      789416,
+      1755018731188000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/gemini_generated_video_FF86F405.mp4": [
+      809488,
+      1755018736683000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/gui.py": [
+      4569,
+      1753883200000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/identity.toml": [
+      265,
+      1753883203000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/improvement_daemon.py": [
+      581,
+      1753883203000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/install_ethyria_power_plugins.ps1": [
+      4419,
+      1753883199000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/main.py": [
+      1843,
+      1753883199000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/test_identity.py": [
+      136,
+      1753883199000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/test_llm.py": [
+      109,
+      1753883199000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/context/__init__.py": [
+      0,
+      1753883203000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/graphics/__init__.py": [
+      0,
+      1753883372000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/improvements/__init__.py": [
+      0,
+      1753883371000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/memory/logs.json": [
+      2717,
+      1753883371000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/memory/__init__.py": [
+      0,
+      1753883371000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/model/vosk-model-small-es-0.42/README": [
+      483,
+      1753883371000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/model/vosk-model-small-es-0.42/am/final.mdl": [
+      16098256,
+      1753883371000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/model/vosk-model-small-es-0.42/conf/mfcc.conf": [
+      155,
+      1753883371000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/model/vosk-model-small-es-0.42/conf/model.conf": [
+      289,
+      1753883371000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/model/vosk-model-small-es-0.42/graph/disambig_tid.int": [
+      50,
+      1753883371000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/model/vosk-model-small-es-0.42/graph/Gr.fst": [
+      21818215,
+      1753883371000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/model/vosk-model-small-es-0.42/graph/HCLr.fst": [
+      12226498,
+      1753883371454000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/model/vosk-model-small-es-0.42/graph/phones/word_boundary.int": [
+      1131,
+      1753883372000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/model/vosk-model-small-es-0.42/ivector/final.dubm": [
+      168048,
+      1753883372000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/model/vosk-model-small-es-0.42/ivector/final.ie": [
+      9927287,
+      1753883372000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/model/vosk-model-small-es-0.42/ivector/final.mat": [
+      44975,
+      1753883372000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/model/vosk-model-small-es-0.42/ivector/global_cmvn.stats": [
+      1081,
+      1753883372000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/model/vosk-model-small-es-0.42/ivector/online_cmvn.conf": [
+      95,
+      1753883372000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/model/vosk-model-small-es-0.42/ivector/splice.conf": [
+      35,
+      1753883372000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/modules/identity.py": [
+      208,
+      1753883373000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/modules/identity.py.bak": [
+      213,
+      1753883373000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/modules/llm_interface.py": [
+      835,
+      1753883373000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/modules/memory.py": [
+      773,
+      1753883373000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/modules/memory.py.bak": [
+      780,
+      1753883373000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/modules/plugin_manager.py": [
+      686,
+      1753883373000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/modules/self_improvement.py": [
+      1010,
+      1753883373000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/modules/__init__.py": [
+      0,
+      1753883373000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/modules/__init__.py.bak": [
+      284,
+      1753883373000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/plugins/awesome_plugin.py": [
+      32,
+      1753883372000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/plugins/better_ai.py": [
+      27,
+      1753883373000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/plugins/calendar.py": [
+      136,
+      1753883372000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/plugins/file_browser.py": [
+      240,
+      1753883372000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/plugins/flow.py": [
+      124,
+      1753883372000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/plugins/forget.py": [
+      130,
+      1753883372000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/plugins/graphic.py": [
+      133,
+      1753883373000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/plugins/hello_david.py": [
+      90,
+      1753883372000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/plugins/notify.py": [
+      220,
+      1753883373000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/plugins/recap.py": [
+      127,
+      1753883372000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/plugins/registry.json": [
+      4,
+      1753883372000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/plugins/reminder.py": [
+      742,
+      1753883372000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/plugins/slack.py": [
+      127,
+      1753883373000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/plugins/summarizer.py": [
+      241,
+      1753883372000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/plugins/sys_monitor.py": [
+      373,
+      1753883373000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/plugins/todo.py": [
+      905,
+      1753883373000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/plugins/updater.py": [
+      133,
+      1753883373000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/plugins/vision.py": [
+      130,
+      1753883373000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/plugins/voice_assistant.py": [
+      613,
+      1753883372000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/plugins/weather.py": [
+      523,
+      1753883372000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/plugins/web_search.py": [
+      523,
+      1753883372000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/plugins/__init__.py": [
+      0,
+      1753883372000000000
+    ],
+    "04_Ethyria/Ethyria/Ethyria/vision_models/__init__.py": [
+      0,
+      1753883373000000000
+    ],
+    "04_Ethyria/ethyria icons/03d8b9abef0122489fbbc799d2073e4d.gif": [
+      3518184,
+      1777054541749000000
+    ],
+    "04_Ethyria/ethyria icons/24e1b51dcfaf8b9d7aeb5d49e91be623.gif": [
+      5738449,
+      1777054413421000000
+    ],
+    "04_Ethyria/ethyria icons/37cc026a8ad0b9bb557e143f6aa3e04a.gif": [
+      556119,
+      1777054619180000000
+    ],
+    "04_Ethyria/ethyria icons/40f193693c5f8bef471faaf6491d1a16.gif": [
+      8213738,
+      1777054405753000000
+    ],
+    "04_Ethyria/ethyria icons/69a817b35b7328a2cbea46510c323823.gif": [
+      1233891,
+      1777054590839000000
+    ],
+    "04_Ethyria/ethyria icons/91a032b5066a7cbc7131b4a0e4be0d50.gif": [
+      8605406,
+      1777054722173000000
+    ],
+    "04_Ethyria/ethyria icons/b0143da66535146414729a5cddd6baf5.gif": [
+      2700060,
+      1777054866970000000
+    ],
+    "04_Ethyria/ethyria icons/b71d5771fa69291e1689958c970ce2f0.gif": [
+      939926,
+      1777054494885000000
+    ],
+    "04_Ethyria/ethyria icons/c53c22001d75df497c09b534dbbc0091.gif": [
+      6854109,
+      1777054483766000000
+    ],
+    "04_Ethyria/ethyria icons/ChatGPT Image 22 abr 2026, 03_25_57 a.m..png": [
+      2695950,
+      1776850086883000000
+    ],
+    "04_Ethyria/ethyria icons/d0bf478b78593dcebcce4ce959f113b5.jpg": [
+      15155,
+      1777054929341000000
+    ],
+    "04_Ethyria/ethyria icons/dbaca939136196bfccfd3d5c91d1bcc2.gif": [
+      8829832,
+      1777054400481000000
+    ],
+    "04_Ethyria/ethyria icons/df89d231c13b246ced8a2dfeb4804ca5.gif": [
+      2378352,
+      1777054512719000000
+    ],
+    "04_Ethyria/ethyria icons/procede_en_acomodar_202604220352.jpeg": [
+      3166035,
+      1776851567256000000
+    ],
+    "04_Ethyria/ethyria icons/Sin título - 20 de abril de 2026, 03.04.19.png": [
+      26947686,
+      1776857190493000000
+    ],
+    "04_Ethyria/_meta/owner.md": [
+      354,
+      1774652127448000000
+    ],
+    "04_Ethyria/_meta/questions-log.md": [
+      2519,
+      1774652136721000000
+    ],
+    "Desarrollop definitivo ethyria/inside-out-ai-core.zip": [
+      79868243,
+      1781931201527261300
+    ],
+    "Ethyria/ETHYRIA_IMPLEMENTATION_STATUS_LOCK.md": [
+      2573,
+      1779573951176000000
+    ],
+    "Ethyria/ETHYRIA_STATE_OF_TRUTH.md": [
+      2876,
+      1779573950529000000
+    ],
+    "Ethyria/traduccionvideo.txt": [
+      13999,
+      1779523582862000000
+    ],
+    "Ethyria/v1c044g50000d86gsufog65g5apr1690.mp4": [
+      2135815,
+      1779523488903000000
+    ],
+    "Ethyria/docs/00-MASTER-BLUEPRINT.md": [
+      12957,
+      1779554792051000000
+    ],
+    "Ethyria/docs/01-ARCHITECTURE.md": [
+      15607,
+      1779523866221000000
+    ],
+    "Ethyria/docs/02-ENVIRONMENT-SETUP.md": [
+      10919,
+      1779523924679000000
+    ],
+    "Ethyria/docs/03-BACKEND-RUST-TAURI.md": [
+      31474,
+      1779524049496000000
+    ],
+    "Ethyria/docs/04-FRONTEND-REACT-TS.md": [
+      53811,
+      1779524243299000000
+    ],
+    "Ethyria/docs/05-AI-BRAIN.md": [
+      18373,
+      1779524327077000000
+    ],
+    "Ethyria/docs/06-AUDIO-PIPELINE.md": [
+      19234,
+      1779524409403000000
+    ],
+    "Ethyria/docs/07-OS-COMMANDS.md": [
+      25455,
+      1779524510105000000
+    ],
+    "Ethyria/docs/AGENT_SYSTEM.md": [
+      1661,
+      1779569800259000000
+    ],
+    "Ethyria/docs/CLAUDE-INSTRUCTIONS.md": [
+      6823,
+      1779524559667000000
+    ],
+    "Ethyria/docs/DATABASE_MIGRATIONS.md": [
+      971,
+      1779572117759000000
+    ],
+    "Ethyria/docs/LOCAL_TTS_PROVIDERS.md": [
+      1386,
+      1779569305328000000
+    ],
+    "Ethyria/docs/MEMORY_SYSTEM.md": [
+      1873,
+      1779569535781000000
+    ],
+    "Ethyria/docs/OLLAMA_LOCAL_SETUP.md": [
+      1395,
+      1779565750794000000
+    ],
+    "Ethyria/docs/PROJECT_INTELLIGENCE_SYSTEM.md": [
+      3664,
+      1779571106213000000
+    ],
+    "Ethyria/docs/PROJECT_WORKSPACE_SYSTEM.md": [
+      3783,
+      1779570376820000000
+    ],
+    "Ethyria/docs/RELEASE_CHECKLIST.md": [
+      1080,
+      1779572096397000000
+    ],
+    "Ethyria/docs/SECURITY_PRIVACY.md": [
+      1313,
+      1779572755696000000
+    ],
+    "Ethyria/docs/SECURITY_TEST_MATRIX.md": [
+      939,
+      1779572763289000000
+    ],
+    "Ethyria/docs/STRATEGIC_PLANNER_SYSTEM.md": [
+      2447,
+      1779571851833000000
+    ],
+    "Ethyria/docs/TAURI_COMMAND_REGISTRY.md": [
+      4369,
+      1779572072141000000
+    ],
+    "Ethyria/docs/TEST_MATRIX.md": [
+      2384,
+      1779572087240000000
+    ],
+    "Ethyria/docs/TROUBLESHOOTING.md": [
+      1439,
+      1779572108857000000
+    ],
+    "Ethyria/docs/video_analysis.md": [
+      13494,
+      1779554784248000000
+    ],
+    "Ethyria/docs/VOICE_PIPELINE.md": [
+      1222,
+      1779566130078000000
+    ],
+    "Ethyria/ethyria-app/.gitignore": [
+      356,
+      1779572126103000000
+    ],
+    "Ethyria/ethyria-app/DESIGN.md": [
+      17153,
+      1779629772899868900
+    ],
+    "Ethyria/ethyria-app/index.html": [
+      957,
+      1779526586571000000
+    ],
+    "Ethyria/ethyria-app/package-lock.json": [
+      72268,
+      1779576710498366000
+    ],
+    "Ethyria/ethyria-app/package.json": [
+      984,
+      1779571990575000000
+    ],
+    "Ethyria/ethyria-app/README.md": [
+      385,
+      1779525786543000000
+    ],
+    "Ethyria/ethyria-app/tsconfig.json": [
+      728,
+      1779526082796000000
+    ],
+    "Ethyria/ethyria-app/tsconfig.node.json": [
+      223,
+      1779525789089000000
+    ],
+    "Ethyria/ethyria-app/vite.config.ts": [
+      525,
+      1779526058625000000
+    ],
+    "Ethyria/ethyria-app/.vscode/extensions.json": [
+      83,
+      1779525786270000000
+    ],
+    "Ethyria/ethyria-app/public/tauri.svg": [
+      2605,
+      1779525789622000000
+    ],
+    "Ethyria/ethyria-app/public/vite.svg": [
+      1497,
+      1779525790228000000
+    ],
+    "Ethyria/ethyria-app/scripts/ethyria-doctor.mjs": [
+      4350,
+      1779572742871000000
+    ],
+    "Ethyria/ethyria-app/scripts/smoke-test.mjs": [
+      1545,
+      1779572025704000000
+    ],
+    "Ethyria/ethyria-app/src/App.tsx": [
+      5073,
+      1779598495367856700
+    ],
+    "Ethyria/ethyria-app/src/main.tsx": [
+      228,
+      1779526572190000000
+    ],
+    "Ethyria/ethyria-app/src/vite-env.d.ts": [
+      270,
+      1779526922010000000
+    ],
+    "Ethyria/ethyria-app/src/app/AppShell.tsx": [
+      9010,
+      1779570673886000000
+    ],
+    "Ethyria/ethyria-app/src/app/SamanthaShell.tsx": [
+      6040,
+      1779630582711416300
+    ],
+    "Ethyria/ethyria-app/src/app/runtime/runtimeResolver.ts": [
+      2187,
+      1779565131649000000
+    ],
+    "Ethyria/ethyria-app/src/app/runtime/runtimeTypes.ts": [
+      912,
+      1779565721786000000
+    ],
+    "Ethyria/ethyria-app/src/app/runtime/useEthyriaRuntime.ts": [
+      2757,
+      1779565734280000000
+    ],
+    "Ethyria/ethyria-app/src/assets/react.svg": [
+      4126,
+      1779525789996000000
+    ],
+    "Ethyria/ethyria-app/src/components/Chat/Chat.css": [
+      4260,
+      1779526454317000000
+    ],
+    "Ethyria/ethyria-app/src/components/Chat/ChatInterface.tsx": [
+      3883,
+      1779526476198000000
+    ],
+    "Ethyria/ethyria-app/src/components/Chat/MessageBubble.tsx": [
+      2277,
+      1779526426702000000
+    ],
+    "Ethyria/ethyria-app/src/components/Controls/Controls.css": [
+      3539,
+      1779527136913000000
+    ],
+    "Ethyria/ethyria-app/src/components/Controls/QuickCommands.tsx": [
+      1298,
+      1779527119244000000
+    ],
+    "Ethyria/ethyria-app/src/components/Controls/StatusBadge.tsx": [
+      1164,
+      1779526620962000000
+    ],
+    "Ethyria/ethyria-app/src/components/Controls/VoiceButton.tsx": [
+      3505,
+      1779576930978637900
+    ],
+    "Ethyria/ethyria-app/src/components/EthyriaLine/EthyriaLine.css": [
+      4029,
+      1779630955076317700
+    ],
+    "Ethyria/ethyria-app/src/components/EthyriaLine/EthyriaLine.tsx": [
+      3690,
+      1779628211560407100
+    ],
+    "Ethyria/ethyria-app/src/components/TitleBar/TitleBar.css": [
+      3585,
+      1779526410143000000
+    ],
+    "Ethyria/ethyria-app/src/components/TitleBar/TitleBar.tsx": [
+      3284,
+      1779630548190793300
+    ],
+    "Ethyria/ethyria-app/src/components/VoiceOrb/orbShaders.ts": [
+      4234,
+      1779526312427000000
+    ],
+    "Ethyria/ethyria-app/src/components/VoiceOrb/VoiceOrb.css": [
+      2557,
+      1779529254640000000
+    ],
+    "Ethyria/ethyria-app/src/components/VoiceOrb/VoiceOrb.tsx": [
+      8633,
+      1779529234091000000
+    ],
+    "Ethyria/ethyria-app/src/features/chat/chatTypes.ts": [
+      139,
+      1779565335717000000
+    ],
+    "Ethyria/ethyria-app/src/features/chat/useChatController.ts": [
+      4892,
+      1779569280494000000
+    ],
+    "Ethyria/ethyria-app/src/features/intelligence/DecisionTimelinePanel.tsx": [
+      2772,
+      1779571081604000000
+    ],
+    "Ethyria/ethyria-app/src/features/intelligence/FileSummaryPanel.tsx": [
+      2598,
+      1779571064674000000
+    ],
+    "Ethyria/ethyria-app/src/features/intelligence/ProjectBriefPanel.tsx": [
+      2407,
+      1779571049013000000
+    ],
+    "Ethyria/ethyria-app/src/features/memory/MemoryPanel.tsx": [
+      3000,
+      1779569523532000000
+    ],
+    "Ethyria/ethyria-app/src/features/planner/NextBestActionCard.tsx": [
+      2041,
+      1779571791057000000
+    ],
+    "Ethyria/ethyria-app/src/features/planner/PlannerPanel.tsx": [
+      491,
+      1779571834061000000
+    ],
+    "Ethyria/ethyria-app/src/features/planner/RoadmapDraftReview.tsx": [
+      2983,
+      1779571809770000000
+    ],
+    "Ethyria/ethyria-app/src/features/planner/TaskBoard.tsx": [
+      2660,
+      1779571827149000000
+    ],
+    "Ethyria/ethyria-app/src/features/projects/ProjectContextSummary.tsx": [
+      960,
+      1779570325002000000
+    ],
+    "Ethyria/ethyria-app/src/features/projects/ProjectFilesPanel.tsx": [
+      1412,
+      1779570336466000000
+    ],
+    "Ethyria/ethyria-app/src/features/projects/ProjectPanel.tsx": [
+      1601,
+      1779570348313000000
+    ],
+    "Ethyria/ethyria-app/src/features/projects/ProjectSwitcher.tsx": [
+      1087,
+      1779570315721000000
+    ],
+    "Ethyria/ethyria-app/src/features/projects/useProjectStore.ts": [
+      4685,
+      1779570306625000000
+    ],
+    "Ethyria/ethyria-app/src/features/system/SystemStatusBadge.tsx": [
+      405,
+      1779565406388000000
+    ],
+    "Ethyria/ethyria-app/src/features/voice/ttsManager.ts": [
+      3970,
+      1779576972401019400
+    ],
+    "Ethyria/ethyria-app/src/features/voice/useVoiceController.ts": [
+      3867,
+      1779569294712000000
+    ],
+    "Ethyria/ethyria-app/src/features/voice/voiceTypes.ts": [
+      1456,
+      1779569203306000000
+    ],
+    "Ethyria/ethyria-app/src/features/voice/providers/chatterboxProvider.ts": [
+      604,
+      1779569248427000000
+    ],
+    "Ethyria/ethyria-app/src/features/voice/providers/localTtsHttpProvider.ts": [
+      4445,
+      1779569242157000000
+    ],
+    "Ethyria/ethyria-app/src/features/voice/providers/webSpeechProvider.ts": [
+      1131,
+      1779569215825000000
+    ],
+    "Ethyria/ethyria-app/src/hooks/useAudioAnalyser.ts": [
+      3104,
+      1779566066406000000
+    ],
+    "Ethyria/ethyria-app/src/hooks/useHardwareProfile.ts": [
+      4414,
+      1779529173219000000
+    ],
+    "Ethyria/ethyria-app/src/hooks/useSpeechRecognition.ts": [
+      3354,
+      1779566056431000000
+    ],
+    "Ethyria/ethyria-app/src/services/tauriBridge.ts": [
+      24516,
+      1779571772242000000
+    ],
+    "Ethyria/ethyria-app/src/services/ttsService.ts": [
+      5620,
+      1779576931962041500
+    ],
+    "Ethyria/ethyria-app/src/stores/useAssistantStore.ts": [
+      1228,
+      1779528375475000000
+    ],
+    "Ethyria/ethyria-app/src/stores/useAudioStore.ts": [
+      497,
+      1779526124580000000
+    ],
+    "Ethyria/ethyria-app/src/stores/useConversationStore.ts": [
+      1444,
+      1779526115146000000
+    ],
+    "Ethyria/ethyria-app/src/styles/globals.css": [
+      49656,
+      1779630916855411100
+    ],
+    "Ethyria/ethyria-app/src/types/index.ts": [
+      704,
+      1779528360799000000
+    ],
+    "Ethyria/ethyria-app/src/types/speech-recognition.d.ts": [
+      1489,
+      1779576932461168700
+    ],
+    "Ethyria/ethyria-app/src-tauri/.gitignore": [
+      173,
+      1779525776611000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/build.rs": [
+      42,
+      1779525777165000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/Cargo.toml": [
+      1144,
+      1779572657308000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/tauri.conf.json": [
+      1179,
+      1779572721498000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/capabilities/default.json": [
+      469,
+      1779526045317000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/gen/schemas/acl-manifests.json": [
+      152980,
+      1779529451208000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/gen/schemas/capabilities.json": [
+      413,
+      1779529458034000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/gen/schemas/desktop-schema.json": [
+      438145,
+      1779529453829000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/gen/schemas/windows-schema.json": [
+      438145,
+      1779529453829000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/icons/128x128.png": [
+      3512,
+      1779525778429000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/icons/128x128@2x.png": [
+      7012,
+      1779525778793000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/icons/32x32.png": [
+      974,
+      1779525779596000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/icons/icon.icns": [
+      98451,
+      1779525784368000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/icons/icon.ico": [
+      86642,
+      1779525784698000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/icons/icon.png": [
+      14183,
+      1779525784967000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/icons/Square107x107Logo.png": [
+      2863,
+      1779525780173000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/icons/Square142x142Logo.png": [
+      3858,
+      1779525780914000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/icons/Square150x150Logo.png": [
+      3966,
+      1779525781486000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/icons/Square284x284Logo.png": [
+      7737,
+      1779525782238000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/icons/Square30x30Logo.png": [
+      903,
+      1779525782794000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/icons/Square310x310Logo.png": [
+      8591,
+      1779525782865000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/icons/Square44x44Logo.png": [
+      1299,
+      1779525783209000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/icons/Square71x71Logo.png": [
+      2011,
+      1779525783459000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/icons/Square89x89Logo.png": [
+      2468,
+      1779525783683000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/icons/StoreLogo.png": [
+      1523,
+      1779525784289000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/src/config.rs": [
+      1733,
+      1779565651165000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/src/lib.rs": [
+      8782,
+      1779572661611000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/src/main.rs": [
+      130,
+      1779525853021000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/src/personality.rs": [
+      1393,
+      1779569453776000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/src/agent_safe/mod.rs": [
+      64,
+      1779569692212000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/src/agent_safe/plan_types.rs": [
+      1243,
+      1779569688722000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/src/agent_safe/tool_registry.rs": [
+      6464,
+      1779570664310000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/src/agent_safe/tool_types.rs": [
+      709,
+      1779569646754000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/src/commands/agent.rs": [
+      13224,
+      1779529472380000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/src/commands/agent_safe.rs": [
+      11105,
+      1779569896160000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/src/commands/ai.rs": [
+      12449,
+      1779572684740000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/src/commands/browser.rs": [
+      1325,
+      1779526001711000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/src/commands/file_ops.rs": [
+      3750,
+      1779572706705000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/src/commands/intelligence.rs": [
+      30878,
+      1779571431097000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/src/commands/memory.rs": [
+      22828,
+      1779572715535000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/src/commands/mod.rs": [
+      229,
+      1779571725375000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/src/commands/os_control.rs": [
+      7043,
+      1779529017235000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/src/commands/planner.rs": [
+      28141,
+      1779571890983000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/src/commands/projects.rs": [
+      22864,
+      1779570600876000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/src/commands/system_info.rs": [
+      10345,
+      1779528884640000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/src/intelligence/mod.rs": [
+      18,
+      1779570844893000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/src/intelligence/prompts.rs": [
+      2537,
+      1779570840411000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/src/planner/mod.rs": [
+      18,
+      1779571742101000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/src/planner/prompts.rs": [
+      2505,
+      1779571585340000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/src/security/mod.rs": [
+      71,
+      1779572652189000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/src/security/path_guard.rs": [
+      2749,
+      1779572643082000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/src/security/privacy.rs": [
+      656,
+      1779572649095000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/src/security/redaction.rs": [
+      2235,
+      1779572621400000000
+    ],
+    "Ethyria/ethyria-app/src-tauri/src/security/risk.rs": [
+      349,
+      1779572626471000000
+    ],
+    "Ethyria/scripts/Check-Ethyria.ps1": [
+      1931,
+      1779572040746000000
+    ],
+    "Ethyria/_backup_samantha_migration_20260523-224722/globals.css": [
+      17656,
+      1779529341308000000
+    ],
+    "ethyria-app/.env.local": [
+      780,
+      1779748777151948600
+    ],
+    "ethyria-app/.gitignore": [
+      663,
+      1779656536336807700
+    ],
+    "ethyria-app/AGENTS.md": [
+      4753,
+      1779806182954139000
+    ],
+    "ethyria-app/app-icon.png": [
+      9696,
+      1779562001644988500
+    ],
+    "ethyria-app/ARCHITECTURE.md": [
+      7445,
+      1779776251859264900
+    ],
+    "ethyria-app/CODEX_GUARDRAILS.md": [
+      15851,
+      1779820376750251000
+    ],
+    "ethyria-app/design.md": [
+      6187,
+      1779813932522757700
+    ],
+    "ethyria-app/ETHYRIA_STATE_OF_TRUTH.md": [
+      8025,
+      1779820383882003300
+    ],
+    "ethyria-app/index.html": [
+      951,
+      1779591420210585200
+    ],
+    "ethyria-app/package-lock.json": [
+      72268,
+      1779583202010173000
+    ],
+    "ethyria-app/package.json": [
+      1136,
+      1779775857661530800
+    ],
+    "ethyria-app/README.md": [
+      1522,
+      1779667109811610300
+    ],
+    "ethyria-app/TECH_STACK.md": [
+      4472,
+      1779820369224892500
+    ],
+    "ethyria-app/tsconfig.json": [
+      728,
+      1779526082796000000
+    ],
+    "ethyria-app/tsconfig.node.json": [
+      223,
+      1779525789089000000
+    ],
+    "ethyria-app/vite.config.ts": [
+      560,
+      1779634867189691000
+    ],
+    "ethyria-app/.vscode/extensions.json": [
+      83,
+      1779525786270000000
+    ],
+    "ethyria-app/public/tauri.svg": [
+      2605,
+      1779525789622000000
+    ],
+    "ethyria-app/public/vite.svg": [
+      1497,
+      1779525790228000000
+    ],
+    "ethyria-app/scripts/browser-test.js": [
+      4035,
+      1779823555675399700
+    ],
+    "ethyria-app/scripts/capture.ps1": [
+      673,
+      1779804259990382700
+    ],
+    "ethyria-app/scripts/capture_focused.ps1": [
+      3562,
+      1779804259991062600
+    ],
+    "ethyria-app/scripts/Check-CodeTree.ps1": [
+      3836,
+      1779804743143035900
+    ],
+    "ethyria-app/scripts/Check-Ethyria.ps1": [
+      1863,
+      1779654771247925600
+    ],
+    "ethyria-app/scripts/debug_rect.ps1": [
+      1433,
+      1779648126802868900
+    ],
+    "ethyria-app/scripts/dynamic-test-report.json": [
+      4954,
+      1779828263774848600
+    ],
+    "ethyria-app/scripts/dynamic-user-test.mjs": [
+      6691,
+      1779825500629583600
+    ],
+    "ethyria-app/scripts/ethyria-doctor.mjs": [
+      3096,
+      1779820249089550100
+    ],
+    "ethyria-app/scripts/Smoke-EthyriaMVP.ps1": [
+      3260,
+      1779665729153653000
+    ],
+    "ethyria-app/scripts/Smoke-Model-Availability-Gate.ps1": [
+      6416,
+      1779776032984444300
+    ],
+    "ethyria-app/scripts/Smoke-RC10-1-Native-LlamaCpp.ps1": [
+      2835,
+      1779709988460316700
+    ],
+    "ethyria-app/scripts/Smoke-RC10-2-Model-Registry-Tuning.ps1": [
+      2776,
+      1779710419264679100
+    ],
+    "ethyria-app/scripts/Smoke-RC10-3-Remote-Provider.ps1": [
+      1957,
+      1779712200866030400
+    ],
+    "ethyria-app/scripts/Smoke-RC10-4-Model-Agent.ps1": [
+      1897,
+      1779712903319945200
+    ],
+    "ethyria-app/scripts/Smoke-RC10-Native-Inference-Foundation.ps1": [
+      1929,
+      1779709450958745900
+    ],
+    "ethyria-app/scripts/Smoke-RC11-1-Native-Runtime-Proof.ps1": [
+      5514,
+      1779714926835872000
+    ],
+    "ethyria-app/scripts/Smoke-RC11-Multi-Provider-Matrix.ps1": [
+      1953,
+      1779713303538264900
+    ],
+    "ethyria-app/scripts/Smoke-RC4-Installer.ps1": [
+      5787,
+      1779677850890764300
+    ],
+    "ethyria-app/scripts/Smoke-RC5-1-External-Ollama.ps1": [
+      4344,
+      1779681327125663100
+    ],
+    "ethyria-app/scripts/Smoke-RC5-Lifecycle.ps1": [
+      6568,
+      1779679516089334100
+    ],
+    "ethyria-app/scripts/Smoke-RC6-Runtime-Diagnostics.ps1": [
+      2439,
+      1779681628725864800
+    ],
+    "ethyria-app/scripts/Smoke-RC7-Security-Privacy.ps1": [
+      2366,
+      1779682202740951600
+    ],
+    "ethyria-app/scripts/Smoke-RC8-Alpha-Readiness.ps1": [
+      5037,
+      1779682980964611800
+    ],
+    "ethyria-app/scripts/Start-EthyriaDev.ps1": [
+      1590,
+      1779724350708045200
+    ],
+    "ethyria-app/scripts/test-conversation.mjs": [
+      4967,
+      1779829533437227200
+    ],
+    "ethyria-app/scripts/Test-LocalRuntime.ps1": [
+      3510,
+      1779656206591903500
+    ],
+    "ethyria-app/scripts/tuning-conversation.mjs": [
+      8710,
+      1779829538218584500
+    ],
+    "ethyria-app/scripts/tuning-report.json": [
+      8838,
+      1779824979498885400
+    ],
+    "ethyria-app/src/App.tsx": [
+      181,
+      1779592336266671100
+    ],
+    "ethyria-app/src/main.tsx": [
+      228,
+      1779582785817769400
+    ],
+    "ethyria-app/src/vite-env.d.ts": [
+      270,
+      1779526922010000000
+    ],
+    "ethyria-app/src/app/AppShell.tsx": [
+      6497,
+      1779765016154155000
+    ],
+    "ethyria-app/src/app/SamanthaShell.tsx": [
+      73090,
+      1779891638809587900
+    ],
+    "ethyria-app/src/app/useSuspendMode.ts": [
+      1029,
+      1779592289115600400
+    ],
+    "ethyria-app/src/app/runtime/runtimeResolver.ts": [
+      2982,
+      1779751324512513700
+    ],
+    "ethyria-app/src/app/runtime/runtimeTypes.ts": [
+      1385,
+      1779709396555124800
+    ],
+    "ethyria-app/src/app/runtime/useEthyriaRuntime.ts": [
+      10128,
+      1779751324511511500
+    ],
+    "ethyria-app/src/assets/react.svg": [
+      4126,
+      1779525789996000000
+    ],
+    "ethyria-app/src/components/EthyriaLine/EthyriaLine.css": [
+      4015,
+      1779813970279172600
+    ],
+    "ethyria-app/src/components/EthyriaLine/EthyriaLine.tsx": [
+      3665,
+      1779854449219782600
+    ],
+    "ethyria-app/src/features/agent/AgentActionLogPanel.tsx": [
+      3842,
+      1779737236221163200
+    ],
+    "ethyria-app/src/features/agent/AgentPermissionDialog.tsx": [
+      6142,
+      1779737236221163200
+    ],
+    "ethyria-app/src/features/agent/AgentPlanPanel.tsx": [
+      6635,
+      1779737335915913100
+    ],
+    "ethyria-app/src/features/chat/chatTypes.ts": [
+      262,
+      1779772048355185800
+    ],
+    "ethyria-app/src/features/chat/chatUtils.ts": [
+      11755,
+      1779806793580544900
+    ],
+    "ethyria-app/src/features/chat/transcript.ts": [
+      1826,
+      1779772089229516000
+    ],
+    "ethyria-app/src/features/chat/useAgentEvents.ts": [
+      6392,
+      1779772419839986900
+    ],
+    "ethyria-app/src/features/chat/useChatController.ts": [
+      10053,
+      1779829528253489600
+    ],
+    "ethyria-app/src/features/chat/useOllamaFallback.ts": [
+      1254,
+      1779772696210105500
+    ],
+    "ethyria-app/src/features/chat/useTtsSync.ts": [
+      485,
+      1779740805173822800
+    ],
+    "ethyria-app/src/features/intelligence/DecisionTimelinePanel.tsx": [
+      2772,
+      1779571081604000000
+    ],
+    "ethyria-app/src/features/intelligence/FileSummaryPanel.tsx": [
+      2598,
+      1779571064674000000
+    ],
+    "ethyria-app/src/features/intelligence/ProjectBriefPanel.tsx": [
+      2407,
+      1779571049013000000
+    ],
+    "ethyria-app/src/features/memory/MemoryPanel.tsx": [
+      8011,
+      1779737236224258200
+    ],
+    "ethyria-app/src/features/planner/NextBestActionCard.tsx": [
+      2041,
+      1779571791057000000
+    ],
+    "ethyria-app/src/features/planner/PlannerPanel.tsx": [
+      8140,
+      1779737236225259900
+    ],
+    "ethyria-app/src/features/planner/RoadmapDraftReview.tsx": [
+      2983,
+      1779571809770000000
+    ],
+    "ethyria-app/src/features/planner/TaskBoard.tsx": [
+      2660,
+      1779571827149000000
+    ],
+    "ethyria-app/src/features/privacy/PrivacyPanel.tsx": [
+      10066,
+      1779737236226258400
+    ],
+    "ethyria-app/src/features/projects/ProjectContextSummary.tsx": [
+      928,
+      1779806665107717100
+    ],
+    "ethyria-app/src/features/projects/ProjectFilesPanel.tsx": [
+      1380,
+      1779806665108718300
+    ],
+    "ethyria-app/src/features/projects/ProjectPanel.tsx": [
+      13528,
+      1779737236226258400
+    ],
+    "ethyria-app/src/features/projects/ProjectSwitcher.tsx": [
+      1055,
+      1779806665108718300
+    ],
+    "ethyria-app/src/features/projects/useProjectStore.ts": [
+      4685,
+      1779570306625000000
+    ],
+    "ethyria-app/src/features/settings/AboutSettingsTab.tsx": [
+      2755,
+      1779820233502821000
+    ],
+    "ethyria-app/src/features/settings/AccountSettingsTab.tsx": [
+      3812,
+      1779806791532990800
+    ],
+    "ethyria-app/src/features/settings/AdvancedSettingsTab.tsx": [
+      3676,
+      1779765878180717800
+    ],
+    "ethyria-app/src/features/settings/GeneralSettingsTab.tsx": [
+      4954,
+      1779765913350021000
+    ],
+    "ethyria-app/src/features/settings/HomeSettingsTab.tsx": [
+      3418,
+      1779777099137096100
+    ],
+    "ethyria-app/src/features/settings/memoryConstants.ts": [
+      932,
+      1779766057163129500
+    ],
+    "ethyria-app/src/features/settings/ModelSettingsTab.tsx": [
+      9495,
+      1779775450155256100
+    ],
+    "ethyria-app/src/features/settings/ProfileSettingsTab.tsx": [
+      6224,
+      1779777123067516700
+    ],
+    "ethyria-app/src/features/system/RuntimeDiagnostics.tsx": [
+      16748,
+      1779737236227258600
+    ],
+    "ethyria-app/src/features/system/SystemStatusBadge.tsx": [
+      405,
+      1779565406388000000
+    ],
+    "ethyria-app/src/features/voice/ttsManager.ts": [
+      4647,
+      1779739242792120300
+    ],
+    "ethyria-app/src/features/voice/useVoiceController.ts": [
+      7691,
+      1779713559955454300
+    ],
+    "ethyria-app/src/features/voice/voiceTypes.ts": [
+      1456,
+      1779569203306000000
+    ],
+    "ethyria-app/src/features/voice/providers/chatterboxProvider.ts": [
+      604,
+      1779569248427000000
+    ],
+    "ethyria-app/src/features/voice/providers/localTtsHttpProvider.ts": [
+      5678,
+      1779713534038464900
+    ],
+    "ethyria-app/src/features/voice/providers/webSpeechProvider.ts": [
+      1205,
+      1779739259216225900
+    ],
+    "ethyria-app/src/hooks/useAudioAnalyser.ts": [
+      3372,
+      1779713673991964100
+    ],
+    "ethyria-app/src/hooks/useHardwareProfile.ts": [
+      4414,
+      1779529173219000000
+    ],
+    "ethyria-app/src/hooks/useSpeechRecognition.ts": [
+      4377,
+      1779592947578621600
+    ],
+    "ethyria-app/src/services/ollamaClient.ts": [
+      7534,
+      1779838361212788100
+    ],
+    "ethyria-app/src/services/tauriBridge.ts": [
+      41652,
+      1779776070504399900
+    ],
+    "ethyria-app/src/services/tauriRuntime.ts": [
+      291,
+      1779666802362389200
+    ],
+    "ethyria-app/src/services/ttsService.ts": [
+      5447,
+      1779806795637797200
+    ],
+    "ethyria-app/src/stores/useAgentSafeStore.ts": [
+      751,
+      1779593579352957800
+    ],
+    "ethyria-app/src/stores/useAssistantStore.ts": [
+      1228,
+      1779528375475000000
+    ],
+    "ethyria-app/src/stores/useAudioStore.ts": [
+      497,
+      1779526124580000000
+    ],
+    "ethyria-app/src/stores/useConversationStore.ts": [
+      2208,
+      1779772354393954100
+    ],
+    "ethyria-app/src/stores/useProjectsStore.ts": [
+      4096,
+      1779593780645246400
+    ],
+    "ethyria-app/src/styles/globals.css": [
+      86040,
+      1779891636704669200
+    ],
+    "ethyria-app/src/types/index.ts": [
+      828,
+      1779772036250199100
+    ],
+    "ethyria-app/src/types/speech-recognition.d.ts": [
+      1489,
+      1779576932461168700
+    ],
+    "ethyria-app/src-tauri/.gitignore": [
+      173,
+      1779525776611000000
+    ],
+    "ethyria-app/src-tauri/build.rs": [
+      42,
+      1779525777165000000
+    ],
+    "ethyria-app/src-tauri/Cargo.toml": [
+      1166,
+      1779767151215340000
+    ],
+    "ethyria-app/src-tauri/tauri.conf.json": [
+      1727,
+      1779682527297627400
+    ],
+    "ethyria-app/src-tauri/assets/dict/en.txt": [
+      250,
+      1779731259795962500
+    ],
+    "ethyria-app/src-tauri/assets/dict/es.txt": [
+      305,
+      1779731251289959400
+    ],
+    "ethyria-app/src-tauri/capabilities/default.json": [
+      469,
+      1779526045317000000
+    ],
+    "ethyria-app/src-tauri/gen/schemas/acl-manifests.json": [
+      152980,
+      1779529451208000000
+    ],
+    "ethyria-app/src-tauri/gen/schemas/capabilities.json": [
+      413,
+      1779529458034000000
+    ],
+    "ethyria-app/src-tauri/gen/schemas/desktop-schema.json": [
+      438145,
+      1779529453829000000
+    ],
+    "ethyria-app/src-tauri/gen/schemas/windows-schema.json": [
+      438145,
+      1779529453829000000
+    ],
+    "ethyria-app/src-tauri/icons/128x128.png": [
+      3512,
+      1779525778429000000
+    ],
+    "ethyria-app/src-tauri/icons/128x128@2x.png": [
+      7012,
+      1779525778793000000
+    ],
+    "ethyria-app/src-tauri/icons/32x32.png": [
+      974,
+      1779525779596000000
+    ],
+    "ethyria-app/src-tauri/icons/icon.icns": [
+      98451,
+      1779525784368000000
+    ],
+    "ethyria-app/src-tauri/icons/icon.ico": [
+      86642,
+      1779525784698000000
+    ],
+    "ethyria-app/src-tauri/icons/icon.png": [
+      14183,
+      1779525784967000000
+    ],
+    "ethyria-app/src-tauri/icons/Square107x107Logo.png": [
+      2863,
+      1779525780173000000
+    ],
+    "ethyria-app/src-tauri/icons/Square142x142Logo.png": [
+      3858,
+      1779525780914000000
+    ],
+    "ethyria-app/src-tauri/icons/Square150x150Logo.png": [
+      3966,
+      1779525781486000000
+    ],
+    "ethyria-app/src-tauri/icons/Square284x284Logo.png": [
+      7737,
+      1779525782238000000
+    ],
+    "ethyria-app/src-tauri/icons/Square30x30Logo.png": [
+      903,
+      1779525782794000000
+    ],
+    "ethyria-app/src-tauri/icons/Square310x310Logo.png": [
+      8591,
+      1779525782865000000
+    ],
+    "ethyria-app/src-tauri/icons/Square44x44Logo.png": [
+      1299,
+      1779525783209000000
+    ],
+    "ethyria-app/src-tauri/icons/Square71x71Logo.png": [
+      2011,
+      1779525783459000000
+    ],
+    "ethyria-app/src-tauri/icons/Square89x89Logo.png": [
+      2468,
+      1779525783683000000
+    ],
+    "ethyria-app/src-tauri/icons/StoreLogo.png": [
+      1523,
+      1779525784289000000
+    ],
+    "ethyria-app/src-tauri/nsis/postinstall.nsi": [
+      306,
+      1779677079821927600
+    ],
+    "ethyria-app/src-tauri/src/config.rs": [
+      3969,
+      1779761429608281700
+    ],
+    "ethyria-app/src-tauri/src/lib.rs": [
+      13349,
+      1779767189631537500
+    ],
+    "ethyria-app/src-tauri/src/main.rs": [
+      799,
+      1779767189784799600
+    ],
+    "ethyria-app/src-tauri/src/personality.rs": [
+      765,
+      1779829518887029700
+    ],
+    "ethyria-app/src-tauri/src/rig_types.rs": [
+      336,
+      1779763227899419600
+    ],
+    "ethyria-app/src-tauri/src/test_rig.rs": [
+      407,
+      1779763096247173800
+    ],
+    "ethyria-app/src-tauri/src/test_rig_history.rs": [
+      122,
+      1779763207612859800
+    ],
+    "ethyria-app/src-tauri/src/agent_safe/mod.rs": [
+      63,
+      1779767189318354900
+    ],
+    "ethyria-app/src-tauri/src/agent_safe/plan_types.rs": [
+      1242,
+      1779767189319872100
+    ],
+    "ethyria-app/src-tauri/src/agent_safe/tool_registry.rs": [
+      6464,
+      1779570664310000000
+    ],
+    "ethyria-app/src-tauri/src/agent_safe/tool_types.rs": [
+      708,
+      1779767189323399500
+    ],
+    "ethyria-app/src-tauri/src/commands/agent.rs": [
+      12247,
+      1779805295920138200
+    ],
+    "ethyria-app/src-tauri/src/commands/agent_safe.rs": [
+      19303,
+      1779806548313878300
+    ],
+    "ethyria-app/src-tauri/src/commands/ai.rs": [
+      48653,
+      1779829523699408900
+    ],
+    "ethyria-app/src-tauri/src/commands/browser.rs": [
+      2327,
+      1779773651146678700
+    ],
+    "ethyria-app/src-tauri/src/commands/file_ops.rs": [
+      7342,
+      1779767189380635000
+    ],
+    "ethyria-app/src-tauri/src/commands/intelligence.rs": [
+      45541,
+      1779773651194584200
+    ],
+    "ethyria-app/src-tauri/src/commands/memory.rs": [
+      28728,
+      1779806548314876200
+    ],
+    "ethyria-app/src-tauri/src/commands/mod.rs": [
+      247,
+      1779767189475138400
+    ],
+    "ethyria-app/src-tauri/src/commands/os_control.rs": [
+      7102,
+      1779767189480151900
+    ],
+    "ethyria-app/src-tauri/src/commands/planner.rs": [
+      35307,
+      1779806548311875300
+    ],
+    "ethyria-app/src-tauri/src/commands/projects.rs": [
+      24445,
+      1779806548312877700
+    ],
+    "ethyria-app/src-tauri/src/commands/security.rs": [
+      2190,
+      1779767189547093000
+    ],
+    "ethyria-app/src-tauri/src/commands/system_info.rs": [
+      10657,
+      1779767189555134100
+    ],
+    "ethyria-app/src-tauri/src/inference/gemma.rs": [
+      6457,
+      1779838344706161300
+    ],
+    "ethyria-app/src-tauri/src/inference/mod.rs": [
+      115,
+      1779775861555292900
+    ],
+    "ethyria-app/src-tauri/src/inference/model_agent.rs": [
+      10947,
+      1779767189569693200
+    ],
+    "ethyria-app/src-tauri/src/inference/model_registry.rs": [
+      5275,
+      1779710314058160200
+    ],
+    "ethyria-app/src-tauri/src/inference/provider.rs": [
+      2121,
+      1779737236213712900
+    ],
+    "ethyria-app/src-tauri/src/inference/registry.rs": [
+      9607,
+      1779806548315875900
+    ],
+    "ethyria-app/src-tauri/src/inference/providers/llama_cpp.rs": [
+      12383,
+      1779839846698762200
+    ],
+    "ethyria-app/src-tauri/src/inference/providers/mod.rs": [
+      69,
+      1779767189592308800
+    ],
+    "ethyria-app/src-tauri/src/inference/providers/ollama_legacy.rs": [
+      3401,
+      1779763302785069400
+    ],
+    "ethyria-app/src-tauri/src/inference/providers/openai_compatible.rs": [
+      6847,
+      1779767189605440300
+    ],
+    "ethyria-app/src-tauri/src/intelligence/mod.rs": [
+      17,
+      1779767189617986600
+    ],
+    "ethyria-app/src-tauri/src/intelligence/prompts.rs": [
+      1962,
+      1779775983559212500
+    ],
+    "ethyria-app/src-tauri/src/planner/mod.rs": [
+      17,
+      1779767189632534800
+    ],
+    "ethyria-app/src-tauri/src/planner/prompts.rs": [
+      1845,
+      1779775965622990300
+    ],
+    "ethyria-app/src-tauri/src/runtime/bootstrap.rs": [
+      26266,
+      1779806591780103100
+    ],
+    "ethyria-app/src-tauri/src/runtime/config.rs": [
+      5699,
+      1779776052665787200
+    ],
+    "ethyria-app/src-tauri/src/runtime/diagnostics.rs": [
+      7571,
+      1779714863403059400
+    ],
+    "ethyria-app/src-tauri/src/runtime/events.rs": [
+      2745,
+      1779674000530362100
+    ],
+    "ethyria-app/src-tauri/src/runtime/hardware.rs": [
+      911,
+      1779671861364341700
+    ],
+    "ethyria-app/src-tauri/src/runtime/mod.rs": [
+      210,
+      1779681577793912200
+    ],
+    "ethyria-app/src-tauri/src/runtime/ollama_health.rs": [
+      8215,
+      1779775937394503700
+    ],
+    "ethyria-app/src-tauri/src/runtime/ollama_sidecar.rs": [
+      1372,
+      1779672717492692100
+    ],
+    "ethyria-app/src-tauri/src/runtime/paths.rs": [
+      1323,
+      1779675377218882400
+    ],
+    "ethyria-app/src-tauri/src/runtime/permissions.rs": [
+      1144,
+      1779671994581288200
+    ],
+    "ethyria-app/src-tauri/src/runtime/ports.rs": [
+      587,
+      1779671851699536700
+    ],
+    "ethyria-app/src-tauri/src/runtime/seed_manager.rs": [
+      3844,
+      1779767189700966900
+    ],
+    "ethyria-app/src-tauri/src/security/mod.rs": [
+      70,
+      1779767189702497600
+    ],
+    "ethyria-app/src-tauri/src/security/path_guard.rs": [
+      3557,
+      1779767189705028800
+    ],
+    "ethyria-app/src-tauri/src/security/privacy.rs": [
+      2036,
+      1779767189712041900
+    ],
+    "ethyria-app/src-tauri/src/security/redaction.rs": [
+      3446,
+      1779767189719079200
+    ],
+    "ethyria-app/src-tauri/src/security/risk.rs": [
+      348,
+      1779767189720580800
+    ],
+    "ethyria-app/src-tauri/src/writing/context.rs": [
+      203,
+      1779767189721580700
+    ],
+    "ethyria-app/src-tauri/src/writing/corrector.rs": [
+      8975,
+      1779806548315875900
+    ],
+    "ethyria-app/src-tauri/src/writing/memory.rs": [
+      2914,
+      1779767189738181200
+    ],
+    "ethyria-app/src-tauri/src/writing/mod.rs": [
+      152,
+      1779767189739182700
+    ],
+    "ethyria-app/src-tauri/src/writing/patterns.rs": [
+      7806,
+      1779806548316875900
+    ],
+    "ethyria-app/src-tauri/src/writing/personal_dict.rs": [
+      1567,
+      1779767189749239400
+    ],
+    "ethyria-app/src-tauri/src/writing/pipeline.rs": [
+      1331,
+      1779767189751752500
+    ],
+    "ethyria-app/src-tauri/src/writing/pipeline_state.rs": [
+      4239,
+      1779806548317875600
+    ],
+    "ethyria-app/src-tauri/src/writing/storage.rs": [
+      1532,
+      1779767189762790400
+    ],
+    "ethyria-app/tts-server/requirements.txt": [
+      45,
+      1779559118017088600
+    ],
+    "ethyria-app/tts-server/server.py": [
+      5722,
+      1779655587514308000
+    ],
+    "ethyria-app/tts-server/voices/README.md": [
+      255,
+      1779655592253052400
+    ]
+  }
+}

@@ -1,0 +1,5554 @@
+{
+  "project_id": "julia",
+  "project": "JULIA (Solar System Memory)",
+  "root": "C:\\Desarrollos DEV daniel\\julia",
+  "captured_at": "2026-07-14T07:10:56-06:00",
+  "last_change": "2026-07-09T03:40:13-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 1371,
+    "code_count": 774,
+    "doc_count": 113,
+    "asset_count": 449,
+    "test_count": 31,
+    "manifest_count": 4,
+    "latest_mtime": "2026-07-09T03:34:12-06:00",
+    "latest_file": ".vscode/settings.json",
+    "extensions": {
+      ".ts": 475,
+      ".tsx": 281,
+      ".webp": 218,
+      ".png": 207,
+      ".md": 101,
+      ".json": 12,
+      ".jpg": 12,
+      ".txt": 11,
+      ".svg": 9,
+      "[sin extensión]": 7,
+      ".html": 6,
+      ".ico": 5,
+      ".mjs": 3,
+      ".ps1": 3,
+      ".rs": 3,
+      ".mp4": 2,
+      ".js": 2,
+      ".xml": 2,
+      ".py": 2,
+      ".mmd": 2
+    }
+  },
+  "progress": {
+    "project_id": "julia",
+    "project": "JULIA (Solar System Memory)",
+    "mvp": 70,
+    "vision": "0",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 5,
+      "implementacion": 30,
+      "pruebas": 15,
+      "empaquetado": 3,
+      "continuidad": 5,
+      "validacion": 3
+    },
+    "missing": []
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "Implementar nueva paleta de 16 colores en DENSITYSPECTRUMCOLORS; Actualizar JUPITERDENSITYCOLORS con los 6 nuevos hex; Eliminar sección 5 (Topografía) del HTML de reglas; Actualizar el widget HTML de espectro (gradiente + fases renombradas); Actualizar colores de luna en JovianMoons.tsx; Crear JUPITEREVOLUTIONSTAGES como constante exportada; Conectar evolutionStage al scale del systemGroupRef en useFrame; Conectar bloomIntensity del estadio al <Bloom de EffectComposer; Conectar opacidades de capas atmosféricas al estadio actual; Animar transición entre estadios con lerp (spring suave, 2s)",
+    "proximo_paso": "Implementar nueva paleta de 16 colores en DENSITYSPECTRUMCOLORS",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "0",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "35"
+  },
+  "files": {
+    "ChatGPT Image 3 jun 2026, 08_36_08 p.m..png": [
+      1956628,
+      1780540569656000000
+    ],
+    "grabacion.mp4": [
+      1339849,
+      1781162385087000000
+    ],
+    "icono jupiter.png": [
+      1397173,
+      1780420987401075600
+    ],
+    "icono_cropped.png": [
+      1093402,
+      1781219333501794800
+    ],
+    "Julia_el_planeta_de_tu_memoria_digital.m4a": [
+      59909555,
+      1780537706595000000
+    ],
+    "JULIA_PROJECT_AUDIT.md": [
+      30829,
+      1782345143919479800
+    ],
+    "Julia__Tu_Enciclopedia_Personal_Viva.png": [
+      5128216,
+      1780536018766000000
+    ],
+    "planjupiter.md": [
+      28176,
+      1781167690205788000
+    ],
+    "propuesta_inversion_julia_ai.md": [
+      12054,
+      1781672498581000000
+    ],
+    ".agents/workflows/juliaantigravity.md": [
+      8411,
+      1783287511953006500
+    ],
+    ".cursor/skills/julia-anti-vibecoding-engineer/SKILL.md": [
+      2407,
+      1783407062888724700
+    ],
+    ".cursor/skills/julia-senior-ux-ui-strategist/SKILL.md": [
+      3111,
+      1783407062887749700
+    ],
+    ".kiro/specs/nimbo-universal-ingestion/.config.kiro": [
+      111,
+      1783416662557941000
+    ],
+    ".kiro/specs/nimbo-universal-ingestion/design.md": [
+      54698,
+      1783420729782332500
+    ],
+    ".kiro/specs/nimbo-universal-ingestion/requirements.md": [
+      30183,
+      1783419851538240900
+    ],
+    ".kiro/specs/nimbo-universal-ingestion/tasks.md": [
+      61295,
+      1783477121860674500
+    ],
+    ".vscode/settings.json": [
+      4,
+      1783589652526439300
+    ],
+    "1JuliaDEV/.codex-94c-after-start.png": [
+      741386,
+      1782780273027091200
+    ],
+    "1JuliaDEV/.codex-94c-library-chip.png": [
+      1485446,
+      1782780446816931700
+    ],
+    "1JuliaDEV/.codex-94c-library-enlaces.png": [
+      1426813,
+      1782780569095400300
+    ],
+    "1JuliaDEV/.codex-94c-library-scripts.png": [
+      1565894,
+      1782780750540106100
+    ],
+    "1JuliaDEV/.codex-94c-library.png": [
+      1485719,
+      1782780395689558700
+    ],
+    "1JuliaDEV/.codex-94c-maximized.png": [
+      4862425,
+      1782780905096855900
+    ],
+    "1JuliaDEV/.codex-94c-reader-from-satellites.png": [
+      742249,
+      1782780317229493200
+    ],
+    "1JuliaDEV/.codex-94c-reader-home-card.png": [
+      1504998,
+      1782780819627960300
+    ],
+    "1JuliaDEV/.codex-94c-reader-normal.png": [
+      1509846,
+      1782780498636638800
+    ],
+    "1JuliaDEV/.codex-94c-reader-video-link.png": [
+      1505778,
+      1782780632357578600
+    ],
+    "1JuliaDEV/.codex-94c-responsive-1366.png": [
+      1098791,
+      1782780900363219700
+    ],
+    "1JuliaDEV/.codex-94c-responsive-1440.png": [
+      1352391,
+      1782780901502838300
+    ],
+    "1JuliaDEV/.codex-94c-responsive-1920.png": [
+      2089425,
+      1782780902695632800
+    ],
+    "1JuliaDEV/.codex-94c-responsive-reduced.png": [
+      910529,
+      1782780903755849000
+    ],
+    "1JuliaDEV/.codex-94c-window.png": [
+      1858424,
+      1782780231107940000
+    ],
+    "1JuliaDEV/.codex-after-click.png": [
+      1407207,
+      1782769699139648100
+    ],
+    "1JuliaDEV/.codex-grs-all-after.png": [
+      436945,
+      1781308391562559000
+    ],
+    "1JuliaDEV/.codex-grs-all-before.png": [
+      455192,
+      1781308388509434800
+    ],
+    "1JuliaDEV/.codex-grs-final-all.png": [
+      445023,
+      1781308644088999800
+    ],
+    "1JuliaDEV/.codex-grs-final-physical.png": [
+      329885,
+      1781308609426096300
+    ],
+    "1JuliaDEV/.codex-grs-final-surface.png": [
+      427990,
+      1781308624868191100
+    ],
+    "1JuliaDEV/.codex-grs-physical-after.png": [
+      424729,
+      1781308410488255300
+    ],
+    "1JuliaDEV/.codex-grs-physical-before.png": [
+      331955,
+      1781308407835309600
+    ],
+    "1JuliaDEV/.codex-grs-selection-check.png": [
+      539943,
+      1781308704186023400
+    ],
+    "1JuliaDEV/.codex-grs-spots-after.png": [
+      416684,
+      1781308453207925600
+    ],
+    "1JuliaDEV/.codex-grs-spots-before.png": [
+      394043,
+      1781308450588910700
+    ],
+    "1JuliaDEV/.codex-grs-surface-after.png": [
+      397676,
+      1781308429211640400
+    ],
+    "1JuliaDEV/.codex-grs-surface-before.png": [
+      443808,
+      1781308426621403400
+    ],
+    "1JuliaDEV/.codex-grs-top10b-surface.png": [
+      580150,
+      1781310714993306400
+    ],
+    "1JuliaDEV/.codex-home-retry.png": [
+      4402781,
+      1782772253922958800
+    ],
+    "1JuliaDEV/.codex-home-return.png": [
+      1404913,
+      1782769847986399800
+    ],
+    "1JuliaDEV/.codex-julia-ui.png": [
+      810147,
+      1781283375017527700
+    ],
+    "1JuliaDEV/.codex-jupiter-all-qa.png": [
+      69425,
+      1781304555818657800
+    ],
+    "1JuliaDEV/.codex-jupiter-all-recheck.png": [
+      470678,
+      1781305158232934600
+    ],
+    "1JuliaDEV/.codex-jupiter-atmosphere-qa.png": [
+      69482,
+      1781304498922090700
+    ],
+    "1JuliaDEV/.codex-jupiter-atmosphere-recheck.png": [
+      300337,
+      1781305093734831300
+    ],
+    "1JuliaDEV/.codex-jupiter-audit.png": [
+      70316,
+      1781293453211468200
+    ],
+    "1JuliaDEV/.codex-jupiter-canvas-all.png": [
+      485177,
+      1781304828195895100
+    ],
+    "1JuliaDEV/.codex-jupiter-canvas-atmosphere.png": [
+      454263,
+      1781304768880459400
+    ],
+    "1JuliaDEV/.codex-jupiter-canvas-only.png": [
+      480880,
+      1781304718373176700
+    ],
+    "1JuliaDEV/.codex-jupiter-canvas-physical.png": [
+      306273,
+      1781304750548600100
+    ],
+    "1JuliaDEV/.codex-jupiter-canvas-spots.png": [
+      445748,
+      1781304809286000300
+    ],
+    "1JuliaDEV/.codex-jupiter-canvas-surface.png": [
+      444523,
+      1781304788241153600
+    ],
+    "1JuliaDEV/.codex-jupiter-continents-qa.png": [
+      188759,
+      1781302128673463600
+    ],
+    "1JuliaDEV/.codex-jupiter-mantle-qa-2.png": [
+      338761,
+      1781300180200227200
+    ],
+    "1JuliaDEV/.codex-jupiter-mantle-qa-3.png": [
+      6989,
+      1781300203136738800
+    ],
+    "1JuliaDEV/.codex-jupiter-mantle-qa.png": [
+      188901,
+      1781300146690976700
+    ],
+    "1JuliaDEV/.codex-jupiter-normal-qa.png": [
+      69561,
+      1781304462751573100
+    ],
+    "1JuliaDEV/.codex-jupiter-physical-qa.png": [
+      215958,
+      1781304479608015700
+    ],
+    "1JuliaDEV/.codex-jupiter-physical-recheck.png": [
+      456551,
+      1781305074436349200
+    ],
+    "1JuliaDEV/.codex-jupiter-postskip-qa.png": [
+      216562,
+      1781304680184081400
+    ],
+    "1JuliaDEV/.codex-jupiter-spots-qa.png": [
+      69425,
+      1781304536654570500
+    ],
+    "1JuliaDEV/.codex-jupiter-spots-recheck.png": [
+      444318,
+      1781305133682925300
+    ],
+    "1JuliaDEV/.codex-jupiter-surface-clicktest.png": [
+      417925,
+      1781305247638604400
+    ],
+    "1JuliaDEV/.codex-jupiter-surface-qa.png": [
+      69425,
+      1781304517611485200
+    ],
+    "1JuliaDEV/.codex-jupiter-surface-recheck.png": [
+      434644,
+      1781305114781665500
+    ],
+    "1JuliaDEV/.codex-reader-check-after-parser.png": [
+      724583,
+      1782771419920679800
+    ],
+    "1JuliaDEV/.codex-reader-current.png": [
+      1403409,
+      1782769605091134300
+    ],
+    "1JuliaDEV/.codex-reader-fixed.png": [
+      1347359,
+      1782770076528751500
+    ],
+    "1JuliaDEV/.codex-reader-home-card1-after-fix.png": [
+      1368784,
+      1782771597550573600
+    ],
+    "1JuliaDEV/.codex-reader-home-card1-clean-footer.png": [
+      4410205,
+      1782772192292960400
+    ],
+    "1JuliaDEV/.codex-reader-pgdn1.png": [
+      1347359,
+      1782770112980201800
+    ],
+    "1JuliaDEV/.codex-reader-scrolled.png": [
+      1400813,
+      1782770180713494400
+    ],
+    "1JuliaDEV/.codex-satellites-after-start.png": [
+      711368,
+      1782771851484054000
+    ],
+    "1JuliaDEV/.codex-satellites-panel.png": [
+      1735292,
+      1782771740895489700
+    ],
+    "1JuliaDEV/.codex-satellites-reader-2.png": [
+      4424670,
+      1782772095649057400
+    ],
+    "1JuliaDEV/.codex-satellites-reader.png": [
+      4434437,
+      1782772066973387800
+    ],
+    "1JuliaDEV/.codex-satellites-tab.png": [
+      184053,
+      1782771669004518200
+    ],
+    "1JuliaDEV/.codex-settings.png": [
+      654203,
+      1782770323613805700
+    ],
+    "1JuliaDEV/.gitignore": [
+      564,
+      1783151280677352300
+    ],
+    "1JuliaDEV/00_MAPA_DEL_PROYECTO.md": [
+      2622,
+      1780211870556028300
+    ],
+    "1JuliaDEV/AGENTS.md": [
+      6981,
+      1783581956520770000
+    ],
+    "1JuliaDEV/AI_ARCHITECTURE.md": [
+      5615,
+      1780258486679115600
+    ],
+    "1JuliaDEV/ARCHITECTURE.md": [
+      13188,
+      1780862088194989800
+    ],
+    "1JuliaDEV/CODEX_GUARDRAILS.md": [
+      135752,
+      1782982828832232500
+    ],
+    "1JuliaDEV/DATA_MODEL_DRAFT.md": [
+      4438,
+      1780247606400530200
+    ],
+    "1JuliaDEV/DECISIONS.md": [
+      8169,
+      1780689977832068400
+    ],
+    "1JuliaDEV/design.md": [
+      80052,
+      1782982828830232400
+    ],
+    "1JuliaDEV/EDITOR_UNIVERSAL_BLOCK_SYSTEM_PLAN.md": [
+      188426,
+      1782809896403088200
+    ],
+    "1JuliaDEV/efficiency_plan.md": [
+      4820,
+      1780211870684468600
+    ],
+    "1JuliaDEV/index.html": [
+      710,
+      1782541664903631800
+    ],
+    "1JuliaDEV/JULIA-EXIT.md": [
+      3665,
+      1780211870702902700
+    ],
+    "1JuliaDEV/metadata.json": [
+      308,
+      1780211863963458600
+    ],
+    "1JuliaDEV/MIGRATION_PIPELINE.md": [
+      1993,
+      1780259725176841700
+    ],
+    "1JuliaDEV/MIGRATION_PLAN.md": [
+      8717,
+      1780259332901105700
+    ],
+    "1JuliaDEV/NATIVE_WINDOWS_MIGRATION_PLAN.md": [
+      4535,
+      1781826823663068200
+    ],
+    "1JuliaDEV/package-lock.json": [
+      547534,
+      1783429376611497600
+    ],
+    "1JuliaDEV/package.json": [
+      2749,
+      1783429376231508600
+    ],
+    "1JuliaDEV/postcss.config.js": [
+      34,
+      1780250896689000700
+    ],
+    "1JuliaDEV/PRIVACY_POLICY.md": [
+      2833,
+      1780513357311408700
+    ],
+    "1JuliaDEV/README.md": [
+      1433,
+      1780211870718525800
+    ],
+    "1JuliaDEV/README_NATIVE.md": [
+      1488,
+      1780259332913638800
+    ],
+    "1JuliaDEV/SECURITY_AND_DISTRIBUTION.md": [
+      2587,
+      1780259332908103200
+    ],
+    "1JuliaDEV/stderr_capture.txt": [
+      117,
+      1782541318209760200
+    ],
+    "1JuliaDEV/stdout_capture.txt": [
+      0,
+      1782541317157033000
+    ],
+    "1JuliaDEV/tailwind.config.js": [
+      802,
+      1780250896696539900
+    ],
+    "1JuliaDEV/TECH_STACK.md": [
+      8723,
+      1780808023542116100
+    ],
+    "1JuliaDEV/tmp-blog-editorial-list.png": [
+      226499,
+      1782789529518351600
+    ],
+    "1JuliaDEV/tmp-blogs-editorial-empty.png": [
+      237443,
+      1782789586633561000
+    ],
+    "1JuliaDEV/tmp-demo-current.png": [
+      712392,
+      1782801676511200300
+    ],
+    "1JuliaDEV/tsconfig.json": [
+      582,
+      1780211870578903200
+    ],
+    "1JuliaDEV/vite.config.ts": [
+      976,
+      1783135904173828500
+    ],
+    "1JuliaDEV/vite.config.ts.timestamp-1781441055075-9906902c7ea4f.mjs": [
+      4110,
+      1781441055078684100
+    ],
+    "1JuliaDEV/vite.config.ts.timestamp-1782156405905-8190c9d33bec.mjs": [
+      4110,
+      1782156405907493600
+    ],
+    "1JuliaDEV/vite.config.ts.timestamp-1782348806975-f346b86fbd5188.mjs": [
+      4110,
+      1782348806976592800
+    ],
+    "1JuliaDEV/vitest.config.ts": [
+      286,
+      1783429458854874500
+    ],
+    "1JuliaDEV/WINDOWS_STORE_GUIDE.md": [
+      3421,
+      1780513374136027000
+    ],
+    "1JuliaDEV/components/modals/CommandCenter.tsx": [
+      4935,
+      1780211864221371300
+    ],
+    "1JuliaDEV/components/panels/CategoryView.tsx": [
+      108,
+      1780211864122169800
+    ],
+    "1JuliaDEV/components/panels/ContentEditorPanel.tsx": [
+      138,
+      1780211864180409400
+    ],
+    "1JuliaDEV/components/panels/DiscoverPanel.tsx": [
+      130,
+      1780211864037446100
+    ],
+    "1JuliaDEV/components/panels/HomePanel.tsx": [
+      172,
+      1780211864020073700
+    ],
+    "1JuliaDEV/components/panels/HomeWidgets.tsx": [
+      225,
+      1780211864158600200
+    ],
+    "1JuliaDEV/components/panels/LibraryPanel.tsx": [
+      86,
+      1780211864080690300
+    ],
+    "1JuliaDEV/components/panels/ProfilePanel.tsx": [
+      91,
+      1780211864057133700
+    ],
+    "1JuliaDEV/components/panels/ProfileUI.tsx": [
+      186,
+      1780211864137861100
+    ],
+    "1JuliaDEV/components/panels/SatellitesPanel.tsx": [
+      97,
+      1780211864101108900
+    ],
+    "1JuliaDEV/components/views/CategoryView.tsx": [
+      11578,
+      1780211864295504400
+    ],
+    "1JuliaDEV/docs/coverdesign.md": [
+      12933,
+      1780554613613309700
+    ],
+    "1JuliaDEV/docs/JOVIAN_AGENTS.md": [
+      20505,
+      1780534467097996100
+    ],
+    "1JuliaDEV/docs/JULIA_MASTER_CHECKLIST_2026-06-18.md": [
+      12849,
+      1781848883765570900
+    ],
+    "1JuliaDEV/docs/JUPITER_SPOT_INTERACTION_QA.md": [
+      2892,
+      1780729411247557500
+    ],
+    "1JuliaDEV/docs/NIMBO_EDITORIAL_MVP_TECH_DESIGN.md": [
+      14163,
+      1783421187610310900
+    ],
+    "1JuliaDEV/docs/PACKAGING_DESKTOP.md": [
+      1629,
+      1780259106304747300
+    ],
+    "1JuliaDEV/docs/PILOT_COMMERCIAL_PLAN.md": [
+      3075,
+      1780211870812239300
+    ],
+    "1JuliaDEV/docs/PILOT_DEMO_SCRIPT.md": [
+      2409,
+      1780211870744261300
+    ],
+    "1JuliaDEV/docs/PILOT_MVP_STATUS.md": [
+      2966,
+      1780211870762709600
+    ],
+    "1JuliaDEV/docs/PILOT_QA_MATRIX.md": [
+      2846,
+      1780211870778524200
+    ],
+    "1JuliaDEV/docs/PILOT_USER_TEST_CHECKLIST.md": [
+      2516,
+      1780211870796144700
+    ],
+    "1JuliaDEV/docs/PRIVACY_POLICY.md": [
+      2458,
+      1780509107388697000
+    ],
+    "1JuliaDEV/docs/PROPUESTA_DISENO_JUPITER.md": [
+      8143,
+      1780536151369544700
+    ],
+    "1JuliaDEV/docs/TAURI_WINDOW_BOOT_HARDENING.md": [
+      4851,
+      1782566362616212700
+    ],
+    "1JuliaDEV/docs/WINDOWS_STORE_PUBLISH.md": [
+      3770,
+      1780509122697644000
+    ],
+    "1JuliaDEV/public/images/2k_jupiter.jpg": [
+      253524,
+      1781236606398248000
+    ],
+    "1JuliaDEV/public/images/2k_stars_milky_way.jpg": [
+      251454,
+      1781210227929695100
+    ],
+    "1JuliaDEV/public/images/2k_sun.jpg": [
+      325325,
+      1781210692401928600
+    ],
+    "1JuliaDEV/public/images/4k_jupiter.jpg": [
+      821502,
+      1781236606257721200
+    ],
+    "1JuliaDEV/public/images/8k_jupiter.jpg": [
+      3080980,
+      1781235118694409500
+    ],
+    "1JuliaDEV/public/images/jupiter_clouds.jpg": [
+      11619184,
+      1781444540803311300
+    ],
+    "1JuliaDEV/public/images/brand/julia-jupiter-orbit.png": [
+      1397173,
+      1780420987401075600
+    ],
+    "1JuliaDEV/public/images/categories/000-derecho-general.webp": [
+      31454,
+      1780807716559087600
+    ],
+    "1JuliaDEV/public/images/categories/001-ciencias-formales.webp": [
+      35688,
+      1780807716977630900
+    ],
+    "1JuliaDEV/public/images/categories/002-matematicas.webp": [
+      19054,
+      1780807717366240900
+    ],
+    "1JuliaDEV/public/images/categories/003-logica.webp": [
+      27798,
+      1780807717752158600
+    ],
+    "1JuliaDEV/public/images/categories/004-estadistica.webp": [
+      13530,
+      1780807718145852700
+    ],
+    "1JuliaDEV/public/images/categories/005-probabilidad.webp": [
+      26276,
+      1780807718543177700
+    ],
+    "1JuliaDEV/public/images/categories/006-teoria-de-sistemas.webp": [
+      29438,
+      1780807718934880300
+    ],
+    "1JuliaDEV/public/images/categories/007-teoria-de-juegos-2.webp": [
+      24970,
+      1780807719880499300
+    ],
+    "1JuliaDEV/public/images/categories/007-teoria-de-juegos-3.webp": [
+      36210,
+      1780807720348396100
+    ],
+    "1JuliaDEV/public/images/categories/007-teoria-de-juegos-4.webp": [
+      28746,
+      1780807720774858000
+    ],
+    "1JuliaDEV/public/images/categories/007-teoria-de-juegos.webp": [
+      16018,
+      1780807719381073200
+    ],
+    "1JuliaDEV/public/images/categories/008-teoria-de-la-informacion.webp": [
+      16870,
+      1780807721229107600
+    ],
+    "1JuliaDEV/public/images/categories/009-ciencias-de-la-computacion-teorica.webp": [
+      28930,
+      1780807721745662200
+    ],
+    "1JuliaDEV/public/images/categories/010-criptografia.webp": [
+      18628,
+      1780807722269445000
+    ],
+    "1JuliaDEV/public/images/categories/011-geometria.webp": [
+      18178,
+      1780807722739506600
+    ],
+    "1JuliaDEV/public/images/categories/012-algebra.webp": [
+      25452,
+      1780807723351774300
+    ],
+    "1JuliaDEV/public/images/categories/013-calculo-2.webp": [
+      23098,
+      1780807724459893000
+    ],
+    "1JuliaDEV/public/images/categories/013-calculo-3.webp": [
+      26368,
+      1780807724926928400
+    ],
+    "1JuliaDEV/public/images/categories/013-calculo.webp": [
+      24100,
+      1780807723938130400
+    ],
+    "1JuliaDEV/public/images/categories/015-optimizacion.webp": [
+      31024,
+      1780807725386256900
+    ],
+    "1JuliaDEV/public/images/categories/018-biologia-2.webp": [
+      21216,
+      1780807726518552000
+    ],
+    "1JuliaDEV/public/images/categories/018-biologia-3.webp": [
+      33250,
+      1780807727088290400
+    ],
+    "1JuliaDEV/public/images/categories/018-biologia.webp": [
+      20292,
+      1780807725968428100
+    ],
+    "1JuliaDEV/public/images/categories/019-astronomia.webp": [
+      26106,
+      1780807727556798400
+    ],
+    "1JuliaDEV/public/images/categories/020-geologia.webp": [
+      31580,
+      1780807728036392000
+    ],
+    "1JuliaDEV/public/images/categories/021-ecologia.webp": [
+      19158,
+      1780807728500466800
+    ],
+    "1JuliaDEV/public/images/categories/022-oceanografia.webp": [
+      20942,
+      1780807728963066600
+    ],
+    "1JuliaDEV/public/images/categories/023-meteorologia-2.webp": [
+      21572,
+      1780807729853139100
+    ],
+    "1JuliaDEV/public/images/categories/023-meteorologia.webp": [
+      16012,
+      1780807729399898000
+    ],
+    "1JuliaDEV/public/images/categories/025-zoologia-2.webp": [
+      19622,
+      1780807730745034600
+    ],
+    "1JuliaDEV/public/images/categories/025-zoologia-3.webp": [
+      43992,
+      1780807731242453100
+    ],
+    "1JuliaDEV/public/images/categories/025-zoologia.webp": [
+      21502,
+      1780807730304213700
+    ],
+    "1JuliaDEV/public/images/categories/027-microbiologia-2.webp": [
+      23520,
+      1780807732025581200
+    ],
+    "1JuliaDEV/public/images/categories/027-microbiologia.webp": [
+      16390,
+      1780807731647671300
+    ],
+    "1JuliaDEV/public/images/categories/029-paleontologia.webp": [
+      26072,
+      1780807732422378400
+    ],
+    "1JuliaDEV/public/images/categories/030-ciencias-planetarias.webp": [
+      23786,
+      1780807732780721100
+    ],
+    "1JuliaDEV/public/images/categories/031-ciencias-ambientales-2.webp": [
+      21498,
+      1780807733488290400
+    ],
+    "1JuliaDEV/public/images/categories/031-ciencias-ambientales.webp": [
+      18580,
+      1780807733126266600
+    ],
+    "1JuliaDEV/public/images/categories/032-sociologia.webp": [
+      26124,
+      1780807733853480700
+    ],
+    "1JuliaDEV/public/images/categories/033-psicologia.webp": [
+      13562,
+      1780807734200806000
+    ],
+    "1JuliaDEV/public/images/categories/034-antropologia.webp": [
+      20414,
+      1780807734578669300
+    ],
+    "1JuliaDEV/public/images/categories/035-economia.webp": [
+      22508,
+      1780807734950119600
+    ],
+    "1JuliaDEV/public/images/categories/036-ciencia-politica.webp": [
+      14140,
+      1780807735290867900
+    ],
+    "1JuliaDEV/public/images/categories/037-geografia-humana-2.webp": [
+      26092,
+      1780807736037611200
+    ],
+    "1JuliaDEV/public/images/categories/037-geografia-humana-3.webp": [
+      41308,
+      1780807736463307200
+    ],
+    "1JuliaDEV/public/images/categories/037-geografia-humana-4.webp": [
+      32706,
+      1780807736897310200
+    ],
+    "1JuliaDEV/public/images/categories/037-geografia-humana.webp": [
+      30866,
+      1780807735656267600
+    ],
+    "1JuliaDEV/public/images/categories/038-historia-social.webp": [
+      19030,
+      1780807737309152100
+    ],
+    "1JuliaDEV/public/images/categories/039-estudios-culturales.webp": [
+      24324,
+      1780807737709888200
+    ],
+    "1JuliaDEV/public/images/categories/040-criminologia-2.webp": [
+      26056,
+      1780807738505250800
+    ],
+    "1JuliaDEV/public/images/categories/040-criminologia.webp": [
+      23958,
+      1780807738106865700
+    ],
+    "1JuliaDEV/public/images/categories/041-demografia.webp": [
+      39310,
+      1780807738940005600
+    ],
+    "1JuliaDEV/public/images/categories/043-trabajo-social-2.webp": [
+      39558,
+      1780807739691218500
+    ],
+    "1JuliaDEV/public/images/categories/043-trabajo-social-3.webp": [
+      17244,
+      1780807740046355200
+    ],
+    "1JuliaDEV/public/images/categories/043-trabajo-social.webp": [
+      18922,
+      1780807739309150200
+    ],
+    "1JuliaDEV/public/images/categories/044-urbanismo-2.webp": [
+      23474,
+      1780807740786216400
+    ],
+    "1JuliaDEV/public/images/categories/044-urbanismo-3.webp": [
+      47462,
+      1780807741179718100
+    ],
+    "1JuliaDEV/public/images/categories/044-urbanismo.webp": [
+      37064,
+      1780807740426864800
+    ],
+    "1JuliaDEV/public/images/categories/045-nutricion.webp": [
+      19618,
+      1780807741536536600
+    ],
+    "1JuliaDEV/public/images/categories/046-periodismo.webp": [
+      34952,
+      1780807741941643500
+    ],
+    "1JuliaDEV/public/images/categories/047-comunicacion-social.webp": [
+      21418,
+      1780807742353341500
+    ],
+    "1JuliaDEV/public/images/categories/048-filosofia.webp": [
+      16640,
+      1780807742757128800
+    ],
+    "1JuliaDEV/public/images/categories/049-historia.webp": [
+      17212,
+      1780807743198925600
+    ],
+    "1JuliaDEV/public/images/categories/049-relaciones-publicas-2.webp": [
+      22182,
+      1780807743975001400
+    ],
+    "1JuliaDEV/public/images/categories/049-relaciones-publicas-3.webp": [
+      23404,
+      1780807744379634000
+    ],
+    "1JuliaDEV/public/images/categories/049-relaciones-publicas.webp": [
+      23248,
+      1780807743592399600
+    ],
+    "1JuliaDEV/public/images/categories/050-literatura.webp": [
+      29014,
+      1780807744768068100
+    ],
+    "1JuliaDEV/public/images/categories/052-filologia.webp": [
+      21302,
+      1780807745194066100
+    ],
+    "1JuliaDEV/public/images/categories/053-etica.webp": [
+      21102,
+      1780807745569291700
+    ],
+    "1JuliaDEV/public/images/categories/054-estetica.webp": [
+      20844,
+      1780807745933567300
+    ],
+    "1JuliaDEV/public/images/categories/055-teologia.webp": [
+      22658,
+      1780807746303135500
+    ],
+    "1JuliaDEV/public/images/categories/056-religiones-comparadas.webp": [
+      19070,
+      1780807746668483600
+    ],
+    "1JuliaDEV/public/images/categories/057-mitologia-3.webp": [
+      20052,
+      1780807747467921500
+    ],
+    "1JuliaDEV/public/images/categories/057-mitologia.webp": [
+      27042,
+      1780807747043855000
+    ],
+    "1JuliaDEV/public/images/categories/058-hermeneutica.webp": [
+      36008,
+      1780807747851996800
+    ],
+    "1JuliaDEV/public/images/categories/059-retorica.webp": [
+      15706,
+      1780807748224808200
+    ],
+    "1JuliaDEV/public/images/categories/060-estudios-clasicos.webp": [
+      19774,
+      1780807748721191600
+    ],
+    "1JuliaDEV/public/images/categories/061-estudios-medievales.webp": [
+      20422,
+      1780807749243292700
+    ],
+    "1JuliaDEV/public/images/categories/062-estudios-de-memoria.webp": [
+      24640,
+      1780807749690086400
+    ],
+    "1JuliaDEV/public/images/categories/063-semiotica.webp": [
+      31796,
+      1780807750052303100
+    ],
+    "1JuliaDEV/public/images/categories/064-artes-visuales.webp": [
+      32160,
+      1780807750514885400
+    ],
+    "1JuliaDEV/public/images/categories/066-diseno-ux-ui.webp": [
+      16832,
+      1780807750972342500
+    ],
+    "1JuliaDEV/public/images/categories/067-diseno-industrial-2.webp": [
+      26012,
+      1780807751897535500
+    ],
+    "1JuliaDEV/public/images/categories/067-diseno-industrial.webp": [
+      17756,
+      1780807751421042100
+    ],
+    "1JuliaDEV/public/images/categories/068-arquitectura-2.webp": [
+      25462,
+      1780807752996629200
+    ],
+    "1JuliaDEV/public/images/categories/068-arquitectura.webp": [
+      18672,
+      1780807752439372400
+    ],
+    "1JuliaDEV/public/images/categories/069-musica.webp": [
+      15210,
+      1780807753495705700
+    ],
+    "1JuliaDEV/public/images/categories/070-cine.webp": [
+      20042,
+      1780807754059204200
+    ],
+    "1JuliaDEV/public/images/categories/071-fotografia.webp": [
+      30620,
+      1780807754600511600
+    ],
+    "1JuliaDEV/public/images/categories/072-animacion-2.webp": [
+      23844,
+      1780807755520141700
+    ],
+    "1JuliaDEV/public/images/categories/072-animacion-4.webp": [
+      17624,
+      1780807755965803200
+    ],
+    "1JuliaDEV/public/images/categories/072-animacion.webp": [
+      22072,
+      1780807755074514800
+    ],
+    "1JuliaDEV/public/images/categories/073-videojuegos.webp": [
+      31628,
+      1780807756423222400
+    ],
+    "1JuliaDEV/public/images/categories/074-teatro.webp": [
+      25180,
+      1780807756891370100
+    ],
+    "1JuliaDEV/public/images/categories/076-escritura-creativa.webp": [
+      28886,
+      1780807757366973700
+    ],
+    "1JuliaDEV/public/images/categories/077-ilustracion-10.webp": [
+      22136,
+      1780807758169850100
+    ],
+    "1JuliaDEV/public/images/categories/077-ilustracion-2.webp": [
+      20402,
+      1780807758521459300
+    ],
+    "1JuliaDEV/public/images/categories/077-ilustracion-3.webp": [
+      18928,
+      1780807758881690700
+    ],
+    "1JuliaDEV/public/images/categories/077-ilustracion-4.webp": [
+      19648,
+      1780807759234881900
+    ],
+    "1JuliaDEV/public/images/categories/077-ilustracion-5.webp": [
+      25428,
+      1780807759600616600
+    ],
+    "1JuliaDEV/public/images/categories/077-ilustracion-6.webp": [
+      20162,
+      1780807759956868200
+    ],
+    "1JuliaDEV/public/images/categories/077-ilustracion-7.webp": [
+      23068,
+      1780807760325161600
+    ],
+    "1JuliaDEV/public/images/categories/077-ilustracion-8.webp": [
+      20002,
+      1780807760697370900
+    ],
+    "1JuliaDEV/public/images/categories/077-ilustracion-9.webp": [
+      20608,
+      1780807761058128300
+    ],
+    "1JuliaDEV/public/images/categories/077-ilustracion.webp": [
+      21324,
+      1780807757802508500
+    ],
+    "1JuliaDEV/public/images/categories/078-escultura-2.webp": [
+      17514,
+      1780807761872677800
+    ],
+    "1JuliaDEV/public/images/categories/078-escultura.webp": [
+      27884,
+      1780807761462390500
+    ],
+    "1JuliaDEV/public/images/categories/079-moda.webp": [
+      24826,
+      1780807762277052100
+    ],
+    "1JuliaDEV/public/images/categories/080-arte-digital.webp": [
+      21912,
+      1780807762667460000
+    ],
+    "1JuliaDEV/public/images/categories/081-arte-generativo.webp": [
+      38674,
+      1780807763049986400
+    ],
+    "1JuliaDEV/public/images/categories/082-narrativa-visual.webp": [
+      21394,
+      1780807763441443100
+    ],
+    "1JuliaDEV/public/images/categories/083-direccion-de-arte.webp": [
+      17326,
+      1780807763834815900
+    ],
+    "1JuliaDEV/public/images/categories/084-ingenieria-de-software.webp": [
+      30136,
+      1780807764224433900
+    ],
+    "1JuliaDEV/public/images/categories/085-ingenieria-civil.webp": [
+      15720,
+      1780807764584118600
+    ],
+    "1JuliaDEV/public/images/categories/086-ingenieria-mecanica.webp": [
+      31348,
+      1780807764952079400
+    ],
+    "1JuliaDEV/public/images/categories/087-ingenieria-electrica-2.webp": [
+      31212,
+      1780807765704782800
+    ],
+    "1JuliaDEV/public/images/categories/087-ingenieria-electrica.webp": [
+      21052,
+      1780807765323318200
+    ],
+    "1JuliaDEV/public/images/categories/088-ingenieria-electronica.webp": [
+      21054,
+      1780807766074304200
+    ],
+    "1JuliaDEV/public/images/categories/089-ingenieria-industrial.webp": [
+      21222,
+      1780807766468988200
+    ],
+    "1JuliaDEV/public/images/categories/090-ingenieria-aeroespacial.webp": [
+      20204,
+      1780807766884587000
+    ],
+    "1JuliaDEV/public/images/categories/091-ingenieria-biomedica.webp": [
+      24948,
+      1780807767336654700
+    ],
+    "1JuliaDEV/public/images/categories/093-inteligencia-artificial.webp": [
+      28950,
+      1780807767757666600
+    ],
+    "1JuliaDEV/public/images/categories/094-ciencia-de-datos.webp": [
+      22306,
+      1780807768148879800
+    ],
+    "1JuliaDEV/public/images/categories/095-ciberseguridad.webp": [
+      17046,
+      1780807768534380500
+    ],
+    "1JuliaDEV/public/images/categories/096-redes.webp": [
+      29058,
+      1780807768932805000
+    ],
+    "1JuliaDEV/public/images/categories/097-sistemas-embebidos.webp": [
+      21532,
+      1780807769320310700
+    ],
+    "1JuliaDEV/public/images/categories/098-computacion-grafica.webp": [
+      22138,
+      1780807769703652000
+    ],
+    "1JuliaDEV/public/images/categories/099-realidad-virtual.webp": [
+      23674,
+      1780807770107199400
+    ],
+    "1JuliaDEV/public/images/categories/100-realidad-aumentada.webp": [
+      17834,
+      1780807770464002200
+    ],
+    "1JuliaDEV/public/images/categories/101-blockchain.webp": [
+      17090,
+      1780807770809775000
+    ],
+    "1JuliaDEV/public/images/categories/102-automatizacion-2.webp": [
+      19638,
+      1780807771548517700
+    ],
+    "1JuliaDEV/public/images/categories/102-automatizacion.webp": [
+      30008,
+      1780807771184300000
+    ],
+    "1JuliaDEV/public/images/categories/103-devops-2.webp": [
+      23478,
+      1780807772335199100
+    ],
+    "1JuliaDEV/public/images/categories/103-devops-3.webp": [
+      27958,
+      1780807772723248200
+    ],
+    "1JuliaDEV/public/images/categories/103-devops.webp": [
+      27956,
+      1780807771932794700
+    ],
+    "1JuliaDEV/public/images/categories/104-diseno-de-producto-digital.webp": [
+      17526,
+      1780807773103816500
+    ],
+    "1JuliaDEV/public/images/categories/105-medicina.webp": [
+      18770,
+      1780807773472773300
+    ],
+    "1JuliaDEV/public/images/categories/106-enfermeria.webp": [
+      27678,
+      1780807773861143700
+    ],
+    "1JuliaDEV/public/images/categories/107-nutricion-2.webp": [
+      16772,
+      1780807774644376200
+    ],
+    "1JuliaDEV/public/images/categories/107-nutricion.webp": [
+      19412,
+      1780807774256709100
+    ],
+    "1JuliaDEV/public/images/categories/107-odontologia-2.webp": [
+      15188,
+      1780807775404817000
+    ],
+    "1JuliaDEV/public/images/categories/107-odontologia.webp": [
+      21570,
+      1780807775014722700
+    ],
+    "1JuliaDEV/public/images/categories/108-farmacologia-2.webp": [
+      40938,
+      1780807776207047900
+    ],
+    "1JuliaDEV/public/images/categories/108-farmacologia.webp": [
+      16962,
+      1780807775782526600
+    ],
+    "1JuliaDEV/public/images/categories/110-salud-publica.webp": [
+      25134,
+      1780807776616418200
+    ],
+    "1JuliaDEV/public/images/categories/111-epidemiologia-2.webp": [
+      28752,
+      1780807777281288700
+    ],
+    "1JuliaDEV/public/images/categories/111-epidemiologia.webp": [
+      35950,
+      1780807776895765900
+    ],
+    "1JuliaDEV/public/images/categories/112-fisioterapia.webp": [
+      22220,
+      1780807777619533300
+    ],
+    "1JuliaDEV/public/images/categories/113-psiquiatria.webp": [
+      27232,
+      1780807777986512800
+    ],
+    "1JuliaDEV/public/images/categories/114-psicologia-clinica.webp": [
+      27898,
+      1780807778349001000
+    ],
+    "1JuliaDEV/public/images/categories/115-terapia-ocupacional.webp": [
+      22636,
+      1780807778710191500
+    ],
+    "1JuliaDEV/public/images/categories/116-biomedicina-2.webp": [
+      38932,
+      1780807779652773900
+    ],
+    "1JuliaDEV/public/images/categories/116-biomedicina.webp": [
+      28368,
+      1780807779175438200
+    ],
+    "1JuliaDEV/public/images/categories/117-genomica-medica.webp": [
+      29668,
+      1780807780122765500
+    ],
+    "1JuliaDEV/public/images/categories/118-inmunologia.webp": [
+      20692,
+      1780807780573922500
+    ],
+    "1JuliaDEV/public/images/categories/119-bioetica.webp": [
+      22730,
+      1780807781022014600
+    ],
+    "1JuliaDEV/public/images/categories/120-neuropsicologia.webp": [
+      21222,
+      1780807781474225200
+    ],
+    "1JuliaDEV/public/images/categories/121-pedagogia.webp": [
+      19912,
+      1780807781911429200
+    ],
+    "1JuliaDEV/public/images/categories/122-didactica.webp": [
+      18452,
+      1780807782333403700
+    ],
+    "1JuliaDEV/public/images/categories/123-psicologia-educativa.webp": [
+      30228,
+      1780807782647607900
+    ],
+    "1JuliaDEV/public/images/categories/124-diseno-instruccional.webp": [
+      19756,
+      1780807783023764700
+    ],
+    "1JuliaDEV/public/images/categories/125-tecnologia-educativa.webp": [
+      18268,
+      1780807783376294700
+    ],
+    "1JuliaDEV/public/images/categories/126-evaluacion-educativa-2.webp": [
+      25886,
+      1780807784104300500
+    ],
+    "1JuliaDEV/public/images/categories/126-evaluacion-educativa-3.webp": [
+      58128,
+      1780807784520928700
+    ],
+    "1JuliaDEV/public/images/categories/126-evaluacion-educativa.webp": [
+      20568,
+      1780807783723504700
+    ],
+    "1JuliaDEV/public/images/categories/127-educacion-especial.webp": [
+      24192,
+      1780807784890650100
+    ],
+    "1JuliaDEV/public/images/categories/128-aprendizaje-autodirigido.webp": [
+      21278,
+      1780807785281368400
+    ],
+    "1JuliaDEV/public/images/categories/129-gamificacion-educativa.webp": [
+      21816,
+      1780807785660308100
+    ],
+    "1JuliaDEV/public/images/categories/130-formacion-profesional.webp": [
+      21852,
+      1780807786041596900
+    ],
+    "1JuliaDEV/public/images/categories/131-alfabetizacion-digital.webp": [
+      24672,
+      1780807786446538400
+    ],
+    "1JuliaDEV/public/images/categories/133-neuroeducacion-2.webp": [
+      26000,
+      1780807787914596800
+    ],
+    "1JuliaDEV/public/images/categories/133-neuroeducacion.webp": [
+      26474,
+      1780807787413215100
+    ],
+    "1JuliaDEV/public/images/categories/136-derecho-constitucional.webp": [
+      27258,
+      1780807788387653300
+    ],
+    "1JuliaDEV/public/images/categories/137-derecho-internacional.webp": [
+      32664,
+      1780807788852505600
+    ],
+    "1JuliaDEV/public/images/categories/138-derecho-laboral.webp": [
+      17722,
+      1780807789321790500
+    ],
+    "1JuliaDEV/public/images/categories/139-derecho-mercantil.webp": [
+      17488,
+      1780807789743943100
+    ],
+    "1JuliaDEV/public/images/categories/140-derechos-humanos.webp": [
+      24326,
+      1780807790214967200
+    ],
+    "1JuliaDEV/public/images/categories/141-filosofia-politica.webp": [
+      20218,
+      1780807790637445200
+    ],
+    "1JuliaDEV/public/images/categories/144-estudios-de-genero.webp": [
+      23024,
+      1780807791042989200
+    ],
+    "1JuliaDEV/public/images/categories/145-estudios-migratorios.webp": [
+      19230,
+      1780807791595192700
+    ],
+    "1JuliaDEV/public/images/categories/149-administracion.webp": [
+      20332,
+      1780807792277279800
+    ],
+    "1JuliaDEV/public/images/categories/150-finanzas.webp": [
+      20490,
+      1780807792831268600
+    ],
+    "1JuliaDEV/public/images/categories/153-emprendimiento.webp": [
+      24268,
+      1780807793277956800
+    ],
+    "1JuliaDEV/public/images/categories/154-comercio.webp": [
+      29482,
+      1780807793755060700
+    ],
+    "1JuliaDEV/public/images/categories/161-economia-conductual.webp": [
+      28682,
+      1780807794235877400
+    ],
+    "1JuliaDEV/public/images/categories/163-modelos-de-negocio.webp": [
+      18120,
+      1780807794669317900
+    ],
+    "1JuliaDEV/public/images/categories/164-product-management-2.webp": [
+      18598,
+      1780807795654103500
+    ],
+    "1JuliaDEV/public/images/categories/164-product-management-3.webp": [
+      21626,
+      1780807796131692700
+    ],
+    "1JuliaDEV/public/images/categories/164-product-management-4.webp": [
+      22624,
+      1780807796659606400
+    ],
+    "1JuliaDEV/public/images/categories/164-product-management.webp": [
+      27738,
+      1780807795188671600
+    ],
+    "1JuliaDEV/public/images/categories/169-bibliotecologia-10.webp": [
+      20126,
+      1780807797800784700
+    ],
+    "1JuliaDEV/public/images/categories/169-bibliotecologia-11.webp": [
+      15712,
+      1780807798407196200
+    ],
+    "1JuliaDEV/public/images/categories/169-bibliotecologia-2.webp": [
+      34204,
+      1780807799205835300
+    ],
+    "1JuliaDEV/public/images/categories/169-bibliotecologia-3.webp": [
+      22332,
+      1780807799941042700
+    ],
+    "1JuliaDEV/public/images/categories/169-bibliotecologia-4.webp": [
+      20738,
+      1780807800665882800
+    ],
+    "1JuliaDEV/public/images/categories/169-bibliotecologia-5.webp": [
+      21768,
+      1780807801368634500
+    ],
+    "1JuliaDEV/public/images/categories/169-bibliotecologia-6.webp": [
+      19320,
+      1780807802123623000
+    ],
+    "1JuliaDEV/public/images/categories/169-bibliotecologia-7.webp": [
+      20444,
+      1780807802848039700
+    ],
+    "1JuliaDEV/public/images/categories/169-bibliotecologia-8.webp": [
+      15486,
+      1780807803378572700
+    ],
+    "1JuliaDEV/public/images/categories/169-bibliotecologia-9.webp": [
+      24514,
+      1780807803898379500
+    ],
+    "1JuliaDEV/public/images/categories/169-bibliotecologia.webp": [
+      21072,
+      1780807797161530300
+    ],
+    "1JuliaDEV/public/images/categories/181-gestion-ambiental.webp": [
+      28924,
+      1780807804375299400
+    ],
+    "1JuliaDEV/public/images/categories/182-ecologia-aplica-5.webp": [
+      26032,
+      1780807804949821900
+    ],
+    "1JuliaDEV/public/images/categories/182-ecologia-aplicada-2.webp": [
+      17286,
+      1780807805794711100
+    ],
+    "1JuliaDEV/public/images/categories/182-ecologia-aplicada-3.webp": [
+      19116,
+      1780807806239402500
+    ],
+    "1JuliaDEV/public/images/categories/182-ecologia-aplicada-4.webp": [
+      28600,
+      1780807806689335500
+    ],
+    "1JuliaDEV/public/images/categories/182-ecologia-aplicada.webp": [
+      19288,
+      1780807805381376400
+    ],
+    "1JuliaDEV/public/images/categories/183-energias-renovables.webp": [
+      17612,
+      1780807807146434100
+    ],
+    "1JuliaDEV/public/images/categories/184-agricultura.webp": [
+      29636,
+      1780807807626159500
+    ],
+    "1JuliaDEV/public/images/categories/188-cambio-climatico.webp": [
+      33636,
+      1780807808059325100
+    ],
+    "1JuliaDEV/public/images/categories/191-paisajismo.webp": [
+      25800,
+      1780807808489573700
+    ],
+    "1JuliaDEV/public/images/categories/192-desarrollo-urbano-sostenible.webp": [
+      19004,
+      1780807808881412600
+    ],
+    "1JuliaDEV/public/images/categories/194-religion.webp": [
+      28142,
+      1780807809415532100
+    ],
+    "1JuliaDEV/public/images/categories/204-humanidades-digitales-2.webp": [
+      18110,
+      1780807810361930100
+    ],
+    "1JuliaDEV/public/images/categories/204-humanidades-digitales-3.webp": [
+      33128,
+      1780807810859195300
+    ],
+    "1JuliaDEV/public/images/categories/204-humanidades-digitales.webp": [
+      23584,
+      1780807809890724700
+    ],
+    "1JuliaDEV/public/images/categories/206-neurociencia-cognitiva.webp": [
+      30110,
+      1780807811401974700
+    ],
+    "1JuliaDEV/public/images/categories/209-ciencia-cognitiva.webp": [
+      18264,
+      1780807811923976300
+    ],
+    "1JuliaDEV/public/images/julia/branch-covers/01-filosofia.png": [
+      1767250,
+      1780356972159583600
+    ],
+    "1JuliaDEV/public/images/julia/branch-covers/02-logica.png": [
+      1857410,
+      1780356972430041100
+    ],
+    "1JuliaDEV/public/images/julia/branch-covers/03-matematicas.png": [
+      1673301,
+      1780356972674380500
+    ],
+    "1JuliaDEV/public/images/julia/branch-covers/04-estadistica-probabilidad.png": [
+      1827443,
+      1780356972902560500
+    ],
+    "1JuliaDEV/public/images/julia/branch-covers/05-sistemas-complejidad.png": [
+      1805709,
+      1780356973088035200
+    ],
+    "1JuliaDEV/public/images/julia/branch-covers/06-investigacion-metodo-cientifico.png": [
+      1781641,
+      1780356973320693300
+    ],
+    "1JuliaDEV/public/images/julia/branch-covers/07-fisica-astronomia.png": [
+      1784143,
+      1780356973546176300
+    ],
+    "1JuliaDEV/public/images/julia/branch-covers/08-quimica-materiales.png": [
+      1803840,
+      1780356973789039400
+    ],
+    "1JuliaDEV/public/images/julia/branch-covers/09-biologia-vida.png": [
+      1852486,
+      1780356973982986700
+    ],
+    "1JuliaDEV/public/images/julia/branch-covers/10-tierra-ambiente.png": [
+      1770514,
+      1780356974227751600
+    ],
+    "1JuliaDEV/public/images/julia/branch-covers/11-salud-cuerpo.png": [
+      1827738,
+      1780356974496905000
+    ],
+    "1JuliaDEV/public/images/julia/branch-covers/12-psicologia-cognicion.png": [
+      1954767,
+      1780356974755553000
+    ],
+    "1JuliaDEV/public/images/julia/branch-covers/13-historia-memoria.png": [
+      1875032,
+      1780356974992786400
+    ],
+    "1JuliaDEV/public/images/julia/branch-covers/14-lenguaje-comunicacion.png": [
+      1802423,
+      1780356975242410700
+    ],
+    "1JuliaDEV/public/images/julia/branch-covers/15-humanidades-cultura.png": [
+      1888440,
+      1780356975488888700
+    ],
+    "1JuliaDEV/public/images/julia/branch-covers/16-ciencias-sociales.png": [
+      1783293,
+      1780356975696614300
+    ],
+    "1JuliaDEV/public/images/julia/branch-covers/17-politica-derecho-gobernanza.png": [
+      1885521,
+      1780356975935057300
+    ],
+    "1JuliaDEV/public/images/julia/branch-covers/18-economia-estrategia.png": [
+      1939842,
+      1780356976172513000
+    ],
+    "1JuliaDEV/public/images/julia/branch-covers/19-etica-sociedad.png": [
+      1893041,
+      1780356976408310200
+    ],
+    "1JuliaDEV/public/images/julia/branch-covers/20-artes-estetica.png": [
+      2022198,
+      1780356976656068100
+    ],
+    "1JuliaDEV/public/images/julia/branch-covers/21-diseno-ux.png": [
+      1909995,
+      1780356976886041900
+    ],
+    "1JuliaDEV/public/images/julia/branch-covers/22-tecnologia-ingenieria.png": [
+      2010603,
+      1780356977100077400
+    ],
+    "1JuliaDEV/public/images/julia/branch-covers/23-computacion-software-ia.png": [
+      1829051,
+      1780356977319618900
+    ],
+    "1JuliaDEV/public/images/julia/branch-covers/24-educacion-aprendizaje.png": [
+      1927329,
+      1780356977549656100
+    ],
+    "1JuliaDEV/scripts/check-tauri-window.ps1": [
+      2948,
+      1783135934177664700
+    ],
+    "1JuliaDEV/scripts/dev-tauri-safe.ps1": [
+      3086,
+      1783135300799791500
+    ],
+    "1JuliaDEV/scripts/guard-tauri-window-boot.ps1": [
+      4755,
+      1782566455732022700
+    ],
+    "1JuliaDEV/services/geminiService.ts": [
+      16862,
+      1780211864372302400
+    ],
+    "1JuliaDEV/services/searchService.ts": [
+      4340,
+      1780211864388109100
+    ],
+    "1JuliaDEV/src/.gitkeep": [
+      0,
+      1780211864502775700
+    ],
+    "1JuliaDEV/src/App.tsx": [
+      16249,
+      1783316836252490700
+    ],
+    "1JuliaDEV/src/constants.ts": [
+      20378,
+      1783255131863347000
+    ],
+    "1JuliaDEV/src/index.css": [
+      21155,
+      1783585122282636900
+    ],
+    "1JuliaDEV/src/index.tsx": [
+      660,
+      1782544446921262400
+    ],
+    "1JuliaDEV/src/types.ts": [
+      8917,
+      1781339137630208600
+    ],
+    "1JuliaDEV/src/vite-env.d.ts": [
+      38,
+      1780211864599876900
+    ],
+    "1JuliaDEV/src/ai/agents/agentRuntime.types.ts": [
+      1649,
+      1780257281207780700
+    ],
+    "1JuliaDEV/src/ai/agents/executor.ts": [
+      4364,
+      1780506606527487000
+    ],
+    "1JuliaDEV/src/ai/agents/index.ts": [
+      249,
+      1780257281219636500
+    ],
+    "1JuliaDEV/src/ai/agents/planner.ts": [
+      684,
+      1780257281216600800
+    ],
+    "1JuliaDEV/src/ai/agents/actionLog/actionLogUtils.ts": [
+      1754,
+      1780257281209789200
+    ],
+    "1JuliaDEV/src/ai/agents/actionLog/inMemoryActionLogRepository.ts": [
+      554,
+      1780257281212331200
+    ],
+    "1JuliaDEV/src/ai/agents/actionLog/sqliteActionLogRepository.ts": [
+      2773,
+      1780257281214321100
+    ],
+    "1JuliaDEV/src/ai/agents/aster/plannerService.ts": [
+      947,
+      1783247518970318100
+    ],
+    "1JuliaDEV/src/ai/agents/luma/extractorService.ts": [
+      4218,
+      1783270746210529600
+    ],
+    "1JuliaDEV/src/ai/agents/nimbo/chatService.ts": [
+      509,
+      1783247262853756300
+    ],
+    "1JuliaDEV/src/ai/gateway/aiGateway.ts": [
+      5600,
+      1783581956525830600
+    ],
+    "1JuliaDEV/src/ai/gateway/aiGateway.types.ts": [
+      2089,
+      1783247127311723000
+    ],
+    "1JuliaDEV/src/ai/gateway/editorTaskAdapters.ts": [
+      25051,
+      1783581956565519100
+    ],
+    "1JuliaDEV/src/ai/gateway/index.ts": [
+      193,
+      1780253827334132500
+    ],
+    "1JuliaDEV/src/ai/gateway/modelRouter.ts": [
+      2063,
+      1783581956520770000
+    ],
+    "1JuliaDEV/src/ai/gateway/taskAdapters.ts": [
+      7146,
+      1783581956590067700
+    ],
+    "1JuliaDEV/src/ai/gateway/context/contextBuilder.ts": [
+      1992,
+      1780253827307886800
+    ],
+    "1JuliaDEV/src/ai/gateway/providers/geminiProvider.ts": [
+      7067,
+      1783247160157185400
+    ],
+    "1JuliaDEV/src/ai/gateway/providers/mockProvider.ts": [
+      1931,
+      1780253827316173900
+    ],
+    "1JuliaDEV/src/ai/tools/defaultTools.ts": [
+      6675,
+      1780255476344505800
+    ],
+    "1JuliaDEV/src/ai/tools/index.ts": [
+      335,
+      1780255476346764200
+    ],
+    "1JuliaDEV/src/ai/tools/permissionPolicy.ts": [
+      2979,
+      1780255476336914800
+    ],
+    "1JuliaDEV/src/ai/tools/toolRegistry.ts": [
+      1970,
+      1780255476341506800
+    ],
+    "1JuliaDEV/src/ai/tools/toolRegistry.types.ts": [
+      1796,
+      1780255476330888300
+    ],
+    "1JuliaDEV/src/app/navigationRoutes.ts": [
+      341,
+      1781339137667388000
+    ],
+    "1JuliaDEV/src/app/router.tsx": [
+      2302,
+      1781339137602519600
+    ],
+    "1JuliaDEV/src/app/RouteSync.tsx": [
+      424,
+      1780249356024327100
+    ],
+    "1JuliaDEV/src/components/JuliaProcessTooltip.tsx": [
+      2897,
+      1780524654247627200
+    ],
+    "1JuliaDEV/src/components/MermaidBlock.tsx": [
+      1812,
+      1780211868784315500
+    ],
+    "1JuliaDEV/src/components/PillSelector.tsx": [
+      2845,
+      1780211868762886300
+    ],
+    "1JuliaDEV/src/components/SearchBar.tsx": [
+      2637,
+      1780211868725359600
+    ],
+    "1JuliaDEV/src/components/Tabs.tsx": [
+      5319,
+      1780524665311620200
+    ],
+    "1JuliaDEV/src/components/VisualCarousel.tsx": [
+      6648,
+      1780215496726502100
+    ],
+    "1JuliaDEV/src/components/BlockEngine/BlockErrorBoundary.tsx": [
+      1339,
+      1780211868989899300
+    ],
+    "1JuliaDEV/src/components/BlockEngine/BlockRenderer.tsx": [
+      4474,
+      1780439050698727300
+    ],
+    "1JuliaDEV/src/components/BlockEngine/sandbox.ts": [
+      812,
+      1780211868955185600
+    ],
+    "1JuliaDEV/src/components/BlockEngine/workflowEngine.ts": [
+      3614,
+      1783581956543950200
+    ],
+    "1JuliaDEV/src/components/BlockEngine/blocks/CodeBlock.tsx": [
+      3993,
+      1780211869020411600
+    ],
+    "1JuliaDEV/src/components/BlockEngine/blocks/EquationBlock.tsx": [
+      770,
+      1780211869053534500
+    ],
+    "1JuliaDEV/src/components/BlockEngine/blocks/JsonBlock.tsx": [
+      3825,
+      1780211869035612300
+    ],
+    "1JuliaDEV/src/components/BlockEngine/blocks/MermaidBlock.tsx": [
+      2272,
+      1780211869136068000
+    ],
+    "1JuliaDEV/src/components/BlockEngine/blocks/TableBlock.tsx": [
+      3380,
+      1780211869094535800
+    ],
+    "1JuliaDEV/src/components/BlockEngine/blocks/TextBlock.tsx": [
+      1984,
+      1780211869072060300
+    ],
+    "1JuliaDEV/src/components/BlockEngine/blocks/VideoBlock.tsx": [
+      1950,
+      1780211869114486000
+    ],
+    "1JuliaDEV/src/components/editorBlocks/EditorUniversalReadOnlyView.tsx": [
+      4219,
+      1782014755526937800
+    ],
+    "1JuliaDEV/src/components/editorBlocks/KnowledgeUniversalPreview.tsx": [
+      10344,
+      1782707243438686300
+    ],
+    "1JuliaDEV/src/components/editorBlocks/UniversalBlockRenderer.tsx": [
+      8536,
+      1782448003651472800
+    ],
+    "1JuliaDEV/src/components/editorBlocks/actions/editorActionCapabilityRegistry.ts": [
+      7498,
+      1782271681582457200
+    ],
+    "1JuliaDEV/src/components/editorBlocks/actions/editorActionMockEngine.ts": [
+      2565,
+      1782014700965778700
+    ],
+    "1JuliaDEV/src/components/editorBlocks/actions/editorActionOrchestrator.ts": [
+      9306,
+      1782183522218248600
+    ],
+    "1JuliaDEV/src/components/editorBlocks/actions/EditorActionResultPanel.tsx": [
+      10427,
+      1782166604081328200
+    ],
+    "1JuliaDEV/src/components/editorBlocks/actions/editorOperationMockRunner.ts": [
+      2600,
+      1782105136281878300
+    ],
+    "1JuliaDEV/src/components/editorBlocks/actions/EditorOperationProgressPanel.tsx": [
+      3881,
+      1782105171793277800
+    ],
+    "1JuliaDEV/src/components/editorBlocks/actions/editorWriteIntentMockEngine.ts": [
+      5542,
+      1782269440507445700
+    ],
+    "1JuliaDEV/src/components/editorBlocks/actions/EditorWriteIntentPreviewPanel.tsx": [
+      4189,
+      1782269453426292000
+    ],
+    "1JuliaDEV/src/components/editorBlocks/actions/useEditorActionController.ts": [
+      5898,
+      1782165485841061600
+    ],
+    "1JuliaDEV/src/components/editorBlocks/adapters/knowledgeAdapter.helpers.ts": [
+      1302,
+      1782007573217461000
+    ],
+    "1JuliaDEV/src/components/editorBlocks/adapters/knowledgeToEditorContent.adapter.ts": [
+      3747,
+      1782007783337820000
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/editorLocalAiEditorBlockMapper.ts": [
+      1787,
+      1782269353834794900
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/editorLocalAiEditorInsertionGuards.ts": [
+      3331,
+      1782269335124214400
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/editorLocalAiEditorInsertionPolicy.ts": [
+      539,
+      1782269322678164000
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/editorLocalAiEditorInsertionPreflightBuilder.ts": [
+      2368,
+      1782269364358504700
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/EditorLocalAiEditorInsertionPreflightPanel.tsx": [
+      8053,
+      1782277625167599400
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/EditorLocalAiEditorMutationConsentPanel.tsx": [
+      2868,
+      1782274117429076500
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/editorLocalAiEditorMutationGuards.ts": [
+      3482,
+      1782271575954800700
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/editorLocalAiEditorMutationPolicy.ts": [
+      614,
+      1782271563247330200
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/EditorLocalAiEditorMutationResultPanel.tsx": [
+      3523,
+      1782271621750545000
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/editorLocalAiGuards.ts": [
+      1372,
+      1782200450911978100
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/EditorLocalAiHealthPanel.tsx": [
+      7137,
+      1782261362730772500
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/EditorLocalAiInferenceConsentPanel.tsx": [
+      3854,
+      1782206429261735800
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/editorLocalAiInferenceGuards.ts": [
+      4117,
+      1782261394713828600
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/editorLocalAiInferencePolicy.ts": [
+      393,
+      1782206390459232500
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/EditorLocalAiInferenceResultPanel.tsx": [
+      7821,
+      1782265970205610500
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/editorLocalAiModelMapper.ts": [
+      875,
+      1782261326030792500
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/EditorLocalAiModelPicker.tsx": [
+      5381,
+      1782261352241349100
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/editorLocalAiModelSelectionGuards.ts": [
+      1769,
+      1782261335476879300
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/editorLocalAiMvpInsertionAdapter.ts": [
+      3042,
+      1782277664300964200
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/editorLocalAiPolicy.ts": [
+      369,
+      1782200440754399500
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/editorLocalAiPromptGuards.ts": [
+      2361,
+      1782203704961553100
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/editorLocalAiPromptPolicy.ts": [
+      255,
+      1782203702909382400
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/editorLocalAiPromptPreviewBuilder.ts": [
+      3201,
+      1782203798739350800
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/EditorLocalAiPromptPreviewPanel.tsx": [
+      10781,
+      1782261376116158100
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/editorLocalAiResultActionGuards.ts": [
+      2119,
+      1782262873679276500
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/editorLocalAiResultActionPolicy.ts": [
+      320,
+      1782262725403295000
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/editorLocalAiResultActionPreflightBuilder.ts": [
+      2070,
+      1782265778236764600
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/EditorLocalAiResultActionPreflightPanel.tsx": [
+      7789,
+      1782265815009111000
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/EditorLocalAiResultPersistenceConsentPanel.tsx": [
+      4924,
+      1782265718144549700
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/editorLocalAiResultPersistenceGuards.ts": [
+      2622,
+      1782265681600331400
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/EditorLocalAiResultPersistencePanel.tsx": [
+      9612,
+      1782573622249402000
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/editorLocalAiResultPersistencePolicy.ts": [
+      451,
+      1782265669994131700
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/editorLocalAiResultSqliteMapper.ts": [
+      1630,
+      1782265947099976900
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/editorLocalAiResultSqlitePersistenceAdapter.ts": [
+      3321,
+      1782265909822847100
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/editorLocalAiResultSqliteReader.ts": [
+      1128,
+      1782269343826952500
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/editorLocalAiTipTapContentMapper.ts": [
+      1871,
+      1782271586296410400
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/editorLocalAiTipTapInsertionAdapter.ts": [
+      1501,
+      1782274102160388200
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/editorOllamaGenerateAdapter.ts": [
+      2998,
+      1782261402064125700
+    ],
+    "1JuliaDEV/src/components/editorBlocks/ai/editorOllamaHealthAdapter.ts": [
+      2926,
+      1782200465526154400
+    ],
+    "1JuliaDEV/src/components/editorBlocks/blocks/CodeBlock.tsx": [
+      558,
+      1781972711536376700
+    ],
+    "1JuliaDEV/src/components/editorBlocks/blocks/HeadingBlock.tsx": [
+      311,
+      1781972711531874500
+    ],
+    "1JuliaDEV/src/components/editorBlocks/blocks/ImageBlock.tsx": [
+      381,
+      1782007344120024800
+    ],
+    "1JuliaDEV/src/components/editorBlocks/blocks/KeyIdeasBlock.tsx": [
+      493,
+      1781972711534122300
+    ],
+    "1JuliaDEV/src/components/editorBlocks/blocks/LinkBlock.tsx": [
+      396,
+      1782007344062077600
+    ],
+    "1JuliaDEV/src/components/editorBlocks/blocks/ListBlock.tsx": [
+      321,
+      1781972711534875500
+    ],
+    "1JuliaDEV/src/components/editorBlocks/blocks/ParagraphBlock.tsx": [
+      335,
+      1781972711533372900
+    ],
+    "1JuliaDEV/src/components/editorBlocks/blocks/QuoteBlock.tsx": [
+      340,
+      1781972711534875500
+    ],
+    "1JuliaDEV/src/components/editorBlocks/blocks/RelatedTopicsBlock.tsx": [
+      476,
+      1782007344085343300
+    ],
+    "1JuliaDEV/src/components/editorBlocks/blocks/SafeFallbackBlock.tsx": [
+      944,
+      1781972711531123200
+    ],
+    "1JuliaDEV/src/components/editorBlocks/blocks/SourceBlock.tsx": [
+      497,
+      1782007711152348500
+    ],
+    "1JuliaDEV/src/components/editorBlocks/blocks/SummaryBlock.tsx": [
+      339,
+      1781972711533372900
+    ],
+    "1JuliaDEV/src/components/editorBlocks/blocks/TableBlock.tsx": [
+      449,
+      1781972711535624900
+    ],
+    "1JuliaDEV/src/components/editorBlocks/blocks/TagsBlock.tsx": [
+      464,
+      1781972711538817000
+    ],
+    "1JuliaDEV/src/components/editorBlocks/blocks/VideoBlock.tsx": [
+      386,
+      1782007344124641400
+    ],
+    "1JuliaDEV/src/components/editorBlocks/blog/EditorBlogArticleView.tsx": [
+      8954,
+      1782801492675829900
+    ],
+    "1JuliaDEV/src/components/editorBlocks/blog/EditorBlogCard.tsx": [
+      4602,
+      1782801492672834300
+    ],
+    "1JuliaDEV/src/components/editorBlocks/blog/EditorBlogLibraryPanel.tsx": [
+      8198,
+      1782801492673830100
+    ],
+    "1JuliaDEV/src/components/editorBlocks/blog/editorBlogPersistencePolicy.ts": [
+      497,
+      1782717650053814800
+    ],
+    "1JuliaDEV/src/components/editorBlocks/blog/EditorBlogPersistenceResultPanel.tsx": [
+      11934,
+      1782717667431781100
+    ],
+    "1JuliaDEV/src/components/editorBlocks/blog/editorBlogPersistenceService.ts": [
+      8089,
+      1782717659645132900
+    ],
+    "1JuliaDEV/src/components/editorBlocks/blog/editorBlogPreflightBuilder.ts": [
+      6446,
+      1782716072847633700
+    ],
+    "1JuliaDEV/src/components/editorBlocks/blog/editorBlogPreflightGuards.ts": [
+      3758,
+      1782716146170729300
+    ],
+    "1JuliaDEV/src/components/editorBlocks/blog/editorBlogPreflightMapper.ts": [
+      1349,
+      1782716076955454800
+    ],
+    "1JuliaDEV/src/components/editorBlocks/blog/EditorBlogPreflightPanel.tsx": [
+      15549,
+      1782801492677832600
+    ],
+    "1JuliaDEV/src/components/editorBlocks/blog/editorBlogPreflightPolicy.ts": [
+      649,
+      1782716061732603000
+    ],
+    "1JuliaDEV/src/components/editorBlocks/blog/editorBlogSqliteReader.ts": [
+      5252,
+      1782801409359469200
+    ],
+    "1JuliaDEV/src/components/editorBlocks/documentPersistence/EditorDocumentPersistenceConsentPanel.tsx": [
+      4488,
+      1782418408382885700
+    ],
+    "1JuliaDEV/src/components/editorBlocks/documentPersistence/editorDocumentPersistenceGuards.ts": [
+      4803,
+      1782531738876025900
+    ],
+    "1JuliaDEV/src/components/editorBlocks/documentPersistence/editorDocumentPersistenceMapper.ts": [
+      1348,
+      1782418362206482100
+    ],
+    "1JuliaDEV/src/components/editorBlocks/documentPersistence/editorDocumentPersistencePolicy.ts": [
+      666,
+      1782531735453998400
+    ],
+    "1JuliaDEV/src/components/editorBlocks/documentPersistence/editorDocumentPersistencePreflightBuilder.ts": [
+      2220,
+      1782350239381774200
+    ],
+    "1JuliaDEV/src/components/editorBlocks/documentPersistence/editorDocumentPersistencePreflightGuards.ts": [
+      2706,
+      1782350231032323600
+    ],
+    "1JuliaDEV/src/components/editorBlocks/documentPersistence/editorDocumentPersistencePreflightMapper.ts": [
+      1861,
+      1782350237357453700
+    ],
+    "1JuliaDEV/src/components/editorBlocks/documentPersistence/EditorDocumentPersistencePreflightPanel.tsx": [
+      4549,
+      1782532819609965700
+    ],
+    "1JuliaDEV/src/components/editorBlocks/documentPersistence/editorDocumentPersistencePreflightPolicy.ts": [
+      520,
+      1782350226924290500
+    ],
+    "1JuliaDEV/src/components/editorBlocks/documentPersistence/EditorDocumentPersistenceResultPanel.tsx": [
+      8977,
+      1782538085594932600
+    ],
+    "1JuliaDEV/src/components/editorBlocks/documentPersistence/editorDocumentSqlitePersistenceAdapter.ts": [
+      1866,
+      1782641186882681300
+    ],
+    "1JuliaDEV/src/components/editorBlocks/editorBridge/EditorMvpBridgeContext.tsx": [
+      4213,
+      1782277588006734000
+    ],
+    "1JuliaDEV/src/components/editorBlocks/editorBridge/editorMvpBridgeGuards.ts": [
+      2119,
+      1782277570635232300
+    ],
+    "1JuliaDEV/src/components/editorBlocks/editorBridge/editorMvpBridgePolicy.ts": [
+      463,
+      1782277559153413100
+    ],
+    "1JuliaDEV/src/components/editorBlocks/editorBridge/EditorMvpBridgeStatusPanel.tsx": [
+      5137,
+      1782418178609599500
+    ],
+    "1JuliaDEV/src/components/editorBlocks/library/EditorLibraryDetailPanel.tsx": [
+      4899,
+      1782714433956676900
+    ],
+    "1JuliaDEV/src/components/editorBlocks/library/editorLibraryDetailSqliteReader.ts": [
+      4151,
+      1782801409357468300
+    ],
+    "1JuliaDEV/src/components/editorBlocks/library/EditorLibraryItemCard.tsx": [
+      6739,
+      1782801492670829800
+    ],
+    "1JuliaDEV/src/components/editorBlocks/library/EditorLibraryPanel.tsx": [
+      496,
+      1782736661693975900
+    ],
+    "1JuliaDEV/src/components/editorBlocks/library/EditorLibraryPreviewPanel.tsx": [
+      9453,
+      1782707177919962000
+    ],
+    "1JuliaDEV/src/components/editorBlocks/library/editorLibrarySqliteReader.ts": [
+      8926,
+      1782801409355469700
+    ],
+    "1JuliaDEV/src/components/editorBlocks/library/EditorNoteDetailView.tsx": [
+      12719,
+      1783575158308756800
+    ],
+    "1JuliaDEV/src/components/editorBlocks/library/EditorUniversalBlockDetailView.tsx": [
+      13159,
+      1782801556649320100
+    ],
+    "1JuliaDEV/src/components/editorBlocks/notes/EditorNotePersistenceConsentPanel.tsx": [
+      4470,
+      1782536311300382500
+    ],
+    "1JuliaDEV/src/components/editorBlocks/notes/editorNotePersistenceGuards.ts": [
+      4495,
+      1782536295392634300
+    ],
+    "1JuliaDEV/src/components/editorBlocks/notes/editorNotePersistenceMapper.ts": [
+      927,
+      1782536299262739600
+    ],
+    "1JuliaDEV/src/components/editorBlocks/notes/editorNotePersistencePolicy.ts": [
+      670,
+      1782536290007386900
+    ],
+    "1JuliaDEV/src/components/editorBlocks/notes/EditorNotePersistenceResultPanel.tsx": [
+      6558,
+      1782538060479580500
+    ],
+    "1JuliaDEV/src/components/editorBlocks/notes/editorNotePreflightBuilder.ts": [
+      2100,
+      1782532791417732700
+    ],
+    "1JuliaDEV/src/components/editorBlocks/notes/editorNotePreflightGuards.ts": [
+      3726,
+      1782532782601748000
+    ],
+    "1JuliaDEV/src/components/editorBlocks/notes/editorNotePreflightMapper.ts": [
+      1590,
+      1782532787486987500
+    ],
+    "1JuliaDEV/src/components/editorBlocks/notes/EditorNotePreflightPanel.tsx": [
+      9749,
+      1782538066534847000
+    ],
+    "1JuliaDEV/src/components/editorBlocks/notes/editorNotePreflightPolicy.ts": [
+      559,
+      1782532777922615500
+    ],
+    "1JuliaDEV/src/components/editorBlocks/notes/editorNoteSqlitePersistenceAdapter.ts": [
+      1814,
+      1782641174364857400
+    ],
+    "1JuliaDEV/src/components/editorBlocks/runtime/editorHttpGuards.ts": [
+      2727,
+      1782160531837016800
+    ],
+    "1JuliaDEV/src/components/editorBlocks/runtime/editorHttpManualTestAdapter.ts": [
+      3149,
+      1782165542440324100
+    ],
+    "1JuliaDEV/src/components/editorBlocks/runtime/editorHttpPolicy.ts": [
+      608,
+      1782164762013146900
+    ],
+    "1JuliaDEV/src/components/editorBlocks/runtime/editorHttpRuntimeAdapter.ts": [
+      1768,
+      1782160541439534100
+    ],
+    "1JuliaDEV/src/components/editorBlocks/runtime/EditorHttpRuntimePanel.tsx": [
+      3748,
+      1782164816754512200
+    ],
+    "1JuliaDEV/src/components/editorBlocks/runtime/EditorRuntimeConsentPanel.tsx": [
+      6315,
+      1782183288504206200
+    ],
+    "1JuliaDEV/src/components/editorBlocks/runtime/editorRuntimeConsentPolicy.ts": [
+      2676,
+      1782151320793138400
+    ],
+    "1JuliaDEV/src/components/editorBlocks/runtime/editorRuntimeFeatureFlags.ts": [
+      38388,
+      1782743409466228300
+    ],
+    "1JuliaDEV/src/components/editorBlocks/runtime/EditorRuntimeHealthPanel.tsx": [
+      5246,
+      1782118437853690400
+    ],
+    "1JuliaDEV/src/components/editorBlocks/runtime/editorRuntimeMockAdapter.ts": [
+      1170,
+      1782113709682847400
+    ],
+    "1JuliaDEV/src/components/editorBlocks/runtime/editorRuntimeQueueMock.ts": [
+      2258,
+      1782115824694292900
+    ],
+    "1JuliaDEV/src/components/editorBlocks/runtime/EditorRuntimeQueuePanel.tsx": [
+      4820,
+      1782115652379766500
+    ],
+    "1JuliaDEV/src/components/editorBlocks/runtime/editorRuntimeReadiness.ts": [
+      836,
+      1782573567197072400
+    ],
+    "1JuliaDEV/src/components/editorBlocks/runtime/EditorRuntimeReadinessPanel.tsx": [
+      8389,
+      1782160605103377900
+    ],
+    "1JuliaDEV/src/components/editorBlocks/runtime/editorRuntimeRegistry.ts": [
+      4891,
+      1782183428614301600
+    ],
+    "1JuliaDEV/src/components/editorBlocks/runtime/editorTauriReadOnlyAdapter.ts": [
+      2336,
+      1782118140760971900
+    ],
+    "1JuliaDEV/src/components/editorBlocks/runtime/useEditorRuntimeQueue.ts": [
+      5770,
+      1782165471413134700
+    ],
+    "1JuliaDEV/src/components/editorBlocks/search/editorExternalSearchMockProvider.ts": [
+      2094,
+      1782094433724367400
+    ],
+    "1JuliaDEV/src/components/editorBlocks/search/EditorExternalSearchPanel.tsx": [
+      5674,
+      1782170901146743100
+    ],
+    "1JuliaDEV/src/components/editorBlocks/search/EditorWebSearchDryRunPanel.tsx": [
+      3473,
+      1782153286893382400
+    ],
+    "1JuliaDEV/src/components/editorBlocks/search/editorWebSearchGuards.ts": [
+      1889,
+      1782153259449876600
+    ],
+    "1JuliaDEV/src/components/editorBlocks/search/editorWebSearchProviderConfig.ts": [
+      630,
+      1782166515236477700
+    ],
+    "1JuliaDEV/src/components/editorBlocks/search/editorWebSearchRealProvider.ts": [
+      3604,
+      1782166529828373200
+    ],
+    "1JuliaDEV/src/components/editorBlocks/selection/SelectionActionMenu.tsx": [
+      4396,
+      1782096978513092200
+    ],
+    "1JuliaDEV/src/components/editorBlocks/selection/useTextSelectionMenu.ts": [
+      1640,
+      1782087766075478700
+    ],
+    "1JuliaDEV/src/components/editorBlocks/sources/editorSourceCandidateMapper.ts": [
+      1548,
+      1782170746959408000
+    ],
+    "1JuliaDEV/src/components/editorBlocks/sources/EditorSourceCandidateTray.tsx": [
+      6971,
+      1782183465571045500
+    ],
+    "1JuliaDEV/src/components/editorBlocks/sources/editorSourceContextMapper.ts": [
+      1441,
+      1782186771160288100
+    ],
+    "1JuliaDEV/src/components/editorBlocks/sources/EditorSourceContextPackPanel.tsx": [
+      9078,
+      1782203749450314800
+    ],
+    "1JuliaDEV/src/components/editorBlocks/sources/editorSourceContextSqliteReader.ts": [
+      2006,
+      1782186781342512700
+    ],
+    "1JuliaDEV/src/components/editorBlocks/sources/editorSourcePersistenceDryRunAdapter.ts": [
+      1373,
+      1782181878085331800
+    ],
+    "1JuliaDEV/src/components/editorBlocks/sources/editorSourcePersistenceGuards.ts": [
+      3130,
+      1782182050613134800
+    ],
+    "1JuliaDEV/src/components/editorBlocks/sources/EditorSourcePersistencePreflightPanel.tsx": [
+      6794,
+      1782183328991819500
+    ],
+    "1JuliaDEV/src/components/editorBlocks/sources/editorSourceSqliteMapper.ts": [
+      1808,
+      1782183259081531300
+    ],
+    "1JuliaDEV/src/components/editorBlocks/sources/editorSourceSqlitePersistenceAdapter.ts": [
+      3790,
+      1782183273279812500
+    ],
+    "1JuliaDEV/src/components/editorBlocks/sources/useEditorSourceCandidateStaging.ts": [
+      2689,
+      1782170768312652000
+    ],
+    "1JuliaDEV/src/components/editorBlocks/universalBlock/editorUniversalBlockPersistencePolicy.ts": [
+      445,
+      1782685664598161700
+    ],
+    "1JuliaDEV/src/components/editorBlocks/universalBlock/EditorUniversalBlockPersistenceResultPanel.tsx": [
+      8609,
+      1782685681147606800
+    ],
+    "1JuliaDEV/src/components/editorBlocks/universalBlock/editorUniversalBlockPersistenceService.ts": [
+      8757,
+      1782685673885242100
+    ],
+    "1JuliaDEV/src/components/editorBlocks/universalBlock/editorUniversalBlockPreflightBuilder.ts": [
+      2200,
+      1782538048762602300
+    ],
+    "1JuliaDEV/src/components/editorBlocks/universalBlock/editorUniversalBlockPreflightGuards.ts": [
+      5848,
+      1782573550871715100
+    ],
+    "1JuliaDEV/src/components/editorBlocks/universalBlock/editorUniversalBlockPreflightMapper.ts": [
+      2315,
+      1782538044175221300
+    ],
+    "1JuliaDEV/src/components/editorBlocks/universalBlock/EditorUniversalBlockPreflightPanel.tsx": [
+      11272,
+      1782685694279865600
+    ],
+    "1JuliaDEV/src/components/editorBlocks/universalBlock/editorUniversalBlockPreflightPolicy.ts": [
+      776,
+      1782538032858421700
+    ],
+    "1JuliaDEV/src/components/editorBlocks/workflow/EditorEditorialBreadcrumbs.tsx": [
+      2862,
+      1782735620232296000
+    ],
+    "1JuliaDEV/src/components/editorBlocks/workflow/EditorEditorialSourceTrailPanel.tsx": [
+      4954,
+      1782735627088242600
+    ],
+    "1JuliaDEV/src/components/editorBlocks/workflow/EditorEditorialWorkflowPanel.tsx": [
+      26870,
+      1782801453647973100
+    ],
+    "1JuliaDEV/src/components/editorBlocks/workflow/EditorEditorialWorkflowStatusPanel.tsx": [
+      3694,
+      1782735632185229100
+    ],
+    "1JuliaDEV/src/components/editorSurface/EditorDebugPanel.tsx": [
+      4502,
+      1782741631288737000
+    ],
+    "1JuliaDEV/src/components/editorSurface/EditorPublishedReaderShell.tsx": [
+      9160,
+      1782780181622160800
+    ],
+    "1JuliaDEV/src/components/editorSurface/EditorSettingsShell.tsx": [
+      4439,
+      1782747925223155400
+    ],
+    "1JuliaDEV/src/components/editorSurface/EditorSurfaceModeBadge.tsx": [
+      1067,
+      1782741611583555000
+    ],
+    "1JuliaDEV/src/components/editorSurface/EditorSurfaceModeGuard.tsx": [
+      558,
+      1782741606916151900
+    ],
+    "1JuliaDEV/src/components/editorSurface/EditorSurfaceModeProvider.tsx": [
+      1776,
+      1782741598583040300
+    ],
+    "1JuliaDEV/src/components/editorSurface/editorSurfaceVisualTokens.ts": [
+      2248,
+      1782747835150285900
+    ],
+    "1JuliaDEV/src/components/editorSurface/reader/EditorPublishedBody.tsx": [
+      14719,
+      1782786716305189200
+    ],
+    "1JuliaDEV/src/components/editorSurface/reader/EditorPublishedFooter.tsx": [
+      1671,
+      1782772164874011500
+    ],
+    "1JuliaDEV/src/components/editorSurface/reader/EditorPublishedHero.tsx": [
+      2625,
+      1782754514538309500
+    ],
+    "1JuliaDEV/src/components/editorSurface/reader/EditorPublishedMetadataBar.tsx": [
+      1294,
+      1782742291477664200
+    ],
+    "1JuliaDEV/src/components/editorSurface/reader/EditorPublishedOutline.tsx": [
+      1346,
+      1782747930107265200
+    ],
+    "1JuliaDEV/src/components/editorSurface/reader/EditorPublishedRelated.tsx": [
+      1161,
+      1782747940667661300
+    ],
+    "1JuliaDEV/src/components/editorSurface/reader/EditorPublishedSources.tsx": [
+      2000,
+      1782747936003691300
+    ],
+    "1JuliaDEV/src/components/editorSurface/settings/EditorBlockVisibilityPanel.tsx": [
+      2777,
+      1782747880510050000
+    ],
+    "1JuliaDEV/src/components/editorSurface/settings/EditorCategoryTemplatePanel.tsx": [
+      2333,
+      1782747888060429600
+    ],
+    "1JuliaDEV/src/components/editorSurface/settings/EditorMetadataVisibilityPanel.tsx": [
+      2051,
+      1782747902581778300
+    ],
+    "1JuliaDEV/src/components/editorSurface/settings/EditorReaderStylePanel.tsx": [
+      4070,
+      1782747896144026600
+    ],
+    "1JuliaDEV/src/components/editorSurface/settings/EditorSectionOrderPanel.tsx": [
+      4037,
+      1782747872700158200
+    ],
+    "1JuliaDEV/src/components/editorSurface/settings/EditorSettingsActionBar.tsx": [
+      1687,
+      1782747918953895700
+    ],
+    "1JuliaDEV/src/components/editorSurface/settings/EditorSettingsHeader.tsx": [
+      1809,
+      1782747856149806300
+    ],
+    "1JuliaDEV/src/components/editorSurface/settings/EditorSettingsLayoutPanel.tsx": [
+      3805,
+      1782747864039360700
+    ],
+    "1JuliaDEV/src/components/editorSurface/settings/EditorSettingsPreviewPanel.tsx": [
+      8031,
+      1782747912600932500
+    ],
+    "1JuliaDEV/src/components/knowledge/KnowledgeBlockRenderer.tsx": [
+      15681,
+      1780508276535492400
+    ],
+    "1JuliaDEV/src/components/knowledge/KnowledgeBlockShell.tsx": [
+      7951,
+      1780508266860378400
+    ],
+    "1JuliaDEV/src/components/knowledge/KnowledgeCitationBadge.tsx": [
+      1383,
+      1780211869553936100
+    ],
+    "1JuliaDEV/src/components/knowledge/KnowledgeLibraryCard.tsx": [
+      1299,
+      1783581956589067100
+    ],
+    "1JuliaDEV/src/components/knowledge/KnowledgePageView.tsx": [
+      20508,
+      1781143301932230500
+    ],
+    "1JuliaDEV/src/components/knowledge/KnowledgeTypeFilterChips.tsx": [
+      2803,
+      1780390888505646000
+    ],
+    "1JuliaDEV/src/components/knowledge/editor/KnowledgeBlockEditorMvp.tsx": [
+      15984,
+      1782741969710064800
+    ],
+    "1JuliaDEV/src/components/knowledge/editorial/KnowledgeQueryEditorialArticleView.tsx": [
+      2662,
+      1783476754907434400
+    ],
+    "1JuliaDEV/src/components/knowledge/query/KnowledgeQueryAnswer.tsx": [
+      6005,
+      1780211869692079500
+    ],
+    "1JuliaDEV/src/components/knowledge/query/KnowledgeQueryResultCard.tsx": [
+      6801,
+      1780211869646246000
+    ],
+    "1JuliaDEV/src/components/knowledge/query/KnowledgeQueryResults.tsx": [
+      11788,
+      1780477807011782700
+    ],
+    "1JuliaDEV/src/components/layout/MigrationScreen.tsx": [
+      6459,
+      1780507853817621200
+    ],
+    "1JuliaDEV/src/components/layout/PanelErrorBoundary.tsx": [
+      1921,
+      1780211869880886800
+    ],
+    "1JuliaDEV/src/components/memory/CriticalBackupCreationStep.tsx": [
+      3673,
+      1780211869418946700
+    ],
+    "1JuliaDEV/src/components/memory/CriticalBackupGate.tsx": [
+      4700,
+      1780211869274760600
+    ],
+    "1JuliaDEV/src/components/memory/CriticalBackupVerifyStep.tsx": [
+      5526,
+      1780211869289587800
+    ],
+    "1JuliaDEV/src/components/memory/MemoryEnrichmentReview.tsx": [
+      10542,
+      1780211869207190200
+    ],
+    "1JuliaDEV/src/components/memory/RecoveryConfirmDestructive.tsx": [
+      2722,
+      1780211869342640200
+    ],
+    "1JuliaDEV/src/components/memory/RecoveryModeSelector.tsx": [
+      2125,
+      1780211869325192800
+    ],
+    "1JuliaDEV/src/components/memory/RecoveryPreviewStep.tsx": [
+      3524,
+      1780211869382168400
+    ],
+    "1JuliaDEV/src/components/memory/RecoverySOSResetStep.tsx": [
+      7608,
+      1782566442428139800
+    ],
+    "1JuliaDEV/src/components/memory/RecoveryWizard.tsx": [
+      6477,
+      1780211869309989600
+    ],
+    "1JuliaDEV/src/components/memory/VaultAutoLockManager.tsx": [
+      555,
+      1780211869257904800
+    ],
+    "1JuliaDEV/src/components/memory/VaultAutoLockWarning.tsx": [
+      2873,
+      1780211869238757100
+    ],
+    "1JuliaDEV/src/components/memory/VaultSOSRecoveryLauncher.tsx": [
+      1802,
+      1780211869363725200
+    ],
+    "1JuliaDEV/src/components/memory/VaultUnlockGate.tsx": [
+      3504,
+      1780211869221258500
+    ],
+    "1JuliaDEV/src/components/modals/CommandCenter.tsx": [
+      5245,
+      1780211868826846600
+    ],
+    "1JuliaDEV/src/components/modals/FormatDataModal.tsx": [
+      4160,
+      1780211868841139300
+    ],
+    "1JuliaDEV/src/components/performance/PerformanceDiagnosticsPanel.tsx": [
+      4459,
+      1780211869732622200
+    ],
+    "1JuliaDEV/src/components/security/PassphraseGeneratorPanel.tsx": [
+      4638,
+      1780211869477867000
+    ],
+    "1JuliaDEV/src/components/security/PasswordStrengthMeter.tsx": [
+      3035,
+      1780211869454639000
+    ],
+    "1JuliaDEV/src/components/tutorial/FirstRunChecklist.tsx": [
+      5859,
+      1783585122202722600
+    ],
+    "1JuliaDEV/src/components/tutorial/JuliaTutorialCard.tsx": [
+      3365,
+      1780211869768707500
+    ],
+    "1JuliaDEV/src/components/tutorial/JuliaTutorialLauncher.tsx": [
+      1080,
+      1780211869805938000
+    ],
+    "1JuliaDEV/src/components/tutorial/JuliaTutorialOverlay.tsx": [
+      5902,
+      1780211869824980200
+    ],
+    "1JuliaDEV/src/components/tutorial/TutorialRoot.tsx": [
+      909,
+      1780211869786497800
+    ],
+    "1JuliaDEV/src/components/ui/CustomSelect.tsx": [
+      7512,
+      1780544723530540600
+    ],
+    "1JuliaDEV/src/components/ui/GlassCard.tsx": [
+      3850,
+      1783581956565519100
+    ],
+    "1JuliaDEV/src/components/ui/GlassContentPanel.tsx": [
+      5380,
+      1783226078544213100
+    ],
+    "1JuliaDEV/src/components/ui/JuliaContentCard.tsx": [
+      13882,
+      1783585121961566200
+    ],
+    "1JuliaDEV/src/components/ui/juliaContentCardLayout.ts": [
+      1099,
+      1783585121929290400
+    ],
+    "1JuliaDEV/src/components/ui/SectionIdentityDock.tsx": [
+      7390,
+      1783585122375369200
+    ],
+    "1JuliaDEV/src/components/ui/SectionMasthead.tsx": [
+      4469,
+      1783148265943499500
+    ],
+    "1JuliaDEV/src/components/visuals/AppWallpapers.tsx": [
+      700,
+      1780211868905942700
+    ],
+    "1JuliaDEV/src/components/visuals/SpaceStarsBackground.tsx": [
+      1522,
+      1780211868888339100
+    ],
+    "1JuliaDEV/src/components/visuals/StarField.tsx": [
+      1552,
+      1780211868872910600
+    ],
+    "1JuliaDEV/src/domain/knowledge/agentEvents.ts": [
+      4752,
+      1783581956519771200
+    ],
+    "1JuliaDEV/src/domain/knowledge/candidateToMemory.ts": [
+      2894,
+      1783470427693369500
+    ],
+    "1JuliaDEV/src/domain/knowledge/canonicalIngestionService.ts": [
+      5304,
+      1783470466963576600
+    ],
+    "1JuliaDEV/src/domain/knowledge/graphRepository.ts": [
+      7782,
+      1783581956525830600
+    ],
+    "1JuliaDEV/src/domain/knowledge/knowledgePageAssembler.ts": [
+      3832,
+      1783581956585071300
+    ],
+    "1JuliaDEV/src/domain/knowledge/knowledgePipeline.ts": [
+      7117,
+      1783581956520770000
+    ],
+    "1JuliaDEV/src/domain/knowledge/lumaInterestRanking.ts": [
+      5725,
+      1783581956525830600
+    ],
+    "1JuliaDEV/src/domain/knowledge/nimboService.ts": [
+      8509,
+      1783581956544951500
+    ],
+    "1JuliaDEV/src/domain/knowledge/openQueryMatchAsReading.ts": [
+      5462,
+      1783477691158619900
+    ],
+    "1JuliaDEV/src/domain/knowledge/orbioInterestProjection.ts": [
+      5133,
+      1783581956590067700
+    ],
+    "1JuliaDEV/src/domain/knowledge/plannerExecutorService.ts": [
+      12929,
+      1783581956542947700
+    ],
+    "1JuliaDEV/src/domain/knowledge/relationshipEngine.ts": [
+      15537,
+      1783581956525830600
+    ],
+    "1JuliaDEV/src/domain/knowledge/topicInterestService.ts": [
+      12855,
+      1783581956590067700
+    ],
+    "1JuliaDEV/src/domain/knowledge/types.ts": [
+      7183,
+      1783581956542947700
+    ],
+    "1JuliaDEV/src/domain/knowledge/extraction/canonicalExtraction.types.ts": [
+      3802,
+      1783431941657695200
+    ],
+    "1JuliaDEV/src/domain/knowledge/extraction/extractCanonicalText.ts": [
+      3839,
+      1783432871057665700
+    ],
+    "1JuliaDEV/src/domain/knowledge/extraction/index.ts": [
+      557,
+      1783463497432394200
+    ],
+    "1JuliaDEV/src/domain/knowledge/extraction/nimboExtractor.types.ts": [
+      1949,
+      1783432091711843900
+    ],
+    "1JuliaDEV/src/domain/knowledge/extraction/nimboExtractorRegistry.ts": [
+      3627,
+      1783467204724790800
+    ],
+    "1JuliaDEV/src/domain/knowledge/extraction/normalizeCanonicalExtraction.ts": [
+      3216,
+      1783463575780734600
+    ],
+    "1JuliaDEV/src/domain/knowledge/extraction/normalizeCanonicalText.ts": [
+      1279,
+      1783431960637125400
+    ],
+    "1JuliaDEV/src/domain/knowledge/extraction/qualityReport.ts": [
+      4102,
+      1783431980820452000
+    ],
+    "1JuliaDEV/src/domain/knowledge/extraction/extractors/code.extractor.ts": [
+      2950,
+      1783432017429038600
+    ],
+    "1JuliaDEV/src/domain/knowledge/extraction/extractors/csv.extractor.ts": [
+      2653,
+      1783432051261540700
+    ],
+    "1JuliaDEV/src/domain/knowledge/extraction/extractors/fallback.extractor.ts": [
+      1831,
+      1783431990932138900
+    ],
+    "1JuliaDEV/src/domain/knowledge/extraction/extractors/json.extractor.ts": [
+      2731,
+      1783432039597740900
+    ],
+    "1JuliaDEV/src/domain/knowledge/extraction/extractors/markdown.extractor.ts": [
+      4426,
+      1783432069853189400
+    ],
+    "1JuliaDEV/src/domain/knowledge/extraction/extractors/pdfDigital.extractor.ts": [
+      9237,
+      1783467333834635600
+    ],
+    "1JuliaDEV/src/domain/knowledge/extraction/extractors/plainText.extractor.ts": [
+      2652,
+      1783432002847387200
+    ],
+    "1JuliaDEV/src/domain/knowledge/extraction/extractors/prompt.extractor.ts": [
+      2382,
+      1783432083222585000
+    ],
+    "1JuliaDEV/src/domain/knowledge/extraction/extractors/webLink.extractor.ts": [
+      2002,
+      1783432027059760600
+    ],
+    "1JuliaDEV/src/domain/knowledge/extraction/__audit__/existingModuleCanary.ts": [
+      4047,
+      1783430116092112400
+    ],
+    "1JuliaDEV/src/domain/knowledge/extraction/__tests__/extractCanonicalText.test.ts": [
+      6310,
+      1783467274510028500
+    ],
+    "1JuliaDEV/src/domain/knowledge/extraction/__tests__/extractors.test.ts": [
+      12223,
+      1783432989016598000
+    ],
+    "1JuliaDEV/src/domain/knowledge/extraction/__tests__/nimboExtractorRegistry.test.ts": [
+      7006,
+      1783467262133272300
+    ],
+    "1JuliaDEV/src/domain/knowledge/extraction/__tests__/normalizeCanonicalExtraction.test.ts": [
+      9689,
+      1783463424326886400
+    ],
+    "1JuliaDEV/src/domain/knowledge/extraction/__tests__/normalizeCanonicalText.test.ts": [
+      3636,
+      1783432897473748700
+    ],
+    "1JuliaDEV/src/domain/knowledge/extraction/__tests__/pdfDigitalExtractor.test.ts": [
+      8919,
+      1783467243086587000
+    ],
+    "1JuliaDEV/src/domain/knowledge/extraction/__tests__/qualityReport.test.ts": [
+      6299,
+      1783432925151915900
+    ],
+    "1JuliaDEV/src/domain/knowledge/__tests__/candidateToMemory.test.ts": [
+      6072,
+      1783470447817073100
+    ],
+    "1JuliaDEV/src/domain/knowledge/__tests__/canonicalIngestion.search.test.ts": [
+      3347,
+      1783470659411655700
+    ],
+    "1JuliaDEV/src/domain/knowledge/__tests__/canonicalIngestionService.test.ts": [
+      5444,
+      1783587594003053800
+    ],
+    "1JuliaDEV/src/domain/knowledge/__tests__/knowledgePipeline.test.ts": [
+      2667,
+      1783434216337956300
+    ],
+    "1JuliaDEV/src/domain/knowledge/__tests__/nimboService.extractAndNormalize.test.ts": [
+      7762,
+      1783463491584561000
+    ],
+    "1JuliaDEV/src/domain/knowledge/__tests__/openQueryMatchAsReading.test.ts": [
+      7623,
+      1783477701670747500
+    ],
+    "1JuliaDEV/src/hooks/useAccessibilitySettings.ts": [
+      1909,
+      1780392859030503000
+    ],
+    "1JuliaDEV/src/hooks/useAIActionLogs.ts": [
+      883,
+      1780506620938740000
+    ],
+    "1JuliaDEV/src/hooks/useCriticalBackupGuard.ts": [
+      3043,
+      1780211870158749300
+    ],
+    "1JuliaDEV/src/hooks/useFirstRunChecklist.ts": [
+      1589,
+      1783585122183370000
+    ],
+    "1JuliaDEV/src/hooks/useHomeFeed.ts": [
+      1129,
+      1780211870396570500
+    ],
+    "1JuliaDEV/src/hooks/useJuliaTutorial.ts": [
+      2396,
+      1780211870378286300
+    ],
+    "1JuliaDEV/src/hooks/useKnowledgeDiscover.ts": [
+      5869,
+      1783581956545951700
+    ],
+    "1JuliaDEV/src/hooks/useKnowledgeExport.ts": [
+      1918,
+      1780211870054092200
+    ],
+    "1JuliaDEV/src/hooks/useKnowledgeImport.ts": [
+      7032,
+      1780211870085035200
+    ],
+    "1JuliaDEV/src/hooks/useKnowledgeImportExport.ts": [
+      762,
+      1780211870037270200
+    ],
+    "1JuliaDEV/src/hooks/useKnowledgeIOHistory.ts": [
+      1308,
+      1780211870068735800
+    ],
+    "1JuliaDEV/src/hooks/useKnowledgeJupiter.ts": [
+      3064,
+      1780211870320934100
+    ],
+    "1JuliaDEV/src/hooks/useKnowledgeLibrary.ts": [
+      2967,
+      1780527698433079200
+    ],
+    "1JuliaDEV/src/hooks/useKnowledgeQuery.ts": [
+      3258,
+      1780477847382968700
+    ],
+    "1JuliaDEV/src/hooks/useLearningSystem.ts": [
+      2922,
+      1783581956544951500
+    ],
+    "1JuliaDEV/src/hooks/useMemories.ts": [
+      9521,
+      1780507934168249500
+    ],
+    "1JuliaDEV/src/hooks/useMemoryEnrichment.ts": [
+      945,
+      1780211870022612500
+    ],
+    "1JuliaDEV/src/hooks/useMemoryImportExport.ts": [
+      5910,
+      1780440132372764300
+    ],
+    "1JuliaDEV/src/hooks/useMemoryVault.ts": [
+      758,
+      1780211870101373100
+    ],
+    "1JuliaDEV/src/hooks/useMigration.ts": [
+      1744,
+      1780507834746760800
+    ],
+    "1JuliaDEV/src/hooks/useNavigation.ts": [
+      5073,
+      1780532181406568300
+    ],
+    "1JuliaDEV/src/hooks/usePerformanceMonitor.ts": [
+      1950,
+      1780250269680810700
+    ],
+    "1JuliaDEV/src/hooks/usePerformanceQuality.ts": [
+      1322,
+      1780211870357761000
+    ],
+    "1JuliaDEV/src/hooks/usePerformanceSettings.ts": [
+      1940,
+      1780211870248889200
+    ],
+    "1JuliaDEV/src/hooks/useRecoveryApply.ts": [
+      3198,
+      1780211870195331800
+    ],
+    "1JuliaDEV/src/hooks/useRecoveryWizard.ts": [
+      5210,
+      1780211870177052900
+    ],
+    "1JuliaDEV/src/hooks/useSecurityPolicy.ts": [
+      2506,
+      1780211870212691200
+    ],
+    "1JuliaDEV/src/hooks/useSemanticKnowledgeIndex.ts": [
+      1679,
+      1780211870338664100
+    ],
+    "1JuliaDEV/src/hooks/useSemanticMemories.ts": [
+      5905,
+      1780211870007106600
+    ],
+    "1JuliaDEV/src/hooks/useStorage.ts": [
+      908,
+      1780211869933369400
+    ],
+    "1JuliaDEV/src/hooks/useStorageQuota.ts": [
+      1933,
+      1780519594433563400
+    ],
+    "1JuliaDEV/src/hooks/useTheme.ts": [
+      10740,
+      1780807933563115700
+    ],
+    "1JuliaDEV/src/hooks/useTopicRatings.ts": [
+      2442,
+      1783581956581067300
+    ],
+    "1JuliaDEV/src/hooks/useVaultAutoLock.ts": [
+      4648,
+      1780211870144284300
+    ],
+    "1JuliaDEV/src/hooks/useVaultGate.ts": [
+      1603,
+      1780211870115294000
+    ],
+    "1JuliaDEV/src/JuliaPanels/DiscoverPanel/DiscoverPanel.tsx": [
+      7442,
+      1783581956545951700
+    ],
+    "1JuliaDEV/src/JuliaPanels/DiscoverPanel/ParallaxCard.tsx": [
+      5894,
+      1780211866203443400
+    ],
+    "1JuliaDEV/src/JuliaPanels/DiscoverPanel/components/DiscoverKnowledgeCard.tsx": [
+      1091,
+      1783581956542947700
+    ],
+    "1JuliaDEV/src/JuliaPanels/EditorVisualizer/ContentEditorPanel.tsx": [
+      35845,
+      1783581956571533900
+    ],
+    "1JuliaDEV/src/JuliaPanels/EditorVisualizer/EditorVisualizer.styles.ts": [
+      4370,
+      1780473181811212700
+    ],
+    "1JuliaDEV/src/JuliaPanels/EditorVisualizer/components/ActiveInsightFloat.tsx": [
+      2262,
+      1780211866540447600
+    ],
+    "1JuliaDEV/src/JuliaPanels/EditorVisualizer/components/IntelligenceAnalytics.tsx": [
+      6742,
+      1780431932470620900
+    ],
+    "1JuliaDEV/src/JuliaPanels/GeneralInterface/PillSelector.tsx": [
+      2848,
+      1780211864662941900
+    ],
+    "1JuliaDEV/src/JuliaPanels/GeneralInterface/SkeletonLoader.tsx": [
+      581,
+      1780211864649042300
+    ],
+    "1JuliaDEV/src/JuliaPanels/GeneralInterface/Tabs.tsx": [
+      4592,
+      1781220816604874900
+    ],
+    "1JuliaDEV/src/JuliaPanels/GeneralInterface/WindowControls.tsx": [
+      1773,
+      1781163085607376200
+    ],
+    "1JuliaDEV/src/JuliaPanels/GeneralInterface/WindowHeader.tsx": [
+      19062,
+      1783585122239755300
+    ],
+    "1JuliaDEV/src/JuliaPanels/InicioPanel/InicioPanel.styles.ts": [
+      9693,
+      1783581956515617400
+    ],
+    "1JuliaDEV/src/JuliaPanels/InicioPanel/InicioPanel.tsx": [
+      27288,
+      1783581956524829900
+    ],
+    "1JuliaDEV/src/JuliaPanels/InicioPanel/components/HomeCarouselCard.tsx": [
+      2695,
+      1783581956520770000
+    ],
+    "1JuliaDEV/src/JuliaPanels/InicioPanel/components/InicioActionButton.tsx": [
+      3449,
+      1783585122388737100
+    ],
+    "1JuliaDEV/src/JuliaPanels/InicioPanel/components/InicioGreeting.tsx": [
+      2464,
+      1783581956590067700
+    ],
+    "1JuliaDEV/src/JuliaPanels/InicioPanel/components/InicioQueryToggle.tsx": [
+      1195,
+      1780211865987574800
+    ],
+    "1JuliaDEV/src/JuliaPanels/InicioPanel/components/InicioSearchResultsGrid.tsx": [
+      3926,
+      1780477789140164500
+    ],
+    "1JuliaDEV/src/JuliaPanels/InicioPanel/components/InicioWidgets.tsx": [
+      1214,
+      1780211865931810800
+    ],
+    "1JuliaDEV/src/JuliaPanels/InicioPanel/components/SearchBar.tsx": [
+      4570,
+      1783577289040143600
+    ],
+    "1JuliaDEV/src/JuliaPanels/InicioPanel/components/SearchResultItem.tsx": [
+      1311,
+      1780211865915026300
+    ],
+    "1JuliaDEV/src/JuliaPanels/InicioPanel/components/VisualCarousel.tsx": [
+      1446,
+      1783581956525830600
+    ],
+    "1JuliaDEV/src/JuliaPanels/InicioPanel/components/Widgets.tsx": [
+      7159,
+      1780211865877579900
+    ],
+    "1JuliaDEV/src/JuliaPanels/InicioPanel/components/AddMemory/AddMemoryFlow.tsx": [
+      7719,
+      1783589563488581100
+    ],
+    "1JuliaDEV/src/JuliaPanels/InicioPanel/components/AddMemory/AutoPastePermissionModal.tsx": [
+      3383,
+      1780775573462225300
+    ],
+    "1JuliaDEV/src/JuliaPanels/InicioPanel/components/AddMemory/ingestDetection.ts": [
+      6071,
+      1780785409923902400
+    ],
+    "1JuliaDEV/src/JuliaPanels/InicioPanel/components/AddMemory/IngestModeChips.tsx": [
+      1440,
+      1780211866067727000
+    ],
+    "1JuliaDEV/src/JuliaPanels/InicioPanel/components/AddMemory/IngestPreviewPanel.tsx": [
+      16227,
+      1780802161398102500
+    ],
+    "1JuliaDEV/src/JuliaPanels/InicioPanel/components/AddMemory/NimboIngestNotice.tsx": [
+      2298,
+      1780789914053188500
+    ],
+    "1JuliaDEV/src/JuliaPanels/InicioPanel/components/AddMemory/UniversalIngestPanel.tsx": [
+      56292,
+      1783589652425701300
+    ],
+    "1JuliaDEV/src/JuliaPanels/InicioPanel/components/AddMemory/useKnowledgeIngestionFlow.ts": [
+      15329,
+      1783589445660708100
+    ],
+    "1JuliaDEV/src/JuliaPanels/InicioPanel/components/icons/SatelliteSourceIcon.tsx": [
+      453,
+      1780268984149865400
+    ],
+    "1JuliaDEV/src/JuliaPanels/LibraryPanel/LibraryPanel.styles.ts": [
+      1034,
+      1780534298592449900
+    ],
+    "1JuliaDEV/src/JuliaPanels/LibraryPanel/LibraryPanel.tsx": [
+      20196,
+      1783585103574149600
+    ],
+    "1JuliaDEV/src/JuliaPanels/LibraryPanel/Diagrams/DiagramsView.tsx": [
+      3230,
+      1783581956589067100
+    ],
+    "1JuliaDEV/src/JuliaPanels/LibraryPanel/Glossary/GlossarySidebar.tsx": [
+      4642,
+      1783585103744760000
+    ],
+    "1JuliaDEV/src/JuliaPanels/LibraryPanel/Glossary/GlossaryView.tsx": [
+      8934,
+      1783585103623609400
+    ],
+    "1JuliaDEV/src/JuliaPanels/LibraryPanel/Links/LinksView.tsx": [
+      3421,
+      1783581956515617400
+    ],
+    "1JuliaDEV/src/JuliaPanels/LibraryPanel/Prompts/PromptsView.tsx": [
+      3431,
+      1783229336693763600
+    ],
+    "1JuliaDEV/src/JuliaPanels/LibraryPanel/Scripts/ScriptsView.tsx": [
+      3428,
+      1783581956515617400
+    ],
+    "1JuliaDEV/src/JuliaPanels/ProfilePanel/AccesibilidadDetail.tsx": [
+      12102,
+      1780392859031503700
+    ],
+    "1JuliaDEV/src/JuliaPanels/ProfilePanel/AcercaDeDetail.tsx": [
+      11027,
+      1783581956544951500
+    ],
+    "1JuliaDEV/src/JuliaPanels/ProfilePanel/AgentesDetail.tsx": [
+      26827,
+      1780537458571876800
+    ],
+    "1JuliaDEV/src/JuliaPanels/ProfilePanel/BovedaDetail.tsx": [
+      11195,
+      1780506139928650100
+    ],
+    "1JuliaDEV/src/JuliaPanels/ProfilePanel/BusquedaDetail.tsx": [
+      10051,
+      1780808559672481800
+    ],
+    "1JuliaDEV/src/JuliaPanels/ProfilePanel/CuentaDetail.tsx": [
+      9447,
+      1780544789700242300
+    ],
+    "1JuliaDEV/src/JuliaPanels/ProfilePanel/EditorDetail.tsx": [
+      15686,
+      1782447985498885700
+    ],
+    "1JuliaDEV/src/JuliaPanels/ProfilePanel/EsteticaDetail.tsx": [
+      11623,
+      1780427753092924400
+    ],
+    "1JuliaDEV/src/JuliaPanels/ProfilePanel/ProfilePanel.tsx": [
+      2105,
+      1783581956583065500
+    ],
+    "1JuliaDEV/src/JuliaPanels/ProfilePanel/WidgetsDetail.tsx": [
+      6203,
+      1780211866334304600
+    ],
+    "1JuliaDEV/src/JuliaPanels/ProfilePanel/components/CalibrationCenter.tsx": [
+      38593,
+      1783585121888944800
+    ],
+    "1JuliaDEV/src/JuliaPanels/ProfilePanel/components/CloudBackupPathPanel.tsx": [
+      6178,
+      1780506135645032000
+    ],
+    "1JuliaDEV/src/JuliaPanels/ProfilePanel/components/EditorPreviewSandbox.tsx": [
+      8315,
+      1782446040605695300
+    ],
+    "1JuliaDEV/src/JuliaPanels/ProfilePanel/components/MemoryVaultPanel.tsx": [
+      4295,
+      1780211866386795000
+    ],
+    "1JuliaDEV/src/JuliaPanels/ProfilePanel/components/PerformanceSettingsPanel.tsx": [
+      5396,
+      1780211866476075600
+    ],
+    "1JuliaDEV/src/JuliaPanels/ProfilePanel/components/PrivacyPermissionsDetail.tsx": [
+      6423,
+      1780775844745599400
+    ],
+    "1JuliaDEV/src/JuliaPanels/ProfilePanel/components/ProfileBentoGrid.tsx": [
+      20120,
+      1783581956582068400
+    ],
+    "1JuliaDEV/src/JuliaPanels/ProfilePanel/components/SecurityPolicyPanel.tsx": [
+      8143,
+      1780544746327879400
+    ],
+    "1JuliaDEV/src/JuliaPanels/ProfilePanel/components/VaultMigrationControls.tsx": [
+      5017,
+      1780211866401966100
+    ],
+    "1JuliaDEV/src/JuliaPanels/ProfilePanel/components/VaultPurgeControls.tsx": [
+      6864,
+      1780211866446520500
+    ],
+    "1JuliaDEV/src/JuliaPanels/ProfilePanel/components/VaultSetupForm.tsx": [
+      3757,
+      1780211866417217100
+    ],
+    "1JuliaDEV/src/JuliaPanels/ProfilePanel/components/VaultUnlockForm.tsx": [
+      2243,
+      1780211866432396300
+    ],
+    "1JuliaDEV/src/JuliaPanels/ProjectBoardPanel/ProjectBoardPanel.styles.ts": [
+      2809,
+      1780211866566186600
+    ],
+    "1JuliaDEV/src/JuliaPanels/ProjectBoardPanel/ProjectBoardPanel.tsx": [
+      8789,
+      1780211866579860100
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/SatellitesPanel.styles.ts": [
+      1714,
+      1780535182779889300
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/SatellitesPanel.tsx": [
+      14115,
+      1783585122310905200
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/types.ts": [
+      696,
+      1780211864762707000
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/ForeignSatellitesExplorer.tsx": [
+      3706,
+      1781216262370946300
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/GanimedesActionBox.tsx": [
+      3853,
+      1780211865130309400
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/GanimedesExportControls.tsx": [
+      4701,
+      1780211865279979900
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/GanimedesPasswordPrompt.tsx": [
+      1919,
+      1780211865163578200
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/GreatRedSpotPanel.tsx": [
+      6169,
+      1781310729823564500
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/ImportConflictAccordion.tsx": [
+      2805,
+      1780211865301973700
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/ImportCriticalBackupSection.tsx": [
+      1576,
+      1780211865324583000
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/ImportFieldDiffRow.tsx": [
+      2965,
+      1780211865205072700
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/ImportStrategySelector.tsx": [
+      3554,
+      1780211865187588000
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/JupiterAtmosphere.tsx": [
+      2851,
+      1780211864869091000
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/JupiterBackgroundHeader.tsx": [
+      678,
+      1780621591818383200
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/JupiterClusterDetail.tsx": [
+      5683,
+      1780544510311352800
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/JupiterKnowledgeMap.tsx": [
+      5189,
+      1780211864965037800
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/JupiterKnowledgeSpot.tsx": [
+      4964,
+      1780211865093390100
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/JupiterOrbits.tsx": [
+      6499,
+      1780622263146997100
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/JupiterPlanet.tsx": [
+      5498,
+      1780211864830317400
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/JupiterPlanetStyles.tsx": [
+      5310,
+      1780211864987079100
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/JupiterSatelliteActions.tsx": [
+      4311,
+      1780645964165495500
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/JupiterTutorial.tsx": [
+      4659,
+      1780211864903820400
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/KnowledgeImportPreview.tsx": [
+      5592,
+      1780211865146220600
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/KnowledgeIOHistoryPanel.tsx": [
+      4893,
+      1780211865222134700
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/SatelliteActionBox.tsx": [
+      5186,
+      1780544518277605600
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/SatellitesActivePanel.tsx": [
+      3464,
+      1780737636505912900
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/SatellitesDensityWidget.tsx": [
+      4663,
+      1781220728302619900
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/SatellitesIntroPanel.tsx": [
+      1122,
+      1780391503028618700
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/SatellitesKnowledgeGraph.tsx": [
+      18093,
+      1780389396991032600
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/SatellitesSidebar.tsx": [
+      6647,
+      1783585122351673200
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/SatelliteVisuals.tsx": [
+      10283,
+      1780211864794727400
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/jupiter/JupiterKnowledgeCanvas.tsx": [
+      12295,
+      1780211865355503300
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/jupiter/JupiterNodeInspector.tsx": [
+      3769,
+      1780211865374134400
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/jupiter3d/CinematicLensFlare.tsx": [
+      7543,
+      1781234980738391800
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/jupiter3d/CorePlanet.tsx": [
+      7196,
+      1781216575714934600
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/jupiter3d/greatRedSpot.utils.ts": [
+      539,
+      1781308151084564600
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/jupiter3d/GreatRedSpotMarker.tsx": [
+      2793,
+      1781308261497525800
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/jupiter3d/JovianMoons.tsx": [
+      2125,
+      1781215382030446300
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/jupiter3d/jupiter.textureAssets.ts": [
+      764,
+      1781238664899620700
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/jupiter3d/Jupiter3DCanvas.tsx": [
+      3611,
+      1781428064805864300
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/jupiter3d/JupiterAtmosphere.tsx": [
+      3781,
+      1781236659105206900
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/jupiter3d/JupiterAuroras.tsx": [
+      3558,
+      1781209422228139400
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/jupiter3d/JupiterCloudLayers.tsx": [
+      7596,
+      1781464878232682300
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/jupiter3d/JupiterCognitiveOverlay.tsx": [
+      11296,
+      1781304952676224200
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/jupiter3d/jupiterFocus.types.ts": [
+      342,
+      1781285135286157800
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/jupiter3d/JupiterGraphEdges.tsx": [
+      3572,
+      1781293131834401200
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/jupiter3d/JupiterGraphLabels.tsx": [
+      3500,
+      1781293131836399000
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/jupiter3d/JupiterGraphNodes.tsx": [
+      3111,
+      1781293131832400200
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/jupiter3d/JupiterPlanet.tsx": [
+      9512,
+      1781448367292297500
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/jupiter3d/JupiterRings.tsx": [
+      1337,
+      1781209431883359000
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/jupiter3d/JupiterScene.tsx": [
+      12703,
+      1781448352510659400
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/jupiter3d/JupiterShaders.ts": [
+      9980,
+      1781195199421433500
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/jupiter3d/MilkyWayBackground.tsx": [
+      237,
+      1781210233915946900
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/jupiter3d/OrbioStation.tsx": [
+      10429,
+      1781237177438136300
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/jupiter3d/OrbitalSatellites.tsx": [
+      9269,
+      1781236272680734600
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/jupiter3d/ProceduralStars.tsx": [
+      11358,
+      1781237170670512000
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/jupiter3d/SolarSystemReferences.tsx": [
+      5481,
+      1781217483576898000
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/jupiter3d/constants/lensFlare.constants.ts": [
+      1882,
+      1781237746778116300
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/jupiter3d/hooks/useJupiterCameraRig.ts": [
+      10663,
+      1781464880326065000
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/jupiter3d/hooks/useJupiterFocusCamera.ts": [
+      1107,
+      1781285135290153800
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/jupiter3d/utils/jupiterCameraFocus.ts": [
+      3309,
+      1781285135289158700
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/jupiter3d/utils/jupiterGraphLayout.ts": [
+      7203,
+      1781293131826400700
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/components/jupiter3d/utils/lensFlareTextures.ts": [
+      6945,
+      1781234933100326100
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/data/satellitesData.tsx": [
+      3538,
+      1781214908658070400
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/hooks/useJupiterPerformanceMode.ts": [
+      1034,
+      1780211865552906800
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/hooks/useJupiterTutorial.ts": [
+      1371,
+      1780211865535354600
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/hooks/useSatellitesState.ts": [
+      10064,
+      1782787681452471900
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/jupiter/astronomy.ephemeris.ts": [
+      7165,
+      1780646603354024900
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/jupiter/astronomy.frames.ts": [
+      1982,
+      1780646603354024900
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/jupiter/astronomy.jovianMoons.ts": [
+      2855,
+      1781208419172586200
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/jupiter/astronomy.planets.ts": [
+      4297,
+      1780646685334492900
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/jupiter/astronomy.stars.ts": [
+      2871,
+      1780646685337464200
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/jupiter/astronomy.time.ts": [
+      1076,
+      1780646685332466400
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/jupiter/astronomy.types.ts": [
+      1736,
+      1781208407413182700
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/jupiter/astronomy.visibility.ts": [
+      673,
+      1780646603355025400
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/jupiter/greatRedSpot.types.ts": [
+      449,
+      1781310585197849200
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/jupiter/index.ts": [
+      1050,
+      1781308209993013100
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/jupiter/jupiter.constants.ts": [
+      4924,
+      1781167961145045600
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/jupiter/jupiter.mockData.ts": [
+      2883,
+      1780622921600988900
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/jupiter/jupiter.positioning.ts": [
+      985,
+      1780622909838983600
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/jupiter/jupiter.types.ts": [
+      1580,
+      1780698676214963100
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/jupiter/jupiter.visualEngine.ts": [
+      7410,
+      1780733667416531200
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/jupiter/jupiterCognitiveModel.ts": [
+      15461,
+      1780737953166077900
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/jupiter/JupiterLegend.tsx": [
+      14816,
+      1780737636500899300
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/jupiter/JupiterSpot.tsx": [
+      11000,
+      1780737322343077300
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/jupiter/jupiterSpotInteraction.ts": [
+      1661,
+      1780729330403877800
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/jupiter/JupiterSpotPanel.tsx": [
+      14790,
+      1780733739638225100
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/jupiter/jupiterTerritoryInteraction.ts": [
+      1899,
+      1780737636498903900
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/jupiter/JupiterTerritoryPanel.tsx": [
+      7638,
+      1782787719242749900
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/jupiter/territoryHotspots.ts": [
+      3093,
+      1780737322339078100
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/jupiter/topicSurface.engine.ts": [
+      6374,
+      1780737079274283900
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/jupiter/topicSurface.mockData.ts": [
+      1504,
+      1780639617696154500
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/jupiter/topicSurface.texture.ts": [
+      21508,
+      1781169012713527100
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/jupiter/topicSurface.types.ts": [
+      3617,
+      1781301915915275400
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/jupiter/topTerritories.selectors.ts": [
+      4035,
+      1781310585201381600
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/types/importExportTypes.ts": [
+      2707,
+      1780211865585645100
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/utils/jupiterMapping.ts": [
+      5367,
+      1780211865411617900
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/utils/jupiterProjection.ts": [
+      2430,
+      1780211865456681100
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/utils/jupiterTutorialContent.ts": [
+      1078,
+      1780737636502899600
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/utils/satelliteAccretion.ts": [
+      3226,
+      1781220705934685400
+    ],
+    "1JuliaDEV/src/JuliaPanels/SatellitesPanel/utils/satelliteActions.ts": [
+      2321,
+      1780211865434274400
+    ],
+    "1JuliaDEV/src/JuliaPanels/TopicVisualizer/TopicPage.tsx": [
+      6675,
+      1783250357899501800
+    ],
+    "1JuliaDEV/src/mocks/editorDemoBlogs.ts": [
+      9007,
+      1782801363993094200
+    ],
+    "1JuliaDEV/src/mocks/editorDemoLibrary.ts": [
+      3880,
+      1782801363994095100
+    ],
+    "1JuliaDEV/src/mocks/editorDemoNotes.ts": [
+      33512,
+      1782801616401470500
+    ],
+    "1JuliaDEV/src/mocks/editorDemoStore.ts": [
+      903,
+      1782801363990094500
+    ],
+    "1JuliaDEV/src/mocks/editorRichPreview.mock.ts": [
+      3947,
+      1782007729506892600
+    ],
+    "1JuliaDEV/src/qa/nativeCapabilityQa.ts": [
+      8261,
+      1781826756181693600
+    ],
+    "1JuliaDEV/src/runtime/tauriWindowBootGuard.ts": [
+      977,
+      1782566297668809000
+    ],
+    "1JuliaDEV/src/services/aiProviderService.ts": [
+      4765,
+      1783581956542947700
+    ],
+    "1JuliaDEV/src/services/cloudBackupService.ts": [
+      5451,
+      1780509503112200000
+    ],
+    "1JuliaDEV/src/services/dbService.ts": [
+      1279,
+      1780211866635197200
+    ],
+    "1JuliaDEV/src/services/geminiService.ts": [
+      57145,
+      1783581956525830600
+    ],
+    "1JuliaDEV/src/services/juliaAgentService.ts": [
+      2855,
+      1783581956589067100
+    ],
+    "1JuliaDEV/src/services/platformService.ts": [
+      8954,
+      1780862024506171700
+    ],
+    "1JuliaDEV/src/services/prompts.ts": [
+      13434,
+      1780431767760877100
+    ],
+    "1JuliaDEV/src/services/searchService.ts": [
+      2289,
+      1780211866619922000
+    ],
+    "1JuliaDEV/src/services/searchWorker.ts": [
+      2922,
+      1780211866698139100
+    ],
+    "1JuliaDEV/src/services/telemetry.ts": [
+      445,
+      1780388535389227400
+    ],
+    "1JuliaDEV/src/services/accessibility/accessibility.types.ts": [
+      437,
+      1780392859028683700
+    ],
+    "1JuliaDEV/src/services/accessibility/accessibilitySettings.ts": [
+      1577,
+      1780527489436133800
+    ],
+    "1JuliaDEV/src/services/agents/agentRegistry.ts": [
+      2182,
+      1780537206122202700
+    ],
+    "1JuliaDEV/src/services/database/graphDb.ts": [
+      4838,
+      1783270726526247000
+    ],
+    "1JuliaDEV/src/services/editor/editorDocumentAdapter.ts": [
+      1077,
+      1782447227820011600
+    ],
+    "1JuliaDEV/src/services/home/home.carouselConstants.ts": [
+      275,
+      1780382436250067500
+    ],
+    "1JuliaDEV/src/services/home/home.carouselMotion.ts": [
+      4884,
+      1780547172732830800
+    ],
+    "1JuliaDEV/src/services/home/home.categories.ts": [
+      4702,
+      1780807933561113600
+    ],
+    "1JuliaDEV/src/services/home/home.coverCatalog.json": [
+      137786,
+      1781283038619743800
+    ],
+    "1JuliaDEV/src/services/home/home.feedService.ts": [
+      6914,
+      1780545650964357600
+    ],
+    "1JuliaDEV/src/services/home/home.formatIcons.ts": [
+      1171,
+      1780211868647703100
+    ],
+    "1JuliaDEV/src/services/home/home.previewMedia.ts": [
+      3265,
+      1780365412388808300
+    ],
+    "1JuliaDEV/src/services/home/home.types.ts": [
+      632,
+      1780211868611739000
+    ],
+    "1JuliaDEV/src/services/home/home.visuals.ts": [
+      1633,
+      1780211868595340500
+    ],
+    "1JuliaDEV/src/services/ingestion/fileParserService.ts": [
+      2147,
+      1780475484472971500
+    ],
+    "1JuliaDEV/src/services/ingestion/webScraperService.ts": [
+      3253,
+      1780476465917170400
+    ],
+    "1JuliaDEV/src/services/ingestion/webSearchService.ts": [
+      2748,
+      1780477719305103100
+    ],
+    "1JuliaDEV/src/services/ingestion/youtubeScraperService.ts": [
+      4821,
+      1780476615473259000
+    ],
+    "1JuliaDEV/src/services/knowledge/codeDetection.ts": [
+      2442,
+      1780211867544375400
+    ],
+    "1JuliaDEV/src/services/knowledge/ingestion.registry.ts": [
+      925,
+      1780211867460574700
+    ],
+    "1JuliaDEV/src/services/knowledge/ingestion.types.ts": [
+      424,
+      1780211867441981000
+    ],
+    "1JuliaDEV/src/services/knowledge/knowledge.blockAnchors.ts": [
+      2439,
+      1780540994457251900
+    ],
+    "1JuliaDEV/src/services/knowledge/knowledge.blockEvidence.ts": [
+      3978,
+      1780211867657933300
+    ],
+    "1JuliaDEV/src/services/knowledge/knowledge.citations.ts": [
+      3399,
+      1780211867591917400
+    ],
+    "1JuliaDEV/src/services/knowledge/knowledge.ingestion.ts": [
+      2172,
+      1780211867480019600
+    ],
+    "1JuliaDEV/src/services/knowledge/knowledge.library.ts": [
+      9156,
+      1780432647410175500
+    ],
+    "1JuliaDEV/src/services/knowledge/knowledge.memoryCompat.ts": [
+      2092,
+      1780211867497328000
+    ],
+    "1JuliaDEV/src/services/knowledge/knowledge.metadata.ts": [
+      2164,
+      1780211867513639400
+    ],
+    "1JuliaDEV/src/services/knowledge/knowledge.page.types.ts": [
+      1017,
+      1780508242812004000
+    ],
+    "1JuliaDEV/src/services/knowledge/knowledge.pageBuilder.ts": [
+      12699,
+      1782771317157350100
+    ],
+    "1JuliaDEV/src/services/knowledge/knowledge.sourceUtils.ts": [
+      1635,
+      1780211867608147400
+    ],
+    "1JuliaDEV/src/services/knowledge/knowledge.types.ts": [
+      2230,
+      1780689574572534300
+    ],
+    "1JuliaDEV/src/services/knowledge/promptDetection.ts": [
+      1183,
+      1780211867559836900
+    ],
+    "1JuliaDEV/src/services/knowledge/adapters/codeAdapter.ts": [
+      1942,
+      1780211867760973200
+    ],
+    "1JuliaDEV/src/services/knowledge/adapters/documentTextAdapter.ts": [
+      2255,
+      1780211867744993700
+    ],
+    "1JuliaDEV/src/services/knowledge/adapters/linkAdapter.ts": [
+      3040,
+      1780211867698377400
+    ],
+    "1JuliaDEV/src/services/knowledge/adapters/manualTextAdapter.ts": [
+      1814,
+      1780211867683294900
+    ],
+    "1JuliaDEV/src/services/knowledge/adapters/pdfAdapter.ts": [
+      1834,
+      1780211867777325900
+    ],
+    "1JuliaDEV/src/services/knowledge/adapters/promptAdapter.ts": [
+      1896,
+      1780211867728748500
+    ],
+    "1JuliaDEV/src/services/knowledge/adapters/unknownAdapter.ts": [
+      1247,
+      1780211867713367200
+    ],
+    "1JuliaDEV/src/services/knowledge/adapters/__tests__/adapters.knowledgeItem.test.ts": [
+      15936,
+      1783430633366012400
+    ],
+    "1JuliaDEV/src/services/knowledge/blockEditor/blockEditor.schema.ts": [
+      4302,
+      1780392655785794700
+    ],
+    "1JuliaDEV/src/services/knowledge/blockEditor/blockEditor.types.ts": [
+      589,
+      1780258299064185200
+    ],
+    "1JuliaDEV/src/services/knowledge/blockEditor/index.ts": [
+      75,
+      1780258299067720000
+    ],
+    "1JuliaDEV/src/services/knowledge/discover/knowledge.discover.types.ts": [
+      832,
+      1780211868180418600
+    ],
+    "1JuliaDEV/src/services/knowledge/discover/knowledge.discoverScoring.ts": [
+      3786,
+      1780211868164802000
+    ],
+    "1JuliaDEV/src/services/knowledge/discover/knowledge.discoverService.ts": [
+      12186,
+      1783581956525830600
+    ],
+    "1JuliaDEV/src/services/knowledge/discover/knowledge.topicSignals.ts": [
+      1922,
+      1780211868198130300
+    ],
+    "1JuliaDEV/src/services/knowledge/editorial/knowledgeQueryToEditorialPage.ts": [
+      6710,
+      1783476801119404700
+    ],
+    "1JuliaDEV/src/services/knowledge/editorial/__tests__/knowledgeQueryToEditorialPage.test.ts": [
+      4059,
+      1783476754910429900
+    ],
+    "1JuliaDEV/src/services/knowledge/file/csv.extractor.ts": [
+      3476,
+      1780211868066168000
+    ],
+    "1JuliaDEV/src/services/knowledge/file/documentConverter.service.ts": [
+      11395,
+      1783430340281541700
+    ],
+    "1JuliaDEV/src/services/knowledge/file/documentConverter.types.ts": [
+      2609,
+      1780689393973480900
+    ],
+    "1JuliaDEV/src/services/knowledge/file/documentConverterRegistry.ts": [
+      590,
+      1780689531865695900
+    ],
+    "1JuliaDEV/src/services/knowledge/file/documentMarkdownNormalizer.ts": [
+      6298,
+      1780689446741408800
+    ],
+    "1JuliaDEV/src/services/knowledge/file/file.ingestion.ts": [
+      8827,
+      1780689574574533200
+    ],
+    "1JuliaDEV/src/services/knowledge/file/file.reader.ts": [
+      2355,
+      1780211867994560800
+    ],
+    "1JuliaDEV/src/services/knowledge/file/file.types.ts": [
+      1192,
+      1780689574570528400
+    ],
+    "1JuliaDEV/src/services/knowledge/file/file.typeUtils.ts": [
+      3385,
+      1780688816867425500
+    ],
+    "1JuliaDEV/src/services/knowledge/file/htmlFile.extractor.ts": [
+      1773,
+      1780211868102376600
+    ],
+    "1JuliaDEV/src/services/knowledge/file/json.extractor.ts": [
+      2412,
+      1780211868118246700
+    ],
+    "1JuliaDEV/src/services/knowledge/file/markitdown.adapter.ts": [
+      4010,
+      1780689871541314200
+    ],
+    "1JuliaDEV/src/services/knowledge/file/officeDocument.extractor.ts": [
+      2390,
+      1780689599963047300
+    ],
+    "1JuliaDEV/src/services/knowledge/file/pdf.extractor.ts": [
+      1872,
+      1780689599965765600
+    ],
+    "1JuliaDEV/src/services/knowledge/file/textFile.extractor.ts": [
+      3336,
+      1780211868046613400
+    ],
+    "1JuliaDEV/src/services/knowledge/jupiter/knowledge.jupiter.types.ts": [
+      1258,
+      1780211868315095300
+    ],
+    "1JuliaDEV/src/services/knowledge/jupiter/knowledge.jupiterClusters.ts": [
+      3881,
+      1780211868240102800
+    ],
+    "1JuliaDEV/src/services/knowledge/jupiter/knowledge.jupiterEdges.ts": [
+      3011,
+      1780211868333778300
+    ],
+    "1JuliaDEV/src/services/knowledge/jupiter/knowledge.jupiterLayout.ts": [
+      3402,
+      1780211868277500700
+    ],
+    "1JuliaDEV/src/services/knowledge/jupiter/knowledge.jupiterScoring.ts": [
+      2992,
+      1780211868296358100
+    ],
+    "1JuliaDEV/src/services/knowledge/jupiter/knowledge.jupiterService.ts": [
+      3905,
+      1780211868258112300
+    ],
+    "1JuliaDEV/src/services/knowledge/link/link.htmlExtractor.ts": [
+      4530,
+      1780211867939909400
+    ],
+    "1JuliaDEV/src/services/knowledge/link/link.ingestion.ts": [
+      3047,
+      1780211867918363100
+    ],
+    "1JuliaDEV/src/services/knowledge/link/link.types.ts": [
+      674,
+      1780211867960710000
+    ],
+    "1JuliaDEV/src/services/knowledge/link/link.urlUtils.ts": [
+      1511,
+      1780211867901723700
+    ],
+    "1JuliaDEV/src/services/knowledge/migration/legacyMigrator.ts": [
+      7682,
+      1781216231239944600
+    ],
+    "1JuliaDEV/src/services/knowledge/query/knowledge.query.types.ts": [
+      1824,
+      1780211867804295500
+    ],
+    "1JuliaDEV/src/services/knowledge/query/knowledge.queryComposer.ts": [
+      5925,
+      1780476382914995300
+    ],
+    "1JuliaDEV/src/services/knowledge/query/knowledge.queryParser.ts": [
+      1291,
+      1780211867820243400
+    ],
+    "1JuliaDEV/src/services/knowledge/query/knowledge.queryRanker.ts": [
+      3908,
+      1780211867838045900
+    ],
+    "1JuliaDEV/src/services/knowledge/query/knowledge.queryService.ts": [
+      7860,
+      1783430367487938200
+    ],
+    "1JuliaDEV/src/services/knowledge/semantic/knowledge.semantic.types.ts": [
+      1000,
+      1780211868366376900
+    ],
+    "1JuliaDEV/src/services/knowledge/semantic/knowledge.semanticIndex.ts": [
+      4187,
+      1780211868420668800
+    ],
+    "1JuliaDEV/src/services/knowledge/semantic/knowledge.semanticLexicon.ts": [
+      2970,
+      1780211868438388200
+    ],
+    "1JuliaDEV/src/services/knowledge/semantic/knowledge.semanticMemoryText.ts": [
+      2066,
+      1780211868402528400
+    ],
+    "1JuliaDEV/src/services/knowledge/semantic/knowledge.semanticNormalizer.ts": [
+      2049,
+      1780211868385226100
+    ],
+    "1JuliaDEV/src/services/knowledge/semantic/knowledge.semanticVectorizer.ts": [
+      4617,
+      1780211868456028700
+    ],
+    "1JuliaDEV/src/services/knowledge/sqlite/index.ts": [
+      126,
+      1780252225822847000
+    ],
+    "1JuliaDEV/src/services/knowledge/sqlite/knowledgeSqlite.client.ts": [
+      2669,
+      1780252225820594600
+    ],
+    "1JuliaDEV/src/services/knowledge/sqlite/knowledgeSqlite.repository.ts": [
+      2838,
+      1780507915383933700
+    ],
+    "1JuliaDEV/src/services/knowledge/sqlite/knowledgeSqlite.schema.ts": [
+      580,
+      1781339137669070800
+    ],
+    "1JuliaDEV/src/services/knowledge/sqlite/knowledgeSqlite.types.ts": [
+      374,
+      1780252225818348100
+    ],
+    "1JuliaDEV/src/services/memory/encryptedMemoryAdapter.ts": [
+      4189,
+      1780211866941586300
+    ],
+    "1JuliaDEV/src/services/memory/memory.adapters.ts": [
+      1100,
+      1780211866753227200
+    ],
+    "1JuliaDEV/src/services/memory/memory.backupIntegrity.ts": [
+      3230,
+      1780211867139610400
+    ],
+    "1JuliaDEV/src/services/memory/memory.backupSandbox.ts": [
+      3881,
+      1780211867093505400
+    ],
+    "1JuliaDEV/src/services/memory/memory.backupVerification.ts": [
+      5683,
+      1780211867042139200
+    ],
+    "1JuliaDEV/src/services/memory/memory.criticalBackup.ts": [
+      3343,
+      1780211866996673000
+    ],
+    "1JuliaDEV/src/services/memory/memory.criticalBackup.types.ts": [
+      951,
+      1780211867010269000
+    ],
+    "1JuliaDEV/src/services/memory/memory.crypto.ts": [
+      3759,
+      1780211866877907000
+    ],
+    "1JuliaDEV/src/services/memory/memory.enrichment.ts": [
+      2701,
+      1780211866833303500
+    ],
+    "1JuliaDEV/src/services/memory/memory.enrichment.types.ts": [
+      671,
+      1780211866788711400
+    ],
+    "1JuliaDEV/src/services/memory/memory.enrichment.validation.ts": [
+      4881,
+      1780211866817171200
+    ],
+    "1JuliaDEV/src/services/memory/memory.exportImport.ts": [
+      4561,
+      1780211866848878900
+    ],
+    "1JuliaDEV/src/services/memory/memory.importDiff.ts": [
+      3322,
+      1780440220325780900
+    ],
+    "1JuliaDEV/src/services/memory/memory.importMerge.ts": [
+      7998,
+      1780440189914521200
+    ],
+    "1JuliaDEV/src/services/memory/memory.importRisk.ts": [
+      1828,
+      1780211867025205100
+    ],
+    "1JuliaDEV/src/services/memory/memory.ioHistory.ts": [
+      1254,
+      1780211866864355400
+    ],
+    "1JuliaDEV/src/services/memory/memory.mock.ts": [
+      1049,
+      1780211866738050100
+    ],
+    "1JuliaDEV/src/services/memory/memory.rawVaultArchive.ts": [
+      1298,
+      1780211867154717200
+    ],
+    "1JuliaDEV/src/services/memory/memory.recovery.ts": [
+      3704,
+      1780211867059910900
+    ],
+    "1JuliaDEV/src/services/memory/memory.recovery.types.ts": [
+      989,
+      1780211867077350500
+    ],
+    "1JuliaDEV/src/services/memory/memory.recoveryPolicy.ts": [
+      767,
+      1780211867124884800
+    ],
+    "1JuliaDEV/src/services/memory/memory.recoveryStaging.ts": [
+      2353,
+      1780211867109755000
+    ],
+    "1JuliaDEV/src/services/memory/memory.repository.ts": [
+      3966,
+      1780211866769912300
+    ],
+    "1JuliaDEV/src/services/memory/memory.semantic.ts": [
+      8324,
+      1780211866803479000
+    ],
+    "1JuliaDEV/src/services/memory/memory.sosReset.ts": [
+      2518,
+      1780211867172083700
+    ],
+    "1JuliaDEV/src/services/memory/memory.types.ts": [
+      400,
+      1780211866723055500
+    ],
+    "1JuliaDEV/src/services/memory/memory.vault.ts": [
+      4031,
+      1780211866955400100
+    ],
+    "1JuliaDEV/src/services/memory/memory.vault.types.ts": [
+      1326,
+      1780211866927935900
+    ],
+    "1JuliaDEV/src/services/memory/memory.vaultMigration.ts": [
+      3153,
+      1780211866969652600
+    ],
+    "1JuliaDEV/src/services/memory/memory.vaultPurge.ts": [
+      4814,
+      1780211866983372600
+    ],
+    "1JuliaDEV/src/services/memory/providers/geminiEnrichmentProvider.ts": [
+      1863,
+      1783581956582068400
+    ],
+    "1JuliaDEV/src/services/memory/providers/mockEnrichmentProvider.ts": [
+      1537,
+      1780211867201862300
+    ],
+    "1JuliaDEV/src/services/native/index.ts": [
+      325,
+      1780861439133900900
+    ],
+    "1JuliaDEV/src/services/native/native.types.ts": [
+      2404,
+      1780862202739866700
+    ],
+    "1JuliaDEV/src/services/native/nativeClipboard.service.ts": [
+      1295,
+      1780862202743517500
+    ],
+    "1JuliaDEV/src/services/native/nativeDiagnostics.service.ts": [
+      825,
+      1780861439128890800
+    ],
+    "1JuliaDEV/src/services/native/nativeDialog.service.ts": [
+      1478,
+      1780862202739866700
+    ],
+    "1JuliaDEV/src/services/native/nativeFilesystem.service.ts": [
+      1723,
+      1780862202746520200
+    ],
+    "1JuliaDEV/src/services/native/nativeRuntime.service.ts": [
+      5159,
+      1780862008503578500
+    ],
+    "1JuliaDEV/src/services/native/nativeShell.service.ts": [
+      1005,
+      1780862202741512900
+    ],
+    "1JuliaDEV/src/services/native/nativeWorkers.service.ts": [
+      557,
+      1780861439129899400
+    ],
+    "1JuliaDEV/src/services/performance/performance.budgets.ts": [
+      1002,
+      1780211867376966300
+    ],
+    "1JuliaDEV/src/services/performance/performance.debug.ts": [
+      771,
+      1780211867394562600
+    ],
+    "1JuliaDEV/src/services/performance/performance.types.ts": [
+      1166,
+      1780211867360294600
+    ],
+    "1JuliaDEV/src/services/performance/performanceSettings.ts": [
+      1552,
+      1780211867344525500
+    ],
+    "1JuliaDEV/src/services/security/passphraseGenerator.ts": [
+      2344,
+      1780211867263462000
+    ],
+    "1JuliaDEV/src/services/security/passphraseWordlist.ts": [
+      2786,
+      1780211867280067500
+    ],
+    "1JuliaDEV/src/services/security/passwordStrength.ts": [
+      3978,
+      1780211867248603400
+    ],
+    "1JuliaDEV/src/services/security/securityPolicy.ts": [
+      2153,
+      1780211867314071800
+    ],
+    "1JuliaDEV/src/services/security/securityPolicy.types.ts": [
+      627,
+      1780211867297293400
+    ],
+    "1JuliaDEV/src/services/tutorial/firstRunChecklist.data.ts": [
+      2032,
+      1783585122151267500
+    ],
+    "1JuliaDEV/src/services/tutorial/tutorial.copy.ts": [
+      2413,
+      1780211868530184400
+    ],
+    "1JuliaDEV/src/services/tutorial/tutorial.progress.ts": [
+      2434,
+      1780211868548629800
+    ],
+    "1JuliaDEV/src/services/tutorial/tutorial.registry.ts": [
+      2576,
+      1780211868513323000
+    ],
+    "1JuliaDEV/src/services/tutorial/tutorial.scopes.ts": [
+      730,
+      1780211868564057000
+    ],
+    "1JuliaDEV/src/services/tutorial/tutorial.types.ts": [
+      735,
+      1780211868495751100
+    ],
+    "1JuliaDEV/src/store/agentStore.ts": [
+      1032,
+      1780506618919938200
+    ],
+    "1JuliaDEV/src/store/appStore.ts": [
+      715,
+      1780211870478328100
+    ],
+    "1JuliaDEV/src/store/useAgentActivityStore.ts": [
+      3384,
+      1780537213040011900
+    ],
+    "1JuliaDEV/src/store/useEditorPreferences.ts": [
+      1713,
+      1782445908674985400
+    ],
+    "1JuliaDEV/src/store/useEditorSessionStore.ts": [
+      1532,
+      1782448024554656300
+    ],
+    "1JuliaDEV/src/types/agentActivity.types.ts": [
+      1076,
+      1780537200093041700
+    ],
+    "1JuliaDEV/src/types/editorActionProviders.ts": [
+      908,
+      1782165460446629800
+    ],
+    "1JuliaDEV/src/types/editorActions.ts": [
+      2071,
+      1782271725096002200
+    ],
+    "1JuliaDEV/src/types/editorBlocks.ts": [
+      2565,
+      1782007344337228600
+    ],
+    "1JuliaDEV/src/types/editorBlog.ts": [
+      1845,
+      1782717645555020800
+    ],
+    "1JuliaDEV/src/types/editorBlogPreflight.ts": [
+      2378,
+      1782716057767368000
+    ],
+    "1JuliaDEV/src/types/editorBlogView.ts": [
+      1343,
+      1782723686260321700
+    ],
+    "1JuliaDEV/src/types/editorDocumentPersistence.ts": [
+      1283,
+      1782418095268209500
+    ],
+    "1JuliaDEV/src/types/editorDocumentPersistencePreflight.ts": [
+      1310,
+      1782350207972164500
+    ],
+    "1JuliaDEV/src/types/editorEditorialWorkflow.ts": [
+      1306,
+      1782735615058639300
+    ],
+    "1JuliaDEV/src/types/editorExternalSearch.ts": [
+      576,
+      1782094413152677200
+    ],
+    "1JuliaDEV/src/types/editorHttpRuntime.ts": [
+      1078,
+      1782164752840715300
+    ],
+    "1JuliaDEV/src/types/editorLibrary.ts": [
+      1442,
+      1782707154996174000
+    ],
+    "1JuliaDEV/src/types/editorLibraryDetail.ts": [
+      1195,
+      1782714408464130000
+    ],
+    "1JuliaDEV/src/types/editorLocalAiEditorInsertion.ts": [
+      1313,
+      1782269314934458300
+    ],
+    "1JuliaDEV/src/types/editorLocalAiEditorMutation.ts": [
+      1021,
+      1782271555476471700
+    ],
+    "1JuliaDEV/src/types/editorLocalAiInferenceExecution.ts": [
+      819,
+      1782206382761893300
+    ],
+    "1JuliaDEV/src/types/editorLocalAiInferencePreflight.ts": [
+      932,
+      1782203691107635000
+    ],
+    "1JuliaDEV/src/types/editorLocalAiModelSelection.ts": [
+      705,
+      1782261317973331900
+    ],
+    "1JuliaDEV/src/types/editorLocalAiResultActions.ts": [
+      890,
+      1782265765888842500
+    ],
+    "1JuliaDEV/src/types/editorLocalAiResultPersistence.ts": [
+      1040,
+      1782265651522130700
+    ],
+    "1JuliaDEV/src/types/editorLocalAiRuntime.ts": [
+      802,
+      1782200432550650300
+    ],
+    "1JuliaDEV/src/types/editorMvpBridge.ts": [
+      1139,
+      1782277539650609000
+    ],
+    "1JuliaDEV/src/types/editorNotePersistence.ts": [
+      1545,
+      1782536286365643100
+    ],
+    "1JuliaDEV/src/types/editorNotePreflight.ts": [
+      1091,
+      1782532774308069200
+    ],
+    "1JuliaDEV/src/types/editorOperations.ts": [
+      509,
+      1782105124182900200
+    ],
+    "1JuliaDEV/src/types/editorRuntimeBridge.ts": [
+      764,
+      1782113585377337700
+    ],
+    "1JuliaDEV/src/types/editorRuntimeConsent.ts": [
+      535,
+      1782151265971673200
+    ],
+    "1JuliaDEV/src/types/editorRuntimeFeatureFlags.ts": [
+      734,
+      1782716053341024400
+    ],
+    "1JuliaDEV/src/types/editorRuntimeHealth.ts": [
+      391,
+      1782118128034193000
+    ],
+    "1JuliaDEV/src/types/editorRuntimeTasks.ts": [
+      1198,
+      1782165451258977500
+    ],
+    "1JuliaDEV/src/types/editorSourceCandidates.ts": [
+      836,
+      1782170736786492400
+    ],
+    "1JuliaDEV/src/types/editorSourceContextPack.ts": [
+      710,
+      1782186766540822100
+    ],
+    "1JuliaDEV/src/types/editorSourcePersistence.ts": [
+      1583,
+      1782183234603090900
+    ],
+    "1JuliaDEV/src/types/editorSurfaceMode.ts": [
+      2045,
+      1782741588257570200
+    ],
+    "1JuliaDEV/src/types/editorUniversalBlock.ts": [
+      1646,
+      1782685659429001500
+    ],
+    "1JuliaDEV/src/types/editorUniversalBlockPreflight.ts": [
+      1536,
+      1782538028379503600
+    ],
+    "1JuliaDEV/src/types/editorWebSearchProvider.ts": [
+      1398,
+      1782166513204457900
+    ],
+    "1JuliaDEV/src/types/editorWriteIntents.ts": [
+      999,
+      1782271668056659800
+    ],
+    "1JuliaDEV/src/types/topic.ts": [
+      202,
+      1783247560714693200
+    ],
+    "1JuliaDEV/src/utils/cn.ts": [
+      118,
+      1780211870446663300
+    ],
+    "1JuliaDEV/src/utils/mediaUtils.ts": [
+      1342,
+      1780211870428428400
+    ],
+    "1JuliaDEV/src/utils/scrollUtils.ts": [
+      1400,
+      1780538579342093600
+    ],
+    "1JuliaDEV/src-tauri/build.rs": [
+      40,
+      1780247970331199300
+    ],
+    "1JuliaDEV/src-tauri/Cargo.toml": [
+      1005,
+      1782544641006828000
+    ],
+    "1JuliaDEV/src-tauri/tauri.conf.json": [
+      1909,
+      1783135297414915300
+    ],
+    "1JuliaDEV/src-tauri/capabilities/default.json": [
+      779,
+      1782544329058295800
+    ],
+    "1JuliaDEV/src-tauri/gen/schemas/acl-manifests.json": [
+      150724,
+      1780862126934473500
+    ],
+    "1JuliaDEV/src-tauri/gen/schemas/capabilities.json": [
+      637,
+      1782544338096263000
+    ],
+    "1JuliaDEV/src-tauri/gen/schemas/desktop-schema.json": [
+      434807,
+      1780862126985901200
+    ],
+    "1JuliaDEV/src-tauri/gen/schemas/windows-schema.json": [
+      434807,
+      1780862126985901200
+    ],
+    "1JuliaDEV/src-tauri/icons/128x128.png": [
+      19618,
+      1781219341955129300
+    ],
+    "1JuliaDEV/src-tauri/icons/128x128@2x.png": [
+      61176,
+      1781219342126828300
+    ],
+    "1JuliaDEV/src-tauri/icons/32x32.png": [
+      2428,
+      1781219341833383500
+    ],
+    "1JuliaDEV/src-tauri/icons/64x64.png": [
+      6912,
+      1781219341884473700
+    ],
+    "1JuliaDEV/src-tauri/icons/icon.icns": [
+      1678286,
+      1781219341389582600
+    ],
+    "1JuliaDEV/src-tauri/icons/icon.ico": [
+      78038,
+      1781219341784151100
+    ],
+    "1JuliaDEV/src-tauri/icons/icon.png": [
+      243774,
+      1781219342738123700
+    ],
+    "1JuliaDEV/src-tauri/icons/Square107x107Logo.png": [
+      14986,
+      1781219338529352300
+    ],
+    "1JuliaDEV/src-tauri/icons/Square142x142Logo.png": [
+      23089,
+      1781219338561200800
+    ],
+    "1JuliaDEV/src-tauri/icons/Square150x150Logo.png": [
+      25149,
+      1781219338601448100
+    ],
+    "1JuliaDEV/src-tauri/icons/Square284x284Logo.png": [
+      74201,
+      1781219338716255800
+    ],
+    "1JuliaDEV/src-tauri/icons/Square30x30Logo.png": [
+      2177,
+      1781219338435679700
+    ],
+    "1JuliaDEV/src-tauri/icons/Square310x310Logo.png": [
+      87204,
+      1781219338845709300
+    ],
+    "1JuliaDEV/src-tauri/icons/Square44x44Logo.png": [
+      3892,
+      1781219338456718500
+    ],
+    "1JuliaDEV/src-tauri/icons/Square71x71Logo.png": [
+      8058,
+      1781219338479182900
+    ],
+    "1JuliaDEV/src-tauri/icons/Square89x89Logo.png": [
+      11316,
+      1781219338505100400
+    ],
+    "1JuliaDEV/src-tauri/icons/StoreLogo.png": [
+      4763,
+      1781219338409746800
+    ],
+    "1JuliaDEV/src-tauri/icons/android/mipmap-anydpi-v26/ic_launcher.xml": [
+      261,
+      1781219346095369700
+    ],
+    "1JuliaDEV/src-tauri/icons/android/mipmap-hdpi/ic_launcher.png": [
+      4074,
+      1781219345655947800
+    ],
+    "1JuliaDEV/src-tauri/icons/android/mipmap-hdpi/ic_launcher_foreground.png": [
+      28311,
+      1781219344876367100
+    ],
+    "1JuliaDEV/src-tauri/icons/android/mipmap-hdpi/ic_launcher_round.png": [
+      4134,
+      1781219345627988600
+    ],
+    "1JuliaDEV/src-tauri/icons/android/mipmap-mdpi/ic_launcher.png": [
+      3922,
+      1781219345728798200
+    ],
+    "1JuliaDEV/src-tauri/icons/android/mipmap-mdpi/ic_launcher_foreground.png": [
+      15202,
+      1781219344922730400
+    ],
+    "1JuliaDEV/src-tauri/icons/android/mipmap-mdpi/ic_launcher_round.png": [
+      3946,
+      1781219345686861500
+    ],
+    "1JuliaDEV/src-tauri/icons/android/mipmap-xhdpi/ic_launcher.png": [
+      10924,
+      1781219345818768500
+    ],
+    "1JuliaDEV/src-tauri/icons/android/mipmap-xhdpi/ic_launcher_foreground.png": [
+      45283,
+      1781219345026264500
+    ],
+    "1JuliaDEV/src-tauri/icons/android/mipmap-xhdpi/ic_launcher_round.png": [
+      11449,
+      1781219345779869300
+    ],
+    "1JuliaDEV/src-tauri/icons/android/mipmap-xxhdpi/ic_launcher.png": [
+      20129,
+      1781219345946907600
+    ],
+    "1JuliaDEV/src-tauri/icons/android/mipmap-xxhdpi/ic_launcher_foreground.png": [
+      94887,
+      1781219345221557900
+    ],
+    "1JuliaDEV/src-tauri/icons/android/mipmap-xxhdpi/ic_launcher_round.png": [
+      21462,
+      1781219345897857400
+    ],
+    "1JuliaDEV/src-tauri/icons/android/mipmap-xxxhdpi/ic_launcher.png": [
+      31436,
+      1781219346093376900
+    ],
+    "1JuliaDEV/src-tauri/icons/android/mipmap-xxxhdpi/ic_launcher_foreground.png": [
+      169396,
+      1781219345591951300
+    ],
+    "1JuliaDEV/src-tauri/icons/android/mipmap-xxxhdpi/ic_launcher_round.png": [
+      34346,
+      1781219346023078200
+    ],
+    "1JuliaDEV/src-tauri/icons/android/values/ic_launcher_background.xml": [
+      115,
+      1781219346094374400
+    ],
+    "1JuliaDEV/src-tauri/icons/ios/AppIcon-20x20@1x.png": [
+      1098,
+      1781219342796945600
+    ],
+    "1JuliaDEV/src-tauri/icons/ios/AppIcon-20x20@2x-1.png": [
+      3163,
+      1781219342771312600
+    ],
+    "1JuliaDEV/src-tauri/icons/ios/AppIcon-20x20@2x.png": [
+      3163,
+      1781219342819807900
+    ],
+    "1JuliaDEV/src-tauri/icons/ios/AppIcon-20x20@3x.png": [
+      5819,
+      1781219342852937600
+    ],
+    "1JuliaDEV/src-tauri/icons/ios/AppIcon-29x29@1x.png": [
+      1917,
+      1781219342921020600
+    ],
+    "1JuliaDEV/src-tauri/icons/ios/AppIcon-29x29@2x-1.png": [
+      5538,
+      1781219342891178900
+    ],
+    "1JuliaDEV/src-tauri/icons/ios/AppIcon-29x29@2x.png": [
+      5538,
+      1781219342950517000
+    ],
+    "1JuliaDEV/src-tauri/icons/ios/AppIcon-29x29@3x.png": [
+      10252,
+      1781219342987470900
+    ],
+    "1JuliaDEV/src-tauri/icons/ios/AppIcon-40x40@1x.png": [
+      3163,
+      1781219343074916600
+    ],
+    "1JuliaDEV/src-tauri/icons/ios/AppIcon-40x40@2x-1.png": [
+      9037,
+      1781219343022693500
+    ],
+    "1JuliaDEV/src-tauri/icons/ios/AppIcon-40x40@2x.png": [
+      9037,
+      1781219343128892800
+    ],
+    "1JuliaDEV/src-tauri/icons/ios/AppIcon-40x40@3x.png": [
+      16607,
+      1781219343191766200
+    ],
+    "1JuliaDEV/src-tauri/icons/ios/AppIcon-512@2x.png": [
+      956907,
+      1781219344800290800
+    ],
+    "1JuliaDEV/src-tauri/icons/ios/AppIcon-60x60@2x.png": [
+      16607,
+      1781219343247479300
+    ],
+    "1JuliaDEV/src-tauri/icons/ios/AppIcon-60x60@3x.png": [
+      31781,
+      1781219343315642700
+    ],
+    "1JuliaDEV/src-tauri/icons/ios/AppIcon-76x76@1x.png": [
+      8329,
+      1781219343343502000
+    ],
+    "1JuliaDEV/src-tauri/icons/ios/AppIcon-76x76@2x.png": [
+      24018,
+      1781219343405694500
+    ],
+    "1JuliaDEV/src-tauri/icons/ios/AppIcon-83.5x83.5@2x.png": [
+      28085,
+      1781219343465941200
+    ],
+    "1JuliaDEV/src-tauri/src/lib.rs": [
+      32625,
+      1783247397001815900
+    ],
+    "1JuliaDEV/src-tauri/src/main.rs": [
+      517,
+      1782541432618827800
+    ],
+    "1JuliaDEV/src-tauri/src/native_lib.cpp": [
+      0,
+      1780211864468373400
+    ],
+    "1JuliaDEV/tools/cover-assets/build_cover_catalog.py": [
+      8965,
+      1780807699346055400
+    ],
+    "1JuliaDEV/tools/markitdown/convert_with_markitdown.py": [
+      2729,
+      1780689692058267800
+    ],
+    "1JuliaDEV/utils/mediaUtils.ts": [
+      1654,
+      1780211864343078700
+    ],
+    "1JuliaDEV/utils/memoryUtils.ts": [
+      2185,
+      1780211864326828700
+    ],
+    "Arquitectura_y_Seguridad/Especificaciones_Arquitectura_y_Seguridad.md": [
+      2536,
+      1780100361189000000
+    ],
+    "datos viejos/01_Documentacion/0-46-4-___serach_julia.md": [
+      24471,
+      1774634873682000000
+    ],
+    "datos viejos/01_Documentacion/0-58-43-Generaci_n_de_c_digo_Julia.md": [
+      37093,
+      1774634874717000000
+    ],
+    "datos viejos/01_Documentacion/00_MAPA_DEL_PROYECTO.md": [
+      2679,
+      1774634874720000000
+    ],
+    "datos viejos/01_Documentacion/1-36-5-Evaluaci_n_tipogr_fica_logo.md": [
+      48289,
+      1774634874734000000
+    ],
+    "datos viejos/01_Documentacion/componentes_julia.md": [
+      701997,
+      1771818349876000000
+    ],
+    "datos viejos/01_Documentacion/css2": [
+      9803,
+      1753883219000000000
+    ],
+    "datos viejos/01_Documentacion/DISCLAIMER.md": [
+      10761,
+      1774634874739000000
+    ],
+    "datos viejos/01_Documentacion/docuemntosreferencia": [
+      47912,
+      1771841625759000000
+    ],
+    "datos viejos/01_Documentacion/JULIA.txt": [
+      209339,
+      1774634874967000000
+    ],
+    "datos viejos/01_Documentacion/JULIA_Project_Documentation.md": [
+      20960,
+      1774634874772000000
+    ],
+    "datos viejos/01_Documentacion/JULIA_v2.txt": [
+      209339,
+      1774634874880000000
+    ],
+    "datos viejos/01_Documentacion/LICENSE.md": [
+      165842,
+      1774634875030000000
+    ],
+    "datos viejos/01_Documentacion/pasted_content.txt": [
+      57950,
+      1774634875036000000
+    ],
+    "datos viejos/01_Documentacion/planeta jupiter.txt": [
+      3367,
+      1774634875108000000
+    ],
+    "datos viejos/01_Documentacion/Prompt para la Pantalla de Inicio de JULIA.md": [
+      6477,
+      1774634875043000000
+    ],
+    "datos viejos/01_Documentacion/Prompt_Inicio_v2.md": [
+      6477,
+      1774634875047000000
+    ],
+    "datos viejos/01_Documentacion/que es julia": [
+      5691,
+      1771841623960000000
+    ],
+    "datos viejos/01_Documentacion/README.md": [
+      1172,
+      1774634875055000000
+    ],
+    "datos viejos/01_Documentacion/README.txt": [
+      710,
+      1774634875057000000
+    ],
+    "datos viejos/01_Documentacion/README_NATIVE.md": [
+      2981,
+      1774634875053000000
+    ],
+    "datos viejos/01_Documentacion/saved_resource": [
+      407279,
+      1753883219000000000
+    ],
+    "datos viejos/01_Documentacion/SECURITY.md": [
+      281,
+      1774634875060000000
+    ],
+    "datos viejos/01_Documentacion/sitios": [
+      26,
+      1771833409496000000
+    ],
+    "datos viejos/01_Documentacion/todo.md": [
+      232,
+      1774634875062000000
+    ],
+    "datos viejos/01_Documentacion/UX de JULIA.md": [
+      25607,
+      1774634875067000000
+    ],
+    "datos viejos/01_Documentacion/UX_Julia_v2.md": [
+      25506,
+      1774634875073000000
+    ],
+    "datos viejos/01_Documentacion/Índice General del Sistema JULIA.md": [
+      3996,
+      1774634874758000000
+    ],
+    "datos viejos/01_Documentacion/⭐⭐⭐ Julia Master.md": [
+      42364,
+      1774634879194000000
+    ],
+    "datos viejos/02_Logos/julia orange.svg": [
+      13122,
+      1760501618000000000
+    ],
+    "datos viejos/02_Logos/julia white.svg": [
+      16067,
+      1760501618000000000
+    ],
+    "datos viejos/02_Logos/juliia black.svg": [
+      15951,
+      1760501618000000000
+    ],
+    "datos viejos/02_Logos/logo proyectia.svg": [
+      8119,
+      1758910312000000000
+    ],
+    "datos viejos/02_Logos/ico/julia.ico": [
+      153533,
+      1753299445000000000
+    ],
+    "datos viejos/02_Logos/ico/letter_J.ico": [
+      78402,
+      1755552279935000000
+    ],
+    "datos viejos/02_Logos/ico/letter_J_cube.ico": [
+      77199,
+      1755552488786000000
+    ],
+    "datos viejos/02_Logos/ico/letter_J_cube_transparent.ico": [
+      90818,
+      1755552739000000000
+    ],
+    "datos viejos/02_Logos/png/julia_logo_corrected.png": [
+      1582745,
+      1756719160000000000
+    ],
+    "datos viejos/02_Logos/png/JULIA_logo_enhanced.png": [
+      411740,
+      1753883217000000000
+    ],
+    "datos viejos/02_Logos/png/julia_logo_improved.png": [
+      946079,
+      1756719160000000000
+    ],
+    "datos viejos/02_Logos/png/julia_logo_option1.png": [
+      1205551,
+      1756719160000000000
+    ],
+    "datos viejos/02_Logos/png/julia_logo_option2.png": [
+      1416143,
+      1756719160000000000
+    ],
+    "datos viejos/02_Logos/png/julia_logo_option3.png": [
+      1103328,
+      1756719160000000000
+    ],
+    "datos viejos/02_Logos/png/JULIA_logo_transparent.png": [
+      193122,
+      1753883219000000000
+    ],
+    "datos viejos/02_Logos/svg/julia orange.svg": [
+      13122,
+      1760501618000000000
+    ],
+    "datos viejos/02_Logos/svg/julia white.svg": [
+      16067,
+      1760501618000000000
+    ],
+    "datos viejos/02_Logos/svg/juliia black.svg": [
+      15951,
+      1760501618000000000
+    ],
+    "datos viejos/02_Logos/svg/logo proyectia.svg": [
+      8119,
+      1758910312000000000
+    ],
+    "datos viejos/03_Imagenes_y_Capturas/43.jpg": [
+      3901,
+      1753883219000000000
+    ],
+    "datos viejos/03_Imagenes_y_Capturas/65cb77cb05127c0819ee9247f83a59ff.jpg": [
+      61981,
+      1780208309586000000
+    ],
+    "datos viejos/03_Imagenes_y_Capturas/9fa54632e02c94c8a09931cd2494b13c.jpg": [
+      95361,
+      1753883217000000000
+    ],
+    "datos viejos/03_Imagenes_y_Capturas/b4df63eb6a18f035ba6ad64078c2441f.jpg": [
+      11668,
+      1753883217000000000
+    ],
+    "datos viejos/03_Imagenes_y_Capturas/c70a7ec13d96f0b93eba5255d979c69d.jpg": [
+      24488,
+      1753883217000000000
+    ],
+    "datos viejos/03_Imagenes_y_Capturas/Captura de pantalla 2025-07-26 025353.png": [
+      89839,
+      1755673918000000000
+    ],
+    "datos viejos/03_Imagenes_y_Capturas/Captura de pantalla 2025-07-26 142330.png": [
+      2720011,
+      1755673918000000000
+    ],
+    "datos viejos/03_Imagenes_y_Capturas/Captura de pantalla 2025-08-06 161244.png": [
+      687086,
+      1755673922000000000
+    ],
+    "datos viejos/03_Imagenes_y_Capturas/Captura de pantalla 2025-08-12 011510.png": [
+      27039,
+      1755644013000000000
+    ],
+    "datos viejos/03_Imagenes_y_Capturas/Captura de pantalla 2025-08-30 235226.png": [
+      774512,
+      1756619546864000000
+    ],
+    "datos viejos/03_Imagenes_y_Capturas/image.png": [
+      256649,
+      1753883217000000000
+    ],
+    "datos viejos/03_Imagenes_y_Capturas/julia_flowchart.mmd": [
+      932,
+      1774634874766000000
+    ],
+    "datos viejos/03_Imagenes_y_Capturas/julia_flowchart.png": [
+      463559,
+      1756719160000000000
+    ],
+    "datos viejos/03_Imagenes_y_Capturas/julia_flowchart_v2.mmd": [
+      932,
+      1774634874762000000
+    ],
+    "datos viejos/03_Imagenes_y_Capturas/julia_flowchart_v2.png": [
+      463559,
+      1753883217000000000
+    ],
+    "datos viejos/03_Imagenes_y_Capturas/julia_logo_corrected.png": [
+      1582745,
+      1756719160000000000
+    ],
+    "datos viejos/03_Imagenes_y_Capturas/JULIA_logo_enhanced.png": [
+      411740,
+      1753883217000000000
+    ],
+    "datos viejos/03_Imagenes_y_Capturas/julia_logo_improved.png": [
+      946079,
+      1756719160000000000
+    ],
+    "datos viejos/03_Imagenes_y_Capturas/julia_logo_option1.png": [
+      1205551,
+      1756719160000000000
+    ],
+    "datos viejos/03_Imagenes_y_Capturas/julia_logo_option2.png": [
+      1416143,
+      1756719160000000000
+    ],
+    "datos viejos/03_Imagenes_y_Capturas/julia_logo_option3.png": [
+      1103328,
+      1756719160000000000
+    ],
+    "datos viejos/03_Imagenes_y_Capturas/JULIA_logo_transparent.png": [
+      193122,
+      1753883219000000000
+    ],
+    "datos viejos/03_Imagenes_y_Capturas/manchitas.jpg": [
+      328606,
+      1767423449060000000
+    ],
+    "datos viejos/03_Imagenes_y_Capturas/original-039a91ad3fbd601cc073d7da916bad2b.gif": [
+      8520719,
+      1753883218000000000
+    ],
+    "datos viejos/03_Imagenes_y_Capturas/unnamed (2).png": [
+      6724550,
+      1767655108412000000
+    ],
+    "datos viejos/03_Imagenes_y_Capturas/unnamed (3).png": [
+      7699725,
+      1767655129219000000
+    ],
+    "datos viejos/04_Multimedia_y_Lecturas/Julia_El_Linaje_del_Código.pdf": [
+      16842161,
+      1767655024279000000
+    ],
+    "datos viejos/04_Multimedia_y_Lecturas/Odisea_de_un_Nombre__Julia.mp4": [
+      31624637,
+      1767655012429000000
+    ],
+    "datos viejos/05_Documentacion_IA/CHANGELOG.md": [
+      310,
+      1774644922920000000
+    ],
+    "datos viejos/05_Documentacion_IA/CLAUDE.md": [
+      592,
+      1774644940456000000
+    ],
+    "datos viejos/05_Documentacion_IA/PROTOCOL.md": [
+      32739,
+      1774644917239000000
+    ],
+    "datos viejos/05_Documentacion_IA/🪐_07_julia.md": [
+      6252,
+      1774640955563000000
+    ],
+    "datos viejos/05_Documentacion_IA/docs/DESIGN_SPEC.md": [
+      805,
+      1774644975792000000
+    ],
+    "datos viejos/05_Documentacion_IA/docs/GLOSSARY.md": [
+      896,
+      1774644954612000000
+    ],
+    "datos viejos/05_Documentacion_IA/docs/PRD.md": [
+      1129,
+      1774644947776000000
+    ],
+    "datos viejos/05_Documentacion_IA/docs/ROADMAP.md": [
+      948,
+      1774644961579000000
+    ],
+    "datos viejos/05_Documentacion_IA/docs/TDD.md": [
+      743,
+      1774644968536000000
+    ],
+    "datos viejos/05_Documentacion_IA/docs/TEST_PLAN.md": [
+      495,
+      1774644981778000000
+    ],
+    "datos viejos/05_Documentacion_IA/docs/USER_DOCS.md": [
+      536,
+      1774644988040000000
+    ],
+    "datos viejos/05_Documentacion_IA/_meta/owner.md": [
+      300,
+      1774644928450000000
+    ],
+    "datos viejos/05_Documentacion_IA/_meta/questions-log.md": [
+      491,
+      1774644934695000000
+    ],
+    "Fundamentos/2_Investigacion_Mitologia_Etimologia_Julia.md": [
+      4537,
+      1780088239427000000
+    ],
+    "Fundamentos/Guia_Conceptual_Julia_Explicacion_Sencilla.md": [
+      4934,
+      1780105245613000000
+    ],
+    "Fundamentos/Indice_Maestro_Arquitectura.md": [
+      9179,
+      1780102860080000000
+    ],
+    "Fundamentos/Preguntas_y_Dudas_Concepto.md": [
+      3943,
+      1780099776278000000
+    ],
+    "Fundamentos/Que_es_Julia.md": [
+      6719,
+      1780100039384000000
+    ],
+    "historial de prompts/julia 30 de mayo.txt": [
+      1663359,
+      1780202221347000000
+    ],
+    "Ingesta_Universal/Especificaciones_Ingesta_Universal.md": [
+      2711,
+      1780100211036000000
+    ],
+    "Julia Mars/Claude-🌎Julia mars .md": [
+      44170,
+      1780105894756000000
+    ],
+    "Julia Mars/image copy 2.png": [
+      339969,
+      1780106051486000000
+    ],
+    "Julia Mars/image copy 3.png": [
+      188043,
+      1780106059422000000
+    ],
+    "Julia Mars/image copy.png": [
+      225262,
+      1780106037437000000
+    ],
+    "Julia Mars/image.png": [
+      164215,
+      1780106027088000000
+    ],
+    "Julia Mars/juliamars.html": [
+      81226,
+      1780105868374000000
+    ],
+    "Julia Mars/Julia_Enterprise_Proposal.md": [
+      5467,
+      1781340480612392400
+    ],
+    "Julia Mars/prims.html": [
+      56190,
+      1780107730222000000
+    ],
+    "Jupiter/1_Investigacion_Astronomica_Jupiter.md": [
+      6542,
+      1780088237618000000
+    ],
+    "Jupiter/Especificaciones_Jupiter_y_Grafo_3D.md": [
+      2632,
+      1780100350751000000
+    ],
+    "Jupiter/sistema_jupiter.md": [
+      4188,
+      1780554613613309700
+    ],
+    "Jupiter/Prototipos_HTML/jupiter_planeta.html": [
+      30344,
+      1780102636000000000
+    ],
+    "Jupiter/Prototipos_HTML/jupiter_reglas.html": [
+      25237,
+      1780102636000000000
+    ],
+    "Jupiter/Prototipos_HTML/jupiter_voronoi.html": [
+      26391,
+      1780102636000000000
+    ],
+    "media/Agrupar.svg": [
+      4417,
+      1780207551427000000
+    ],
+    "media/Captura de pantalla 2025-10-08 224738.png": [
+      81969,
+      1759985259022000000
+    ],
+    "media/ChatGPT Image 31 may 2026, 12_42_43 a.m..png": [
+      851903,
+      1780209763990158600
+    ],
+    "media/ChatGPT Image 31 may 2026, 12_46_32 a.m..png": [
+      860803,
+      1780209993493696000
+    ],
+    "media/ChatGPT Image 8 oct 2025, 10_54_15 p.m..png": [
+      1521548,
+      1759985656525000000
+    ],
+    "media/graficos.png": [
+      881312,
+      1780105237995000000
+    ],
+    "media/satelite.png": [
+      3088916,
+      1780105071219000000
+    ],
+    "Negocios_y_Roadmap/1_Analisis_Competitivo_AtlasWorkspace.md": [
+      3739,
+      1780105726114000000
+    ],
+    "Negocios_y_Roadmap/2_Continuidad_Comparativa_Atlas_vs_Julia.md": [
+      3970,
+      1780105740505000000
+    ],
+    "Negocios_y_Roadmap/Especificaciones_Negocios_y_Roadmap.md": [
+      3258,
+      1780100366863000000
+    ],
+    "Negocios_y_Roadmap/Plan_Financiero_y_Monetizacion.md": [
+      4645,
+      1780101628013000000
+    ],
+    "Procesamiento_IA/Especificaciones_Procesamiento_IA.md": [
+      2516,
+      1780100216853000000
+    ],
+    "public/images/julia/branch-covers/01-filosofia.png": [
+      1924285,
+      1780351471221468900
+    ],
+    "public/images/julia/branch-covers/02-logica.png": [
+      1992854,
+      1780351471733329900
+    ],
+    "public/images/julia/branch-covers/03-matematicas.png": [
+      1805733,
+      1780351471818184200
+    ],
+    "public/images/julia/branch-covers/04-estadistica-probabilidad.png": [
+      1970704,
+      1780351471929494900
+    ],
+    "public/images/julia/branch-covers/05-sistemas-complejidad.png": [
+      1913232,
+      1780351472008449400
+    ],
+    "public/images/julia/branch-covers/06-investigacion-metodo-cientifico.png": [
+      1911526,
+      1780351472113152600
+    ],
+    "public/images/julia/branch-covers/07-fisica-astronomia.png": [
+      1940221,
+      1780351472177545900
+    ],
+    "public/images/julia/branch-covers/08-quimica-materiales.png": [
+      1937857,
+      1780351472238226100
+    ],
+    "public/images/julia/branch-covers/09-biologia-vida.png": [
+      1999626,
+      1780351472296796400
+    ],
+    "public/images/julia/branch-covers/10-tierra-ambiente.png": [
+      1933059,
+      1780351472328464800
+    ],
+    "public/images/julia/branch-covers/11-salud-cuerpo.png": [
+      1941564,
+      1780351479013684600
+    ],
+    "public/images/julia/branch-covers/12-psicologia-cognicion.png": [
+      2101816,
+      1780351479293238800
+    ],
+    "public/images/julia/branch-covers/13-historia-memoria.png": [
+      2055079,
+      1780351479352242000
+    ],
+    "public/images/julia/branch-covers/14-lenguaje-comunicacion.png": [
+      1943121,
+      1780351479429781600
+    ],
+    "public/images/julia/branch-covers/15-humanidades-cultura.png": [
+      2050034,
+      1780351479562312300
+    ],
+    "public/images/julia/branch-covers/16-ciencias-sociales.png": [
+      1892174,
+      1780351479933384800
+    ],
+    "public/images/julia/branch-covers/17-politica-derecho-gobernanza.png": [
+      2034242,
+      1780351479984541900
+    ],
+    "public/images/julia/branch-covers/18-economia-estrategia.png": [
+      2069567,
+      1780351480035543600
+    ],
+    "public/images/julia/branch-covers/19-etica-sociedad.png": [
+      2064678,
+      1780351480138608000
+    ],
+    "public/images/julia/branch-covers/20-artes-estetica.png": [
+      2156786,
+      1780351480082329400
+    ],
+    "public/images/julia/branch-covers/21-diseno-ux.png": [
+      2017481,
+      1780355640070080200
+    ],
+    "public/images/julia/branch-covers/22-tecnologia-ingenieria.png": [
+      2154116,
+      1780355640236683200
+    ],
+    "public/images/julia/branch-covers/23-computacion-software-ia.png": [
+      1936764,
+      1780355640285683500
+    ],
+    "public/images/julia/branch-covers/24-educacion-aprendizaje.png": [
+      2044112,
+      1780355640332682600
+    ],
+    "Recursos_Originales_y_Chats/Claude- ⭐ Revisión y análisis de archivo.md": [
+      46721,
+      1780081209786000000
+    ],
+    "Recursos_Originales_y_Chats/COPIA CLAUDE INFO .txt": [
+      45245,
+      1780081307424000000
+    ],
+    "Recursos_Originales_y_Chats/historial julia 29 de mayo .txt": [
+      1036560,
+      1780080679422000000
+    ],
+    "Recursos_Originales_y_Chats/Julia_Project_Detailed_Blueprint_Part1.md": [
+      10146,
+      1780099424000000000
+    ],
+    "Recursos_Originales_y_Chats/Julia_Project_Detailed_Blueprint_Part2.md": [
+      11839,
+      1780099424000000000
+    ],
+    "Recursos_Originales_y_Chats/Julia_Project_Detailed_Blueprint_Part3.md": [
+      12182,
+      1780099424000000000
+    ],
+    "Recursos_Originales_y_Chats/pasted_content.txt": [
+      49832,
+      1780099424000000000
+    ],
+    "Recursos_Originales_y_Chats/Proyecto Julia_ Sistema Inteligente de Gestión de Conocimiento y Memoria Viva.md": [
+      5818,
+      1780099424000000000
+    ],
+    "Recursos_Originales_y_Chats/Proyecto Julia_ Un Ecosistema de Conocimiento para la Era Digital.md": [
+      34160,
+      1780099424000000000
+    ],
+    "Satelites/3_Conexion_Software_y_Satelites_Julia.md": [
+      4589,
+      1780088530092000000
+    ],
+    "Satelites/Especificaciones_Satelites_y_Red_Social.md": [
+      2220,
+      1780100355899000000
+    ],
+    "UI_UX_y_Navegacion/Especificaciones_UI_UX_y_Navegacion.md": [
+      3215,
+      1780100345116000000
+    ]
+  }
+}

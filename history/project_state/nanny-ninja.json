@@ -1,0 +1,114 @@
+{
+  "project_id": "nanny-ninja",
+  "project": "Nanny Ninja",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\05_videojuegos\\06_Nanny_ninja",
+  "captured_at": "2026-07-14T07:11:20-06:00",
+  "last_change": "2026-03-27T18:36:22-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 14,
+    "code_count": 0,
+    "doc_count": 13,
+    "asset_count": 1,
+    "test_count": 2,
+    "manifest_count": 0,
+    "latest_mtime": "2026-03-27T18:36:22-06:00",
+    "latest_file": "Documentacion para la IA/CHANGELOG.md",
+    "extensions": {
+      ".md": 13,
+      ".png": 1
+    }
+  },
+  "progress": {
+    "project_id": "nanny-ninja",
+    "project": "Nanny Ninja",
+    "mvp": 14,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "Gemini_Generated_Image_i4kp6gi4kp6gi4kp.png": [
+      6787853,
+      1764902964078000000
+    ],
+    "Documentacion para la IA/06_nanny_ninja.md": [
+      1120,
+      1774166930169000000
+    ],
+    "Documentacion para la IA/PROTOCOL.md": [
+      373,
+      1774658182518000000
+    ],
+    "Documentacion para la IA/CLAUDE.md": [
+      138,
+      1774658182546000000
+    ],
+    "Documentacion para la IA/CHANGELOG.md": [
+      138,
+      1774658182549000000
+    ],
+    "Documentacion para la IA/_meta/questions-log.md": [
+      672,
+      1774658182525000000
+    ],
+    "Documentacion para la IA/_meta/owner.md": [
+      215,
+      1774658182524000000
+    ],
+    "Documentacion para la IA/docs/USER_DOCS.md": [
+      144,
+      1774658182543000000
+    ],
+    "Documentacion para la IA/docs/ROADMAP.md": [
+      181,
+      1774658182534000000
+    ],
+    "Documentacion para la IA/docs/GLOSSARY.md": [
+      162,
+      1774658182538000000
+    ],
+    "Documentacion para la IA/docs/DESIGN_SPEC.md": [
+      138,
+      1774658182530000000
+    ],
+    "Documentacion para la IA/docs/TDD.md": [
+      141,
+      1774658182531000000
+    ],
+    "Documentacion para la IA/docs/TEST_PLAN.md": [
+      163,
+      1774658182541000000
+    ],
+    "Documentacion para la IA/docs/PRD.md": [
+      181,
+      1774658182527000000
+    ]
+  }
+}

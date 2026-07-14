@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Gestor personal y dashboard vivo del portafolio UNOVA.">
+  <title>UNOVA Personal Work Manager</title>
+  <link rel="stylesheet" href="styles.css?v=6">
+</head>
+<body>
+  <a class="skip-link" href="#mainContent">Saltar al contenido</a>
+
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Navegación principal">
+      <div class="brand" aria-label="UNOVA">
+        <span class="brand-mark" aria-hidden="true">
+          <i></i><i></i><i></i>
+        </span>
+        <span class="brand-name">UNOVA</span>
+      </div>
+
+      <nav class="side-nav">
+        <button class="side-link is-active" type="button" data-nav="my-work">
+          <span data-icon="home"></span><span>Mi trabajo</span>
+        </button>
+        <button class="side-link" type="button" data-nav="projects">
+          <span data-icon="layers"></span><span>Proyectos</span>
+        </button>
+        <button class="side-link" type="button" data-nav="activity">
+          <span data-icon="activity"></span><span>Actividad</span>
+        </button>
+        <button class="side-link" type="button" data-nav="audit">
+          <span data-icon="shield"></span><span>Estado</span>
+        </button>
+      </nav>
+
+      <div class="sidebar-foot">
+        <button class="side-link" type="button" data-nav="settings">
+          <span data-icon="settings"></span><span>Configuración</span>
+        </button>
+        <div class="personal-only">
+          <span class="personal-avatar" aria-hidden="true">D</span>
+          <span><strong>Espacio personal</strong><small>Solo tú</small></span>
+        </div>
+      </div>
+    </aside>
+
+    <div class="main-column">
+      <header class="topbar">
+        <label class="global-search">
+          <span data-icon="search" aria-hidden="true"></span>
+          <span class="sr-only">Buscar en el espacio personal</span>
+          <input id="globalSearch" type="search" placeholder="Buscar proyectos, tareas o documentos…" autocomplete="off">
+        </label>
+
+        <div class="topbar-actions">
+          <div class="monitor-chip" id="monitorChip" title="Estado de la revisión automática">
+            <i aria-hidden="true"></i><span id="monitorLabel">Conectando</span>
+          </div>
+          <button class="icon-button" id="refreshButton" type="button" aria-label="Revisar proyectos ahora" data-tooltip="Revisar ahora">
+            <span data-icon="refresh"></span>
+          </button>
+          <button class="primary-button" id="newTaskButton" type="button" aria-label="Nueva tarea" data-tooltip="Nueva tarea">
+            <span data-icon="plus"></span><span>Nueva tarea</span>
+          </button>
+          <button class="icon-button" id="themeButton" type="button" aria-label="Cambiar tema" data-tooltip="Cambiar tema">
+            <span data-icon="moon"></span>
+          </button>
+        </div>
+      </header>
+
+      <main id="mainContent" class="main-content" tabindex="-1">
+        <div class="loading-screen">
+          <span class="loading-mark" aria-hidden="true"></span>
+          <strong>Preparando tu espacio personal…</strong>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <div class="toast-region" id="toastRegion" aria-live="polite" aria-atomic="true"></div>
+
+  <dialog class="modal" id="taskModal" aria-labelledby="taskModalTitle">
+    <form method="dialog" id="taskForm">
+      <div class="modal-header">
+        <div>
+          <span class="modal-kicker">ORGANIZA TU TRABAJO</span>
+          <h2 id="taskModalTitle">Nueva tarea</h2>
+        </div>
+        <button class="icon-button" type="button" data-close-modal="taskModal" aria-label="Cerrar">
+          <span data-icon="x"></span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <input type="hidden" id="taskId">
+        <label class="field field-full">
+          <span>Título</span>
+          <input id="taskTitle" name="title" maxlength="240" required placeholder="¿Qué necesitas hacer?">
+        </label>
+        <label class="field field-full">
+          <span>Proyecto</span>
+          <select id="taskProject" name="project_id" required></select>
+        </label>
+        <label class="field">
+          <span>Estado</span>
+          <select id="taskStatus" name="status">
+            <option value="next">Siguiente</option>
+            <option value="in_progress">En curso</option>
+            <option value="blocked">Bloqueada</option>
+            <option value="review">En revisión</option>
+            <option value="done">Terminada</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Prioridad</span>
+          <select id="taskPriority" name="priority">
+            <option value="low">Baja</option>
+            <option value="medium">Media</option>
+            <option value="high">Alta</option>
+            <option value="urgent">Urgente</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Fecha</span>
+          <input id="taskDueDate" name="due_date" type="date">
+        </label>
+        <label class="field">
+          <span>Adjunto</span>
+          <select id="taskLinkType" name="link_type">
+            <option value="">Sin enlace</option>
+            <option value="file">Archivo o carpeta</option>
+            <option value="url">Enlace web</option>
+          </select>
+        </label>
+        <label class="field field-full">
+          <span>Ruta o enlace relacionado</span>
+          <input id="taskLinkValue" name="link_value" maxlength="1000" placeholder="Ruta local o https://…">
+        </label>
+        <label class="field field-full">
+          <span>Pasos <small>uno por línea</small></span>
+          <textarea id="taskChecklist" name="checklist" rows="4" placeholder="Revisar diseño&#10;Ejecutar pruebas&#10;Documentar resultado"></textarea>
+        </label>
+        <label class="field field-full">
+          <span>Notas</span>
+          <textarea id="taskNotes" name="notes" rows="5" maxlength="6000" placeholder="Contexto para retomar esta tarea…"></textarea>
+        </label>
+      </div>
+      <div class="modal-footer">
+        <button class="danger-text-button" id="archiveTaskButton" type="button" hidden>
+          <span data-icon="archive"></span> Archivar
+        </button>
+        <span class="modal-spacer"></span>
+        <button class="secondary-button" type="button" data-close-modal="taskModal">Cancelar</button>
+        <button class="primary-button" type="submit">
+          <span data-icon="check"></span><span id="taskSubmitLabel">Crear tarea</span>
+        </button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog class="modal modal-small" id="projectSettingsModal" aria-labelledby="projectSettingsTitle">
+    <form method="dialog" id="projectSettingsForm">
+      <div class="modal-header">
+        <div>
+          <span class="modal-kicker">ENLACES DEL PROYECTO</span>
+          <h2 id="projectSettingsTitle">Configurar proyecto</h2>
+        </div>
+        <button class="icon-button" type="button" data-close-modal="projectSettingsModal" aria-label="Cerrar">
+          <span data-icon="x"></span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <input type="hidden" id="settingsProjectId">
+        <label class="field field-full">
+          <span>Repositorio GitHub</span>
+          <input id="settingsGithubUrl" type="url" placeholder="https://github.com/usuario/repositorio">
+        </label>
+        <label class="field">
+          <span>Color</span>
+          <input id="settingsProjectColor" type="color" value="#5b5bd6">
+        </label>
+        <label class="field">
+          <span>Icono</span>
+          <select id="settingsProjectIcon">
+            <option value="default">Predeterminado</option>
+            <option value="software">Software</option>
+            <option value="mobile">App móvil</option>
+            <option value="game">Videojuego</option>
+            <option value="music">Música</option>
+            <option value="book">Publicación</option>
+            <option value="board">Juego de mesa</option>
+            <option value="food">Gastronomía</option>
+            <option value="browser">Extensión</option>
+          </select>
+        </label>
+      </div>
+      <div class="modal-footer">
+        <span class="modal-spacer"></span>
+        <button class="secondary-button" type="button" data-close-modal="projectSettingsModal">Cancelar</button>
+        <button class="primary-button" type="submit">Guardar</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script type="module" src="app.js?v=6"></script>
+</body>
+</html>

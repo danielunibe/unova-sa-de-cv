@@ -1,0 +1,121 @@
+{
+  "project_id": "lotto-di-pasta",
+  "project": "Lotto di Pasta",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\08_Gastronomia\\01_lotto_di_pasta",
+  "captured_at": "2026-07-14T07:10:39-06:00",
+  "last_change": "2026-03-27T18:36:23-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 16,
+    "code_count": 0,
+    "doc_count": 12,
+    "asset_count": 4,
+    "test_count": 2,
+    "manifest_count": 0,
+    "latest_mtime": "2026-03-27T18:36:23-06:00",
+    "latest_file": "Documentacion para la IA/CHANGELOG.md",
+    "extensions": {
+      ".md": 12,
+      ".jpg": 4
+    }
+  },
+  "progress": {
+    "project_id": "lotto-di-pasta",
+    "project": "Lotto di Pasta",
+    "mvp": 18,
+    "vision": "N/D",
+    "confidence": "Media",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 0,
+      "implementacion": 0,
+      "pruebas": 6,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "arquitectura verificable",
+      "implementación",
+      "empaquetado/distribución",
+      "próximo paso documentado"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "Foto_448.jpg": [
+      20257,
+      1753805626000000000
+    ],
+    "Foto_446.jpg": [
+      29403,
+      1753805625000000000
+    ],
+    "Foto_447.jpg": [
+      59308,
+      1753805626000000000
+    ],
+    "Foto_450.jpg": [
+      111595,
+      1753805626000000000
+    ],
+    "Documentacion para la IA/CHANGELOG.md": [
+      141,
+      1774658183043000000
+    ],
+    "Documentacion para la IA/CLAUDE.md": [
+      146,
+      1774658183041000000
+    ],
+    "Documentacion para la IA/PROTOCOL.md": [
+      376,
+      1774658183009000000
+    ],
+    "Documentacion para la IA/_meta/owner.md": [
+      215,
+      1774658183013000000
+    ],
+    "Documentacion para la IA/_meta/questions-log.md": [
+      692,
+      1774658183016000000
+    ],
+    "Documentacion para la IA/docs/TDD.md": [
+      149,
+      1774658183027000000
+    ],
+    "Documentacion para la IA/docs/ROADMAP.md": [
+      184,
+      1774658183029000000
+    ],
+    "Documentacion para la IA/docs/DESIGN_SPEC.md": [
+      141,
+      1774658183023000000
+    ],
+    "Documentacion para la IA/docs/PRD.md": [
+      195,
+      1774658183020000000
+    ],
+    "Documentacion para la IA/docs/USER_DOCS.md": [
+      153,
+      1774658183038000000
+    ],
+    "Documentacion para la IA/docs/TEST_PLAN.md": [
+      166,
+      1774658183034000000
+    ],
+    "Documentacion para la IA/docs/GLOSSARY.md": [
+      174,
+      1774658183031000000
+    ]
+  }
+}

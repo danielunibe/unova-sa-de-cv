@@ -1,0 +1,303 @@
+{
+  "project_id": "volt-ia",
+  "project": "VOLT-IA",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\02_App IOS y android\\20_Volt-IA",
+  "captured_at": "2026-07-14T07:10:39-06:00",
+  "last_change": "2026-03-27T18:34:59-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 61,
+    "code_count": 36,
+    "doc_count": 15,
+    "asset_count": 0,
+    "test_count": 2,
+    "manifest_count": 4,
+    "latest_mtime": "2026-03-27T18:34:59-06:00",
+    "latest_file": "Documentacion para la IA/CHANGELOG.md",
+    "extensions": {
+      ".tsx": 22,
+      ".md": 15,
+      ".ts": 12,
+      ".json": 6,
+      "[sin extensión]": 2,
+      ".local": 2,
+      ".html": 2
+    }
+  },
+  "progress": {
+    "project_id": "volt-ia",
+    "project": "VOLT-IA",
+    "mvp": 57,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 15,
+      "diseno": 0,
+      "arquitectura": 5,
+      "implementacion": 22,
+      "pruebas": 6,
+      "empaquetado": 3,
+      "continuidad": 3,
+      "validacion": 3
+    },
+    "missing": [
+      "diseño documentado"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "vite.config.ts": [
+      580,
+      1770354752000000000
+    ],
+    "types.ts": [
+      1101,
+      1770354752000000000
+    ],
+    ".gitignore": [
+      253,
+      1770354752000000000
+    ],
+    "metadata.json": [
+      305,
+      1770354752000000000
+    ],
+    "package.json": [
+      492,
+      1770354752000000000
+    ],
+    ".env.local": [
+      35,
+      1770354752000000000
+    ],
+    "index.tsx": [
+      349,
+      1770354752000000000
+    ],
+    "tsconfig.json": [
+      542,
+      1770354752000000000
+    ],
+    "App.tsx": [
+      3702,
+      1770354752000000000
+    ],
+    "README.md": [
+      553,
+      1770354752000000000
+    ],
+    "index.html": [
+      8813,
+      1770354752000000000
+    ],
+    "components/SpotlightCard.tsx": [
+      1571,
+      1770354752000000000
+    ],
+    "components/CFEModule.tsx": [
+      10184,
+      1770354752000000000
+    ],
+    "components/ComparatorModule.tsx": [
+      7493,
+      1770354752000000000
+    ],
+    "components/AlertsModule.tsx": [
+      5547,
+      1770354752000000000
+    ],
+    "components/Dashboard.tsx": [
+      12622,
+      1770354752000000000
+    ],
+    "components/SimulatorModule.tsx": [
+      9964,
+      1770354752000000000
+    ],
+    "components/ParticleBackground.tsx": [
+      1765,
+      1770354752000000000
+    ],
+    "components/DeviceManager.tsx": [
+      15615,
+      1770354752000000000
+    ],
+    "components/Layout.tsx": [
+      9160,
+      1770354752000000000
+    ],
+    "services/geminiService.ts": [
+      6071,
+      1770354753000000000
+    ],
+    "services/calculator.ts": [
+      2529,
+      1770354752000000000
+    ],
+    "services/smartHomeService.ts": [
+      2296,
+      1770354752000000000
+    ],
+    "services/storageService.ts": [
+      1846,
+      1770354753000000000
+    ],
+    "🦊-voltia/.env.local": [
+      35,
+      1771286900000000000
+    ],
+    "🦊-voltia/README.md": [
+      553,
+      1771286900000000000
+    ],
+    "🦊-voltia/package.json": [
+      497,
+      1771286900000000000
+    ],
+    "🦊-voltia/index.html": [
+      8813,
+      1771286900000000000
+    ],
+    "🦊-voltia/types.ts": [
+      1101,
+      1771286900000000000
+    ],
+    "🦊-voltia/vite.config.ts": [
+      580,
+      1771286900000000000
+    ],
+    "🦊-voltia/App.tsx": [
+      3702,
+      1771286900000000000
+    ],
+    "🦊-voltia/metadata.json": [
+      310,
+      1771286900000000000
+    ],
+    "🦊-voltia/tsconfig.json": [
+      542,
+      1771286900000000000
+    ],
+    "🦊-voltia/index.tsx": [
+      349,
+      1771286900000000000
+    ],
+    "🦊-voltia/.gitignore": [
+      253,
+      1771286900000000000
+    ],
+    "🦊-voltia/services/calculator.ts": [
+      2529,
+      1771286900000000000
+    ],
+    "🦊-voltia/services/geminiService.ts": [
+      6071,
+      1771286901000000000
+    ],
+    "🦊-voltia/services/storageService.ts": [
+      1846,
+      1771286901000000000
+    ],
+    "🦊-voltia/services/smartHomeService.ts": [
+      2296,
+      1771286900000000000
+    ],
+    "🦊-voltia/components/Dashboard.tsx": [
+      12622,
+      1771286900000000000
+    ],
+    "🦊-voltia/components/ComparatorModule.tsx": [
+      7493,
+      1771286900000000000
+    ],
+    "🦊-voltia/components/SimulatorModule.tsx": [
+      9964,
+      1771286900000000000
+    ],
+    "🦊-voltia/components/Layout.tsx": [
+      9160,
+      1771286900000000000
+    ],
+    "🦊-voltia/components/CFEModule.tsx": [
+      10184,
+      1771286900000000000
+    ],
+    "🦊-voltia/components/ParticleBackground.tsx": [
+      1765,
+      1771286900000000000
+    ],
+    "🦊-voltia/components/AlertsModule.tsx": [
+      5547,
+      1771286900000000000
+    ],
+    "🦊-voltia/components/DeviceManager.tsx": [
+      15615,
+      1771286900000000000
+    ],
+    "🦊-voltia/components/SpotlightCard.tsx": [
+      1571,
+      1771286900000000000
+    ],
+    "Documentacion para la IA/20_Volt-IA.md": [
+      3539,
+      1774166929916000000
+    ],
+    "Documentacion para la IA/PROTOCOL.md": [
+      939,
+      1774658099559000000
+    ],
+    "Documentacion para la IA/CLAUDE.md": [
+      249,
+      1774658099587000000
+    ],
+    "Documentacion para la IA/CHANGELOG.md": [
+      203,
+      1774658099589000000
+    ],
+    "Documentacion para la IA/docs/DESIGN_SPEC.md": [
+      328,
+      1774658099571000000
+    ],
+    "Documentacion para la IA/docs/PRD.md": [
+      430,
+      1774658099569000000
+    ],
+    "Documentacion para la IA/docs/TEST_PLAN.md": [
+      230,
+      1774658099579000000
+    ],
+    "Documentacion para la IA/docs/USER_DOCS.md": [
+      194,
+      1774658099583000000
+    ],
+    "Documentacion para la IA/docs/ROADMAP.md": [
+      272,
+      1774658099576000000
+    ],
+    "Documentacion para la IA/docs/TDD.md": [
+      245,
+      1774658099572000000
+    ],
+    "Documentacion para la IA/docs/GLOSSARY.md": [
+      251,
+      1774658099578000000
+    ],
+    "Documentacion para la IA/_meta/questions-log.md": [
+      1008,
+      1774658099564000000
+    ],
+    "Documentacion para la IA/_meta/owner.md": [
+      286,
+      1774658099561000000
+    ]
+  }
+}

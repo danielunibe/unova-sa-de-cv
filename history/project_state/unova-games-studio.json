@@ -1,0 +1,153 @@
+{
+  "project_id": "unova-games-studio",
+  "project": "Unova Games Studio",
+  "root": "C:\\Desarrollos DEV daniel\\desarrollo web unova games studio",
+  "captured_at": "2026-07-14T07:11:20-06:00",
+  "last_change": "2026-05-24T10:30:00-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 23,
+    "code_count": 6,
+    "doc_count": 17,
+    "asset_count": 0,
+    "test_count": 0,
+    "manifest_count": 0,
+    "latest_mtime": "2026-05-24T10:30:00-06:00",
+    "latest_file": "unovagames_dossier/50_WEBSITE_BRIEF.md",
+    "extensions": {
+      ".md": 12,
+      ".html": 6,
+      ".pdf": 4,
+      ".docx": 1
+    }
+  },
+  "progress": {
+    "project_id": "unova-games-studio",
+    "project": "Unova Games Studio",
+    "mvp": 25,
+    "vision": "N/D",
+    "confidence": "Baja",
+    "breakdown": {
+      "definicion": 10,
+      "diseno": 0,
+      "arquitectura": 0,
+      "implementacion": 15,
+      "pruebas": 0,
+      "empaquetado": 0,
+      "continuidad": 0,
+      "validacion": 0
+    },
+    "missing": [
+      "diseño documentado",
+      "arquitectura verificable",
+      "pruebas",
+      "empaquetado/distribución",
+      "próximo paso documentado",
+      "validación"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "unovagames_dossier/00_INDEX.md": [
+      1919,
+      1779639318252299600
+    ],
+    "unovagames_dossier/10_BRAND_AND_NAMING.md": [
+      1952,
+      1779639318392007900
+    ],
+    "unovagames_dossier/20_WEB_ASSETS.md": [
+      1496,
+      1779639773297198900
+    ],
+    "unovagames_dossier/40_IDENTITY_AND_DESIGN.md": [
+      5226,
+      1779639734441700100
+    ],
+    "unovagames_dossier/50_WEBSITE_BRIEF.md": [
+      3516,
+      1779640200284398500
+    ],
+    "unovagames_dossier/90_SOURCES.md": [
+      2283,
+      1779639318812986700
+    ],
+    "unovagames_dossier/README.md": [
+      1379,
+      1779639734282077500
+    ],
+    "unovagames_dossier/.sources/16-1-6-__Unova_Marca_y_Estilo.md": [
+      2654,
+      1779639366257363100
+    ],
+    "unovagames_dossier/.sources/43_Unova_Games.md": [
+      715,
+      1779639366026749800
+    ],
+    "unovagames_dossier/.sources/unova-hero-section (3).html": [
+      408,
+      1779639366444972400
+    ],
+    "unovagames_dossier/.sources/Unova_Games.md": [
+      1389,
+      1779639365836913900
+    ],
+    "unovagames_dossier/sources_full/16-1-6-__Unova_Marca_y_Estilo.md": [
+      31697,
+      1779640167173151600
+    ],
+    "unovagames_dossier/_excluded/30_LEGAL_AND_BUDGET.md": [
+      691,
+      1779639318681121000
+    ],
+    "unovagames_dossier/_excluded/drive_raw_legal/Acta - UNOVA - final_1.docx": [
+      105633,
+      1779639256295632400
+    ],
+    "unovagames_dossier/_excluded/drive_raw_legal/Presupuesto UNOVA - Hoja 1.pdf": [
+      153933,
+      1779639256629841300
+    ],
+    "unovagames_dossier/_excluded/drive_raw_legal/Presupuesto UNOVA - Hoja 1_1.pdf": [
+      153933,
+      1779639256965517000
+    ],
+    "unovagames_dossier/_excluded/drive_raw_legal/Presupuesto UNOVA - Hoja 1_2.pdf": [
+      153933,
+      1779639257306761200
+    ],
+    "unovagames_dossier/_excluded/drive_raw_legal/Presupuesto UNOVA - Hoja 1_3.pdf": [
+      153933,
+      1779639257658675200
+    ],
+    "unovagames_dossier/_excluded/drive_raw_web/pagina unova.html": [
+      67843,
+      1779639414838639800
+    ],
+    "unovagames_dossier/_excluded/drive_raw_web/pagina unova_1.html": [
+      67843,
+      1779639415098727900
+    ],
+    "unovagames_dossier/_excluded/drive_raw_web/unova-hero-section (3).html": [
+      18335,
+      1779639414598459800
+    ],
+    "unovagames_dossier/_excluded/drive_raw_web/unova-website.html": [
+      41706,
+      1779639414337808300
+    ],
+    "unovagames_dossier/_excluded/drive_raw_web/unova.html": [
+      0,
+      1779639415501671000
+    ]
+  }
+}

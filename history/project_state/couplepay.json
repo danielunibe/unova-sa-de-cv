@@ -1,0 +1,252 @@
+{
+  "project_id": "couplepay",
+  "project": "Couplepay 💳",
+  "root": "G:\\Otros ordenadores\\AorusPC\\Voyager 2026\\Proyectos personales 2026\\proyectos voyager\\02_App IOS y android\\06_Couplepay",
+  "captured_at": "2026-07-14T07:10:36-06:00",
+  "last_change": "2026-03-27T18:34:59-06:00",
+  "summary": {
+    "connected": true,
+    "file_count": 48,
+    "code_count": 21,
+    "doc_count": 14,
+    "asset_count": 8,
+    "test_count": 2,
+    "manifest_count": 2,
+    "latest_mtime": "2026-03-27T18:34:59-06:00",
+    "latest_file": "Documentacion para la IA/CHANGELOG.md",
+    "extensions": {
+      ".tsx": 15,
+      ".md": 14,
+      ".png": 8,
+      ".ts": 5,
+      ".json": 3,
+      ".html": 1,
+      "[sin extensión]": 1,
+      ".local": 1
+    }
+  },
+  "progress": {
+    "project_id": "couplepay",
+    "project": "Couplepay 💳",
+    "mvp": 48,
+    "vision": "N/D",
+    "confidence": "Alta",
+    "breakdown": {
+      "definicion": 5,
+      "diseno": 4,
+      "arquitectura": 5,
+      "implementacion": 22,
+      "pruebas": 6,
+      "empaquetado": 3,
+      "continuidad": 0,
+      "validacion": 3
+    },
+    "missing": [
+      "próximo paso documentado"
+    ]
+  },
+  "continuity": {
+    "ultimo_avance_documentado": "No documentado",
+    "pendientes_documentados": "No documentado",
+    "proximo_paso": "No documentado",
+    "bloqueos_documentados": "No documentado",
+    "progreso_vision": "N/D",
+    "documentos_desactualizados": "Ninguno detectado",
+    "checked_count": "0",
+    "pending_count": "0"
+  },
+  "files": {
+    "couplepay_1/Captura de pantalla 2025-10-03 212427.png": [
+      300447,
+      1759548267285000000
+    ],
+    "couplepay_1/Captura de pantalla 2025-10-03 225209.png": [
+      227342,
+      1759553529507000000
+    ],
+    "couplepay_1/Captura de pantalla 2025-10-03 221101.png": [
+      335260,
+      1759551061162000000
+    ],
+    "couplepay_1/Captura de pantalla 2025-10-05 004253.png": [
+      263077,
+      1759646574252000000
+    ],
+    "couplepay_1/Captura de pantalla 2025-10-04 230810.png": [
+      263037,
+      1759640890789000000
+    ],
+    "couplepay_1/Captura de pantalla 2025-10-05 005823.png": [
+      278822,
+      1759647503456000000
+    ],
+    "couplepay_1/Captura de pantalla 2025-10-03 221111.png": [
+      332227,
+      1759551072061000000
+    ],
+    "couplepay_1/Captura de pantalla 2025-10-04 224136.png": [
+      484551,
+      1759639297075000000
+    ],
+    "Documentacion para la IA/06_Couplepay.md": [
+      4219,
+      1774166929727000000
+    ],
+    "Documentacion para la IA/PROTOCOL.md": [
+      941,
+      1774658098990000000
+    ],
+    "Documentacion para la IA/CHANGELOG.md": [
+      205,
+      1774658099021000000
+    ],
+    "Documentacion para la IA/CLAUDE.md": [
+      246,
+      1774658099019000000
+    ],
+    "Documentacion para la IA/docs/ROADMAP.md": [
+      274,
+      1774658099011000000
+    ],
+    "Documentacion para la IA/docs/DESIGN_SPEC.md": [
+      330,
+      1774658099006000000
+    ],
+    "Documentacion para la IA/docs/USER_DOCS.md": [
+      217,
+      1774658099017000000
+    ],
+    "Documentacion para la IA/docs/GLOSSARY.md": [
+      276,
+      1774658099012000000
+    ],
+    "Documentacion para la IA/docs/PRD.md": [
+      472,
+      1774658099004000000
+    ],
+    "Documentacion para la IA/docs/TDD.md": [
+      242,
+      1774658099007000000
+    ],
+    "Documentacion para la IA/docs/TEST_PLAN.md": [
+      232,
+      1774658099014000000
+    ],
+    "Documentacion para la IA/_meta/questions-log.md": [
+      1027,
+      1774658098999000000
+    ],
+    "Documentacion para la IA/_meta/owner.md": [
+      286,
+      1774658098994000000
+    ],
+    "desarrollo/index.html": [
+      2033,
+      1770276224000000000
+    ],
+    "desarrollo/index.tsx": [
+      464,
+      1770276225000000000
+    ],
+    "desarrollo/App.tsx": [
+      581,
+      1770276224000000000
+    ],
+    "desarrollo/README.md": [
+      553,
+      1770276224000000000
+    ],
+    "desarrollo/.gitignore": [
+      253,
+      1770276224000000000
+    ],
+    "desarrollo/vite.config.ts": [
+      580,
+      1770276224000000000
+    ],
+    "desarrollo/.env.local": [
+      35,
+      1770276224000000000
+    ],
+    "desarrollo/metadata.json": [
+      373,
+      1770276224000000000
+    ],
+    "desarrollo/package.json": [
+      595,
+      1770276224000000000
+    ],
+    "desarrollo/tsconfig.json": [
+      542,
+      1770276224000000000
+    ],
+    "desarrollo/lib/store.ts": [
+      4677,
+      1770276224000000000
+    ],
+    "desarrollo/lib/hooks.ts": [
+      2040,
+      1770276224000000000
+    ],
+    "desarrollo/lib/constants.ts": [
+      10687,
+      1770276224000000000
+    ],
+    "desarrollo/lib/themes.ts": [
+      6293,
+      1770276224000000000
+    ],
+    "desarrollo/components/settings.tsx": [
+      12422,
+      1770276224000000000
+    ],
+    "desarrollo/components/ui.tsx": [
+      5988,
+      1770276224000000000
+    ],
+    "desarrollo/components/dashboard-views.tsx": [
+      20898,
+      1770276224000000000
+    ],
+    "desarrollo/components/widgets.tsx": [
+      40983,
+      1770276224000000000
+    ],
+    "desarrollo/components/charts.tsx": [
+      18931,
+      1770276224000000000
+    ],
+    "desarrollo/components/menubar.tsx": [
+      8898,
+      1770276224000000000
+    ],
+    "desarrollo/components/modals.tsx": [
+      25694,
+      1770276224000000000
+    ],
+    "desarrollo/components/dashboard.tsx": [
+      9165,
+      1770276224000000000
+    ],
+    "desarrollo/components/common.tsx": [
+      9445,
+      1770276224000000000
+    ],
+    "desarrollo/components/fixed-expenses.tsx": [
+      10395,
+      1770276224000000000
+    ],
+    "desarrollo/components/icons.tsx": [
+      3809,
+      1770276225000000000
+    ],
+    "desarrollo/components/desktop/MacTopBar.tsx": [
+      2618,
+      1770276224000000000
+    ],
+    "desarrollo/components/desktop/DesktopShell.tsx": [
+      1273,
+      1770276224000000000
+    ]
+  }
+}
